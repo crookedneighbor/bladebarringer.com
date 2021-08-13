@@ -36,26 +36,25 @@ export default Vue.extend({
           links: [
             {
               id: 'twitter',
-              text: '@bladebarringer',
+              text: 'Twitter',
               href: 'https://twitter.com/bladebarringer',
               icon: ['fab', 'twitter'],
               iconClass: 'text-blue-500',
             },
             {
               id: 'github',
-              text: '@crookedneighbor',
+              text: 'Github',
               href: 'https://github.com/crookedneighbor',
               icon: ['fab', 'github-alt'],
               iconClass: 'text-gray-600',
             },
-            // TODO hold off on this until you've curated your profile!
-            // {
-            //   id: 'spotify',
-            //   text: '@bladebarringer',
-            //   href: 'https://open.spotify.com/user/bladebarringer',
-            //   icon: ['fab', 'spotify'],
-            //   iconClass: 'text-green-500',
-            // },
+            {
+              id: 'spotify',
+              text: 'Spotify',
+              href: 'https://open.spotify.com/user/bladebarringer',
+              icon: ['fab', 'spotify'],
+              iconClass: 'text-green-500',
+            },
           ],
         },
       ],
