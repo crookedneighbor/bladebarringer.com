@@ -2,7 +2,7 @@
     <div
       class="absolute left-0 right-0 top-0 mt-36 w-full"
     >
-    <div class="rounded-lg border-gray-500 border-4 h-32 w-48 bg-gray-900 mx-auto text-white pl-2 pt-1"><span class="animate-pulse">&gt;</span>{{text}}</div>
+    <div class="rounded-lg border-gray-500 border-4 h-36 w-52 bg-gray-900 mx-auto font-mono text-white pl-2 pt-1"><span class="animate-pulse">&gt;</span>{{text}}</div>
     </div>
   </div>
 </template>
