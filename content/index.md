@@ -21,7 +21,7 @@ In my free time, I maintain a bunch of open source projects on my [Github accoun
 
 ## Dad
 
-I've got 2 amazing kids! I'm trying hard to respect their privacy online, so I won't say more about it, but it felt wrong not to mention it!
+I've got 2 amazing kids! I'm trying hard to respect their privacy online, so I won't say more about it on here, but it felt wrong not to mention it!
 
 </div>
 
