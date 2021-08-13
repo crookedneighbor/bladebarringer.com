@@ -4,6 +4,10 @@
     <div class="md:flex max-w-screen-lg w-full mx-auto flex-grow">
       <Nav class="w-full md:w-96" />
       <div class="p-8 flex-shrink">
+        <div class="relative">
+          <blade></blade>
+        </div>
+
         <nuxt-content :document="page" />
       </div>
     </div>

@@ -1,5 +1,5 @@
 <template>
-  <div class="w-full" @mousemove="onMousemove">
+  <div class="w-full">
     <div aria-hidden="true">
       <div
         ref="face"
@@ -80,6 +80,22 @@
 </template>
 
 <script>
+let onMousemove
+
+function findSection(el) {
+  if (!el || !el.getAttribute) {
+    return ''
+  }
+
+  const section = el.getAttribute('data-section')
+
+  if (section) {
+    return section
+  }
+
+  return findSection(el.parentNode)
+}
+
 export default {
   data() {
     return {
@@ -88,26 +104,13 @@ export default {
       yposition: 9,
     }
   },
-  methods: {
-    findSection(el) {
-      if (!el || !el.getAttribute) {
-        return ''
-      }
-
-      const section = el.getAttribute('data-section')
-
-      if (section) {
-        return section
-      }
-
-      return this.findSection(el.parentNode)
-    },
-    onMousemove(e) {
+  mounted() {
+    onMousemove = (e) => {
       const mouseX = e.clientX
       const mouseY = e.clientY
       const bounds = this.$refs.face.getBoundingClientRect()
 
-      this.section = this.findSection(e.target)
+      this.section = findSection(e.target)
 
       if (mouseX < bounds.x + 10) {
         this.xposition = 10
@@ -124,7 +127,11 @@ export default {
       } else {
         this.yposition = Math.floor(mouseY - bounds.y)
       }
-    },
+    }
+    document.body.addEventListener('mousemove', onMousemove)
+  },
+  destroyed() {
+    document.body.removeEventListener('mousemove', onMousemove)
   },
 }
 </script>

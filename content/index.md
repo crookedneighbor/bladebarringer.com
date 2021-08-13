@@ -3,8 +3,6 @@ title: About Blade Barringer
 description: Hi! I'm software engineer who plays too much Magic the Gathering.
 ---
 
-<blade>
-
 <div data-section="software-engineer">
 
 ## Software Engineer
@@ -48,5 +46,3 @@ Some of my favorite decks right now are:
 Want to play a game? I love playing a game of casual Commander over [Spelltable](https://spelltable.com/).
 
 </div>
-
-</blade>
