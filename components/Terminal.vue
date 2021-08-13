@@ -38,7 +38,7 @@ export default {
         } else {
           this.text = this.text + " "
         }
-      } else if (this.iteration > 2) {
+      } else if (this.iteration >= texts.length) {
         this.text = "_";
         this.iteration = -1;
       } else {
