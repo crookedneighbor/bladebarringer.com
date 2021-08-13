@@ -9,7 +9,7 @@ description: Hi! I'm software engineer who plays too much Magic the Gathering.
 
 As you can see from the graphic above... [design is my passion](https://knowyourmeme.com/memes/graphic-design-is-my-passion). That is to say, I see myself _primarily_ as an engineer, not a designer. I like design, and I'll do it in a pinch, but I'm happier building stuff when I don't have to worry about coming up with how it will look.
 
-I've worked at [Braintree Payments](https://www.braintreepayments.com/) (a PayPal compnay) as a Software Engineer for 6+ years. My core responsibility right now is maintaing the [Braintree web SDK](https://github.com/braintree/braintree-web), but I work on a lot of other things too! I've built tools for my team, migrated the JavaScript packages to Typescript, and managed Github issues/PRs for repos in a variety of different programming languages.
+I've worked at [Braintree Payments](https://www.braintreepayments.com/) (a PayPal company) as a Software Engineer for 6+ years. My core responsibility right now is maintaining the [Braintree web SDK](https://github.com/braintree/braintree-web), but I work on a lot of other things too! I've built tools for my team, migrated the JavaScript packages to Typescript, and managed Github issues/PRs for repos in a variety of different programming languages.
 
 I've dabbled in a bunch of frontend frameworks. My favorite system right now is the Jamstack using [Vue.js](https://vuejs.org/)/[Nuxt.js](https://nuxtjs.org/) and [Tailwind CSS](https://tailwindcss.com/).
 
