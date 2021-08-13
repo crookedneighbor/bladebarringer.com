@@ -7,7 +7,7 @@ description: Hi! I'm software engineer who plays too much Magic the Gathering.
 
 ## Software Engineer
 
-As you can see from the graphic above... [design is my passion](https://knowyourmeme.com/memes/graphic-design-is-my-passion). That is to say, I see myself _primarilly_ as an engineer, not a designer. I like design, and I'll do it in a pinch, but I'm happier building stuff when I don't have to worry about coming up with how it will look.
+As you can see from the graphic above... [design is my passion](https://knowyourmeme.com/memes/graphic-design-is-my-passion). That is to say, I see myself _primarily_ as an engineer, not a designer. I like design, and I'll do it in a pinch, but I'm happier building stuff when I don't have to worry about coming up with how it will look.
 
 I've worked at [Braintree Payments](https://www.braintreepayments.com/) (a PayPal compnay) as a Software Engineer for 6+ years. My core responsibility right now is maintaing the [Braintree web SDK](https://github.com/braintree/braintree-web), but I work on a lot of other things too! I've built tools for my team, migrated the JavaScript packages to Typescript, and managed Github issues/PRs for repos in a variety of different programming languages.
 
@@ -37,7 +37,7 @@ I maintain a browser extension to amplify the Magic search engine [Scryfall](htt
 
 Some of my favorite decks right now are:
 
-* [<i data-emoji="🌋"></i> Greenless Landfall - Toggle + Silas Ren](https://scryfall.com/@blade/decks/464dd723-9247-4069-b645-e02ffb914554)
+* [<i data-emoji="🌋"></i> Greenless Landfall - Toggo + Silas Ren](https://scryfall.com/@blade/decks/464dd723-9247-4069-b645-e02ffb914554)
 * [<i data-emoji="🤗"></i> Monoblack Group Hug - Seizan, Perverter of Truth](https://scryfall.com/@blade/decks/3f50165a-b384-421b-87e7-0623283833db)
 * [<i data-emoji="🎶"></i> Too Many Cards - Arjun, the Shifting Flame](https://scryfall.com/@blade/decks/cf58119c-d8ef-4d35-9b9b-b4aa0960afae)
 * [<i data-emoji="🌻"></i> 2 Power Matters - Tana + Sidar](https://scryfall.com/@blade/decks/5fb447ac-86d0-4c18-bc34-a9027f579d27)
