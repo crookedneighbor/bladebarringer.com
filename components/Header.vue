@@ -1,5 +1,5 @@
 <template>
-  <div class="bg-yellow-200 pb-4">
+  <div class="bg-yellow-300 pb-4">
     <h1
       class="
         text-gray-800 text-center
