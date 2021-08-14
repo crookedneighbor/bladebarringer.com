@@ -53,7 +53,7 @@ export default {
   fontawesome: {
     icons: {
       solid: ['faLink'],
-      brands: ['faTwitter', 'faGithubAlt', 'faSpotify'],
+      brands: ['faTwitter', 'faGithubAlt', 'faSpotify', 'faBandcamp'],
     },
   },
 

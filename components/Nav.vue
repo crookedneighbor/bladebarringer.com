@@ -32,7 +32,7 @@ export default Vue.extend({
     return {
       linkGroups: [
         {
-          title: 'Socials',
+          title: 'Links',
           links: [
             {
               id: 'twitter',
@@ -55,6 +55,13 @@ export default Vue.extend({
               icon: ['fab', 'spotify'],
               iconClass: 'text-green-500',
             },
+            {
+              id: 'bandcamp',
+              text: 'Bandcamp',
+              href: 'https://bandcamp.com/crookedneighbor',
+              icon: ['fab', 'bandcamp'],
+              iconClass: 'text-blue-400',
+            },
           ],
         },
       ],
@@ -69,6 +76,6 @@ export default Vue.extend({
 }
 
 a {
-  @apply block text-xl flex items-center;
+  @apply block text-xl flex items-center mb-1;
 }
 </style>
