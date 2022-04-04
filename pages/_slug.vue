@@ -1,11 +1,11 @@
 <template>
   <div class="flex flex-col h-screen">
-    <Header />
+    <header-component />
     <div class="md:flex max-w-screen-lg w-full mx-auto flex-grow">
-      <Nav class="w-full md:w-96" />
+      <nav-component class="w-full md:w-96" />
       <div class="p-8 flex-shrink">
         <div class="relative">
-          <blade></blade>
+          <blade-face></blade-face>
         </div>
 
         <nuxt-content :document="page" />

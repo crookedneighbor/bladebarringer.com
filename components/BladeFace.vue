@@ -3,25 +3,10 @@
     <div aria-hidden="true">
       <div
         ref="face"
-        class="
-          border-8 border-gray-800
-          rounded-full
-          w-64
-          h-64
-          mb-16
-          mx-auto
-          overflow-hidden
-        "
+        class="border-8 border-gray-800 rounded-full w-64 h-64 mb-16 mx-auto overflow-hidden"
       >
         <div
-          class="
-            flex
-            relative
-            transition-all
-            delay-100
-            duration-200
-            ease-in-out
-          "
+          class="flex relative transition-all delay-100 duration-200 ease-in-out"
           :style="{ marginTop: yposition + 'px', marginLeft: xposition + 'px' }"
         >
           <div class="eye"></div>
@@ -30,25 +15,13 @@
         </div>
 
         <div
-          class="
-            bg-gray-800
-            w-20
-            h-2
-            ml-4
-            mt-16
-            rounded
-            relative
-            transition-all
-            delay-100
-            duration-200
-            ease-in-out
-          "
+          class="bg-gray-800 w-20 h-2 ml-4 mt-16 rounded relative transition-all delay-100 duration-200 ease-in-out"
           :style="{ marginLeft: xposition * 1.5 + 'px' }"
         ></div>
       </div>
 
       <div class="hidden lg:block">
-        <Kids
+        <kids-faces
           class="fade-in"
           :class="{
             'opacity-0': section !== 'dad',
@@ -56,7 +29,7 @@
           }"
         />
 
-        <Terminal
+        <terminal-screen
           class="fade-in"
           :class="{
             'opacity-0': section !== 'software-engineer',
@@ -65,7 +38,7 @@
           :active="section === 'software-engineer'"
         />
 
-        <MagicCards
+        <magic-cards
           class="fade-in"
           :class="{
             'opacity-0': section !== 'wizard',
