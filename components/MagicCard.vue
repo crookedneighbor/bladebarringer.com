@@ -27,9 +27,11 @@
 .mana-symbol {
   @apply rounded-full h-1 w-1 m-1;
 }
+
 .mana-symbol.right {
   @apply ml-2;
 }
+
 .mana-symbol.left {
   @apply mr-2;
 }
