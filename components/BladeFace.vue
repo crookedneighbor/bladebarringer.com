@@ -53,60 +53,60 @@
 </template>
 
 <script>
-let onMousemove
+let onMousemove;
 
 function findSection(el) {
   if (!el || !el.getAttribute) {
-    return ''
+    return "";
   }
 
-  const section = el.getAttribute('data-section')
+  const section = el.getAttribute("data-section");
 
   if (section) {
-    return section
+    return section;
   }
 
-  return findSection(el.parentNode)
+  return findSection(el.parentNode);
 }
 
 export default {
   data() {
     return {
-      section: '',
+      section: "",
       xposition: 76,
       yposition: 9,
-    }
+    };
   },
   mounted() {
     onMousemove = (e) => {
-      const mouseX = e.clientX
-      const mouseY = e.clientY
-      const bounds = this.$refs.face.getBoundingClientRect()
+      const mouseX = e.clientX;
+      const mouseY = e.clientY;
+      const bounds = this.$refs.face.getBoundingClientRect();
 
-      this.section = findSection(e.target)
+      this.section = findSection(e.target);
 
       if (mouseX < bounds.x + 10) {
-        this.xposition = 10
+        this.xposition = 10;
       } else if (mouseX > bounds.x + bounds.width - 20) {
-        this.xposition = bounds.width / 2
+        this.xposition = bounds.width / 2;
       } else {
-        this.xposition = Math.floor((mouseX - bounds.x) / 2)
+        this.xposition = Math.floor((mouseX - bounds.x) / 2);
       }
 
       if (mouseY < bounds.y + 9) {
-        this.yposition = 9
+        this.yposition = 9;
       } else if (mouseY > (bounds.y + bounds.height) / 1.5) {
-        this.yposition = bounds.height / 3
+        this.yposition = bounds.height / 3;
       } else {
-        this.yposition = Math.floor(mouseY - bounds.y)
+        this.yposition = Math.floor(mouseY - bounds.y);
       }
-    }
-    document.body.addEventListener('mousemove', onMousemove)
+    };
+    document.body.addEventListener("mousemove", onMousemove);
   },
   destroyed() {
-    document.body.removeEventListener('mousemove', onMousemove)
+    document.body.removeEventListener("mousemove", onMousemove);
   },
-}
+};
 </script>
 
 <style scoped>

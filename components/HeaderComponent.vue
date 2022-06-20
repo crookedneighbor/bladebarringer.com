@@ -1,29 +1,14 @@
 <template>
   <div class="bg-yellow-300 pb-4">
     <h1
-      class="
-        text-gray-800 text-center
-        font-sans
-        text-4xl
-        md:text-7xl
-        lg:text-9xl
-        py-4
-      "
+      class="text-gray-800 text-center font-sans text-4xl md:text-7xl lg:text-9xl py-4"
     >
       Blade Barringer
     </h1>
     <div class="lg:flex items-center max-w-screen-lg mx-auto">
       <div class="divider flex-grow"></div>
       <div
-        class="
-          font-mono
-          mx-4
-          text-purple-800 text-center
-          flex-grow
-          lg:flex-grow-0
-          h-6
-          overflow-hidden
-        "
+        class="font-mono mx-4 text-purple-800 text-center flex-grow lg:flex-grow-0 h-6 overflow-hidden"
       >
         <div
           class="transition-transform transform"
@@ -48,18 +33,18 @@ export default {
   data() {
     return {
       iteration: 0,
-    }
+    };
   },
   mounted() {
     setInterval(() => {
       if (this.iteration >= 2) {
-        this.iteration = 0
+        this.iteration = 0;
       } else {
-        this.iteration++
+        this.iteration++;
       }
-    }, 3000)
+    }, 3000);
   },
-}
+};
 </script>
 
 <style>

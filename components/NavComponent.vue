@@ -24,50 +24,48 @@
   </nav>
 </template>
 
-<script lang="ts">
-import Vue from 'vue'
-
-export default Vue.extend({
+<script>
+export default {
   data() {
     return {
       linkGroups: [
         {
-          title: 'Links',
+          title: "Links",
           links: [
             {
-              id: 'twitter',
-              text: 'Twitter',
-              href: 'https://twitter.com/bladebarringer',
-              icon: ['fab', 'twitter'],
-              iconClass: 'text-blue-500',
+              id: "twitter",
+              text: "Twitter",
+              href: "https://twitter.com/bladebarringer",
+              icon: ["fab", "twitter"],
+              iconClass: "text-blue-500",
             },
             {
-              id: 'github',
-              text: 'Github',
-              href: 'https://github.com/crookedneighbor',
-              icon: ['fab', 'github-alt'],
-              iconClass: 'text-gray-600',
+              id: "github",
+              text: "Github",
+              href: "https://github.com/crookedneighbor",
+              icon: ["fab", "github-alt"],
+              iconClass: "text-gray-600",
             },
             {
-              id: 'spotify',
-              text: 'Spotify',
-              href: 'https://open.spotify.com/user/bladebarringer',
-              icon: ['fab', 'spotify'],
-              iconClass: 'text-green-500',
+              id: "spotify",
+              text: "Spotify",
+              href: "https://open.spotify.com/user/bladebarringer",
+              icon: ["fab", "spotify"],
+              iconClass: "text-green-500",
             },
             {
-              id: 'bandcamp',
-              text: 'Bandcamp',
-              href: 'https://bandcamp.com/crookedneighbor',
-              icon: ['fab', 'bandcamp'],
-              iconClass: 'text-blue-400',
+              id: "bandcamp",
+              text: "Bandcamp",
+              href: "https://bandcamp.com/crookedneighbor",
+              icon: ["fab", "bandcamp"],
+              iconClass: "text-blue-400",
             },
           ],
         },
       ],
-    }
+    };
   },
-})
+};
 </script>
 
 <style scoped>
