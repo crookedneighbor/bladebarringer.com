@@ -37,11 +37,11 @@ I maintain a browser extension to amplify the Magic search engine [Scryfall](htt
 
 Some of my favorite decks right now are:
 
-* [<i data-emoji="🌋"></i> Greenless Landfall - Toggo + Silas Ren](https://scryfall.com/@blade/decks/464dd723-9247-4069-b645-e02ffb914554)
-* [<i data-emoji="🤗"></i> Monoblack Group Hug - Seizan, Perverter of Truth](https://scryfall.com/@blade/decks/3f50165a-b384-421b-87e7-0623283833db)
-* [<i data-emoji="🎶"></i> Too Many Cards - Arjun, the Shifting Flame](https://scryfall.com/@blade/decks/cf58119c-d8ef-4d35-9b9b-b4aa0960afae)
-* [<i data-emoji="🌻"></i> 2 Power Matters - Tana + Sidar](https://scryfall.com/@blade/decks/5fb447ac-86d0-4c18-bc34-a9027f579d27)
-* [<i data-emoji="🫂"></i> Bant Clone & Populate - Sakashima + Sidar](https://scryfall.com/@blade/decks/76450de3-8f58-484d-85bb-920c1b3482ea)
+- [<i data-emoji="🌋"></i> Greenless Landfall - Toggo + Silas Ren](https://scryfall.com/@blade/decks/464dd723-9247-4069-b645-e02ffb914554)
+- [<i data-emoji="🤗"></i> Monoblack Group Hug - Seizan, Perverter of Truth](https://scryfall.com/@blade/decks/3f50165a-b384-421b-87e7-0623283833db)
+- [<i data-emoji="🎶"></i> Too Many Cards - Arjun, the Shifting Flame](https://scryfall.com/@blade/decks/cf58119c-d8ef-4d35-9b9b-b4aa0960afae)
+- [<i data-emoji="🌻"></i> 2 Power Matters - Tana + Sidar](https://scryfall.com/@blade/decks/5fb447ac-86d0-4c18-bc34-a9027f579d27)
+- [<i data-emoji="🫂"></i> Bant Clone & Populate - Sakashima + Sidar](https://scryfall.com/@blade/decks/76450de3-8f58-484d-85bb-920c1b3482ea)
 
 Want to play a game? I love playing a game of casual Commander over [Spelltable](https://spelltable.com/).
 

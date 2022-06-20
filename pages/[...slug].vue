@@ -8,7 +8,7 @@
           <blade-face></blade-face>
         </div>
 
-        <nuxt-content :document="page" />
+        <ContentDoc></ContentDoc>
       </div>
     </div>
   </div>
@@ -17,31 +17,18 @@
 <script>
 export default {
   async asyncData({ $content, params, error }) {
-    const slug = params.slug || 'index'
+    const slug = params.slug || "index";
     const page = await $content(slug)
       .fetch()
-      .catch((err) => {
-        console.error(err)
-        error({ statusCode: 404, message: 'Page not found' })
-      })
+      .catch(() => {
+        error({ statusCode: 404, message: "Page not found" });
+      });
 
     return {
       page,
-    }
+    };
   },
-  head() {
-    return {
-      title: this.page.title,
-      meta: [
-        {
-          hid: 'description',
-          name: 'description',
-          content: this.page.description,
-        },
-      ],
-    }
-  },
-}
+};
 </script>
 
 <style>

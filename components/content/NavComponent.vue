@@ -12,12 +12,7 @@
         rel="nofollow"
         target="_blank"
       >
-        <font-awesome-icon
-          v-if="link.icon"
-          :icon="link.icon"
-          class="text-3xl mr-2"
-          :class="link.iconClass"
-        />
+        <div :class="link.id" class="icon mr-2"></div>
         {{ link.text }}</a
       >
     </div>
@@ -36,29 +31,21 @@ export default {
               id: "twitter",
               text: "Twitter",
               href: "https://twitter.com/bladebarringer",
-              icon: ["fab", "twitter"],
-              iconClass: "text-blue-500",
             },
             {
               id: "github",
               text: "Github",
               href: "https://github.com/crookedneighbor",
-              icon: ["fab", "github-alt"],
-              iconClass: "text-gray-600",
             },
             {
               id: "spotify",
               text: "Spotify",
               href: "https://open.spotify.com/user/bladebarringer",
-              icon: ["fab", "spotify"],
-              iconClass: "text-green-500",
             },
             {
               id: "bandcamp",
               text: "Bandcamp",
               href: "https://bandcamp.com/crookedneighbor",
-              icon: ["fab", "bandcamp"],
-              iconClass: "text-blue-400",
             },
           ],
         },
@@ -75,5 +62,36 @@ export default {
 
 a {
   @apply block text-xl flex items-center mb-1;
+}
+
+.icon {
+  height: 2rem;
+  width: 2rem;
+  mask-repeat: no-repeat;
+  mask-position: center;
+}
+
+.icon.twitter {
+  mask-image: url("/icons/twitter-brands.svg");
+
+  @apply bg-blue-500;
+}
+
+.icon.github {
+  mask-image: url("/icons/github-alt-brands.svg");
+
+  @apply bg-gray-600;
+}
+
+.icon.spotify {
+  mask-image: url("/icons/spotify-brands.svg");
+
+  @apply bg-green-500;
+}
+
+.icon.bandcamp {
+  mask-image: url("/icons/bandcamp-brands.svg");
+
+  @apply bg-blue-400;
 }
 </style>
