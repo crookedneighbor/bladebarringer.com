@@ -32,6 +32,10 @@ export default {
 </script>
 
 <style>
+h1 {
+  @apply my-4 text-5xl;
+}
+
 h2 {
   @apply my-4 text-4xl;
 }
