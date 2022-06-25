@@ -53,6 +53,14 @@ a {
   @apply text-purple-800;
 }
 
+code {
+  @apply text-pink-800;
+}
+
+pre code {
+  @apply block bg-gray-100 text-black p-2 my-4;
+}
+
 /* https://codepen.io/niklass/pen/MXzJBQ */
 [data-emoji] {
   font-style: normal;
