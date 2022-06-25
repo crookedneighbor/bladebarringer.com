@@ -8,7 +8,12 @@
           <blade-face></blade-face>
         </div>
 
-        <ContentDoc></ContentDoc>
+        <ContentDoc>
+          <template #not-found>
+            <h1>Hmm... Something's not right</h1>
+            <h2>I couldn't find the page you asked for</h2>
+          </template>
+        </ContentDoc>
       </div>
     </div>
   </div>
