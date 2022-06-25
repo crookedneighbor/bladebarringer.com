@@ -26,4 +26,10 @@ export default defineNuxtConfig({
     // https://go.nuxtjs.dev/content
     "@nuxt/content",
   ],
+
+  content: {
+    highlight: {
+      theme: "github-light",
+    },
+  },
 });
