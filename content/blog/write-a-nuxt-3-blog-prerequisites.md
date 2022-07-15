@@ -1,6 +1,6 @@
 ---
-title: "Making a Nuxt 3 Blog: Prerequisites"
-description: How to set up the prerequisites for a custom Nuxt 3 blog using the Nuxt Content module.
+title: "Making a Nuxt 3 Blog: Getting Started"
+description: How to get started setting up a Nuxt 3 blog using the Nuxt Content module.
 ---
 
 :wave: This site is built using [Nuxt 3](https://v3.nuxtjs.org/) with the [Nuxt Content module](https://content.nuxtjs.org/). I thought I'd write short articles articulating how I created it (as I create it), this is the first!
