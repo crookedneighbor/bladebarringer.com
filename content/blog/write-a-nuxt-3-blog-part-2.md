@@ -38,6 +38,7 @@ The file name of the markdown file becomes the [url slug](https://developer.mozi
 
 Right now, these files are just treated as pages on the site. In the future, we'll show how to:
 
+- Enable SEO metadata in the blog post page
 - Enable comments
 - Allow people to "like" the page
 - Pull the title and description metadata and automatically include them on the page
@@ -48,4 +49,4 @@ Right now, these files are just treated as pages on the site. In the future, we'
 ## Next Steps
 
 - Prev: [Write a Nuxt 3 Blog - Getting Started](/blog/write-a-nuxt-3-blog-part-1)
-- Next: Write a Nuxt 3 Blog - Write a Nuxt 3 Blog - Showing Blog Posts on the Home Page
+- Next: Write a Nuxt 3 Blog - [Write a Nuxt 3 Blog - Showing Blog Posts on the Home Page](/blog/write-a-nuxt-3-blog-part-3)
