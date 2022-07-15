@@ -79,4 +79,4 @@ export default defineNuxtConfig({
 
 ## Next Steps
 
-* Coming soon: how to write your first blog post.
+* Next: [Write a Nuxt 3 Blog - Your First Blog Post](/blog/write-a-nuxt-3-blog-part-2)
