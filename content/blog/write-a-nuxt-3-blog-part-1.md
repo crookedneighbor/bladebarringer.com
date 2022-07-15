@@ -9,16 +9,16 @@ description: How to get started setting up a Nuxt 3 blog using the Nuxt Content 
 
 What do we need before we get started?
 
-* [Node](https://nodejs.org/en/) v16 or higher
-* npm & npx (comes installed with Node)
-* A text editor such as [Visual Studio Code](https://code.visualstudio.com/) or [Vim](https://www.vim.org/)
-* A terminal (should come pre-installed on your machine and is integrated with Visual Studio Code)
+- [Node](https://nodejs.org/en/) v16 or higher
+- npm & npx (comes installed with Node)
+- A text editor such as [Visual Studio Code](https://code.visualstudio.com/) or [Vim](https://www.vim.org/)
+- A terminal (should come pre-installed on your machine and is integrated with Visual Studio Code)
 
 If you're not familiar with these tools, I recomend building familiarity before reading this guide.
 
 ## What's Nuxt and Nuxt Content?
 
-Nuxt is a Vue framework that makes writing websites as [Jamstack applications](https://jamstack.org/) easy.  At the time of this writing, Nuxt 3 is still in beta.
+Nuxt is a Vue framework that makes writing websites as [Jamstack applications](https://jamstack.org/) easy. At the time of this writing, Nuxt 3 is still in beta.
 
 The Nuxt Content module allows Nuxt pages to be written in a mix of Markdown and user defined Vue components. The [getting started guide](https://content.nuxtjs.org/get-started) gives easy steps for creating a new Nuxt 3 project with Nuxt Content:
 
@@ -42,7 +42,7 @@ In the `pages` directory, you'll find a `[...slug].vue` file. This will create t
 
 ```html
 <template>
-    <ContentDoc></ContentDoc>
+  <ContentDoc></ContentDoc>
 </template>
 ```
 
@@ -54,10 +54,10 @@ You can customize it by including a `#not-found` template:
 
 ```html
 <ContentDoc>
-    <template #not-found>
-        <h1>Hmm... Something's not right</h1>
-        <h2>I couldn't find the page you asked for</h2>
-    </template>
+  <template #not-found>
+    <h1>Hmm... Something's not right</h1>
+    <h2>I couldn't find the page you asked for</h2>
+  </template>
 </ContentDoc>
 ```
 
@@ -67,16 +67,16 @@ If your blog will present code snippets, configure the content module to include
 
 ```js
 export default defineNuxtConfig({
-    // other configuration
+  // other configuration
 
-    content: {
-        highlight: {
-            theme: "github-light",
-        },
+  content: {
+    highlight: {
+      theme: "github-light",
     },
+  },
 });
 ```
 
 ## Next Steps
 
-* Next: [Write a Nuxt 3 Blog - Your First Blog Post](/blog/write-a-nuxt-3-blog-part-2)
+- Next: [Write a Nuxt 3 Blog - Your First Blog Post](/blog/write-a-nuxt-3-blog-part-2)

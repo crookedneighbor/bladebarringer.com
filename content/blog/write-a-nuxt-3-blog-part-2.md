@@ -38,14 +38,14 @@ The file name of the markdown file becomes the [url slug](https://developer.mozi
 
 Right now, these files are just treated as pages on the site. In the future, we'll show how to:
 
-* Enable comments
-* Allow people to "like" the page
-* Pull the title and description metadata and automatically include them on the page
-* Include the publish date automatically
-* Include author details automatically
-* Include previous and next links for blogs that are part of a series
+- Enable comments
+- Allow people to "like" the page
+- Pull the title and description metadata and automatically include them on the page
+- Include the publish date automatically
+- Include author details automatically
+- Include previous and next links for blogs that are part of a series
 
 ## Next Steps
 
-* Prev: [Write a Nuxt 3 Blog - Getting Started](/blog/write-a-nuxt-3-blog-part-1)
-* Next: Write a Nuxt 3 Blog - Showing Blog Posts on the Home Page (Link Coming Soon)
+- Prev: [Write a Nuxt 3 Blog - Getting Started](/blog/write-a-nuxt-3-blog-part-1)
+- Next: Write a Nuxt 3 Blog - Write a Nuxt 3 Blog - Showing Blog Posts on the Home Page
