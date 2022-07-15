@@ -5,6 +5,17 @@ description: How to get started setting up a Nuxt 3 blog using the Nuxt Content 
 
 :wave: This site is built using [Nuxt 3](https://v3.nuxtjs.org/) with the [Nuxt Content module](https://content.nuxtjs.org/). I thought I'd write short articles articulating how I created it (as I create it), this is the first!
 
+## Prerequisites
+
+What do we need before we get started?
+
+* [Node](https://nodejs.org/en/) v16 or higher
+* npm & npx (comes installed with Node)
+* A text editor such as [Visual Studio Code](https://code.visualstudio.com/) or [Vim](https://www.vim.org/)
+* A terminal (should come pre-installed on your machine and is integrated with Visual Studio Code)
+
+If you're not familiar with these tools, I recomend building familiarity before reading this guide.
+
 ## What's Nuxt and Nuxt Content?
 
 Nuxt is a Vue framework that makes writing websites as [Jamstack applications](https://jamstack.org/) easy.  At the time of this writing, Nuxt 3 is still in beta.
