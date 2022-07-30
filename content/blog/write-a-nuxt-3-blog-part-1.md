@@ -61,15 +61,26 @@ You can customize it by including a `#not-found` template:
 </ContentDoc>
 ```
 
-## Extras
+## Configuration
 
-If your blog will present code snippets, configure the content module to include syntax highlighting.
+We need to set the content module to use [documentDriven mode](https://content.nuxtjs.org/guide/writing/document-driven/) (currently requires the edge channel version mentioned earlier).
 
 ```js
 export default defineNuxtConfig({
   // other configuration
 
   content: {
+    documentDriven: true,
+  },
+});
+```
+
+If your blog will present code snippets, configure the content module to include syntax highlighting.
+
+```js
+export default defineNuxtConfig({
+  content: {
+    documentDriven: true,
     highlight: {
       theme: "github-light",
     },
