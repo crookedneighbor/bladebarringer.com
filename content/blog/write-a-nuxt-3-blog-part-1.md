@@ -34,7 +34,7 @@ This should get everything set up for a basic Nuxt app with the Content module.
 
 The markdown files for your website will be contained in the `content` directory. Inside you'll find an `index.md` file to be the home page of your site.
 
-Note: at the time of writing, there's a [bug in the Nuxt Content module](https://github.com/nuxt/content/issues/1237) that pulls in the _first_ markdown file in the content directory instead of `index.md`. To account for that, my base file is named `_index.md` so that it gets picked up as the first markdown file in the content directory.
+Note: at the time of writing, there's a [bug in the Nuxt Content module](https://github.com/nuxt/content/issues/1237) that pulls in the _first_ markdown file in the content directory instead of `index.md`. To account for that, use the `npm:@nuxt/content-edge/latest` as the version for `@nuxt/content` in your `package.json`. Be sure to keep track of updates and pin back to a stable version when the bug is fixed.
 
 ## Pages
 
