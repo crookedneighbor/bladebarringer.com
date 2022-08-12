@@ -3,6 +3,10 @@ title: About Blade Barringer
 description: Hi! I'm software engineer who plays too much Magic the Gathering.
 ---
 
+<div class="relative">
+    <blade-face></blade-face>
+</div>
+
 <div data-section="software-engineer">
 
 ## Software Engineer

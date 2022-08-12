@@ -4,10 +4,6 @@
     <div class="md:flex max-w-screen-lg w-full mx-auto flex-grow">
       <nav-component class="w-full md:w-96" />
       <div class="p-8 flex-shrink">
-        <div class="relative">
-          <blade-face></blade-face>
-        </div>
-
         <ContentDoc>
           <template #not-found>
             <h1>Hmm... Something's not right</h1>
