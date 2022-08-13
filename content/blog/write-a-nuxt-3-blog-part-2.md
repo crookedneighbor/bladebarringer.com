@@ -1,6 +1,7 @@
 ---
 title: "Making a Nuxt 3 Blog: Writing the First Post"
 description: How to write your very first blog post in a Nuxt 3 blog.
+publishedAt: 2022-08-13
 ---
 
 ## Writing it
@@ -11,6 +12,7 @@ Next, create a `blog` directory within the `content` directory at the root of yo
 ---
 title: "The title for my first blog post."
 description: A description for my first blog post.
+publishedAt: 2022-07-30
 ---
 
 My first blog post!
