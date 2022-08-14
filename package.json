@@ -31,6 +31,7 @@
     "@nuxtjs/stylelint-module": "^4.1.0",
     "@nuxtjs/tailwindcss": "^5.3.2",
     "@vue/test-utils": "^2.0.2",
+    "@vue/vue3-jest": "^28.0.1",
     "eslint": "^8.21.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-plugin-nuxt": "^3.2.0",
@@ -46,7 +47,6 @@
     "stylelint-config-prettier": "^9.0.3",
     "stylelint-config-recommended-vue": "^1.4.0",
     "stylelint-config-standard": "^27.0.0",
-    "ts-jest": "^28.0.7",
-    "vue-jest": "^3.0.4"
+    "ts-jest": "^28.0.7"
   }
 }
