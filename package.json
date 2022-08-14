@@ -19,7 +19,7 @@
     "*.{css,vue}": "stylelint"
   },
   "dependencies": {
-    "@nuxt/content": "npm:@nuxt/content-edge@latest",
+    "@nuxt/content": "npm:@nuxt/content-edge@2.1.0-27672325.19fae5d",
     "nuxt": "^3.0.0-rc.5"
   },
   "devDependencies": {
