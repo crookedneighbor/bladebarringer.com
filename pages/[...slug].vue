@@ -4,32 +4,27 @@
     <div class="md:flex max-w-screen-lg w-full mx-auto flex-grow">
       <nav-component class="w-full md:w-96" />
       <div class="p-8 flex-shrink">
-        <ContentDoc>
-          <template #not-found>
-            <h1>Hmm... Something's not right</h1>
-            <h2>I couldn't find the page you asked for</h2>
-          </template>
-        </ContentDoc>
+        <NuxtLayout :name="layout">
+          <ContentDoc>
+            <template #not-found>
+              <h1>Hmm... Something's not right</h1>
+              <h2>I couldn't find the page you asked for</h2>
+            </template>
+          </ContentDoc>
+        </NuxtLayout>
       </div>
     </div>
   </div>
 </template>
 
-<script>
-export default {
-  async asyncData({ $content, params, error }) {
-    const slug = params.slug || "index";
-    const page = await $content(slug)
-      .fetch()
-      .catch(() => {
-        error({ statusCode: 404, message: "Page not found" });
-      });
-
-    return {
-      page,
-    };
-  },
+<script setup lang="ts">
+const layouts = {
+  page: "page",
+  blog: "blog",
 };
+const route = useRoute();
+const section = route.params.slug[0] || "page";
+const layout = layouts[section] || "page";
 </script>
 
 <style>
