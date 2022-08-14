@@ -13,6 +13,11 @@
 
 <script setup lang="ts">
 const { page } = useContent();
+
+if (!page?.value) {
+  throw createError({ statusCode: 404, statusMessage: "Post Not Found" });
+}
+
 const author = page.value.author || "Blade";
 const publishDate = new Date(page.value.publishedAt).toLocaleDateString(
   "en-us",

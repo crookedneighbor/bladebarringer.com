@@ -36,8 +36,13 @@ Next, in the same `layouts` directory, add a `blog.vue` file that looks like thi
   </div>
 </template>
 
-<script setup>
+<script setup lang="ts">
 const { page } = useContent();
+
+if (!page?.value) {
+  throw createError({ statusCode: 404, statusMessage: "Post Not Found" });
+}
+
 const author = page.value.author || "Blade";
 const publishDate = new Date(page.value.publishedAt).toLocaleDateString(
   "en-us",
@@ -52,6 +57,8 @@ const publishDate = new Date(page.value.publishedAt).toLocaleDateString(
 ```
 
 Here we use the [Vue composition API](https://vuejs.org/api/composition-api-setup.html) along with the [Nuxt Content useContent hook](https://content.nuxtjs.org/api/composables/use-document-driven/) to get access to the `page` variable. This gives us all the data we put in the `---` section as properties on the object.
+
+We need to check and make sure that there is page data available to us, and throw a 404 `createError` in the case that a blog post does not actually exist.
 
 By default, we'll assume that all blog posts are written by you (fill in your own name/handle in place of `Your Name`) unless an explicit author property is set in the blog post's metadata.
 
