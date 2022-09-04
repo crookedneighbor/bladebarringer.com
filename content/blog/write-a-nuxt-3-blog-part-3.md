@@ -118,4 +118,4 @@ rules: {
 ## Next Steps
 
 - Prev: [Write a Nuxt 3 Blog - Writing the First Post](/blog/write-a-nuxt-3-blog-part-2)
-- Next: Write a Nuxt 3 Blog - Showing Blog Posts on the Home Page (Link Coming Soon)
+- Next: [Write a Nuxt 3 Blog - Showing Blog Posts on the Home Page](/blog/write-a-nuxt-3-blog-part-4)
