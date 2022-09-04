@@ -15,6 +15,7 @@ export default defineNuxtConfig({
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
   },
+  ignore: ["**/*.test.*"],
 
   modules: [
     // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
