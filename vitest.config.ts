@@ -6,7 +6,7 @@ export default defineConfig({
   plugins: [vue()],
   test: {
     environment: "happy-dom",
-    // setupFiles: "./test-setup.ts",
+    setupFiles: "./test-setup.ts",
   },
   resolve: {
     alias: {
