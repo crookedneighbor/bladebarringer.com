@@ -41,7 +41,7 @@ describe("RecentBlogPosts Component", () => {
 
     const links = wrapper.findAll("ul li");
     expect(links.length).toBe(2);
-    expect(links.at(0).text()).toContain("title 1 - Aug 13, 2022");
-    expect(links.at(1).text()).toContain("title 2 - Aug 12, 2022");
+    expect(links.at(0).text()).toContain("title 1 - Aug");
+    expect(links.at(1).text()).toContain("title 2 - Aug");
   });
 });
