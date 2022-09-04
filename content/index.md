@@ -50,3 +50,9 @@ Some of my favorite decks right now are:
 Want to play a game? I love playing a game of casual Commander over [Spelltable](https://spelltable.com/).
 
 </div>
+
+---
+
+## Recent Blog Posts
+
+<recent-blog-posts></recent-blog-posts>
