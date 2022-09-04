@@ -20,7 +20,7 @@
   },
   "dependencies": {
     "@nuxt/content": "npm:@nuxt/content-edge@latest",
-    "nuxt": "^3.0.0-rc.5"
+    "nuxt": "^3.0.0-rc.9"
   },
   "devDependencies": {
     "@babel/eslint-parser": "^7.18.9",
