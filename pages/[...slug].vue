@@ -18,6 +18,7 @@
 </template>
 
 <script setup lang="ts">
+import { useRoute } from "#app";
 const layouts = {
   page: "page",
   blog: "blog",
