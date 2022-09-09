@@ -49,6 +49,24 @@ a {
   @apply text-purple-800;
 }
 
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+  @apply text-gray-800;
+}
+
+h1:hover a,
+h2:hover a,
+h3:hover a,
+h4:hover a,
+h5:hover a,
+h6:hover a {
+  @apply text-gray-500 relative;
+}
+
 code {
   @apply text-pink-800;
 }
