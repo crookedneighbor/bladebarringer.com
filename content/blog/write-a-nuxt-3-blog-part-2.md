@@ -51,4 +51,4 @@ Right now, these files are just treated as pages on the site. In the future, we'
 ## Next Steps
 
 - Prev: [Write a Nuxt 3 Blog - Getting Started](/blog/write-a-nuxt-3-blog-part-1)
-- Next: Write a Nuxt 3 Blog - [Write a Nuxt 3 Blog - Showing Blog Posts on the Home Page](/blog/write-a-nuxt-3-blog-part-3)
+- Next: [Write a Nuxt 3 Blog - Write a Nuxt 3 Blog - Creating a Custom Layout for your Blog Posts](/blog/write-a-nuxt-3-blog-part-3)
