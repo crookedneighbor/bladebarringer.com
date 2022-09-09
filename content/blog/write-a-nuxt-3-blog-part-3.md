@@ -39,11 +39,24 @@ Next, in the same `layouts` directory, add a `blog.vue` file that looks like thi
 <script setup lang="ts">
 const { page } = useContent();
 
+// this is a safeguard to redirect to a 404 page if the particular
+// blog post page cannot be found
 if (!page?.value) {
   throw createError({ statusCode: 404, statusMessage: "Post Not Found" });
 }
 
-const author = page.value.author || "Blade";
+// this prevents drafts from being displayed on our site, unless
+// we're running the site in development using `npm run dev`
+if (page.value.draft && process.env.NODE_ENV !== "development") {
+  throw createError({ statusCode: 404, statusMessage: "Post Not Found" });
+}
+
+// if you ever want to support a guest author, all you need to do
+// is pass an `author` param in the Markdown file's frontmatter
+// swap out `<Your-Name>` for the name you want to display as
+// the default author
+const author = page.value.author || "<Your-Name>";
+// this formats the date for publshing in a more human readable form
 const publishDate = new Date(page.value.publishedAt).toLocaleDateString(
   "en-us",
   {

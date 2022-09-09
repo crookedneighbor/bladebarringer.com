@@ -14,7 +14,15 @@
 <script setup lang="ts">
 const { page } = useContent();
 
+// this is a safeguard to redirect to a 404 page if the particular
+// blog post page cannot be found
 if (!page?.value) {
+  throw createError({ statusCode: 404, statusMessage: "Post Not Found" });
+}
+
+// this prevents drafts from being displayed on our site, unless
+// we're running the site in development using `npm run dev`
+if (page.value.draft && process.env.NODE_ENV !== "development") {
   throw createError({ statusCode: 404, statusMessage: "Post Not Found" });
 }
 
