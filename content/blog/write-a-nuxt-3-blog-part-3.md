@@ -1,5 +1,5 @@
 ---
-title: "Making a Nuxt 3 Blog: Adding links to blog on home page"
+title: "Making a Nuxt 3 Blog: Creating a Custom Layout for your Blog Posts"
 description: How to use layouts to present blog posts.
 publishedAt: 2022-8-13
 ---

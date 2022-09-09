@@ -30,11 +30,11 @@ const layout = layouts[section] || "page";
 
 <style>
 h1 {
-  @apply my-4 text-5xl;
+  @apply my-4 text-4xl;
 }
 
 h2 {
-  @apply my-4 text-4xl;
+  @apply my-4 text-3xl;
 }
 
 p {
