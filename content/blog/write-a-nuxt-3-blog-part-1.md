@@ -98,6 +98,29 @@ export default defineNuxtConfig({
 });
 ```
 
+## Router Adjustments
+
+By default, links in a Nuxt app will navigate to the page without resetting the position of the page. This is ideal for a single page application where the content is fairly contained, and you want your content to update within a bounded area without having your user's position change.
+
+For a blog, where your user expects the new page to reposition at the top of the page, this is not ideal. To fix this, we need to create an `app` directory and a `router.options.ts` file within that `app` directory.
+
+```ts
+// https://router.vuejs.org/api/interfaces/routeroptions.html
+export default {
+  scrollBehavior(to, from, savedPosition) {
+    // the saved position allows using the back/forward buttons
+    // to retain the position of the page
+    // if that's not present, it defaults the position to the top
+    return {
+      left: savedPosition?.left || 0,
+      top: savedPosition?.top || 0,
+    };
+  },
+};
+```
+
+This will allow us to over-write the default behavior for the [`vue-router`](https://router.vuejs.org/) module that Nuxt uses to set the [scroll behavior](https://router.vuejs.org/guide/advanced/scroll-behavior.html) to something more similiar to a typical website.
+
 ## Next Steps
 
 - Next: [Write a Nuxt 3 Blog - Your First Blog Post](/blog/write-a-nuxt-3-blog-part-2)
