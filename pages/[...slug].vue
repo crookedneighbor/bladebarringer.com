@@ -41,6 +41,10 @@ p {
   @apply my-4;
 }
 
+ul li {
+  @apply list-disc list-inside ml-8;
+}
+
 a {
   @apply text-purple-800;
 }
