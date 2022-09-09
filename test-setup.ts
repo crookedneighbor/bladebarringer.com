@@ -7,6 +7,7 @@ import {
 } from "@vue/test-utils";
 
 export const queryContentSpy = {
+  where: vi.fn().mockReturnThis(),
   only: vi.fn().mockReturnThis(),
   sort: vi.fn().mockReturnThis(),
   limit: vi.fn().mockReturnThis(),

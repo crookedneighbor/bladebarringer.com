@@ -11,6 +11,8 @@ Let's put together a simple component to dynamically load links to the 5 most re
 ```js
 // this grabs all the content files in the blog directory
 const query = await queryContent("blog")
+  // do not fetch any posts that are marked as drafts
+  .where({ draft: { $ne: true } })
   // only grabs the information we need
   .only(["title", "publishedAt", "_path"])
   // sorts it by the publish date in descending order

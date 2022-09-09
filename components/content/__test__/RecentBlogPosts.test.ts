@@ -18,6 +18,8 @@ describe("RecentBlogPosts Component", () => {
     ]);
     expect(queryContentSpy.sort).toBeCalledTimes(1);
     expect(queryContentSpy.sort).toBeCalledWith({ publishedAt: -1 });
+    expect(queryContentSpy.where).toBeCalledTimes(1);
+    expect(queryContentSpy.where).toBeCalledWith({ draft: { $ne: true } });
     expect(queryContentSpy.limit).toBeCalledTimes(1);
     expect(queryContentSpy.limit).toBeCalledWith(5);
     expect(queryContentSpy.find).toBeCalledTimes(1);
@@ -43,5 +45,15 @@ describe("RecentBlogPosts Component", () => {
     expect(links.length).toBe(2);
     expect(links.at(0).text()).toContain("title 1 - Aug");
     expect(links.at(1).text()).toContain("title 2 - Aug");
+  });
+
+  test("renders no recent blog posts message when no posts can be found", async () => {
+    queryContentSpy.find.mockReturnValue([]);
+
+    const wrapper = await mount(RecentBlogPosts);
+
+    const links = wrapper.findAll("ul li");
+    expect(links.length).toBe(0);
+    expect(wrapper.html()).toContain("No recent blog posts.");
   });
 });
