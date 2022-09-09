@@ -2,6 +2,7 @@
 title: "Making a Nuxt 3 Blog: Hosting on GitHub Pages"
 description: How to deploy your Nuxt 3 website to GitHub Pages
 publishedAt: 2022-9-4
+draft: true
 ---
 
 ## Enable Pages on Your Github Repo

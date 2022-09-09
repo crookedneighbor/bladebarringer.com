@@ -2,6 +2,7 @@
 title: "Making a Nuxt 3 Blog: Writing the First Post"
 description: How to write your very first blog post in a Nuxt 3 blog.
 publishedAt: 2022-8-12
+draft: true
 ---
 
 ## Writing it

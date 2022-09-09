@@ -2,6 +2,7 @@
 title: "Making a Nuxt 3 Blog: Showing Blog Posts on the Home Page"
 description: How to link your most recent blog posts on your home page.
 publishedAt: 2022-8-18
+draft: true
 ---
 
 ## Create the Recent Blog Posts Component

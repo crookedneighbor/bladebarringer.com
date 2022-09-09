@@ -2,6 +2,7 @@
 title: "Making a Nuxt 3 Blog: Creating a Custom Layout for your Blog Posts"
 description: How to use layouts to present blog posts.
 publishedAt: 2022-8-13
+draft: true
 ---
 
 ## Creating Layouts
