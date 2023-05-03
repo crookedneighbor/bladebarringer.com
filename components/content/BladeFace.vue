@@ -103,7 +103,7 @@ export default {
     };
     document.body.addEventListener("mousemove", onMousemove);
   },
-  destroyed() {
+  unmounted() {
     document.body.removeEventListener("mousemove", onMousemove);
   },
 };
