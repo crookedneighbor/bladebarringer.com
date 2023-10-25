@@ -19,7 +19,7 @@
 
 <script setup lang="ts">
 import { useRoute } from "#app";
-const layouts = {
+const layouts: Record<string, string> = {
   page: "page",
   blog: "blog",
 };
