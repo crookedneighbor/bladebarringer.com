@@ -65,7 +65,7 @@ const publishDate = new Date(page.value.publishedAt).toLocaleDateString(
     year: "numeric",
     month: "short",
     day: "numeric",
-  }
+  },
 );
 </script>
 ```

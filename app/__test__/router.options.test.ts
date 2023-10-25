@@ -19,8 +19,8 @@ describe("router options", () => {
           {
             left: 5,
             top: 7,
-          }
-        )
+          },
+        ),
       ).toEqual({
         left: 5,
         top: 7,
