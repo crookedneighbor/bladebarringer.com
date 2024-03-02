@@ -12,5 +12,8 @@ export default defineConfig(({ mode }) => ({
 		include: ['src/**/*.{test,spec}.{js,ts}'],
 		restoreMocks: true,
 		globals: true
+	},
+	typecheck: {
+		tsConfig: mode === 'test' ? 'tsconfig.vitest.json' : 'tsconfig.json'
 	}
 }));
