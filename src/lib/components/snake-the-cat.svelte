@@ -18,10 +18,10 @@
     let { clientX, clientY } = event;
 
     if (imgWidth + clientX > pageWidth) {
-      clientX = 150;
+      clientX = 50;
     }
     if (imgHeight + clientY > pageHeight) {
-      clientY = 150;
+      clientY = 50;
     }
 
     coords.set({ x: clientX, y: clientY });
