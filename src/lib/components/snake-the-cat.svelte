@@ -1,44 +1,44 @@
 <script lang="ts">
-  import { spring } from "svelte/motion";
+	import { spring } from 'svelte/motion';
 
-  let coords = spring(
-    { x: 150, y: 150 },
-    {
-      stiffness: 0.1,
-      damping: 0.25,
-    }
-  );
+	let coords = spring(
+		{ x: 150, y: 150 },
+		{
+			stiffness: 0.1,
+			damping: 0.25
+		}
+	);
 
-  let onMouseMouseMove = (event: MouseEvent) => {
-    const pageWidth = document.body.scrollWidth;
-    const pageHeight = document.body.scrollHeight;
-    const img = event.target as HTMLImageElement;
-    const imgWidth = img.offsetWidth;
-    const imgHeight = img.offsetHeight;
-    let { clientX, clientY } = event;
+	let onMouseMouseMove = (event: MouseEvent) => {
+		const pageWidth = document.body.scrollWidth;
+		const pageHeight = document.body.scrollHeight;
+		const img = event.target as HTMLImageElement;
+		const imgWidth = img.offsetWidth;
+		const imgHeight = img.offsetHeight;
+		let { clientX, clientY } = event;
 
-    if (imgWidth + clientX > pageWidth) {
-      clientX = 50;
-    }
-    if (imgHeight + clientY > pageHeight) {
-      clientY = 50;
-    }
+		if (imgWidth + clientX > pageWidth) {
+			clientX = 50;
+		}
+		if (imgHeight + clientY > pageHeight) {
+			clientY = 50;
+		}
 
-    coords.set({ x: clientX, y: clientY });
-  };
+		coords.set({ x: clientX, y: clientY });
+	};
 </script>
 
 <img
-  src="/snake-the-cat.png"
-  alt="A cat name snake"
-  id="snake-the-cat"
-  data-testid="snake-the-cat"
-  on:mousemove={onMouseMouseMove}
-  style="left: {$coords.x}px; top: {$coords.y}px;"
+	src="/snake-the-cat.png"
+	alt="A cat name snake"
+	id="snake-the-cat"
+	data-testid="snake-the-cat"
+	on:mousemove={onMouseMouseMove}
+	style="left: {$coords.x}px; top: {$coords.y}px;"
 />
 
 <style lang="postcss">
-  #snake-the-cat {
-    @apply w-72 max-w-full absolute;
-  }
+	#snake-the-cat {
+		@apply w-72 max-w-full absolute;
+	}
 </style>
