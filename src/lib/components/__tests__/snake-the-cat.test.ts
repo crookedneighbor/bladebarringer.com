@@ -1,6 +1,6 @@
 import { render, screen } from '@testing-library/svelte';
 import { fireEvent } from '@testing-library/dom';
-import SnakeTheCat from './snake-the-cat.svelte';
+import SnakeTheCat from '../snake-the-cat.svelte';
 
 describe('SnakeTheCat', () => {
 	it.todo('updates position of snake the cat image when hovered over', async () => {
