@@ -1,8 +1,8 @@
-name: Deploy Nuxt site to Github Pages
+name: Deploy site to Github Pages
 
 on:
   push:
-    branches: ["main"]
+    branches: ['main']
 
   # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
@@ -15,7 +15,7 @@ permissions:
 
 # Allow one concurrent deployment
 concurrency:
-  group: "pages"
+  group: 'pages'
   cancel-in-progress: true
 
 jobs:
@@ -28,7 +28,7 @@ jobs:
       - name: Setup Node
         uses: actions/setup-node@v3
         with:
-          node-version-file: ".nvmrc"
+          node-version-file: '.nvmrc'
           cache: npm
       - name: Setup Pages
         uses: actions/configure-pages@v2
@@ -36,15 +36,15 @@ jobs:
         uses: actions/cache@v3
         with:
           path: |
-            dist
-            .nuxt
-          key: ${{ runner.os }}-nuxt-build-${{ hashFiles('dist') }}
+            build
+            .sveltekit
+          key: ${{ runner.os }}-sveltekit-build-${{ hashFiles('dist') }}
           restore-keys: |
-            ${{ runner.os }}-nuxt-build-
+            ${{ runner.os }}-sveltekit-build-
       - name: Install dependencies
         run: npm ci
-      - name: Static HTML export with Nuxt
-        run: npm run generate
+      - name: Static HTML export with Sveltekit
+        run: npm run build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
