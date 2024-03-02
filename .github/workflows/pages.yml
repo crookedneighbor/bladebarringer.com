@@ -38,7 +38,7 @@ jobs:
           path: |
             build
             .sveltekit
-          key: ${{ runner.os }}-sveltekit-build-${{ hashFiles('dist') }}
+          key: ${{ runner.os }}-sveltekit-build-${{ hashFiles('build') }}
           restore-keys: |
             ${{ runner.os }}-sveltekit-build-
       - name: Install dependencies
@@ -48,7 +48,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
         with:
-          path: ./dist
+          path: ./build
 
   # Deployment job
   deploy:
