@@ -10,6 +10,6 @@
   }
 
   :global(body) {
-    @apply w-9/12 min-w-96 max-w-full m-auto my-4;
+    @apply w-9/12 min-w-96 max-w-full h-screen m-auto;
   }
 </style>
