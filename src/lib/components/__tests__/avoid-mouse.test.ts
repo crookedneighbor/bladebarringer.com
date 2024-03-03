@@ -1,9 +1,8 @@
-import { render, screen, act } from '@testing-library/svelte';
+import { render, screen } from '@testing-library/svelte';
 import { fireEvent } from '@testing-library/dom';
 import AvoidMouse from '../avoid-mouse.svelte';
-import { tick } from 'svelte';
 import { spring } from 'svelte/motion';
-import { get, writable } from 'svelte/store';
+import { writable } from 'svelte/store';
 
 describe('AvoidMouse', () => {
 	let coordinatesStore: ReturnType<typeof spring>;
