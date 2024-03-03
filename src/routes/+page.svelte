@@ -1,5 +1,19 @@
 <script>
-	import SnakeTheCat from '$lib/components/snake-the-cat.svelte';
+	import AvoidMouse from '$lib/components/avoid-mouse.svelte';
+	let startingCoordinates = { x: 50, y: 50 };
 </script>
 
-<SnakeTheCat />
+<AvoidMouse {startingCoordinates}>
+	<img
+		src="/snake-the-cat.png"
+		alt="A cat name snake"
+		id="snake-the-cat"
+		data-testid="snake-the-cat"
+	/>
+</AvoidMouse>
+
+<style lang="postcss">
+	#snake-the-cat {
+		@apply w-72 max-w-full;
+	}
+</style>
