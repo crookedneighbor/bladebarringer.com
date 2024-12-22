@@ -1,97 +1,59 @@
 import { render, screen } from '@testing-library/svelte';
 import { fireEvent } from '@testing-library/dom';
 import AvoidMouse from '../avoid-mouse.svelte';
-import { spring } from 'svelte/motion';
-import { writable } from 'svelte/store';
+import { createRawSnippet, type Snippet } from 'svelte';
+import { getNewCoordinates } from '../onmousemove';
+
+vi.mock('../onmousemove');
 
 describe('AvoidMouse', () => {
-	let coordinatesStore: ReturnType<typeof spring>;
+	let children: Snippet;
 
 	beforeEach(() => {
-		// this is kind of stupid, but there's buggy behavior with spring
-		// not actually updating in the test when firing the event, but a normal
-		// writable store does, so we have to fake it :/
-		coordinatesStore = writable({ x: 0, y: 0 }) as ReturnType<typeof spring>;
-
-		// also kind of dumb, but we have to supply actual values for these
-		vi.spyOn(document.body, 'scrollWidth', 'get').mockImplementation(() => 100);
-		vi.spyOn(document.body, 'scrollHeight', 'get').mockImplementation(() => 100);
+		vi.mocked(getNewCoordinates).mockReturnValue({
+			x: 10,
+			y: 11
+		});
+		children = createRawSnippet(() => ({
+			render() {
+				return '<div></div>';
+			}
+		}));
 	});
 
-	it('moves element when moused over', async () => {
+	it('gets new coordinates on mousemove', async () => {
 		render(AvoidMouse, {
-			coordinatesStore
+			children
 		});
 
 		const container = screen.getByTestId('avoid-mouse-container');
-
-		expect(container.style.left).toEqual('0px');
-		expect(container.style.top).toEqual('0px');
 
 		await fireEvent.mouseMove(container, {
 			clientX: 10,
 			clientY: 11
 		});
 
-		expect(container.style.left).toEqual('10px');
-		expect(container.style.top).toEqual('11px');
-	});
-
-	it('sets x position to starting coordinatres when image bounds would exceed page', async () => {
-		render(AvoidMouse, {
-			coordinatesStore
-		});
-
-		const container = screen.getByTestId('avoid-mouse-container');
-
-		expect(container.style.left).toEqual('0px');
-
-		await fireEvent.mouseMove(container, {
-			clientX: 101,
-			clientY: 11
-		});
-
-		expect(container.style.left).toEqual('0px');
-		expect(container.style.top).toEqual('11px');
-	});
-
-	it('sets y position to starting coordinatres when image bounds would exceed page', async () => {
-		render(AvoidMouse, {
-			coordinatesStore
-		});
-
-		const container = screen.getByTestId('avoid-mouse-container');
-
-		expect(container.style.left).toEqual('0px');
-
-		await fireEvent.mouseMove(container, {
-			clientX: 10,
-			clientY: 101
-		});
-
-		expect(container.style.left).toEqual('10px');
-		expect(container.style.top).toEqual('0px');
+		expect(getNewCoordinates).toBeCalledTimes(1);
+		expect(getNewCoordinates).toBeCalledWith(expect.any(MouseEvent), { x: 0, y: 0 });
 	});
 
 	it('can configure starting coordinates', async () => {
 		render(AvoidMouse, {
-			coordinatesStore,
 			startingCoordinates: {
 				x: 3,
 				y: 5
-			}
+			},
+			children
 		});
 
 		const container = screen.getByTestId('avoid-mouse-container');
-
-		expect(container.style.left).toEqual('0px');
 
 		await fireEvent.mouseMove(container, {
 			clientX: 101,
 			clientY: 101
 		});
 
-		expect(container.style.left).toEqual('3px');
-		expect(container.style.top).toEqual('5px');
+		expect(getNewCoordinates).toBeCalledTimes(1);
+		expect(getNewCoordinates).toBeCalledWith(expect.any(MouseEvent), { x: 3, y: 5 });
 	});
 });
