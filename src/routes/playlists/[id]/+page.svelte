@@ -91,7 +91,7 @@
 		-ms-overflow-style: none; /* IE and Edge */
 		scrollbar-width: none; /* Firefox */
 
-		@apply h-screen lg:w-1/3 overflow-scroll p-8;
+		@apply lg:h-screen lg:w-1/3 lg:overflow-scroll p-8;
 	}
 	.right {
 		&::-webkit-scrollbar {
@@ -99,7 +99,7 @@
 		}
 		-ms-overflow-style: none; /* IE and Edge */
 		scrollbar-width: none; /* Firefox */
-		@apply h-screen lg:w-2/3 overflow-scroll;
+		@apply lg:h-screen lg:w-2/3 lg:overflow-scroll;
 	}
 	.card {
 		@apply w-1/2 lg:w-1/5 p-2;
