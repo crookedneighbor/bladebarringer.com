@@ -82,16 +82,27 @@
 
 <style lang="postcss">
 	.container {
-		@apply flex;
+		@apply lg:flex m-auto;
 	}
 	.left {
-		@apply h-screen w-1/3 overflow-scroll p-8;
+		&::-webkit-scrollbar {
+			display: none;
+		}
+		-ms-overflow-style: none; /* IE and Edge */
+		scrollbar-width: none; /* Firefox */
+
+		@apply h-screen lg:w-1/3 overflow-scroll p-8;
 	}
 	.right {
-		@apply h-screen w-2/3 overflow-scroll;
+		&::-webkit-scrollbar {
+			display: none;
+		}
+		-ms-overflow-style: none; /* IE and Edge */
+		scrollbar-width: none; /* Firefox */
+		@apply h-screen lg:w-2/3 overflow-scroll;
 	}
 	.card {
-		@apply w-1/5 p-2;
+		@apply w-1/2 lg:w-1/5 p-2;
 	}
 
 	.album-arts {
