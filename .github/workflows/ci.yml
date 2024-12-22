@@ -35,8 +35,8 @@ jobs:
       - name: Generate .svelte-kit
         run: npm run sveltekit-sync
 
-      - name: Prepare Playwright
-        run: npm run install-playwright
+      - name: Run Check ✔️
+        run: npm run check
 
       - name: Run linter 👀
         run: npm run lint
