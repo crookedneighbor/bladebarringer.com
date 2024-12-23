@@ -1,120 +1,25 @@
 <script lang="ts">
+	import { createHoverProps, hovered } from './hovered-state.svelte.js';
+
 	let { data } = $props();
 	let playlist = $derived(data.playlist);
-
-	let hovered = $state('');
-
-	function createHoverProps(id: string) {
-		function set() {
-			hovered = id;
-		}
-		function reset() {
-			// in case the hovered state has already changed
-			// we don't want to accidentally overwrite the new
-			// hovered state to nothing
-			if (hovered === id) {
-				hovered = '';
-			}
-		}
-		return {
-			onmouseenter: set,
-			onfocus: set,
-			onmouseleave: reset,
-			onblur: reset
-		};
-	}
 </script>
 
-<div class="container">
-	<div class="left">
-		<h1>2024 Playlist</h1>
-		<p>Premable</p>
-
-		<div class="player">
-			<iframe
-				style="border-radius:12px"
-				src="https://open.spotify.com/embed/playlist/0zRFBHvgpkp0OpCS22UwvS?utm_source=generator&theme=0"
-				width="100%"
-				height="152"
-				frameBorder="0"
-				allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-				loading="lazy"
-				title="Embededed Playlist"
-			></iframe>
-		</div>
-		<ul class="py-4">
-			{#each playlist as card, i}
-				<li>
-					<a
-						{...createHoverProps(card.id)}
-						onfocus={() => {
-							hovered = card.id;
-						}}
-						onblur={() => {
-							if (hovered === card.id) {
-								hovered = '';
-							}
-						}}
-						class:hovered={hovered === card.id}
-						href={`/playlists/2024/${card.id}`}
-						data-sveltekit-reload>{i + 1}. {card.name}</a
-					>
-				</li>
-			{/each}
-		</ul>
+{#each playlist as track}
+	<div class="track" style={'view-transition-name: ' + track.id}>
+		<a
+			href={`/playlists/2024/${track.id}`}
+			{...createHoverProps(track.id)}
+			class:hovered={hovered.name === track.id}
+		>
+			<img src={track.img} alt="" style={'view-transition-name: ' + track.id + '-img'} />
+		</a>
 	</div>
-
-	<div class="album-arts right">
-		{#each playlist as card}
-			<div class="card" style={'view-transition-name: ' + card.id}>
-				<a
-					data-sveltekit-reload
-					href={`/playlists/2024/${card.id}`}
-					{...createHoverProps(card.id)}
-					class:hovered={hovered === card.id}
-				>
-					<img src={card.img} alt="" style={'view-transition-name: ' + card.id + '-img'} />
-				</a>
-			</div>
-		{/each}
-	</div>
-</div>
+{/each}
 
 <style lang="postcss">
-	.container {
-		@apply lg:flex m-auto;
-	}
-	.left {
-		&::-webkit-scrollbar {
-			display: none;
-		}
-		-ms-overflow-style: none; /* IE and Edge */
-		scrollbar-width: none; /* Firefox */
-
-		@apply lg:h-screen lg:w-1/3 lg:overflow-scroll p-8;
-	}
-	.right {
-		&::-webkit-scrollbar {
-			display: none;
-		}
-		-ms-overflow-style: none; /* IE and Edge */
-		scrollbar-width: none; /* Firefox */
-		@apply lg:h-screen lg:w-2/3 lg:overflow-scroll;
-	}
-	.card {
+	.track {
 		@apply w-1/2 lg:w-1/5 p-2;
-	}
-
-	.album-arts {
-		@apply flex flex-wrap justify-center;
-	}
-	h1 {
-		@apply scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl;
-	}
-	a.hovered,
-	a:focus,
-	a:hover {
-		@apply text-amber-700;
 	}
 
 	img {

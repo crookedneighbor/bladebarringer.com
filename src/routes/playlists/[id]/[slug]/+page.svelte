@@ -13,13 +13,13 @@
 
 <style lang="postcss">
 	.song-container {
-		@apply m-0 h-screen w-full p-0 md:flex;
+		@apply m-0 w-full p-0;
 	}
 	.cover {
-		@apply hidden w-1/2 max-w-full bg-cover bg-center sm:block;
+		@apply hidden w-full h-96 bg-cover bg-center sm:block;
 	}
 	.info {
-		@apply max-w-full bg-white p-4 lg:w-1/2;
+		@apply max-w-full bg-white w-full p-4;
 	}
 	h1 {
 		@apply scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl;
