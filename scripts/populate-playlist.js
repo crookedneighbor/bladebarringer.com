@@ -4,8 +4,7 @@ import { lookupArtist } from './bandcamp/lookup-artist.js';
 
 const PLAYLIST_ID = process.env.PLAYLIST_ID;
 
-async function populatePlaylistPage(id) {
-	const playlist = await getPlaylist(id);
+function populateBandcampLinks(playlist) {
 	let bandcampPromise = Promise.resolve();
 
 	playlist.forEach((track) => {
@@ -22,7 +21,12 @@ async function populatePlaylistPage(id) {
 		});
 	});
 
-	await bandcampPromise;
+	return bandcampPromise;
+}
+
+async function populatePlaylistPage(id) {
+	const playlist = await getPlaylist(id);
+	await populateBandcampLinks(playlist);
 
 	console.log(JSON.stringify(playlist));
 }
