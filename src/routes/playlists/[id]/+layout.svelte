@@ -1,5 +1,6 @@
 <script lang="ts">
 	import { onNavigate } from '$app/navigation';
+	import { onMount } from 'svelte';
 	import { createHoverProps, hovered } from './hovered-state.svelte.js';
 
 	let { data, children } = $props();
@@ -49,7 +50,7 @@
 		</ul>
 	</div>
 
-	<div bind:this={slotContainer} class="album-arts right">
+	<div bind:this={slotContainer} class="right">
 		{@render children()}
 	</div>
 </div>
