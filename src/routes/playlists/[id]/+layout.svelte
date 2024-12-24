@@ -4,6 +4,7 @@
 
 	let { data, children } = $props();
 	let playlist = $derived(data.playlist);
+	let slotContainer: HTMLDivElement;
 
 	onNavigate((navigation) => {
 		if (!document.startViewTransition) return;
@@ -12,6 +13,7 @@
 			document.startViewTransition(async () => {
 				resolve();
 				await navigation.complete;
+				slotContainer.scrollIntoView();
 			});
 		});
 	});
@@ -47,7 +49,7 @@
 		</ul>
 	</div>
 
-	<div class="album-arts right">
+	<div bind:this={slotContainer} class="album-arts right">
 		{@render children()}
 	</div>
 </div>
