@@ -136,18 +136,18 @@ export const twentyTwentyFour = [
 		bandcampPath: 'https://illuminatihotties.bandcamp.com/track/pressed-2-death'
 	},
 	{
+		id: 'air-drumming-fix-you',
+		name: 'Air Drumming Fix You',
+		artist: 'Wild Pink',
+		img: 'https://i.scdn.co/image/ab67616d0000b273624b067399560ce7980cbf36',
+		bandcampPath: 'https://wildpink.bandcamp.com/track/air-drumming-fix-you'
+	},
+	{
 		id: 'patterns',
 		name: 'Patterns',
 		artist: 'Laura Marling',
 		img: 'https://i.scdn.co/image/ab67616d0000b2730c09e756637b2bf170ece934',
 		bandcampPath: 'https://lauramarling.bandcamp.com/track/patterns'
-	},
-	{
-		id: 'all-the-weworks-are-dead',
-		name: 'All the WeWorks Are Dead!',
-		artist: 'Sun Kin',
-		img: 'https://i.scdn.co/image/ab67616d0000b273c2d1a41ac6b1d3d803edbd05',
-		bandcampPath: 'https://sunraykin.bandcamp.com/track/all-the-weworks-are-dead'
 	},
 	{
 		id: 'hat-guy',
@@ -157,17 +157,18 @@ export const twentyTwentyFour = [
 		bandcampPath: 'https://officeculture.bandcamp.com/track/hat-guy'
 	},
 	{
-		id: 'blue-state',
-		name: 'Blue State',
-		artist: 'Chartreuse',
-		img: 'https://i.scdn.co/image/ab67616d0000b2737454694e672b914748703fd7',
-		bandcampPath: 'https://chartreuse-band.bandcamp.com/track/blue-state'
+		id: 'all-the-weworks-are-dead',
+		name: 'All the WeWorks Are Dead!',
+		artist: 'Sun Kin',
+		img: 'https://i.scdn.co/image/ab67616d0000b273c2d1a41ac6b1d3d803edbd05',
+		bandcampPath: 'https://sunraykin.bandcamp.com/track/all-the-weworks-are-dead'
 	},
 	{
-		id: 'defense',
-		name: 'Defense',
-		artist: 'Panda Bear | Cindy Lee',
-		img: 'https://i.scdn.co/image/ab67616d0000b27354c312979f57d5e3fbb8be5b',
-		bandcampPath: 'https://pandabearmusic.bandcamp.com/track/defense-w-cindy-lee'
+		id: 'eso-que-tu-haces',
+		name: 'Eso Que Tu Haces',
+		artist: 'Lido Pimienta',
+		img: 'https://i.scdn.co/image/ab67616d0000b273802fedd4354077a836e6a3e2',
+		bandcampPath:
+			'https://tropikalbroders.bandcamp.com/track/lido-pimienta-eso-que-tu-haces-tropikal-broders-pablo-messier-remix'
 	}
 ];

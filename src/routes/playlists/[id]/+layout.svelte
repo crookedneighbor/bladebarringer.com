@@ -80,9 +80,6 @@
 		@apply w-1/2 lg:w-1/5 p-2;
 	}
 
-	.album-arts {
-		@apply flex flex-wrap justify-center;
-	}
 	h1 {
 		@apply scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl;
 	}
