@@ -4,7 +4,7 @@
 	import type { Snippet } from 'svelte';
 
 	interface Props {
-		startingCoordinates: { x: number; y: number };
+		startingCoordinates?: { x: number; y: number };
 		children: Snippet;
 	}
 

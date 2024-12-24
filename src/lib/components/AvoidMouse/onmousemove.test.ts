@@ -1,4 +1,4 @@
-import { getNewCoordinates } from '../onmousemove';
+import { getNewCoordinates } from './onmousemove';
 
 describe('onmousemove', () => {
 	beforeEach(() => {

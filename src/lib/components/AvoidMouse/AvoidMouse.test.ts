@@ -1,10 +1,10 @@
 import { render, screen } from '@testing-library/svelte';
 import { fireEvent } from '@testing-library/dom';
-import AvoidMouse from '../avoid-mouse.svelte';
+import AvoidMouse from './AvoidMouse.svelte';
 import { createRawSnippet, type Snippet } from 'svelte';
-import { getNewCoordinates } from '../onmousemove';
+import { getNewCoordinates } from './onmousemove';
 
-vi.mock('../onmousemove');
+vi.mock('./onmousemove');
 
 describe('AvoidMouse', () => {
 	let children: Snippet;
