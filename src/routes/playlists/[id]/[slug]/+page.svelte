@@ -1,6 +1,6 @@
 <script lang="ts">
 	let { data } = $props();
-	let { id, img, artist, number, name, pageContent } = $derived(data.track);
+	let { id, img, artist, number, name, pageContent, bandcampPath } = $derived(data.track);
 </script>
 
 <div class="song-container" style={'view-transition-name: ' + id}>
@@ -8,6 +8,10 @@
 	<div class="info">
 		<h1>{number}. {name}</h1>
 		<p class="artist">{artist}</p>
+		{#if bandcampPath}
+			<p><a href={bandcampPath} target="_blank">Buy on Bandcamp</a></p>
+		{/if}
+		<hr />
 		<!-- pulled from playlist-data/page-blurbs -->
 		{@html pageContent}
 	</div>
