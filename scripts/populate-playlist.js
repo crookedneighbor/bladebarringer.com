@@ -1,6 +1,8 @@
 import 'dotenv/config';
 import { getPlaylist } from './spotify/playlist.js';
 import { lookupArtist } from './bandcamp/lookup-artist.js';
+import { writeFileSync } from 'node:fs';
+import { resolve as resolvePath } from 'node:path';
 
 const PLAYLIST_ID = process.env.PLAYLIST_ID;
 
@@ -28,7 +30,11 @@ async function populatePlaylistPage(id) {
 	const playlist = await getPlaylist(id);
 	await populateBandcampLinks(playlist);
 
-	console.log(JSON.stringify(playlist));
+	const path = resolvePath('src', 'lib', 'playlist-data', 'raw', `${id}.json`);
+
+	writeFileSync(path, JSON.stringify(playlist, null, 2), 'utf8');
+
+	console.log('Finished writing playlist to', path);
 }
 
 populatePlaylistPage(PLAYLIST_ID);

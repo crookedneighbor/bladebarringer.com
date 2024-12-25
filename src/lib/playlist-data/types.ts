@@ -3,6 +3,7 @@ export interface Track {
 	name: string;
 	artist: string;
 	img: string;
+	blurb?: string;
 	bandcampPath?: string;
 }
 
