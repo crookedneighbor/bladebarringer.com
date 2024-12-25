@@ -38,12 +38,12 @@
 			></iframe>
 		</div>
 		<ul class="py-4">
-			{#each playlist as card, i}
+			{#each playlist as card}
 				<li>
 					<a
 						{...createHoverProps(card.id)}
 						class:hovered={hovered.name === card.id}
-						href={`/playlists/2024/${card.id}`}>{i + 1}. {card.name}</a
+						href={`/playlists/2024/${card.id}`}>{card.number}. {card.name}</a
 					>
 				</li>
 			{/each}

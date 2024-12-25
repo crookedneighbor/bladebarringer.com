@@ -1,4 +1,4 @@
 import rawData from './raw/0zRFBHvgpkp0OpCS22UwvS.json';
-import type { Track } from './types';
+import type { Playlist } from './types';
 
-export const twentyTwentyFour: Track[] = rawData;
+export const twentyTwentyFour: Playlist = rawData;

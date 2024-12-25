@@ -1,5 +1,6 @@
 export interface Track {
 	id: string;
+	number: number;
 	name: string;
 	artist: string;
 	img: string;
@@ -7,4 +8,4 @@ export interface Track {
 	bandcampPath?: string;
 }
 
-export type Playlist = Track[];
+export type Playlist = Record<string, Track>;

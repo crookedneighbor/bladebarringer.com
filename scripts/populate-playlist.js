@@ -9,7 +9,7 @@ const PLAYLIST_ID = process.env.PLAYLIST_ID;
 function populateBandcampLinks(playlist) {
 	let bandcampPromise = Promise.resolve();
 
-	playlist.forEach((track) => {
+	Object.values(playlist).forEach((track) => {
 		bandcampPromise = bandcampPromise.then(async () => {
 			let { name, artist } = track;
 			name = name.toLowerCase();
