@@ -1,4 +1,4 @@
-import playlists from '$lib/playlist-data';
+import playlists, { playlistToArray } from '$lib/playlist-data';
 import { error } from '@sveltejs/kit';
 
 export function load({ params }) {
@@ -9,6 +9,6 @@ export function load({ params }) {
 	}
 
 	return {
-		playlist: playlists[id]
+		playlist: playlistToArray(playlists[id])
 	};
 }

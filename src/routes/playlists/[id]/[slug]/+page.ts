@@ -3,7 +3,7 @@ import { error } from '@sveltejs/kit';
 
 export function load({ params }) {
 	const playlist = playlists['2024'];
-	const track = playlist.find((c) => c.id === params.slug);
+	const track = playlist[params.slug];
 	if (!track) {
 		return error(404, 'Not Found');
 	}

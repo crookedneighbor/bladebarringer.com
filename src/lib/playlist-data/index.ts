@@ -12,5 +12,5 @@ export function playlistToArray(playlist: Playlist): Track[] {
 }
 
 export default {
-	2024: playlistToArray(twentyTwentyFour)
-} as Record<string, Track[]>;
+	2024: twentyTwentyFour
+} as Record<string, Playlist>;
