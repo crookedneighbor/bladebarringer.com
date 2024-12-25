@@ -5,7 +5,8 @@
     "name": "Barley",
     "artist": "Water From Your Eyes",
     "img": "https://i.scdn.co/image/ab67616d0000b2733456a000dc303a94002cae6b",
-    "bandcampPath": "https://waterfromyoureyes.bandcamp.com/track/barley-1"
+    "bandcampPath": "https://waterfromyoureyes.bandcamp.com/track/barley-1",
+    "pageContent": "\n<h3>foo</h3>\n<blockquote>\n<p>hey</p>\n</blockquote>\n<ul>\n<li>Hello</li>\n<li>bar</li>\n<li>foo</li>\n</ul>\n"
   },
   "borrow-trouble": {
     "id": "borrow-trouble",
@@ -82,7 +83,7 @@
     "name": "The Insulation",
     "artist": "Menomena",
     "img": "https://i.scdn.co/image/ab67616d0000b273ef0d7f6d88b5b0d5d88c38c8",
-    "bandcampPath": "https://menomena.com/track/caravan"
+    "bandcampPath": "https://menomena.com/track/copious"
   },
   "lord-make-me-a-scorpion": {
     "id": "lord-make-me-a-scorpion",

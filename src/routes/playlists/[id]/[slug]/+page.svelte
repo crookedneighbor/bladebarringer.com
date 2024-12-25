@@ -1,6 +1,6 @@
 <script lang="ts">
 	let { data } = $props();
-	let { id, img, artist, name } = $derived(data.track);
+	let { id, img, artist, name, pageContent } = $derived(data.track);
 </script>
 
 <div class="song-container" style={'view-transition-name: ' + id}>
@@ -8,6 +8,8 @@
 	<div class="info">
 		<h1>{name}</h1>
 		<p class="artist">{artist}</p>
+		<!-- pulled from playlist-data/page-blurbs -->
+		{@html pageContent}
 	</div>
 </div>
 

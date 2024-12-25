@@ -1,7 +1,8 @@
 import 'dotenv/config';
+import { compile } from 'mdsvex';
 import { getPlaylist } from './spotify/playlist.js';
 import { lookupArtist } from './bandcamp/lookup-artist.js';
-import { writeFileSync } from 'node:fs';
+import { writeFileSync, readdirSync, readFileSync } from 'node:fs';
 import { resolve as resolvePath } from 'node:path';
 
 const PLAYLIST_ID = process.env.PLAYLIST_ID;
@@ -26,9 +27,28 @@ function populateBandcampLinks(playlist) {
 	return bandcampPromise;
 }
 
+async function populatePageDescriptions(id, playlist) {
+	const path = resolvePath('src', 'lib', 'playlist-data', 'page-blurbs', id);
+	const dir = readdirSync(path);
+	await Promise.all(
+		dir.map(async (filename) => {
+			const id = filename.split('.')[0];
+			const raw = readFileSync(resolvePath(path, filename), 'utf-8');
+			const transformedCode = await compile(raw);
+
+			if (!playlist[id]) {
+				console.error('Could not find id', id);
+				return;
+			}
+			playlist[id].pageContent = transformedCode.code;
+		})
+	);
+}
+
 async function populatePlaylistPage(id) {
 	const playlist = await getPlaylist(id);
 	await populateBandcampLinks(playlist);
+	await populatePageDescriptions(id, playlist);
 
 	const path = resolvePath('src', 'lib', 'playlist-data', 'raw', `${id}.json`);
 
