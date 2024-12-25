@@ -8,4 +8,7 @@ export interface Track {
 	bandcampPath?: string;
 }
 
-export type Playlist = Record<string, Track>;
+export type Playlist = {
+	slug: string;
+	tracks: Record<string, Track>;
+};

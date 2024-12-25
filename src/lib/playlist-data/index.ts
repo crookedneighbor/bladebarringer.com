@@ -2,7 +2,7 @@ import { twentyTwentyFour } from './2024';
 import type { Playlist, Track } from './types';
 
 export function playlistToArray(playlist: Playlist): Track[] {
-	return Object.values(playlist)
+	return Object.values(playlist.tracks)
 		.map((track) => {
 			return track;
 		})

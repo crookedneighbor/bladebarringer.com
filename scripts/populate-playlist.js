@@ -10,7 +10,7 @@ const PLAYLIST_ID = process.env.PLAYLIST_ID;
 function populateBandcampLinks(playlist) {
 	let bandcampPromise = Promise.resolve();
 
-	Object.values(playlist).forEach((track) => {
+	Object.values(playlist.tracks).forEach((track) => {
 		bandcampPromise = bandcampPromise.then(async () => {
 			let { name, artist } = track;
 			name = name.toLowerCase();
@@ -36,18 +36,18 @@ async function populatePageDescriptions(id, playlist) {
 			const raw = readFileSync(resolvePath(path, filename), 'utf-8');
 			const transformedCode = await compile(raw);
 
-			if (!playlist[id]) {
+			if (!playlist.tracks[id]) {
 				console.error('Could not find id', id);
 				return;
 			}
-			playlist[id].pageContent = transformedCode.code;
+			playlist.tracks[id].pageContent = transformedCode.code;
 		})
 	);
 }
 
 async function populatePlaylistPage(id) {
 	const slug = process.env.PLAYLIST_SLUG;
-	const playlist = await getPlaylist(id);
+	const playlist = await getPlaylist(id, slug);
 	await populateBandcampLinks(playlist);
 	await populatePageDescriptions(id, playlist);
 

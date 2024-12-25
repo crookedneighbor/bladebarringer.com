@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { onNavigate } from '$app/navigation';
-	import { onMount } from 'svelte';
 	import { createHoverProps, hovered } from './hovered-state.svelte.js';
 
 	let { data, children } = $props();
