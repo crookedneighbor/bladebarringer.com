@@ -1,9 +1,8 @@
-import playlists from '$lib/playlist-data';
 import { error } from '@sveltejs/kit';
 
-export async function load({ params }) {
-	const playlist = playlists[params.id].tracks;
-	const track = playlist[params.slug];
+export async function load({ parent, params }) {
+	const { tracks } = await parent();
+	const track = tracks[params.slug];
 	if (!track) {
 		return error(404, 'Not Found');
 	}

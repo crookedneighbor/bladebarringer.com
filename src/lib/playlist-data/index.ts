@@ -1,4 +1,3 @@
-import { twentyTwentyFour } from './2024';
 import type { Playlist, Track } from './types';
 
 export function playlistToArray(playlist: Playlist): Track[] {
@@ -10,7 +9,3 @@ export function playlistToArray(playlist: Playlist): Track[] {
 			return a.number > b.number ? 1 : -1;
 		});
 }
-
-export default {
-	2024: twentyTwentyFour
-} as Record<string, Playlist>;
