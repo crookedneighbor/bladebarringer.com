@@ -15,8 +15,7 @@
       "number": 2,
       "name": "Borrow Trouble",
       "artist": "Feist",
-      "img": "https://i.scdn.co/image/ab67616d0000b273d855756a01c29618dac105ca",
-      "bandcampPath": "https://cardinalsatthewindow.bandcamp.com/track/borrow-trouble-demo"
+      "img": "https://i.scdn.co/image/ab67616d0000b273d855756a01c29618dac105ca"
     },
     "missing-out": {
       "id": "missing-out",
@@ -54,7 +53,7 @@
       "name": "Outside All the Time",
       "artist": "Steve Slagg",
       "img": "https://i.scdn.co/image/ab67616d0000b2739c98e0751b676018f2fa9c90",
-      "bandcampPath": "https://steveslagg.bandcamp.com/track/outside-all-the-time"
+      "bandcampPath": "https://steveslagg.bandcamp.com/track/outside-all-the-time-2"
     },
     "dividual-individual": {
       "id": "dividual-individual",
@@ -85,7 +84,7 @@
       "name": "The Insulation",
       "artist": "Menomena",
       "img": "https://i.scdn.co/image/ab67616d0000b273ef0d7f6d88b5b0d5d88c38c8",
-      "bandcampPath": "https://menomena.com/track/copious"
+      "bandcampPath": "https://menomena.bandcamp.com/track/the-insulation"
     },
     "lord-make-me-a-scorpion": {
       "id": "lord-make-me-a-scorpion",
@@ -125,7 +124,7 @@
       "name": "Light On",
       "artist": "Dehd",
       "img": "https://i.scdn.co/image/ab67616d0000b273b76d0be829a3eff9e6ac9475",
-      "bandcampPath": "https://deadvoicesonair.bandcamp.com/album/sero-eight"
+      "bandcampPath": "https://dehdforever.bandcamp.com/track/light-on"
     },
     "feline-wave-race": {
       "id": "feline-wave-race",
@@ -141,7 +140,7 @@
       "name": "I Missed the Bus Man",
       "artist": "Jonny's Day Out",
       "img": "https://i.scdn.co/image/ab67616d0000b273af6a08de41c6c21b5e0a0a13",
-      "bandcampPath": "https://jonnysdayout.bandcamp.com/track/i-missed-the-bus-man-2"
+      "bandcampPath": "https://jonnysdayout.bandcamp.com/track/i-missed-the-bus-man"
     },
     "ctrl-alt-del": {
       "id": "ctrl-alt-del",
@@ -196,7 +195,7 @@
       "name": "Eso Que Tu Haces",
       "artist": "Lido Pimienta",
       "img": "https://i.scdn.co/image/ab67616d0000b273802fedd4354077a836e6a3e2",
-      "bandcampPath": "https://tropikalbroders.bandcamp.com/track/lido-pimienta-eso-que-tu-haces-tropikal-broders-pablo-messier-remix"
+      "bandcampPath": "https://lidopimienta.bandcamp.com/track/eso-que-tu-haces"
     }
   }
 }

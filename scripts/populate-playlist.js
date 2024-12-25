@@ -15,6 +15,7 @@ function populateBandcampLinks(playlist, previousEntries) {
 			if (previousEntries && previousEntries.tracks[track.id]) {
 				// we've already looked up this track
 				track.bandcampPath = previousEntries.tracks[track.id].bandcampPath;
+				return;
 			}
 			let { name, artist } = track;
 			name = name.toLowerCase();
