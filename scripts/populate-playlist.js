@@ -27,8 +27,9 @@ function populateBandcampLinks(playlist) {
 	return bandcampPromise;
 }
 
-async function populatePageDescriptions(id, playlist) {
-	const path = resolvePath('src', 'lib', 'playlist-data', 'page-blurbs', id);
+async function populatePageDescriptions(playlist) {
+	const { slug } = playlist;
+	const path = resolvePath('src', 'lib', 'playlist-data', 'page-blurbs', slug);
 	const dir = readdirSync(path);
 	await Promise.all(
 		dir.map(async (filename) => {
@@ -49,7 +50,7 @@ async function populatePlaylistPage(id) {
 	const slug = process.env.PLAYLIST_SLUG;
 	const playlist = await getPlaylist(id, slug);
 	await populateBandcampLinks(playlist);
-	await populatePageDescriptions(id, playlist);
+	await populatePageDescriptions(playlist);
 
 	const path = resolvePath('src', 'lib', 'playlist-data', 'raw', `${slug}.json`);
 
