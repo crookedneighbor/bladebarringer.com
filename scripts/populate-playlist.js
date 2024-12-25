@@ -46,11 +46,12 @@ async function populatePageDescriptions(id, playlist) {
 }
 
 async function populatePlaylistPage(id) {
+	const slug = process.env.PLAYLIST_SLUG;
 	const playlist = await getPlaylist(id);
 	await populateBandcampLinks(playlist);
 	await populatePageDescriptions(id, playlist);
 
-	const path = resolvePath('src', 'lib', 'playlist-data', 'raw', `${id}.json`);
+	const path = resolvePath('src', 'lib', 'playlist-data', 'raw', `${slug}.json`);
 
 	writeFileSync(path, JSON.stringify(playlist, null, 2), 'utf8');
 
