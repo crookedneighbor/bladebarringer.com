@@ -12,6 +12,7 @@ export async function load({ params }) {
 			playlist: playlistToArray(playlist)
 		};
 	} catch (e) {
+		console.error(e);
 		error(404, 'Not Found');
 	}
 }
