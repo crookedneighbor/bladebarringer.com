@@ -2,13 +2,13 @@ import { getAccessToken } from './access-token.js';
 
 export async function getPlaylist(id, slug) {
 	const accessToken = await getAccessToken();
-	const data = await fetch(`https://api.spotify.com/v1/playlists/${id}/tracks`, {
+	const data = await fetch(`https://api.spotify.com/v1/playlists/${id}`, {
 		headers: {
 			Authorization: `Bearer ${accessToken}`
 		}
 	}).then((res) => res.json());
 
-	const formattedTracks = data.items.reduce((tracks, { track }, index) => {
+	const formattedTracks = data.tracks.items.reduce((tracks, { track }, index) => {
 		const id = track.name
 			.toLowerCase()
 			.replace(/[^a-zA-Z\s]/g, '')
@@ -25,7 +25,10 @@ export async function getPlaylist(id, slug) {
 	}, {});
 
 	return {
+		id,
 		slug,
+		name: data.name,
+		image: data.images[0],
 		tracks: formattedTracks
 	};
 }

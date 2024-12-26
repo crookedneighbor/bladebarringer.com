@@ -10,5 +10,7 @@ export interface Track {
 
 export type Playlist = {
 	slug: string;
+	name: string;
+	image: string;
 	tracks: Record<string, Track>;
 };
