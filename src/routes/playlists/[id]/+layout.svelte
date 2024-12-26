@@ -1,9 +1,10 @@
 <script lang="ts">
 	import { onNavigate } from '$app/navigation';
+	import SpotifyPlayer from '$lib/components/SpotifyPlayer/SpotifyPlayer.svelte';
 	import { createHoverProps, hovered } from './hovered-state.svelte.js';
 
 	let { data, children } = $props();
-	let playlist = $derived(data.playlist);
+	let { spotifyPlayerID, playlist } = $derived(data);
 	let slotContainer: HTMLDivElement;
 
 	onNavigate((navigation) => {
@@ -24,18 +25,7 @@
 		<h1>2024 Playlist</h1>
 		<p>Premable</p>
 
-		<div class="player">
-			<iframe
-				style="border-radius:12px"
-				src="https://open.spotify.com/embed/playlist/0zRFBHvgpkp0OpCS22UwvS?utm_source=generator&theme=0"
-				width="100%"
-				height="152"
-				frameBorder="0"
-				allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-				loading="lazy"
-				title="Embededed Playlist"
-			></iframe>
-		</div>
+		<SpotifyPlayer id={spotifyPlayerID} />
 		<ul class="py-4">
 			{#each playlist as card}
 				<li>

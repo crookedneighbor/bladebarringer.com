@@ -7,6 +7,7 @@ export async function load({ params }) {
 	try {
 		const playlist = await import(`$lib/playlist-data/raw/${id}.json`);
 		return {
+			spotifyPlayerID: playlist.id,
 			tracks: playlist.tracks,
 			playlist: playlistToArray(playlist)
 		};
