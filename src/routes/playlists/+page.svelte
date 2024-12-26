@@ -1,3 +1,14 @@
+<script lang="ts">
+	let { data } = $props();
+	let { playlists } = $derived(data);
+</script>
+
 <ul>
-	<li><a href="/playlists/2024">2024</a></li>
+	{#each playlists as playlist}
+		<li>
+			<a href={`/playlists/${playlist.slug}`}
+				><img src={playlist.image.url} alt={playlist.name} /></a
+			>
+		</li>
+	{/each}
 </ul>
