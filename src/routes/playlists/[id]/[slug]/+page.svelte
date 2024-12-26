@@ -1,6 +1,6 @@
 <script lang="ts">
 	let { data } = $props();
-	let { id, img, artist, number, name, pageContent, bandcampPath } = $derived(data.track);
+	let { id, img, artist, number, name, bandcampPath } = $derived(data.track);
 </script>
 
 <div class="song-container" style={'view-transition-name: ' + id}>
@@ -13,7 +13,7 @@
 		{/if}
 		<hr />
 		<!-- pulled from playlist-data/page-blurbs -->
-		{@html pageContent}
+		{@render data.pageBlurb()}
 	</div>
 </div>
 

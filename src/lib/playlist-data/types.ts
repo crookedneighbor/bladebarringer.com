@@ -4,7 +4,6 @@ export interface Track {
 	name: string;
 	artist: string;
 	img: string;
-	pageContent?: string;
 	bandcampPath?: string;
 }
 

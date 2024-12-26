@@ -7,7 +7,10 @@ export async function load({ parent, params }) {
 		return error(404, 'Not Found');
 	}
 
+	const pageBlurb = await import(`$lib/playlist-data/page-blurbs/${params.id}/${params.slug}.svx`);
+
 	return {
-		track
+		track,
+		pageBlurb: pageBlurb.default
 	};
 }

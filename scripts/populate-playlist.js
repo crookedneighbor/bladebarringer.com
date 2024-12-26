@@ -1,8 +1,7 @@
 import 'dotenv/config';
-import { compile } from 'mdsvex';
 import { getPlaylist } from './spotify/playlist.js';
 import { lookupArtist } from './bandcamp/lookup-artist.js';
-import { writeFileSync, readdirSync, readFileSync, existsSync } from 'node:fs';
+import { writeFileSync, readFileSync, existsSync } from 'node:fs';
 import { resolve as resolvePath } from 'node:path';
 
 const PLAYLIST_ID = process.env.PLAYLIST_ID;
@@ -35,16 +34,12 @@ function populateBandcampLinks(playlist, previousEntries) {
 async function populatePageDescriptions(playlist) {
 	const { slug } = playlist;
 	const path = resolvePath('src', 'lib', 'playlist-data', 'page-blurbs', slug);
-	const dir = readdirSync(path);
 	await Promise.all(
 		Object.values(playlist.tracks).map(async (track) => {
 			const pathToFile = resolvePath(path, `${track.id}.svx`);
 			if (!existsSync(pathToFile)) {
 				writeFileSync(pathToFile, 'TODO', 'utf-8');
 			}
-			const raw = readFileSync(pathToFile, 'utf-8');
-			const transformedCode = await compile(raw);
-			track.pageContent = transformedCode.code;
 		})
 	);
 }
