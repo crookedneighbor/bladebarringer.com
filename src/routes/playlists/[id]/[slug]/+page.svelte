@@ -5,7 +5,9 @@
 
 <div class="song-container" style={'view-transition-name: ' + id}>
 	<div class="cover" style={`background-image: url(${img}); view-transition-name: ${id}-img`}></div>
-	<div class="info prose">
+	<div
+		class="info prose prose-quoteless prose-blockquote:not-italic prose-blockquote:whitespace-pre-wrap prose-blockquote:text-2xl"
+	>
 		<h1>{number}. {name}</h1>
 		<div class="artist">{artist}</div>
 		{#if bandcampPath}
@@ -33,9 +35,5 @@
 
 	.buy-on-bandcamp {
 		@apply py-2 border-b;
-	}
-
-	ul {
-		@apply list-disc;
 	}
 </style>

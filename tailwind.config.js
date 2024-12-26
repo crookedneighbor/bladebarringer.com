@@ -4,7 +4,16 @@ import typography from '@tailwindcss/typography';
 export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
 	theme: {
-		extend: {}
+		extend: {
+			typography: {
+				quoteless: {
+					css: {
+						'blockquote p::before': { content: 'none' },
+						'blockquote p::after': { content: 'none' }
+					}
+				}
+			}
+		}
 	},
 	plugins: [typography]
 };
