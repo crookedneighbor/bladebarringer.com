@@ -4,7 +4,12 @@ I started a new job at [Splice](https://splice.com) this year, after being laid 
 - brian is really great
 - love the vibes
 
-> One, two, three, four
-> I count mountains
-> One, two, three, counter
-> You're a cool thing, count mountains
+> foo
+> bar
+
+```
+One, two, three, four
+I count mountains
+One, two, three, counter
+You're a cool thing, count mountains
+```

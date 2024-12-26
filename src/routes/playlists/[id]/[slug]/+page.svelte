@@ -5,14 +5,12 @@
 
 <div class="song-container" style={'view-transition-name: ' + id}>
 	<div class="cover" style={`background-image: url(${img}); view-transition-name: ${id}-img`}></div>
-	<div class="info">
+	<div class="info prose">
 		<h1>{number}. {name}</h1>
-		<p class="artist">{artist}</p>
+		<div class="artist">{artist}</div>
 		{#if bandcampPath}
-			<p><a href={bandcampPath} target="_blank">Buy on Bandcamp</a></p>
+			<div class="buy-on-bandcamp"><a href={bandcampPath} target="_blank">Buy on Bandcamp</a></div>
 		{/if}
-		<hr />
-		<!-- pulled from playlist-data/page-blurbs -->
 		{@render data.pageBlurb()}
 	</div>
 </div>
@@ -24,14 +22,17 @@
 	.cover {
 		@apply hidden w-full h-96 bg-cover bg-center sm:block;
 	}
+
 	.info {
 		@apply max-w-full bg-white w-full p-4;
 	}
-	h1 {
-		@apply scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl;
-	}
+
 	.artist {
-		@apply mt-2 scroll-m-20 border-b pb-2 text-3xl font-semibold tracking-tight transition-colors first:mt-0;
+		@apply border-b -mt-6 pb-2 text-2xl;
+	}
+
+	.buy-on-bandcamp {
+		@apply py-2 border-b;
 	}
 
 	ul {
