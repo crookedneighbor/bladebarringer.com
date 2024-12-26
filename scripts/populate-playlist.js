@@ -37,16 +37,14 @@ async function populatePageDescriptions(playlist) {
 	const path = resolvePath('src', 'lib', 'playlist-data', 'page-blurbs', slug);
 	const dir = readdirSync(path);
 	await Promise.all(
-		dir.map(async (filename) => {
-			const id = filename.split('.')[0];
-			const raw = readFileSync(resolvePath(path, filename), 'utf-8');
-			const transformedCode = await compile(raw);
-
-			if (!playlist.tracks[id]) {
-				console.error('Could not find id', id);
-				return;
+		Object.values(playlist.tracks).map(async (track) => {
+			const pathToFile = resolvePath(path, `${track.id}.svx`);
+			if (!existsSync(pathToFile)) {
+				writeFileSync(pathToFile, 'TODO', 'utf-8');
 			}
-			playlist.tracks[id].pageContent = transformedCode.code;
+			const raw = readFileSync(pathToFile, 'utf-8');
+			const transformedCode = await compile(raw);
+			track.pageContent = transformedCode.code;
 		})
 	);
 }
