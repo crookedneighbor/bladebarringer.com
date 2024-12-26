@@ -2,11 +2,7 @@
   "id": "0zRFBHvgpkp0OpCS22UwvS",
   "slug": "2024",
   "name": "2024 - Patterns in Repeat",
-  "image": {
-    "height": null,
-    "url": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84c6df90a23a641404322c6aba",
-    "width": null
-  },
+  "image": "https://image-cdn-ak.spotifycdn.com/image/ab67706c0000da84c6df90a23a641404322c6aba",
   "tracks": {
     "barley": {
       "id": "barley",
