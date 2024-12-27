@@ -18,7 +18,8 @@ export async function getPlaylist(id, slug) {
 			number: index + 1,
 			name: track.name,
 			artist: track.artists.map((a) => a.name).join(' | '),
-			img: track.album.images[0].url
+			img: track.album.images[0].url,
+			duration: track.duration_ms
 		};
 
 		return tracks;
