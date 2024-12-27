@@ -1,11 +1,21 @@
 <script lang="ts">
-	import { onNavigate } from '$app/navigation';
-	import SpotifyPlayer from '$lib/components/SpotifyPlayer/SpotifyPlayer.svelte';
+	import { goto, onNavigate } from '$app/navigation';
+	import SpotifyPlayer, { currentPlayer } from '$lib/components/SpotifyPlayer/SpotifyPlayer.svelte';
 	import { createHoverProps, hovered } from './hovered-state.svelte.js';
 
 	let { data, children } = $props();
 	let { spotifyPlayerID, tracks } = $derived(data);
 	let slotContainer: HTMLDivElement;
+
+	function onPlayevent(duration: number) {
+		const foundTrack = tracks.find((t) => t.duration === duration);
+		if (foundTrack) {
+			currentPlayer.songId = foundTrack.id;
+
+			// TODO have option to opt out of this behavior
+			goto(`/playlists/2024/${foundTrack.id}`);
+		}
+	}
 
 	onNavigate((navigation) => {
 		if (!document.startViewTransition) return;
@@ -25,7 +35,7 @@
 		<h1>2024 Playlist</h1>
 		<p>Premable</p>
 
-		<SpotifyPlayer id={spotifyPlayerID} />
+		<SpotifyPlayer id={spotifyPlayerID} {onPlayevent} />
 		<ul class="py-4">
 			{#each tracks as card}
 				<li>
