@@ -1,6 +1,8 @@
 <script lang="ts">
+	import Lyrics from '$lib/components/Lyrics/Lyrics.svelte';
+
 	let { data } = $props();
-	let { id, img, artist, number, name, bandcampPath } = $derived(data.track);
+	let { id, lines, img, artist, number, name, bandcampPath } = $derived(data.track);
 </script>
 
 <div class="song-container" style={'view-transition-name: ' + id}>
@@ -14,6 +16,8 @@
 			<div class="buy-on-bandcamp"><a href={bandcampPath} target="_blank">Buy on Bandcamp</a></div>
 		{/if}
 		{@render data.pageBlurb()}
+
+		<Lyrics {lines} {id} />
 	</div>
 </div>
 
