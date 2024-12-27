@@ -15,6 +15,7 @@ export async function getPlaylist(id, slug) {
 			.replaceAll(' ', '-');
 		tracks[id] = {
 			id,
+			spotifyID: track.id,
 			number: index + 1,
 			name: track.name,
 			artist: track.artists.map((a) => a.name).join(' | '),
