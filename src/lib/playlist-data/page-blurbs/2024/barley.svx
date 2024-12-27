@@ -1,3 +1,12 @@
+---
+id: barley
+number: 1
+name: Barley
+artist: Water From Your Eyes
+img: https://i.scdn.co/image/ab67616d0000b2733456a000dc303a94002cae6b
+bandcampPath: https://waterfromyoureyes.bandcamp.com/track/barley-1
+---
+
 I started a new job at [Splice](https://splice.com) at the beginning of this year, after being laid off from [Bandcamp](https://bandcamp.com/) when [Epic Games sold the company to Songtradr](https://www.404media.co/bandcamps-entire-union-bargaining-team-was-laid-off/) amid contract negotations with our newly unionzed company. I had joined Bandcamp after spending about 8 years at [Braintree](<https://en.wikipedia.org/wiki/Braintree_(company)>), so happy to move into a new role where I could actively work on a product that functioned to support musicians - only to be dropped from that job within a year.
 
 Thankfully, through the generous help from a coworker I met at Bandcamp, I was able to interview for a job at Splice, where I worked under [Brian](https://bsky.app/profile/brianloveswords.com), my new grandboss - who posted this song.

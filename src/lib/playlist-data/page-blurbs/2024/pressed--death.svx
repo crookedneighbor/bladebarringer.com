@@ -1,2 +1,11 @@
+---
+id: pressed--death
+number: 20
+name: Pressed 2 Death
+artist: illuminati hotties
+img: https://i.scdn.co/image/ab67616d0000b27306c54b44a25d2252bdf6a1f8
+bandcampPath: https://illuminatihotties.bandcamp.com/track/pressed-2-death
+---
+
 - vibes
 - playful

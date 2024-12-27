@@ -1,2 +1,11 @@
+---
+id: patterns
+number: 22
+name: Patterns
+artist: Laura Marling
+img: https://i.scdn.co/image/ab67616d0000b2730c09e756637b2bf170ece934
+bandcampPath: https://lauramarling.bandcamp.com/track/patterns
+---
+
 - vibes
 - songwriter

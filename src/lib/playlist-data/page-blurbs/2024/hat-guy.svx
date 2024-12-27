@@ -1,1 +1,10 @@
+---
+id: hat-guy
+number: 23
+name: Hat Guy
+artist: Office Culture
+img: https://i.scdn.co/image/ab67616d0000b2733bb5511152d3c9c9f32d018e
+bandcampPath: https://officeculture.bandcamp.com/track/hat-guy
+---
+
 Confession: I'm a hat guy

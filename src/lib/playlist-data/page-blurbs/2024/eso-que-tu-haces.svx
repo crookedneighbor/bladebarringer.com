@@ -1,2 +1,11 @@
+---
+id: eso-que-tu-haces
+number: 25
+name: Eso Que Tu Haces
+artist: Lido Pimienta
+img: https://i.scdn.co/image/ab67616d0000b273802fedd4354077a836e6a3e2
+bandcampPath: https://lidopimienta.bandcamp.com/track/eso-que-tu-haces
+---
+
 - Sue (or Kristin?)
 - don't speak the language, but the chrous is just gorgeous

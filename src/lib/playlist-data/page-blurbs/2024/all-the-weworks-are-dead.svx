@@ -1,1 +1,10 @@
+---
+id: all-the-weworks-are-dead
+number: 24
+name: All the WeWorks Are Dead!
+artist: Sun Kin
+img: https://i.scdn.co/image/ab67616d0000b273c2d1a41ac6b1d3d803edbd05
+bandcampPath: https://sunraykin.bandcamp.com/track/all-the-weworks-are-dead
+---
+
 - this one makes me smile

@@ -1,3 +1,12 @@
+---
+id: nothing-changes
+number: 13
+name: Nothing Changes
+artist: MGMT
+img: https://i.scdn.co/image/ab67616d0000b2731fd336bd388a632180e721d8
+bandcampPath: https://mgmt.bandcamp.com/track/nothing-changes
+---
+
 Part way through the year, I was very ill for several days, and I binged [Battlestar Gallactica](<https://en.wikipedia.org/wiki/Battlestar_Galactica_(2004_TV_series)>) while stuck in bed.
 
 > This is what the gods must have been talking about

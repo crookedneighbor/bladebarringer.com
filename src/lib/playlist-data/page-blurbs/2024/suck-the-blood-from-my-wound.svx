@@ -1,3 +1,12 @@
+---
+id: suck-the-blood-from-my-wound
+number: 4
+name: Suck the Blood from My Wound
+artist: Ezra Furman
+img: https://i.scdn.co/image/ab67616d0000b273b5a72c295b43659b6668d236
+bandcampPath: https://ezrafurman.bandcamp.com/track/suck-the-blood-from-my-wound
+---
+
 Weird, non-musical, things at the beginning or ends of songs usually bug me when included in a playlist, but every once in a while, I find a song that I vibe with so much that I can't help but include it. This is one of those songs.
 
 There's so many good rhymes in this song:

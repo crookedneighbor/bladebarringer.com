@@ -1,1 +1,10 @@
+---
+id: ctrl-alt-del
+number: 19
+name: Ctrl Alt Del
+artist: Ciaran Lavery | Liz Lawrence
+img: https://i.scdn.co/image/ab67616d0000b273526de9cc89cb263edb24281d
+bandcampPath: undefined
+---
+
 - love the meditative aspect here

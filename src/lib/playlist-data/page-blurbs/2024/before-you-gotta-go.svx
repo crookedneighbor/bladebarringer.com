@@ -1,2 +1,11 @@
+---
+id: before-you-gotta-go
+number: 9
+name: Before You Gotta Go
+artist: Courtney Barnett
+img: https://i.scdn.co/image/ab67616d0000b27305f1904e84048385bd801ac7
+bandcampPath: https://courtneybarnett.bandcamp.com/track/before-you-gotta-go
+---
+
 - advant gardener
 - love the hook

@@ -1,3 +1,12 @@
+---
+id: talk-is-cheap
+number: 6
+name: Talk is Cheap
+artist: Dr. Dog
+img: https://i.scdn.co/image/ab67616d0000b273a78d270cd44975ba7eb9cb71
+bandcampPath: undefined
+---
+
 Love the variety of sections in this song, and the "Talk is cheap" hook just hits me just right.
 
 - connection to my life somehow

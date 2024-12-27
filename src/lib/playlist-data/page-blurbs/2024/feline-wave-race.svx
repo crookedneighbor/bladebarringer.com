@@ -1,2 +1,11 @@
+---
+id: feline-wave-race
+number: 17
+name: Feline Wave Race
+artist: Nap Eyes
+img: https://i.scdn.co/image/ab67616d0000b273e291392b8935a7406d7530e3
+bandcampPath: https://napeyes.bandcamp.com/track/feline-wave-race
+---
+
 - dreamy
 - N64 wave race

@@ -1,3 +1,12 @@
+---
+id: connect
+number: 10
+name: Connect
+artist: Vampire Weekend
+img: https://i.scdn.co/image/ab67616d0000b2731f4e2d002b9d1920339a5109
+bandcampPath: undefined
+---
+
 [Vampire Weekend](https://www.vampireweekend.com/) put out a [great album this year](https://vampireweekend.store/collections/frontpage/products/only-god-was-above-us-cd), and there are many songs from it I enjoyed. It really came down to this one, or [Classical](https://open.spotify.com/track/4DlGLD32K7shuL8ub067DL?si=75977d54f86b4f20).
 
 I love the piano on this song, the production, the structure, everything.

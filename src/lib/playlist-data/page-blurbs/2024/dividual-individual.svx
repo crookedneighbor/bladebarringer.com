@@ -1,3 +1,12 @@
+---
+id: dividual-individual
+number: 8
+name: Dividual Individual
+artist: Yama Warashi
+img: https://i.scdn.co/image/ab67616d0000b273f2725fce8be5f4c8122b0d18
+bandcampPath: https://yamawarashi.bandcamp.com/track/dividual-individual
+---
+
 The bass line on this song is just immaculate.
 
 - bass line

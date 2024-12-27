@@ -1,3 +1,12 @@
+---
+id: borrow-trouble
+number: 2
+name: Borrow Trouble
+artist: Feist
+img: https://i.scdn.co/image/ab67616d0000b273d855756a01c29618dac105ca
+bandcampPath: undefined
+---
+
 I had lost track of [Feist](https://listentofeist.com/) for many years, but this song made it's way into Splice's [Music League](https://musicleague.com/) for a round for folk's favorite song of 2023 and it was instantly my favorite.
 
 > I dropped like a stone
