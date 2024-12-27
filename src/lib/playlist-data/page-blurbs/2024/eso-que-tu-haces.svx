@@ -6,6 +6,7 @@ name: Eso Que Tu Haces
 artist: Lido Pimienta
 img: https://i.scdn.co/image/ab67616d0000b273802fedd4354077a836e6a3e2
 duration: 273067
+bandcampPath: https://lidopimienta.bandcamp.com/track/eso-que-tu-haces
 lines: [
    { position: 35960, words: "Hoy te vi" },
    { position: 41750, words: "Sentada en la arena" },

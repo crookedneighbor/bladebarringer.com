@@ -6,6 +6,7 @@ name: Fire Excape
 artist: Zsela
 img: https://i.scdn.co/image/ab67616d0000b273159ede86b6de7edf50f76264
 duration: 198184
+bandcampPath: https://zselaofficial.bandcamp.com/track/fire-excape
 lines: [
    { position: 2580, words: "It's a pretty old town" },
    { position: 4440, words: "Where the hearts do well" },

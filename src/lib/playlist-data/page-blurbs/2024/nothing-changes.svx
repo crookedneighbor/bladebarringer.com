@@ -6,6 +6,7 @@ name: Nothing Changes
 artist: MGMT
 img: https://i.scdn.co/image/ab67616d0000b2731fd336bd388a632180e721d8
 duration: 395093
+bandcampPath: https://mgmt.bandcamp.com/track/nothing-changes
 lines: [
    { position: 78610, words: "This is what the gods must have been talking about" },
    { position: 86740, words: "When they told me, \"Nothing changes\"" },

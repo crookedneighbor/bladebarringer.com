@@ -6,6 +6,7 @@ name: Barley
 artist: Water From Your Eyes
 img: https://i.scdn.co/image/ab67616d0000b2733456a000dc303a94002cae6b
 duration: 209021
+bandcampPath: https://waterfromyoureyes.bandcamp.com/track/barley-1
 lines: [
    { position: 2460, words: "One, two, three, four" },
    { position: 4380, words: "I count mountains" },

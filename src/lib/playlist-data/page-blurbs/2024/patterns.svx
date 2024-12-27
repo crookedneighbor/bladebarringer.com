@@ -6,6 +6,7 @@ name: Patterns
 artist: Laura Marling
 img: https://i.scdn.co/image/ab67616d0000b2730c09e756637b2bf170ece934
 duration: 260509
+bandcampPath: https://lauramarling.bandcamp.com/track/patterns
 lines: [
    { position: 19650, words: "Zena, you've squared your toes" },
    { position: 28940, words: "But your family nose hangs around" },

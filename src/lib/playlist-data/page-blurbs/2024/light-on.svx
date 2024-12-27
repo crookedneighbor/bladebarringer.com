@@ -6,6 +6,7 @@ name: Light On
 artist: Dehd
 img: https://i.scdn.co/image/ab67616d0000b273b76d0be829a3eff9e6ac9475
 duration: 233463
+bandcampPath: https://dehdforever.bandcamp.com/track/light-on
 lines: [
    { position: 32540, words: "No lie, I couldn't stand the look on your face" },
    { position: 36950, words: "Like it'll never be okay" },
