@@ -1,0 +1,8 @@
+---
+id: 0zRFBHvgpkp0OpCS22UwvS
+slug: 2024
+name: 2024 - Patterns in Repeat
+image: https://image-cdn-fa.spotifycdn.com/image/ab67706c0000da84c6df90a23a641404322c6aba
+---
+
+TODO

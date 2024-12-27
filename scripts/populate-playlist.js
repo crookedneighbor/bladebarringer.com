@@ -7,24 +7,70 @@ import { compile } from 'mdsvex';
 
 const PLAYLIST_ID = process.env.PLAYLIST_ID;
 
+async function parseSVX(pathToFile) {
+	const existingFileData = readFileSync(pathToFile, 'utf-8');
+	let page = existingFileData.split('---\n').at(-1);
+	if (!existingFileData.startsWith('---')) {
+		page = `\n${page}`;
+	}
+	const { data } = await compile(existingFileData);
+
+	return {
+		page,
+		metadata: data.fm || {}
+	};
+}
+
+async function writeSVX(pathToFile, pageData, obj) {
+	const metadata = Object.keys(obj).reduce((str, key) => {
+		if (str) {
+			str += '\n';
+		}
+		str += `${key}: ${obj[key]}`;
+		return str;
+	}, '');
+	writeFileSync(
+		pathToFile,
+		`---
+${metadata}
+---
+${pageData}`,
+		'utf-8'
+	);
+}
+
 async function populatePageDescriptions(playlist) {
 	const { slug } = playlist;
 	const path = resolvePath('src', 'lib', 'playlist-data', 'page-blurbs', slug);
+	const indexPath = resolvePath(path, 'index.svx');
+	let indexPage = `
+TODO`;
+
+	const indexPageData = {
+		...playlist
+	};
+	delete indexPageData.tracks;
+
+	if (existsSync(indexPath)) {
+		const { page, metadata } = await parseSVX(indexPath);
+		indexPage = page;
+		// overrides
+		indexPageData.name = metadata.name;
+	}
+
+	writeSVX(indexPath, indexPage, indexPageData);
+
 	await Promise.all(
 		Object.values(playlist.tracks).map(async (track) => {
 			const pathToFile = resolvePath(path, `${track.id}.svx`);
 			let pageData = `
 TODO`;
 			if (existsSync(pathToFile)) {
-				const existingFileData = readFileSync(pathToFile, 'utf-8');
-				pageData = existingFileData.split('---\n').at(-1);
-				if (!existingFileData.startsWith('---')) {
-					pageData = `\n${pageData}`;
-				}
-				const { data } = await compile(existingFileData);
+				const { page, metadata } = await parseSVX(pathToFile);
+				pageData = page;
 				// overwrite the fields if they already exist
-				if (data.fm?.bandcampPath) {
-					track.bandcampPath = data.fm.bandcampPath;
+				if (metadata.bandcampPath) {
+					track.bandcampPath = metadata.bandcampPath;
 				}
 			} else {
 				let { name, artist } = track;
@@ -36,32 +82,16 @@ TODO`;
 					track.bandcampPath = link;
 				}
 			}
-			const metadata = Object.keys(track).reduce((str, key) => {
-				if (str) {
-					str += '\n';
-				}
-				str += `${key}: ${track[key]}`;
-				return str;
-			}, '');
-			writeFileSync(
-				pathToFile,
-				`---
-${metadata}
----
-${pageData}`,
-				'utf-8'
-			);
+			writeSVX(pathToFile, pageData, track);
 		})
 	);
 }
 
 async function populatePlaylistPage(id) {
 	const slug = process.env.PLAYLIST_SLUG;
-	const path = resolvePath('src', 'lib', 'playlist-data', 'raw', `${slug}.json`);
+	const path = resolvePath('src', 'lib', 'playlist-data', 'page-blurbs', slug, 'index.svx');
 	const playlist = await getPlaylist(id, slug);
 	await populatePageDescriptions(playlist);
-
-	writeFileSync(path, JSON.stringify(playlist, null, 2), 'utf8');
 
 	console.log('Finished writing playlist to', path);
 }
