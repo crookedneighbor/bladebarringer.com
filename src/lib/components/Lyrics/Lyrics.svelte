@@ -1,8 +1,9 @@
 <script lang="ts">
 	import { currentPlayer } from '$lib/components/SpotifyPlayer/SpotifyPlayer.svelte';
 	interface Line {
-		position: number;
-		words: string;
+		position?: number;
+		words?: string;
+		spacer?: boolean;
 	}
 	interface Props {
 		lines: Line[];
@@ -14,9 +15,13 @@
 
 <blockquote>
 	{#each lines as line}
-		<p class:highlighted={thisSong && currentPlayer.position >= line.position}>
-			{line.words}
-		</p>
+		{#if line.spacer}
+			<div class="h-4"></div>
+		{:else if line.words}
+			<p class:highlighted={thisSong && currentPlayer.position >= line.position}>
+				{line.words}
+			</p>
+		{/if}
 	{/each}
 </blockquote>
 
