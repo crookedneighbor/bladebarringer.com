@@ -4,6 +4,7 @@ import { lookupArtist } from './bandcamp/lookup-artist.js';
 import { writeFileSync, readFileSync, existsSync } from 'node:fs';
 import { resolve as resolvePath } from 'node:path';
 import { compile } from 'mdsvex';
+import { getLyrics } from './spotify/lyrics.js';
 
 const PLAYLIST_ID = process.env.PLAYLIST_ID;
 
@@ -21,12 +22,29 @@ async function parseSVX(pathToFile) {
 	};
 }
 
+function formatValue(val) {
+	if (Array.isArray(val)) {
+		const values = val
+			.map((v) => {
+				return ` { ${Object.entries(v)
+					.map(([key, val]) => `${key}: ${JSON.stringify(val)}`)
+					.join(', ')} }`;
+			})
+			.join(',\n  ');
+		return `[
+  ${values}
+]`;
+	}
+	return String(val);
+}
+
 async function writeSVX(pathToFile, pageData, obj) {
 	const metadata = Object.keys(obj).reduce((str, key) => {
+		const value = formatValue(obj[key]);
 		if (str) {
 			str += '\n';
 		}
-		str += `${key}: ${obj[key]}`;
+		str += `${key}: ${value}`;
 		return str;
 	}, '');
 	writeFileSync(
@@ -72,15 +90,21 @@ TODO`;
 				if (metadata.bandcampPath) {
 					track.bandcampPath = metadata.bandcampPath;
 				}
+				if (metadata.lines) {
+					track.lines = metadata.lines;
+				}
 			} else {
 				let { name, artist } = track;
 				name = name.toLowerCase();
 				artist = artist.split(' | ')[0].toLowerCase();
-				const link = await lookupArtist(artist, name);
 
-				if (link) {
-					track.bandcampPath = link;
+				const bandcampLink = await lookupArtist(artist, name);
+				if (bandcampLink) {
+					track.bandcampPath = bandcampLink;
 				}
+
+				const lyrics = await getLyrics(track.spotifyID);
+				track.lines = lyrics ?? [{ words: 'TODO', position: 0 }];
 			}
 			writeSVX(pathToFile, pageData, track);
 		})
@@ -90,6 +114,7 @@ TODO`;
 async function populatePlaylistPage(id) {
 	const slug = process.env.PLAYLIST_SLUG;
 	const playlist = await getPlaylist(id, slug);
+
 	await populatePageDescriptions(playlist);
 }
 
