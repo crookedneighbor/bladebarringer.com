@@ -1,24 +1,20 @@
-import { fontFamily } from 'tailwindcss/defaultTheme';
-import type { Config } from 'tailwindcss';
+import typography from '@tailwindcss/typography';
 
-const config: Config = {
-	darkMode: ['class'],
+/** @type {import('tailwindcss').Config} */
+export default {
 	content: ['./src/**/*.{html,js,svelte,ts}'],
-	safelist: ['dark'],
 	theme: {
-		container: {
-			center: true,
-			padding: '2rem',
-			screens: {
-				'2xl': '1400px'
-			}
-		},
 		extend: {
-			fontFamily: {
-				sans: [...fontFamily.sans]
+			typography: {
+				quoteless: {
+					css: {
+						'blockquote p': { margin: 0 },
+						'blockquote p::before': { content: 'none' },
+						'blockquote p::after': { content: 'none' }
+					}
+				}
 			}
 		}
-	}
+	},
+	plugins: [typography]
 };
-
-export default config;
