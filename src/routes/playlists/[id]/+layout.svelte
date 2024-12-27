@@ -4,7 +4,7 @@
 	import { createHoverProps, hovered } from './hovered-state.svelte.js';
 
 	let { data, children } = $props();
-	let { spotifyPlayerID, playlist } = $derived(data);
+	let { spotifyPlayerID, tracks } = $derived(data);
 	let slotContainer: HTMLDivElement;
 
 	onNavigate((navigation) => {
@@ -27,7 +27,7 @@
 
 		<SpotifyPlayer id={spotifyPlayerID} />
 		<ul class="py-4">
-			{#each playlist as card}
+			{#each tracks as card}
 				<li>
 					<a
 						{...createHoverProps(card.id)}

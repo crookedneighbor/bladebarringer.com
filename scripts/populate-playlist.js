@@ -47,9 +47,9 @@ async function populatePageDescriptions(playlist) {
 TODO`;
 
 	const indexPageData = {
-		...playlist
+		...playlist,
+		tracks: Object.keys(playlist.tracks).join('|')
 	};
-	delete indexPageData.tracks;
 
 	if (existsSync(indexPath)) {
 		const { page, metadata } = await parseSVX(indexPath);
@@ -89,11 +89,8 @@ TODO`;
 
 async function populatePlaylistPage(id) {
 	const slug = process.env.PLAYLIST_SLUG;
-	const path = resolvePath('src', 'lib', 'playlist-data', 'page-blurbs', slug, 'index.svx');
 	const playlist = await getPlaylist(id, slug);
 	await populatePageDescriptions(playlist);
-
-	console.log('Finished writing playlist to', path);
 }
 
 populatePlaylistPage(PLAYLIST_ID);

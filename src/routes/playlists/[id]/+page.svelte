@@ -2,11 +2,11 @@
 	import { createHoverProps, hovered } from './hovered-state.svelte.js';
 
 	let { data } = $props();
-	let playlist = $derived(data.playlist);
+	let { tracks } = $derived(data);
 </script>
 
 <div class="album-arts">
-	{#each playlist as track}
+	{#each tracks as track}
 		<div class="track" style={'view-transition-name: ' + track.id}>
 			<a
 				href={`/playlists/2024/${track.id}`}

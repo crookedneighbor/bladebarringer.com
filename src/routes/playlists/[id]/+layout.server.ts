@@ -1,15 +1,24 @@
-import { playlistToArray } from '$lib/playlist-data';
 import { error } from '@sveltejs/kit';
 
 export async function load({ params }) {
 	const { id } = params;
 
 	try {
-		const playlist = await import(`$lib/playlist-data/raw/${id}.json`);
+		const { metadata } = await import(`$lib/playlist-data/page-blurbs/${id}/index.svx`);
+		const trackIDs = (metadata.tracks as string).split('|');
+		const tracks = await Promise.all(
+			trackIDs.map(async (trackID) => {
+				const { metadata } = await import(`$lib/playlist-data/page-blurbs/${id}/${trackID}.svx`);
+				return metadata;
+			})
+		);
+		tracks.sort((a, b) => {
+			return a.number > b.number ? 1 : -1;
+		});
+
 		return {
-			spotifyPlayerID: playlist.id,
-			tracks: playlist.tracks,
-			playlist: playlistToArray(playlist)
+			spotifyPlayerID: metadata.id,
+			tracks
 		};
 	} catch (e) {
 		console.error(e);
