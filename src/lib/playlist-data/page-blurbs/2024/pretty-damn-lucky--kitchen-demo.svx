@@ -1,1 +1,5 @@
-- sue
+[Sue](https://bsky.app/profile/deathbear.bsky.social) shared this song with me. She is the biggest reason I got a job at Splice.
+
+First, when I was flailing around, Thing is, I bombed my initial interview with the recruiter. I was so depressed in the aftermath of being laid off from Bandcamp, and shook in my confidence as a software engineer, that I struggled through that initial interview. Sue gave me a (metaphorical) kick in the pants and encouraged the hiring manager to give me a chance even though I did not inspire confidence in my interactions with the recruiter. It was what I needed to get out of my funk and get through the rest of the interview process.
+
+And (spoiler), I got the job and had a great year as a frontend engineer working at Splice. So yeah, I feel **pretty damn lucky**.
