@@ -1,10 +1,53 @@
 ---
 id: connect
+spotifyID: 3Oko2TgOzXPLlE2dbbsNKV
 number: 10
 name: Connect
 artist: Vampire Weekend
 img: https://i.scdn.co/image/ab67616d0000b2731f4e2d002b9d1920339a5109
-bandcampPath: undefined
+duration: 310066
+lines: [
+   { position: 18320, words: "The memories don't fade" },
+   { position: 21480, words: "Surprising fate for days, you elegantly wasted" },
+   { position: 27610, words: "" },
+   { position: 30050, words: "Before you lost your spark" },
+   { position: 32820, words: "Took acid in the park while living in a basement" },
+   { position: 40910, words: "Now is it strange I can't connect?" },
+   { position: 43720, words: "It isn't strange, but I could check" },
+   { position: 46790, words: "Walked around to where we kept the box of wires and lately" },
+   { position: 51770, words: "I know once it's lost, it's never found" },
+   { position: 60850, words: "I need it now" },
+   { position: 67140, words: "The grid is buried in the ground" },
+   { position: 72420, words: "Hopelessly down" },
+   { position: 77420, words: "♪" },
+   { position: 82650, words: "I read the parking rules" },
+   { position: 85300, words: "As Amsterdam unspooled and trucks sped on ephedrine" },
+   { position: 94180, words: "The things we used to see" },
+   { position: 96960, words: "The sandhogs in the street, the chickens in her bedroom" },
+   { position: 104780, words: "Now is it strange I can't connect?" },
+   { position: 107840, words: "It isn't strange, but I could check" },
+   { position: 110880, words: "Walked around to where we met the first time, overwhelmed, and" },
+   { position: 115720, words: "I know once it's lost, it's never found" },
+   { position: 124850, words: "I need it now" },
+   { position: 131160, words: "The grid is buried in the ground" },
+   { position: 136510, words: "Hopelessly down" },
+   { position: 140810, words: "♪" },
+   { position: 143660, words: "(Need just a sec')" },
+   { position: 146660, words: "♪" },
+   { position: 191050, words: "I know once it's lost, it's never found" },
+   { position: 199630, words: "I need it now" },
+   { position: 206480, words: "The grid is buried in the ground" },
+   { position: 211640, words: "Hopelessly down" },
+   { position: 216700, words: "" },
+   { position: 218990, words: "(Need just a sec')" },
+   { position: 221860, words: "♪" },
+   { position: 250220, words: "A country house in June" },
+   { position: 253140, words: "It's happening too soon, your book of revelations" },
+   { position: 259700, words: "" },
+   { position: 261780, words: "We can't unmake the bed" },
+   { position: 264650, words: "We used the chair instead and called it a vacation" },
+   { position: 269970, words: "" }
+]
 ---
 
 [Vampire Weekend](https://www.vampireweekend.com/) put out a [great album this year](https://vampireweekend.store/collections/frontpage/products/only-god-was-above-us-cd), and there are many songs from it I enjoyed. It really came down to this one, or [Classical](https://open.spotify.com/track/4DlGLD32K7shuL8ub067DL?si=75977d54f86b4f20).

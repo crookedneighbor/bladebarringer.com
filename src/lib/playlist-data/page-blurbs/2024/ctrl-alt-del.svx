@@ -1,10 +1,52 @@
 ---
 id: ctrl-alt-del
+spotifyID: 6K9ZAne4Z3yoyM2dGzXXPx
 number: 19
 name: Ctrl Alt Del
 artist: Ciaran Lavery | Liz Lawrence
 img: https://i.scdn.co/image/ab67616d0000b273526de9cc89cb263edb24281d
-bandcampPath: undefined
+duration: 318288
+lines: [
+   { position: 47350, words: "Sleeping alone" },
+   { position: 63150, words: "Losing control" },
+   { position: 78290, words: "Another slow refrain to the same mundane" },
+   { position: 86070, words: "Another blinding lie illuminates the shite" },
+   { position: 94260, words: "Underneath your feet is where you want me to be" },
+   { position: 102070, words: "And you tell my brain to begin again" },
+   { position: 109860, words: "Control alt delete" },
+   { position: 117720, words: "Control alt delete" },
+   { position: 125910, words: "Sleeping alone" },
+   { position: 136730, words: "♪" },
+   { position: 141150, words: "Another lead me on, another \"nothing's wrong\"" },
+   { position: 149040, words: "Another spoonful of disingenuous love" },
+   { position: 157190, words: "And a shirt and tie telling me what's right" },
+   { position: 165050, words: "And how I should see in order to be free" },
+   { position: 172890, words: "Control alt delete" },
+   { position: 176930, words: "♪" },
+   { position: 180720, words: "Control alt delete" },
+   { position: 188580, words: "Control alt delete" },
+   { position: 196430, words: "Control alt delete" },
+   { position: 200470, words: "♪" },
+   { position: 205380, words: "Oh my god, are you on my side?" },
+   { position: 213150, words: "Am I the fool? Oh, my god" },
+   { position: 220730, words: "Thank you for keeping me in the dark" },
+   { position: 224770, words: "Thank you for not making me want anymore" },
+   { position: 228670, words: "Thank you for shielding me from the truth" },
+   { position: 232550, words: "Whatever would I do?" },
+   { position: 236460, words: "Thank you for keeping me in the dark" },
+   { position: 240460, words: "Thank you for not making me want anymore" },
+   { position: 244350, words: "Thank you for shielding me from the truth" },
+   { position: 248360, words: "Whatever would I do?" },
+   { position: 252020, words: "Thank you for keeping me in the dark" },
+   { position: 256290, words: "Thank you for not making me want anymore" },
+   { position: 260130, words: "Thank you for speaking for all the youth" },
+   { position: 263950, words: "Whatever would I do?" },
+   { position: 267940, words: "Thank you for keeping me in the dark" },
+   { position: 271980, words: "Thank you for not making me want anymore" },
+   { position: 275930, words: "Thank you for shielding me from the truth" },
+   { position: 279620, words: "Whatever would I do?" },
+   { position: 281570, words: "" }
+]
 ---
 
 - love the meditative aspect here

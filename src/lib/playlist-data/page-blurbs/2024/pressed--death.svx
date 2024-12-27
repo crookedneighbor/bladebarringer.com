@@ -1,10 +1,44 @@
 ---
 id: pressed--death
+spotifyID: 1C6z6o5AqGi2JSUqYL9NUj
 number: 20
 name: Pressed 2 Death
 artist: illuminati hotties
 img: https://i.scdn.co/image/ab67616d0000b27306c54b44a25d2252bdf6a1f8
-bandcampPath: https://illuminatihotties.bandcamp.com/track/pressed-2-death
+duration: 135026
+lines: [
+   { position: 4480, words: "One, two" },
+   { position: 5950, words: "Pbbbt" },
+   { position: 6010, words: "I wrote a song on your guitar and it sounds like" },
+   { position: 11730, words: "You wrote a song on my guitar and it sounds like shit" },
+   { position: 17410, words: "I traced the freckles on your arm and it felt like" },
+   { position: 20970, words: "Ooh, ooh, ooh" },
+   { position: 23190, words: "You held the fabric of my heart and then" },
+   { position: 26590, words: "Ripped it" },
+   { position: 29190, words: "You only like me when I'm sad" },
+   { position: 34320, words: "You only want me when I'm feeling bad" },
+   { position: 39240, words: "You only like me when I'm sad" },
+   { position: 43380, words: "You only want me when I'm feeling bad" },
+   { position: 46050, words: "Now I'm feeling so bad" },
+   { position: 51040, words: "I'm watching everybody dance from the safe wall" },
+   { position: 56800, words: "You try to act like you don't care" },
+   { position: 58990, words: "But you're smiling" },
+   { position: 62520, words: "I'm talking this close to your ear 'cuz it's" },
+   { position: 65280, words: "Way loud, ugh" },
+   { position: 68250, words: "What's all the hype with cold brew coffee and" },
+   { position: 71620, words: "Kissing in public" },
+   { position: 73510, words: "You only like me when I'm sad" },
+   { position: 79420, words: "You only want me when I'm feeling bad" },
+   { position: 84390, words: "You only like me when I'm sad" },
+   { position: 88770, words: "You only want me when I'm feeling bad" },
+   { position: 92050, words: "Now I'm feeling so bad" },
+   { position: 94440, words: "I'm sad" },
+   { position: 96610, words: "You only want me when I'm feeling bad" },
+   { position: 100350, words: "You only like me when I'm sad" },
+   { position: 103800, words: "You only want me when I'm feeling bad" },
+   { position: 106380, words: "Now I'm feeling so bad" },
+   { position: 109160, words: "" }
+]
 ---
 
 - vibes

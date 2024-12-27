@@ -1,10 +1,65 @@
 ---
 id: barley
+spotifyID: 1kccKNibPNlyCVqhdg8NYE
 number: 1
 name: Barley
 artist: Water From Your Eyes
 img: https://i.scdn.co/image/ab67616d0000b2733456a000dc303a94002cae6b
-bandcampPath: https://waterfromyoureyes.bandcamp.com/track/barley-1
+duration: 209021
+lines: [
+   { position: 2460, words: "One, two, three, four" },
+   { position: 4380, words: "I count mountains" },
+   { position: 7090, words: "One, two, three, counter" },
+   { position: 10570, words: "You're a cool thing, count mountains" },
+   { position: 13100, words: "One, two, three, four" },
+   { position: 16430, words: "I count mountains" },
+   { position: 19110, words: "One, two, three, counter" },
+   { position: 22610, words: "You're a cool thing, count mountains" },
+   { position: 25280, words: "One, two, three, four" },
+   { position: 28700, words: "I count mountains" },
+   { position: 31350, words: "One, two, three, counter" },
+   { position: 34850, words: "You're a cool thing, count mountains" },
+   { position: 39190, words: "♪" },
+   { position: 75260, words: "Shh" },
+   { position: 76950, words: "Okay" },
+   { position: 80380, words: "Jealous sky to tame" },
+   { position: 84660, words: "♪" },
+   { position: 88020, words: "Psst" },
+   { position: 89120, words: "Bounce out" },
+   { position: 92530, words: "West wind left to bounce" },
+   { position: 102380, words: "Click it" },
+   { position: 104730, words: "Came down pick it up" },
+   { position: 111600, words: "Shit" },
+   { position: 115020, words: "Untold" },
+   { position: 116930, words: "\"Walk in fields of gold\"" },
+   { position: 124580, words: "One, two, three, four" },
+   { position: 127870, words: "I count mountains" },
+   { position: 131250, words: "Two, three, four, counter" },
+   { position: 135890, words: "I count mountains" },
+   { position: 137430, words: "One, two, three, eleven" },
+   { position: 140970, words: "You're a cool thing, count mountains" },
+   { position: 144260, words: "(Shh) One, two, three, four (Okay)" },
+   { position: 148150, words: "I count mountains (Jealous sky to tame)" },
+   { position: 150030, words: "One, two, three, counter" },
+   { position: 153050, words: "You're a cool thing, count mountains" },
+   { position: 156540, words: "(Psst) One, two, three, four (Bounce out)" },
+   { position: 159400, words: "I count mountains (West wind left to bounce)" },
+   { position: 163560, words: "One, two, three, counter" },
+   { position: 166070, words: "You're a cool thing, count mountains" },
+   { position: 167810, words: "One, two, three, four (Click it)" },
+   { position: 172180, words: "I count mountains (Came down pick it up)" },
+   { position: 174450, words: "One, two, three, counter" },
+   { position: 177810, words: "You're a cool thing, count mountains" },
+   { position: 180230, words: "(Shit) One, two, three, four (Untold)" },
+   { position: 184110, words: "I count mountains (\"Walk in fields of gold\")" },
+   { position: 186770, words: "One, two, three, counter" },
+   { position: 189590, words: "You're a cool thing, count mountains" },
+   { position: 192290, words: "One, two, three, four" },
+   { position: 195690, words: "I count mountains" },
+   { position: 198320, words: "One, two, three, counter" },
+   { position: 201730, words: "You're a cool thing, count mountains" },
+   { position: 204220, words: "" }
+]
 ---
 
 I started a new job at [Splice](https://splice.com) at the beginning of this year, after being laid off from [Bandcamp](https://bandcamp.com/) when [Epic Games sold the company to Songtradr](https://www.404media.co/bandcamps-entire-union-bargaining-team-was-laid-off/) amid contract negotations with our newly unionzed company. I had joined Bandcamp after spending about 8 years at [Braintree](<https://en.wikipedia.org/wiki/Braintree_(company)>), so happy to move into a new role where I could actively work on a product that functioned to support musicians - only to be dropped from that job within a year.

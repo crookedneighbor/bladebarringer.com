@@ -1,10 +1,70 @@
 ---
 id: suck-the-blood-from-my-wound
+spotifyID: 08udle8t4dGZzQ67AEs8X4
 number: 4
 name: Suck the Blood from My Wound
 artist: Ezra Furman
 img: https://i.scdn.co/image/ab67616d0000b273b5a72c295b43659b6668d236
-bandcampPath: https://ezrafurman.bandcamp.com/track/suck-the-blood-from-my-wound
+duration: 289000
+lines: [
+   { position: 26530, words: "I woke up bleeding in the crock of a tree" },
+   { position: 30080, words: "TV blaring on the wall above the coffee machine" },
+   { position: 34450, words: "Car wash waiting room outside Pasadena" },
+   { position: 37490, words: "I'm sitting waiting for my deus ex machina" },
+   { position: 40850, words: "And I'm forever changed by this chemical burn" },
+   { position: 44890, words: "Skin on my fingers peeling, making way for my new form" },
+   { position: 49470, words: "I grip the steering wheel and picture my angel" },
+   { position: 52680, words: "Climbing out the hospital window" },
+   { position: 55680, words: "Leaving tubes in a tangle" },
+   { position: 64700, words: "Blood on my angel's lips blends in with his make up" },
+   { position: 67940, words: "He's off the premises before his brain's had time to wake up" },
+   { position: 72370, words: "Peeling off bandages to unfold his wings" },
+   { position: 75960, words: "The doctors said they'd have to stay on for another three weeks" },
+   { position: 80260, words: "Fuck it baby, let 'em bruise, let 'em break" },
+   { position: 82910, words: "But bleed, let 'em bleed" },
+   { position: 91340, words: "I'm doing ninety, got to get there and hold him" },
+   { position: 94520, words: "If we can make it across the state line then baby, we're golden" },
+   { position: 99170, words: "Let the law pronounce its petty assertions" },
+   { position: 102410, words: "They've been outsmarted by a couple of urchins" },
+   { position: 105950, words: "And they hurt you bad, man" },
+   { position: 107980, words: "They hurt me too" },
+   { position: 109730, words: "But I'm not about to sit here and watch as they" },
+   { position: 112690, words: "Suck the blood from my wound" },
+   { position: 116150, words: "Suck the blood from my wound" },
+   { position: 119960, words: "Suck the blood from my wound" },
+   { position: 123710, words: "Suck the blood from my wound" },
+   { position: 128180, words: "Ohh man" },
+   { position: 142270, words: "Wrap half the money in your hospital garment" },
+   { position: 145390, words: "We'll stash the rest inside the red Camaro's secret compartment" },
+   { position: 150110, words: "Even the deepest wounds will heal over time" },
+   { position: 153200, words: "I'll run my fingers over your scars and yours over mine" },
+   { position: 157430, words: "They'll never find us if we turn off our phones" },
+   { position: 161190, words: "We're off the grid, we're off our meds" },
+   { position: 163360, words: "We're finally out on our own" },
+   { position: 165220, words: "Now I see colour coming back in your cheeks" },
+   { position: 168530, words: "Angel, don't fight it" },
+   { position: 169950, words: "To them you know we'll always be freaks" },
+   { position: 174600, words: "To them you know we'll always be freaks" },
+   { position: 178310, words: "We'll always" },
+   { position: 187940, words: "Park for the night north west of Baton Rouge" },
+   { position: 191000, words: "Across the parking lot you're stretching the one wing you can move" },
+   { position: 195840, words: "I let you walk as long as fear will allow" },
+   { position: 198720, words: "I never loved you more than I love you now" },
+   { position: 202670, words: "And then we're back on the road before the sun's even up" },
+   { position: 206510, words: "We're making time, we're making progress" },
+   { position: 209530, words: "But progress towards what?" },
+   { position: 210920, words: "Your fallen feathers fill up two shopping bags" },
+   { position: 214330, words: "The future's breathing down the neck of the past" },
+   { position: 217710, words: "And the sun throws a shit-eating shine on the moon" },
+   { position: 221740, words: "And I'm not about to wait for them to come" },
+   { position: 224380, words: "Suck the blood from my wound" },
+   { position: 228000, words: "Suck the blood from my wound" },
+   { position: 232480, words: "Suck the blood from my wound" },
+   { position: 235780, words: "Suck the blood from my wound" },
+   { position: 273760, words: "A plague on both your houses" },
+   { position: 280740, words: "A plague on both your houses" },
+   { position: 287490, words: "" }
+]
 ---
 
 Weird, non-musical, things at the beginning or ends of songs usually bug me when included in a playlist, but every once in a while, I find a song that I vibe with so much that I can't help but include it. This is one of those songs.

@@ -1,10 +1,15 @@
 ---
 id: hat-guy
+spotifyID: 3BCkz6fn8bpZCquOorEsNk
 number: 23
 name: Hat Guy
 artist: Office Culture
 img: https://i.scdn.co/image/ab67616d0000b2733bb5511152d3c9c9f32d018e
+duration: 271200
 bandcampPath: https://officeculture.bandcamp.com/track/hat-guy
+lines: [
+   { words: "TODO", position: 0 }
+]
 ---
 
 Confession: I'm a hat guy

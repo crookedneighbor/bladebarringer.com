@@ -1,10 +1,67 @@
 ---
 id: missing-out
+spotifyID: 2kAYu8GaEILjHWtqYg83TD
 number: 3
 name: Missing Out
 artist: Maya Hawke
 img: https://i.scdn.co/image/ab67616d0000b273e6135c84528c44371e6e0047
-bandcampPath: https://mayahawke.bandcamp.com/track/missing-out
+duration: 217320
+lines: [
+   { position: 11290, words: "Lucy wants to write the next great, American novel" },
+   { position: 15680, words: "She can't even read the bottle" },
+   { position: 18220, words: "She says I might be a genius" },
+   { position: 21420, words: "Well, she could be a model" },
+   { position: 23380, words: "Didn't think I'd get in so I didn't apply" },
+   { position: 27180, words: "Now I'm a drunk hanger-on" },
+   { position: 29500, words: "Hitting on the younger guy" },
+   { position: 31100, words: "I buy booze for the Ivy League" },
+   { position: 32360, words: "For my television salary" },
+   { position: 34130, words: "They think they look up to me, ha" },
+   { position: 36460, words: "I was left like coals in leaves" },
+   { position: 40020, words: "And I sparked up in winter's breeze" },
+   { position: 42950, words: "And, now, I know it's me who's missing out" },
+   { position: 47050, words: "Missing out, missing out, missing out" },
+   { position: 49780, words: "Missing out, missing out, missing out" },
+   { position: 52470, words: "Missing out, missing out, missing out" },
+   { position: 55360, words: "Now, I know it's me who's missing out" },
+   { position: 60370, words: "I was born with my foot in the door" },
+   { position: 64060, words: "And my mind in the gutter" },
+   { position: 65030, words: "And my guts on the floor" },
+   { position: 66910, words: "Holding the party line" },
+   { position: 70050, words: "Embarrassed all the time" },
+   { position: 72750, words: "I remember my potential" },
+   { position: 75380, words: "Before I skipped the fundamentals" },
+   { position: 79150, words: "Before I ran from safety" },
+   { position: 82490, words: "Hoping someone would chase me" },
+   { position: 85020, words: "I was left like coals in leaves" },
+   { position: 87580, words: "And I sparked up in winter's breeze" },
+   { position: 90730, words: "And, now, I know it's me who's missing out" },
+   { position: 94580, words: "Missing out, missing out, missing out" },
+   { position: 97750, words: "Missing out, missing out, missing out" },
+   { position: 100830, words: "Missing out, missing out, missing out" },
+   { position: 103170, words: "Now, I know it's me who's missing out" },
+   { position: 107270, words: "Missing out, missing out" },
+   { position: 109850, words: "Missing out, missing out, missing out" },
+   { position: 112460, words: "Missing out, missing out, missing out" },
+   { position: 115060, words: "Now, I know it's me who's missing out" },
+   { position: 120640, words: "♪" },
+   { position: 144450, words: "I've been someone to talk about" },
+   { position: 147260, words: "I wanna be someone to talk to" },
+   { position: 150620, words: "I've bitten off way more than I can spit out" },
+   { position: 157390, words: "Missing out, missing out, missing out" },
+   { position: 160530, words: "Missing out, missing out, missing out" },
+   { position: 164050, words: "Missing out, missing out, missing out" },
+   { position: 166240, words: "Now, I know it's me who's missing out" },
+   { position: 170680, words: "Missing out, missing out" },
+   { position: 172830, words: "Missing out, missing out, missing out" },
+   { position: 175820, words: "Missing out, missing out, missing out" },
+   { position: 178040, words: "Now, I know it's me who's missing out" },
+   { position: 182700, words: "I'm missing out" },
+   { position: 189180, words: "I'm missing out" },
+   { position: 194970, words: "I'm missing out" },
+   { position: 201020, words: "I'm missing out" },
+   { position: 207130, words: "" }
+]
 ---
 
 Last year, I loved [Sweet Tooth](https://www.youtube.com/watch?v=1YUJ-8V3tx4) by [Maya Hawke](https://www.mayahawkemusic.com/), so I was looking forward to her new album this year. The hook in the chorus got me, so good!

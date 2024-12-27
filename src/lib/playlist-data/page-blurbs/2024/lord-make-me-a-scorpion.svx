@@ -1,10 +1,15 @@
 ---
 id: lord-make-me-a-scorpion
+spotifyID: 0d8mZXrO0jjTMRYiV6Y19f
 number: 12
 name: Lord, Make Me A Scorpion
 artist: Creekbed Carter Hogan
 img: https://i.scdn.co/image/ab67616d0000b2732bd240be2c1401f3e451ef3e
+duration: 322164
 bandcampPath: https://creekbedcarter.bandcamp.com/track/lord-make-me-a-scorpion
+lines: [
+   { words: "TODO", position: 0 }
+]
 ---
 
 - trans ballad

@@ -1,10 +1,57 @@
 ---
 id: fire-excape
+spotifyID: 01LnYU6fIyZVzgVc8d3Fc5
 number: 15
 name: Fire Excape
 artist: Zsela
 img: https://i.scdn.co/image/ab67616d0000b273159ede86b6de7edf50f76264
-bandcampPath: https://zselaofficial.bandcamp.com/track/fire-excape
+duration: 198184
+lines: [
+   { position: 2580, words: "It's a pretty old town" },
+   { position: 4440, words: "Where the hearts do well" },
+   { position: 6250, words: "Without you staring" },
+   { position: 11500, words: "I left my home in a real bad shape" },
+   { position: 18800, words: "Won't you help me" },
+   { position: 20050, words: "Help me find a maid?" },
+   { position: 24250, words: "There's a fire in the ocean" },
+   { position: 29110, words: "When the oil starts spilling" },
+   { position: 32740, words: "There's a fire in the ocean" },
+   { position: 36460, words: "Wasn't always willing but" },
+   { position: 40850, words: "We'll get along" },
+   { position: 42660, words: "Quite fine thank you" },
+   { position: 47810, words: "Day breaks on the fire escape and" },
+   { position: 51560, words: "I'm falling in love" },
+   { position: 55410, words: "Day breaks on the fire escape and" },
+   { position: 59390, words: "I'm falling in love" },
+   { position: 62260, words: "I'm falling down" },
+   { position: 66890, words: "Might you be around?" },
+   { position: 69780, words: "I'm falling down" },
+   { position: 74420, words: "Might you hear the sound?" },
+   { position: 77830, words: "Look around you" },
+   { position: 81180, words: "How's your smile?" },
+   { position: 85370, words: "Is it everything you thought it could be" },
+   { position: 92640, words: "I'm no different" },
+   { position: 96360, words: "Takes a while" },
+   { position: 100220, words: "Still I'll try my best to find out how" },
+   { position: 109860, words: "I never get tired of the view" },
+   { position: 117190, words: "I never get tired of you" },
+   { position: 124770, words: "When day breaks on the fire escape" },
+   { position: 128460, words: "I'm falling in love" },
+   { position: 132240, words: "When day breaks on the fire escape" },
+   { position: 135650, words: "I'm falling in love" },
+   { position: 139000, words: "I'm falling down" },
+   { position: 144090, words: "Might you be around?" },
+   { position: 146650, words: "I'm falling down" },
+   { position: 151590, words: "Might you hear the sound?" },
+   { position: 156740, words: "We'll get along quite fine thank you" },
+   { position: 164690, words: "We'll get along quite fine thank you" },
+   { position: 172210, words: "We'll get along quite fine thank you" },
+   { position: 178360, words: "We're falling down" },
+   { position: 183050, words: "Might you?" },
+   { position: 186670, words: "We're falling down" },
+   { position: 190830, words: "Might you hear the sound?" },
+   { position: 197360, words: "" }
+]
 ---
 
 - hypnotic

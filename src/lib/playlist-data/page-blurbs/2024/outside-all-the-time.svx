@@ -1,24 +1,63 @@
 ---
 id: outside-all-the-time
+spotifyID: 0c84AMPnviUzGHWuCJUNuI
 number: 7
 name: Outside All the Time
 artist: Steve Slagg
 img: https://i.scdn.co/image/ab67616d0000b2739c98e0751b676018f2fa9c90
-bandcampPath: https://steveslagg.bandcamp.com/track/outside-all-the-time-2
+duration: 228506
+lines: [
+   { position: 3640, words: "Doors don't open anymore" },
+   { position: 6570, words: "Not like they ever did before" },
+   { position: 10200, words: "Now we're outside all the time" },
+   { position: 12670, words: "Now we're outside all the time" },
+   { spacer: true },
+   { position: 15780, words: "Cash ain't flowing anymore" },
+   { position: 18820, words: "We're running all around the town to score" },
+   { position: 22070, words: "Now we're hands tied all the time" },
+   { position: 24410, words: "Now we're outside all the time" },
+   { spacer: true },
+   { position: 28960, words: "Lay me down here in the dirt" },
+   { position: 32640, words: "We're coworkers, its time to do our good work" },
+   { position: 37350, words: "Though I bear no fruit, break me open" },
+   { position: 41470, words: "It's a living, bein' broken" },
+   { spacer: true },
+   { position: 45170, words: "We tried the good life, didn't work" },
+   { position: 49540, words: "We're worshipers, don't matter, we can worship in the dirt" },
+   { position: 54070, words: "Though you bear no fruit, I'll break you open" },
+   { position: 57680, words: "We're just rattlin' around til the hills have spoken" },
+   { spacer: true },
+   { position: 62390, words: "Toss me up now to the sky" },
+   { position: 66040, words: "I'm a handful, I'm handy to have nearby" },
+   { position: 70240, words: "Though I sprout no vine, you can plant me" },
+   { position: 74890, words: "All the magic in the world to enchant me" },
+   { spacer: true },
+   { position: 78860, words: "We tried to live on in our work" },
+   { position: 82220, words: "Now we're unmarked graves" },
+   { position: 84670, words: "They barely spared the dirt" },
+   { position: 87530, words: "Though my name dies here, you're gonna stand and shout it" },
+   { position: 91470, words: "God loves an echo, ain't no doubt about it" },
+   { spacer: true },
+   { position: 95010, words: "Murder country, murder church" },
+   { position: 98470, words: "He's a killer, he's a thriller, he's a forest fire, he's scorch" },
+   { position: 103440, words: "Lover burns so hot, gotta turn love up" },
+   { position: 107860, words: "Too much life in me, gotta burn some up" },
+   { position: 112070, words: "Lover burns so hot, gotta turn love up" },
+   { position: 116510, words: "Too much life in me, gotta burn some up" },
+   { spacer: true },
+   { position: 127800, words: "Doors don't open anymore" },
+   { position: 130830, words: "Not like they ever did before" },
+   { spacer: true },
+   { position: 134230, words: "Now we're outside" },
+   { position: 138670, words: "All the time" },
+   { position: 142630, words: "Now we're outside" },
+   { position: 147430, words: "All the time" },
+   { position: 151650, words: "Now we're outside" },
+   { position: 155740, words: "All the time" },
+   { position: 227800, words: "" }
+]
 ---
 
 I've known [Steve Slagg](https://www.steveslagg.com/) since college, and he's one of my favorite songwriters.
 
-> Doors don’t open anymore
-> Not like they ever did before
-
 Out of all the songs that he released this year, I assumed that his song [Newest Soil](https://steveslagg.bandcamp.com/track/the-newest-soil) was going to be on my 2024 list. I heard that song for the first time several summers ago, and it just floored me. But as the year went on, it was Outside All the Time that wormed its way into my heart, delivering a catchy hook I often find myself humming or singing to my kids, and closing out with an extended musical flurry of melodies from a heckelphone that's just transcendent.
-
-> We tried to live on in our work
-> Now we’re unmarked graves
-> They barely spared the dirt
-> Though my name dies here,
-> you’re gonna stand and shout it
-> God loves an echo, ain’t no doubt about it
-
-Ain't that the truth.

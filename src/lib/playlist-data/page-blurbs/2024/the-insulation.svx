@@ -1,10 +1,15 @@
 ---
 id: the-insulation
+spotifyID: 7EtodVcQtO0hMiq6lXtVg7
 number: 11
 name: The Insulation
 artist: Menomena
 img: https://i.scdn.co/image/ab67616d0000b273ef0d7f6d88b5b0d5d88c38c8
+duration: 256834
 bandcampPath: https://menomena.bandcamp.com/track/the-insulation
+lines: [
+   { words: "TODO", position: 0 }
+]
 ---
 
 - new song from my favorite band in college (now?), sign me up!

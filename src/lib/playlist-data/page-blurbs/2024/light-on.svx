@@ -1,10 +1,42 @@
 ---
 id: light-on
+spotifyID: 7FcX8pHxQrbYHixaaiCLN3
 number: 16
 name: Light On
 artist: Dehd
 img: https://i.scdn.co/image/ab67616d0000b273b76d0be829a3eff9e6ac9475
-bandcampPath: https://dehdforever.bandcamp.com/track/light-on
+duration: 233463
+lines: [
+   { position: 32540, words: "No lie, I couldn't stand the look on your face" },
+   { position: 36950, words: "Like it'll never be okay" },
+   { position: 39270, words: "You're right, I didn't want to know" },
+   { position: 45670, words: "You said, you said you had something to say" },
+   { position: 49840, words: "That everything inside you had changed" },
+   { position: 52370, words: "Well, if it's true, how can I tell?" },
+   { position: 58670, words: "Every day, every night, I will leave a light on" },
+   { position: 61880, words: "What you want, what you need, it won't be a problem" },
+   { position: 64840, words: "Where you at-at-at? Let me know, I'll follow" },
+   { position: 71440, words: "Every day, every night, I will leave a light on" },
+   { position: 74680, words: "What you want, what you need, I won't be a problem" },
+   { position: 78060, words: "When you knock-knock-knock, babe, it ain't no bother" },
+   { position: 85020, words: "Is it different today?" },
+   { position: 91170, words: "Wish that I could find some strength" },
+   { position: 97420, words: "Alright, I didn't want to make a mistake" },
+   { position: 100560, words: "Okay, we're sitting here, we're trying to relate" },
+   { position: 103600, words: "What were you doing here alone?" },
+   { position: 110170, words: "Alright, my ego just got in the way" },
+   { position: 114130, words: "Turning every thought to jealousy" },
+   { position: 116660, words: "But was it worth losing a home?" },
+   { position: 136060, words: "Every day, every night, I will leave a light on" },
+   { position: 139210, words: "What you want, what you need, it won't be a problem" },
+   { position: 142490, words: "Where you at-at-at? Let me know, I'll follow" },
+   { position: 148730, words: "Every day, every night, I will leave a light on" },
+   { position: 151920, words: "What you want, what you need, I won't be a problem" },
+   { position: 155170, words: "When you knock-knock-knock, babe, it ain't no bother" },
+   { position: 162720, words: "There's a world outside" },
+   { position: 168430, words: "Still not sure what I hope to find" },
+   { position: 175240, words: "" }
+]
 ---
 
 - johnny!

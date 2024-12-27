@@ -1,10 +1,74 @@
 ---
 id: talk-is-cheap
+spotifyID: 2dmsUyyoTUpAzTb0tsbAIZ
 number: 6
 name: Talk is Cheap
 artist: Dr. Dog
 img: https://i.scdn.co/image/ab67616d0000b273a78d270cd44975ba7eb9cb71
-bandcampPath: undefined
+duration: 270937
+lines: [
+   { position: 15080, words: "To the end of a lane and then back again" },
+   { position: 20530, words: "Feelin old and dumb and in the way" },
+   { position: 25980, words: "But I can change before the moon explodes and the sun stops shining" },
+   { position: 31850, words: "Talk is cheap" },
+   { position: 33230, words: "It might be dark, a little hazy in here" },
+   { position: 36070, words: "I might be crazy, it's a little unclear" },
+   { position: 38670, words: "But I can't be wrong (ooh)" },
+   { position: 44250, words: "'Cause I fell to the bottom and you found me there" },
+   { position: 47260, words: "Broken and blue and you gave me air" },
+   { position: 50060, words: "I can't be wrong (ooh)" },
+   { position: 56850, words: "Anywhere, when you're right here with me" },
+   { position: 61760, words: "The sound of nothin' but the wheels" },
+   { position: 67420, words: "'Cause baby, you're an engine driver" },
+   { position: 70690, words: "You got me back on the rails" },
+   { position: 73830, words: "Talk is cheap" },
+   { position: 75350, words: "Think I know what you want me to do" },
+   { position: 77840, words: "Just tell me again I get a little confused" },
+   { position: 80580, words: "But I can't be wrong (can't be wrong)" },
+   { position: 86530, words: "Birds in the attic and junk on the stairs" },
+   { position: 89220, words: "I wanna be clear and I wanna be here" },
+   { position: 92040, words: "I can't be wrong (ooh, not about this)" },
+   { position: 99000, words: "If memory serves me" },
+   { position: 101480, words: "You're gonna make a me weep" },
+   { position: 104470, words: "As alone in the rain on a unnumbered street" },
+   { position: 109620, words: "Baby, you're an engine driver" },
+   { position: 112830, words: "Yeah, you never fail" },
+   { position: 115620, words: "And I can't be wrong, you got me back on the rails" },
+   { position: 120110, words: "Can't be wrong (ooh, not about this)" },
+   { position: 122390, words: "I won't believe it, not about this lovely feeling (oo, not about this)" },
+   { position: 132210, words: "I can do it, I am free, I'll change (ooh, not about this)" },
+   { position: 138340, words: "Talk is cheap" },
+   { position: 142050, words: "♪" },
+   { position: 145470, words: "I can't be wrong" },
+   { position: 148750, words: "Ooh, not about this" },
+   { position: 152910, words: "♪" },
+   { position: 156620, words: "I can't be wrong" },
+   { position: 159330, words: "Ooh, not about this" },
+   { position: 162280, words: "I think I know what you want me to do" },
+   { position: 165190, words: "Tell me again, I get a little confused" },
+   { position: 167600, words: "But I can't be wrong (ooh, not about this)" },
+   { position: 173330, words: "I fell to the bottom and you found me there" },
+   { position: 176160, words: "Broken and blue and you gave me air" },
+   { position: 178960, words: "I can't be wrong" },
+   { position: 182390, words: "Ooh, not about this, no" },
+   { position: 186880, words: "♪" },
+   { position: 189920, words: "I can't be wrong" },
+   { position: 193280, words: "Ooh not about this" },
+   { position: 201680, words: "I can't be wrong" },
+   { position: 204260, words: "Ooh not about this" },
+   { position: 212930, words: "I can't be wrong" },
+   { position: 215630, words: "Ooh not about this" },
+   { position: 223940, words: "I can't be wrong" },
+   { position: 226970, words: "Ooh not about this, no" },
+   { position: 229850, words: "Ta-ra-ra, ta-ra-ta, ta-ra-ra, ta-ra-ra" },
+   { position: 235390, words: "I can't be wrong" },
+   { position: 238180, words: "Ooh, not about this" },
+   { position: 241530, words: "Ta-ra-ra, ta-ra-ta, ta-ra-ra, ta-ra-ra" },
+   { position: 245760, words: "I can't be wrong" },
+   { position: 251600, words: "Ta-ra-ra, ta-ra-ta, ta-ra-ra, ta-ra-ra" },
+   { position: 257770, words: "I can't be wrong" },
+   { position: 259720, words: "" }
+]
 ---
 
 Love the variety of sections in this song, and the "Talk is cheap" hook just hits me just right.
