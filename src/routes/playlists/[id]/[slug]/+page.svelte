@@ -30,7 +30,7 @@
 		@apply m-0 w-full p-0;
 	}
 	.cover {
-		@apply hidden w-full h-96 bg-cover bg-center sm:block;
+		@apply w-full h-96 lg:h-96 bg-cover bg-center;
 	}
 
 	.info {
