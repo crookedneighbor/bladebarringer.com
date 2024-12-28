@@ -1,4 +1,4 @@
-import { act, render, screen } from '@testing-library/svelte';
+import { render, screen } from '@testing-library/svelte';
 import SpotifyPlayer, { currentPlayer } from '../SpotifyPlayer/SpotifyPlayer.svelte';
 import { fireEvent } from '@testing-library/dom';
 
@@ -18,9 +18,10 @@ function createEvent(
 }
 
 describe('SpotifyPlayer', () => {
-	it('renders a spotify iframe', () => {
+	it('renders a spotify playlist iframe', () => {
 		render(SpotifyPlayer, {
-			id: 'abc-id'
+			id: 'abc-id',
+			kind: 'playlist'
 		});
 
 		expect(screen.getByTitle('Embeded Playlist')).toHaveAttribute(
@@ -29,10 +30,23 @@ describe('SpotifyPlayer', () => {
 		);
 	});
 
+	it('renders a spotify track iframe', () => {
+		render(SpotifyPlayer, {
+			id: 'abc-id',
+			kind: 'track'
+		});
+
+		expect(screen.getByTitle('Embeded Playlist')).toHaveAttribute(
+			'src',
+			expect.stringContaining('/track/abc-id?')
+		);
+	});
+
 	it('calls onPlayEvent cb whenever song duration changes', async () => {
 		const spy = vi.fn();
 		render(SpotifyPlayer, {
 			id: 'abc-id',
+			kind: 'playlist',
 			onPlayevent: spy
 		});
 
@@ -69,6 +83,7 @@ describe('SpotifyPlayer', () => {
 		const spy = vi.fn();
 		render(SpotifyPlayer, {
 			id: 'abc-id',
+			kind: 'playlist',
 			onPlayevent: spy
 		});
 
@@ -88,6 +103,7 @@ describe('SpotifyPlayer', () => {
 		const spy = vi.fn();
 		render(SpotifyPlayer, {
 			id: 'abc-id',
+			kind: 'playlist',
 			onPlayevent: spy
 		});
 
@@ -98,7 +114,8 @@ describe('SpotifyPlayer', () => {
 
 	it('updates current player info', async () => {
 		render(SpotifyPlayer, {
-			id: 'abc-id'
+			id: 'abc-id',
+			kind: 'playlist'
 		});
 
 		await fireEvent(

@@ -35,7 +35,7 @@
 		<h1>2024 Playlist</h1>
 		<p>Premable</p>
 
-		<SpotifyPlayer id={spotifyPlayerID} {onPlayevent} />
+		<SpotifyPlayer id={spotifyPlayerID} kind="playlist" {onPlayevent} />
 		<ul class="py-4">
 			{#each tracks as card}
 				<li>

@@ -9,9 +9,10 @@
 <script lang="ts">
 	interface Props {
 		id: string;
+		kind: 'playlist' | 'track';
 		onPlayevent?: (dir: number) => void;
 	}
-	let { id, onPlayevent }: Props = $props();
+	let { id, kind, onPlayevent }: Props = $props();
 
 	let currentDuration = $state(0);
 
@@ -42,7 +43,7 @@
 <div class="player">
 	<iframe
 		style="border-radius:12px"
-		src={`https://open.spotify.com/embed/playlist/${id}?utm_source=generator&theme=0`}
+		src={`https://open.spotify.com/embed/${kind}/${id}?utm_source=generator&theme=0`}
 		width="100%"
 		height="352"
 		frameBorder="0"
