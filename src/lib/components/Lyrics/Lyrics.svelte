@@ -17,7 +17,7 @@
 	{#each lines as line}
 		{#if line.spacer}
 			<div class="h-4"></div>
-		{:else if line.words && line.position}
+		{:else if line.words && typeof line.position === 'number'}
 			<p class:highlighted={thisSong && currentPlayer.position >= line.position}>
 				{line.words}
 			</p>
