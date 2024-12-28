@@ -104,7 +104,7 @@ TODO`;
 				}
 
 				const lyrics = await getLyrics(track.spotifyID);
-				track.lines = lyrics ?? [{ words: 'TODO', position: 0 }];
+				track.lines = lyrics ?? [];
 			}
 			writeSVX(pathToFile, pageData, track);
 		})
