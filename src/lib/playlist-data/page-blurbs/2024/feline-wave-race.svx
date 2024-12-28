@@ -69,5 +69,4 @@ lines: [
 artistWebsite: https://www.napeyes.com/
 ---
 
-- dreamy
-- N64 wave race
+This dreamy, quiet, kind of silly song fills me with joy.

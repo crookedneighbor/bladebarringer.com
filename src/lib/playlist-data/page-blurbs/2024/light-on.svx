@@ -49,5 +49,4 @@ lines: [
 artistWebsite: https://dehd.horse/
 ---
 
-- johnny!
-- chicago
+My coworker [Johnny](https://x.com/colonelzachman) introduced me to this song, so I always think of him when I hear it. Johnny's been a great support at Splice, and makes it easy to come to work and collaborate. He's a big reason this year was successful for me, and I'm grateful for him.

@@ -45,4 +45,4 @@ lines: [
 artistWebsite: https://officeculture.bandcamp.com/
 ---
 
-Confession: I'm a hat guy
+Confession: I'm a hat guy.

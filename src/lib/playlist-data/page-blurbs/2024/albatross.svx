@@ -28,7 +28,7 @@ lines: [
    { position: 100780, words: "Haven't you seen the sky at night?" },
    { position: 103967, words: "There's millions of them.\"" }
 ]
-artistWebsite: https://www.englishteacherband.com/
+artistWebsite: https://englishteacherband.com/
 ---
 
-I loved this album, it's exactly the kind of experimental songwriting I like.
+I love the mood of this band. It's spacey, at once familiar, but also experimental.

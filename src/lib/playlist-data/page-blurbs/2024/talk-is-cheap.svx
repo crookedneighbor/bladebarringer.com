@@ -79,4 +79,4 @@ lines: [
 artistWebsite: https://www.drdogmusic.com/
 ---
 
-I don't know about you, but several times this year I also felt "Old and dumb and in the way".
+I don't know about you, but several times this year I also felt **"Old and dumb and in the way"**. 

@@ -48,6 +48,4 @@ lines: [
 artistWebsite: https://www.creekbedcarter.com/
 ---
 
-- trans ballad
-- Alyssa
-- songwriter
+[Alyssa](https://bsky.app/profile/alyssakaye.bsky.social) gave me this song, and within a few listens, I was hooked. This is my favorite kind of songwriting, highly poetic, but with a strong emotional core.

@@ -47,8 +47,7 @@ lines: [
    { position: 181720, words: "History fell back behind us" },
    { position: 186501, words: "Could we play some more?" }
 ]
-artistWebsite: https://siljesweets.com/home
+artistWebsite: https://siljesweets.com/
 ---
 
-- Chicago
-- Recomendation from Steve Slagg
+This song was recomended to me by [Steve Slagg](https://bsky.app/profile/steveslagg.bsky.social), another songwriter in his Chicago scene, and it's just immaculate.

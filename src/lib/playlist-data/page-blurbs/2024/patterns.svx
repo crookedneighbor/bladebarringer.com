@@ -36,8 +36,7 @@ lines: [
    { position: 199820, words: "And only then can I see" },
    { position: 206980, words: "That we're patterns in repeat, and we'll always be" }
 ]
-artistWebsite: https://www.lauramarling.com/
+artistWebsite: https://lauramarling.com/
 ---
 
-- vibes
-- songwriter
+I love the fingerpicking on this song - the whole thing makes me feel peaceful and calm.
