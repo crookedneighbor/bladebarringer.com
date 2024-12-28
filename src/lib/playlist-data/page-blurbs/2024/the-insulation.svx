@@ -76,5 +76,4 @@ lines: [
 ]
 ---
 
-- new song from my favorite band in college (now?), sign me up!
-- facts about Menomena
+[Menomena](https://menomena.com/) are my favorite band, thier early work especially inspired me in the kind of creative work I wanted to do. Collaborative, unexpected shifts, a pinch of randomness, and a reliance on computers to make it all work. 
