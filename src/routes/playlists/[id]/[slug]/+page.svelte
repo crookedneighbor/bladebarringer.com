@@ -17,7 +17,11 @@
 		{/if}
 		{@render data.pageBlurb()}
 
-		<Lyrics {lines} {id} />
+		{#if lines.length > 0}
+			<Lyrics {lines} {id} />
+		{:else}
+			<blockquote>(No lyrics available for this song)</blockquote>
+		{/if}
 	</div>
 </div>
 
