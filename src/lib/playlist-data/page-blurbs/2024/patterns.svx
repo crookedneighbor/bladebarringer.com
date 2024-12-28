@@ -34,8 +34,9 @@ lines: [
    { spacer: true },
    { position: 193020, words: "And now, the time leaps by and starts to fly" },
    { position: 199820, words: "And only then can I see" },
-   { position: 206980, words: "That we're patterns in repeat, and we'll always be" },
+   { position: 206980, words: "That we're patterns in repeat, and we'll always be" }
 ]
+artistWebsite: https://www.lauramarling.com/
 ---
 
 - vibes

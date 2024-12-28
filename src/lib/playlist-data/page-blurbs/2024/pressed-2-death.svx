@@ -44,8 +44,9 @@ lines: [
    { position: 96610, words: "You only want me when I'm feeling bad" },
    { position: 100350, words: "You only like me when I'm sad" },
    { position: 103800, words: "You only want me when I'm feeling bad" },
-   { position: 106380, words: "Now I'm feeling so bad" },
+   { position: 106380, words: "Now I'm feeling so bad" }
 ]
+artistWebsite: https://illuminatihotties.bandcamp.com/
 ---
 
 - vibes

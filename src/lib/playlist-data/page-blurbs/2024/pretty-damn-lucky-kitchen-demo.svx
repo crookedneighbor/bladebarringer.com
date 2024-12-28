@@ -52,6 +52,7 @@ lines: [
    { position: 187393, words: "doing my best, the best that i could be" },
    { position: 195895, words: "pretty damn lucky" }
 ]
+artistWebsite: https://www.tiktok.com/@father_yaga
 ---
 
 [Sue](https://bsky.app/profile/deathbear.bsky.social) (who shared this song with me) referred me to Splice. And I totally bombed my initial interview with the recruiter. 

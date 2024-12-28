@@ -64,6 +64,7 @@ lines: [
    { position: 223060, words: "(Trouble) I'll take all of it that you've got to give" },
    { position: 224180, words: "I'll take all of it that you've got to give" }
 ]
+artistWebsite: https://www.listentofeist.com/
 ---
 
 I had lost track of [Feist](https://listentofeist.com/) for many years, but this song made it's way into Splice's [Music League](https://musicleague.com/) for a round for folk's favorite song of 2023 and it was instantly my favorite.

@@ -2,9 +2,18 @@
 	import Lyrics from '$lib/components/Lyrics/Lyrics.svelte';
 
 	let { data } = $props();
-	let { id, lines, img, artist, number, name, bandcampPath, previousLink, nextLink } = $derived(
-		data.track
-	);
+	let {
+		id,
+		lines,
+		img,
+		artist,
+		artistWebsite,
+		number,
+		name,
+		bandcampPath,
+		previousLink,
+		nextLink
+	} = $derived(data.track);
 </script>
 
 <div class="song-container" style={'view-transition-name: ' + id}>
@@ -13,7 +22,14 @@
 		class="info prose prose-quoteless prose-blockquote:not-italic prose-blockquote:whitespace-pre-wrap prose-blockquote:text-2xl"
 	>
 		<h1>{number}. {name}</h1>
-		<div class="artist">{artist}</div>
+		<div class="artist">
+			by
+			{#if artistWebsite}
+				<a href={artistWebsite}>{artist}</a>
+			{:else}
+				{artist}
+			{/if}
+		</div>
 		<div class="navigation">
 			{#if bandcampPath}
 				<div class="buy-on-bandcamp">
@@ -33,7 +49,7 @@
 							/>
 						</svg>
 
-						Support The Artist</a
+						Buy this song</a
 					>
 				</div>
 			{/if}

@@ -52,6 +52,7 @@ lines: [
    { position: 289427, words: "I guess the good life" },
    { position: 293145, words: "Didn't look like you thought it might" }
 ]
+artistWebsite: https://www.wildpinkmusic.com/
 ---
 
 I didn't start getting into music until I was around 18 years old, and one of the first band's I latched onto (much to my embarassment now) was [Coldplay](https://www.coldplay.com/). I remember buying the "Rush of Blood to the Head" chord book when I was first starting to learn how to play piano and figuring out how to play "Clocks" and doing so again and again and again. I must have driven my family crazy.

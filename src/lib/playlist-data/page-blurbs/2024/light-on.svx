@@ -44,8 +44,9 @@ lines: [
    { position: 155170, words: "When you knock-knock-knock, babe, it ain't no bother" },
    { spacer: true },
    { position: 162720, words: "There's a world outside" },
-   { position: 168430, words: "Still not sure what I hope to find" },
+   { position: 168430, words: "Still not sure what I hope to find" }
 ]
+artistWebsite: https://dehd.horse/
 ---
 
 - johnny!

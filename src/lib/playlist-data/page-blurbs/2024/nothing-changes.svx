@@ -44,8 +44,9 @@ lines: [
    { position: 364140, words: "La-la-la-la-la-la-la, la-la-la" },
    { spacer: true },
    { position: 373280, words: "And this is what the gods must have been talking about" },
-   { position: 381640, words: "When they told me, \"Nothing changes\"" },
+   { position: 381640, words: "When they told me, \"Nothing changes\"" }
 ]
+artistWebsite: https://whoismgmt.com/
 ---
 
 Part way through the year, I was very ill for several days, and I binged [Battlestar Gallactica](<https://en.wikipedia.org/wiki/Battlestar_Galactica_(2004_TV_series)>) while stuck in bed.

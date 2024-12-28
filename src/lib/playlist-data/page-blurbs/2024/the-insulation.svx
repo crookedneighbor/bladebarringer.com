@@ -77,6 +77,7 @@ lines: [
    { position: 244297, words: "And my only request on your way out the door" },
    { position: 247751, words: "Is that you take a bow" }
 ]
+artistWebsite: https://menomena.com/
 ---
 
-[Menomena](https://menomena.com/) are my favorite band, thier early work especially inspired me in the kind of creative work I wanted to do. Collaborative, unexpected shifts, a pinch of randomness, and a reliance on computers to make it all work. 
+Menomena are my favorite band, thier early work especially inspired me in the kind of creative work I wanted to do. Collaborative, unexpected shifts, a pinch of randomness, and a reliance on computers to make it all work. 

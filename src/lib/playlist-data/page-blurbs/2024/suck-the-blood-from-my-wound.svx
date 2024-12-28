@@ -69,6 +69,7 @@ lines: [
    { position: 280740, words: "A plague on both your houses" },
    { position: 287490, words: "" }
 ]
+artistWebsite: https://ezrafurman.com/
 ---
 
 Weird, non-musical, things at the beginning or ends of songs usually bug me when included in a playlist, but every once in a while, I find a song that I vibe with so much that I can't help but include it. This is one of those songs.

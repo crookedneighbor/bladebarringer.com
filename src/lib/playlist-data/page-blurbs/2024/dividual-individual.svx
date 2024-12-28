@@ -13,6 +13,7 @@ bandcampPath: https://yamawarashi.bandcamp.com/track/dividual-individual
 lines: [
   
 ]
+artistWebsite: https://www.yamawarashi.com/
 ---
 
 I love the bass line on this song is just immaculate. I can't understand most of the lines, but I think it has to do with sustainable farming?

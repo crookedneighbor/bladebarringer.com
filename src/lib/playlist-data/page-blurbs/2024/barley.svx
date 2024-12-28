@@ -65,6 +65,7 @@ lines: [
    { position: 198320, words: "One, two, three, counter" },
    { position: 201730, words: "You're a cool thing, count mountains" }
 ]
+artistWebsite: https://www.waterfromyoureyes.com/
 ---
 
 At the end of 2023, I was laid off from [Bandcamp](https://bandcamp.com/) when [Epic Games sold the company to Songtradr](https://www.404media.co/bandcamps-entire-union-bargaining-team-was-laid-off/). We were mid-contract negotations for our newly unionzed company when they gutted us. 

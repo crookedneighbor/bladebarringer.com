@@ -63,6 +63,7 @@ lines: [
    { position: 168129, words: "All the WeWorks are dead" },
    { position: 171050, words: "All the WeWorks are dead" }
 ]
+artistWebsite: https://sunraykin.bandcamp.com/
 ---
 
 - this one makes me smile

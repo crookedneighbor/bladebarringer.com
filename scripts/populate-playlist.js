@@ -100,6 +100,9 @@ TODO`;
 				if (metadata.lines) {
 					track.lines = metadata.lines;
 				}
+				if (metadata.artistWebsite) {
+					track.artistWebsite = metadata.artistWebsite;
+				}
 			} else {
 				let { name, artist } = track;
 				name = name.toLowerCase();

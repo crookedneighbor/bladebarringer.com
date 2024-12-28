@@ -60,6 +60,7 @@ lines: [
    { position: 155740, words: "All the time" },
    { position: 227800, words: "" }
 ]
+artistWebsite: https://steveslagg.com/
 ---
 
 I've known [Steve Slagg](https://www.steveslagg.com/) since college, and he's one of my favorite songwriters.

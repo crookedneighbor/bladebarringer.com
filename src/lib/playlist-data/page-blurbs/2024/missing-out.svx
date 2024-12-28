@@ -72,6 +72,7 @@ lines: [
    { position: 194970, words: "I'm missing out" },
    { position: 201020, words: "I'm missing out" }
 ]
+artistWebsite: https://www.mayahawkemusic.com/
 ---
 
 Last year, I loved [Sweet Tooth](https://www.youtube.com/watch?v=1YUJ-8V3tx4) by [Maya Hawke](https://www.mayahawkemusic.com/), so I was looking forward to her new album this year. This is the only one from the album I really vibed with, but the hook in the chorus, very simple but makes me sway my head.

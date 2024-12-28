@@ -76,6 +76,7 @@ lines: [
    { position: 257770, words: "I can't be wrong" },
    { position: 259720, words: "" }
 ]
+artistWebsite: https://www.drdogmusic.com/
 ---
 
 I don't know about you, but several times this year I also felt "Old and dumb and in the way".
