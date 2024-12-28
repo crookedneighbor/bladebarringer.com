@@ -8,12 +8,52 @@ img: https://i.scdn.co/image/ab67616d0000b27325066748de4a1aac69018996
 duration: 209998
 bandcampPath: undefined
 lines: [
-   { words: "TODO", position: 0 }
+  { position: 31738, words: "skin my knuckles every day, every day" },
+  { position: 37050, words: "stings as it tells me" },
+  { position: 38911, words: "\"i've got blood and i've got veins\"" },
+  { spacer: true },
+  { position: 41566, words: "i am small but i am strong" },
+  { position: 44223, words: "i've got feet to walk upon" },
+  { position: 46877, words: "i've got early morning sun" },
+  { position: 49536, words: "i've got darkness when the day runs out on me" },
+  { position: 58035, words: "pretty damn lucky" },
+  { spacer: true },
+  { position: 75299, words: "i've got friends around me, around me" },
+  { position: 80614, words: "mostly far and wide so i wait ever eagerly" },
+  { position: 85129, words: "for the sweetness of the day" },
+  { position: 87785, words: "when i'll see them all again" },
+  { position: 90442, words: "tell them everything that's changed" },
+  { position: 93097, words: "kiss the parts that stay the same" },
+  { spacer: true },
+  { position: 95755, words: "i am small but i am strong" },
+  { position: 98675, words: "i've got feet to walk upon" },
+  { position: 101066, words: "i've got early morning sun" },
+  { position: 103724, words: "i've got darkness when the day runs out on me" },
+  { position: 111690, words: "pretty damn lucky" },
+  { spacer: true },
+  { position: 135067, words: "this old body's been okay, been okay" },
+  { position: 140111, words: "wakes me in the morning" },
+  { position: 142770, words: "puts me back to bed each day" },
+  { spacer: true },
+  { position: 144895, words: "and the time is creeping out" },
+  { position: 147286, words: "through the corners in my mouth" },
+  { position: 149939, words: "i've got scars to say the least" },
+  { position: 152598, words: "little stars all over me" },
+  { position: 155255, words: "and there's lines on both my cheeks" },
+  { position: 157909, words: "plain as anyone can see" },
+  { position: 160567, words: "that the beauty and the ugliness" },
+  { position: 163488, words: "and all that's in between" },
+  { position: 165880, words: "has left it's mark on me" },
+  { spacer: true },
+  { position: 175440, words: "i am small but i am strong" },
+  { position: 180489, words: "i ain't been around for all that long" },
+  { position: 187393, words: "doing my best, the best that i could be" },
+  { position: 195895, words: "pretty damn lucky" },
 ]
 ---
 
-[Sue](https://bsky.app/profile/deathbear.bsky.social) shared this song with me. She is the biggest reason I got a job at Splice.
+[Sue](https://bsky.app/profile/deathbear.bsky.social) (who shared this song with me) referred me to Splice. And I totally bombed my initial interview with the recruiter. 
 
-First, when I was flailing around, Thing is, I bombed my initial interview with the recruiter. I was so depressed in the aftermath of being laid off from Bandcamp, and shook in my confidence as a software engineer, that I struggled through that initial interview. Sue gave me a (metaphorical) kick in the pants and encouraged the hiring manager to give me a chance even though I did not inspire confidence in my interactions with the recruiter. It was what I needed to get out of my funk and get through the rest of the interview process.
+I know because Sue texted me right after to ask me if I even really wanted the job, because the recruiter was not impressed and was recomending Splice not go forward with my interview process. I was so depressed in the aftermath of being laid off from Bandcamp, shook in my confidence as a competent software engineer, and it really tanked me during that initial interview.
 
-And (spoiler), I got the job and had a great year as a frontend engineer working at Splice. So yeah, I feel **pretty damn lucky**.
+Sue gave me a (metaphorical) kick in the pants and encouraged the hiring manager to give me a chance. It was what I needed to get out of my funk and get through the rest of the interview process. And (spoiler), I got the job and had a great year as a frontend engineer working at Splice. So yeah, I feel **pretty damn lucky**.

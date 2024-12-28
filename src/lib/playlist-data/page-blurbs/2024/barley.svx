@@ -60,16 +60,12 @@ lines: [
    { position: 192290, words: "One, two, three, four" },
    { position: 195690, words: "I count mountains" },
    { position: 198320, words: "One, two, three, counter" },
-   { position: 201730, words: "You're a cool thing, count mountains" }
+   { position: 201730, words: "You're a cool thing, count mountains" },
 ]
 ---
 
 At the end of 2023, I was laid off from [Bandcamp](https://bandcamp.com/) when [Epic Games sold the company to Songtradr](https://www.404media.co/bandcamps-entire-union-bargaining-team-was-laid-off/). We were mid-contract negotations for our newly unionzed company when they gutted us. 
 
-I had joined Bandcamp after spending about 8 years at [Braintree](<https://en.wikipedia.org/wiki/Braintree_(company)>), so happy to move into a new role where I could actively work on a product that functioned to support musicians - only to be dropped from that job within a year.
+I had joined Bandcamp after spending about 8 years at [Braintree](<https://en.wikipedia.org/wiki/Braintree_(company)>), so happy to move into a new role where I could actively work on a product that functioned to support musicians - only to be dropped from that job within a year. Thankfully, through a friend I met at Bandcamp, I started a new job at [Splice](https://splice.com), a different music technology company.
 
-I started a new job at [Splice](https://splice.com) at the beginning of this year, after being laid off . 
-
-Thankfully, through the generous help from a coworker I met at Bandcamp, I was able to interview for a job at Splice, where I worked under [Brian](https://bsky.app/profile/brianloveswords.com), my new grandboss - who posted this song.
-
-The first few seconds of the song played, and I knew it would land on my 2024 playlist. I love songs that can't exist within an acoustic space, where if you were to take out the electronic aspects of them, something essential to the song would be lost.
+Over this year, I've loved working with so many funny, passionate, clever people. Early on in the year, my grand-boss [Brian](https://bsky.app/profile/brianloveswords.com) posted a link to this song. The first few seconds of the song played, and I knew it would land on my 2024 playlist. I love songs that can't exist within an acoustic space, where if you were to take out the electronic aspects of them, something essential to the song would be lost.
