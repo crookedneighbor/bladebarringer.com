@@ -11,8 +11,9 @@ export async function getPlaylist(id, slug) {
 	const formattedTracks = data.tracks.items.reduce((tracks, { track }, index) => {
 		const id = track.name
 			.toLowerCase()
-			.replace(/[^a-zA-Z\s]/g, '')
-			.replaceAll(' ', '-');
+			.replace(/[^a-zA-Z0-9\s]/g, '')
+			.replaceAll(' ', '-')
+			.replaceAll('--', '-');
 		tracks[id] = {
 			id,
 			spotifyID: track.id,

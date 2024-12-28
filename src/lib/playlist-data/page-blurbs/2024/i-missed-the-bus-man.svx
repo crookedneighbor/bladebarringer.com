@@ -8,7 +8,7 @@ artist: Jonny's Day Out
 img: https://i.scdn.co/image/ab67616d0000b273af6a08de41c6c21b5e0a0a13
 duration: 218491
 previousLink: /playlists/2024/feline-wave-race
-nextLink: /playlists/2024/pressed--death
+nextLink: /playlists/2024/pressed-2-death
 bandcampPath: https://jonnysdayout.bandcamp.com/track/i-missed-the-bus-man
 lines: [
    { words: "TODO", position: 0 }

@@ -1,7 +1,7 @@
 ---
-id: pretty-damn-lucky--kitchen-demo
+id: pretty-damn-lucky-kitchen-demo
 spotifyID: 5eRmO6FsJrdlw8e7WxWyns
-permalink: /playlists/2024/pretty-damn-lucky--kitchen-demo
+permalink: /playlists/2024/pretty-damn-lucky-kitchen-demo
 number: 6
 name: pretty damn lucky - kitchen demo
 artist: Father Yaga
@@ -9,7 +9,6 @@ img: https://i.scdn.co/image/ab67616d0000b27325066748de4a1aac69018996
 duration: 209998
 previousLink: /playlists/2024/suck-the-blood-from-my-wound
 nextLink: /playlists/2024/albatross
-bandcampPath: undefined
 lines: [
    { position: 31738, words: "skin my knuckles every day, every day" },
    { position: 37050, words: "stings as it tells me" },

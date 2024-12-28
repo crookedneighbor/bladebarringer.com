@@ -1,7 +1,7 @@
 ---
-id: pressed--death
+id: pressed-2-death
 spotifyID: 1C6z6o5AqGi2JSUqYL9NUj
-permalink: /playlists/2024/pressed--death
+permalink: /playlists/2024/pressed-2-death
 number: 21
 name: Pressed 2 Death
 artist: illuminati hotties
