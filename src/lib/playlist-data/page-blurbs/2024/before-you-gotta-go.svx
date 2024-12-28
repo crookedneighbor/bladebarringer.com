@@ -1,7 +1,7 @@
 ---
 id: before-you-gotta-go
 spotifyID: 0LQcvjqp41rK1ZBuCaKGbb
-number: 9
+number: 11
 name: Before You Gotta Go
 artist: Courtney Barnett
 img: https://i.scdn.co/image/ab67616d0000b27305f1904e84048385bd801ac7
@@ -45,7 +45,7 @@ lines: [
    { position: 179840, words: "Money down the drain" },
    { position: 186690, words: "Funny, how things change" },
    { position: 192990, words: "You got to get away" },
-   { position: 200150, words: "Yeah, I know and I don't blame you" },
+   { position: 200150, words: "Yeah, I know and I don't blame you" }
 ]
 ---
 

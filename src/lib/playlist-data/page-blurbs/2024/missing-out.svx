@@ -1,7 +1,7 @@
 ---
 id: missing-out
 spotifyID: 2kAYu8GaEILjHWtqYg83TD
-number: 3
+number: 4
 name: Missing Out
 artist: Maya Hawke
 img: https://i.scdn.co/image/ab67616d0000b273e6135c84528c44371e6e0047
@@ -67,7 +67,7 @@ lines: [
    { position: 182700, words: "I'm missing out" },
    { position: 189180, words: "I'm missing out" },
    { position: 194970, words: "I'm missing out" },
-   { position: 201020, words: "I'm missing out" },
+   { position: 201020, words: "I'm missing out" }
 ]
 ---
 

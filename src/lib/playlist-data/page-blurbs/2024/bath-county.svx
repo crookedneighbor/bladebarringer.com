@@ -1,0 +1,39 @@
+---
+id: bath-county
+spotifyID: 0j9R67oZzJVlDQWo2nsRJb
+number: 3
+name: Bath County
+artist: Wednesday
+img: https://i.scdn.co/image/ab67616d0000b2731f60aa4b591ebe1863cf5681
+duration: 190105
+bandcampPath: https://wednesdayband.bandcamp.com/track/bath-county
+lines: [
+   { position: 1280, words: "I can walk on water" },
+   { position: 6760, words: "♪" },
+   { position: 10190, words: "I can raise the dead" },
+   { position: 15460, words: "♪" },
+   { position: 18880, words: "We joined the Exodus" },
+   { position: 27500, words: "Headed out from Dollywood" },
+   { position: 36230, words: "Every daughter of God" },
+   { position: 41710, words: "♪" },
+   { position: 44910, words: "Has a little bad luck sometimes" },
+   { position: 53610, words: "Every daughter of God" },
+   { position: 58910, words: "♪" },
+   { position: 62280, words: "Has a little bad luck sometimes" },
+   { position: 71010, words: "Kid in Bath County, Virginia" },
+   { position: 79750, words: "Sippin' piss colored bright yellow Fanta" },
+   { position: 88450, words: "Heard someone died in the Planet Fitness parking lot" },
+   { position: 97250, words: "Fire trucks rolled in and people stood around" },
+   { position: 105650, words: "Hit 'em with a dose of Narcan" },
+   { position: 114380, words: "Sat right up in the leaned back seat of his two door sedan" },
+   { position: 123020, words: "On the way home, play Drive-By Truckers' songs real loud" },
+   { position: 131820, words: "Be my baby 'til my body's in the ground" },
+   { position: 138930, words: "Drunken laughter" },
+   { position: 143580, words: "Violence after" },
+   { position: 147630, words: "Killing the heat" },
+   { position: 152000, words: "Salt strips the paint" },
+   { position: 156630, words: "" }
+]
+---
+
+TODO

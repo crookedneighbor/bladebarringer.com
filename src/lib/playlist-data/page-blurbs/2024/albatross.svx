@@ -1,0 +1,15 @@
+---
+id: albatross
+spotifyID: 60sDbx6WosEmzOy2EwdzkI
+number: 7
+name: Albatross
+artist: English Teacher
+img: https://i.scdn.co/image/ab67616d0000b2736cc7c430c1c388fccab8c9ea
+duration: 194456
+bandcampPath: https://englishteacher.bandcamp.com/track/albatross
+lines: [
+  
+]
+---
+
+TODO

@@ -1,7 +1,7 @@
 ---
 id: connect
 spotifyID: 3Oko2TgOzXPLlE2dbbsNKV
-number: 10
+number: 12
 name: Connect
 artist: Vampire Weekend
 img: https://i.scdn.co/image/ab67616d0000b2731f4e2d002b9d1920339a5109
@@ -45,7 +45,7 @@ lines: [
    { position: 250220, words: "A country house in June" },
    { position: 253140, words: "It's happening too soon, your book of revelations" },
    { position: 261780, words: "We can't unmake the bed" },
-   { position: 264650, words: "We used the chair instead and called it a vacation" },
+   { position: 264650, words: "We used the chair instead and called it a vacation" }
 ]
 ---
 

@@ -60,7 +60,7 @@ lines: [
    { position: 192290, words: "One, two, three, four" },
    { position: 195690, words: "I count mountains" },
    { position: 198320, words: "One, two, three, counter" },
-   { position: 201730, words: "You're a cool thing, count mountains" },
+   { position: 201730, words: "You're a cool thing, count mountains" }
 ]
 ---
 

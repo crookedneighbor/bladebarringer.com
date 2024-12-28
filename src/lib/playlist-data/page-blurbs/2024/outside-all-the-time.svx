@@ -1,7 +1,7 @@
 ---
 id: outside-all-the-time
 spotifyID: 0c84AMPnviUzGHWuCJUNuI
-number: 7
+number: 9
 name: Outside All the Time
 artist: Steve Slagg
 img: https://i.scdn.co/image/ab67616d0000b2739c98e0751b676018f2fa9c90

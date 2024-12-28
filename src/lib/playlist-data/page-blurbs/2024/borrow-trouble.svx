@@ -59,7 +59,7 @@ lines: [
    { position: 217870, words: "(Trouble) I'll take all of it that you've got to give" },
    { position: 220310, words: "I'll take all of it that you've got to give" },
    { position: 223060, words: "(Trouble) I'll take all of it that you've got to give" },
-   { position: 224180, words: "I'll take all of it that you've got to give" },
+   { position: 224180, words: "I'll take all of it that you've got to give" }
 ]
 ---
 
