@@ -20,11 +20,10 @@ lines: [
    { position: 28700, words: "I count mountains" },
    { position: 31350, words: "One, two, three, counter" },
    { position: 34850, words: "You're a cool thing, count mountains" },
-   { position: 39190, words: "♪" },
+   { spacer: true },
    { position: 75260, words: "Shh" },
    { position: 76950, words: "Okay" },
    { position: 80380, words: "Jealous sky to tame" },
-   { position: 84660, words: "♪" },
    { position: 88020, words: "Psst" },
    { position: 89120, words: "Bounce out" },
    { position: 92530, words: "West wind left to bounce" },
@@ -33,12 +32,14 @@ lines: [
    { position: 111600, words: "Shit" },
    { position: 115020, words: "Untold" },
    { position: 116930, words: "\"Walk in fields of gold\"" },
+   { spacer: true },
    { position: 124580, words: "One, two, three, four" },
    { position: 127870, words: "I count mountains" },
    { position: 131250, words: "Two, three, four, counter" },
    { position: 135890, words: "I count mountains" },
    { position: 137430, words: "One, two, three, eleven" },
    { position: 140970, words: "You're a cool thing, count mountains" },
+   { spacer: true },
    { position: 144260, words: "(Shh) One, two, three, four (Okay)" },
    { position: 148150, words: "I count mountains (Jealous sky to tame)" },
    { position: 150030, words: "One, two, three, counter" },
@@ -55,21 +56,16 @@ lines: [
    { position: 184110, words: "I count mountains (\"Walk in fields of gold\")" },
    { position: 186770, words: "One, two, three, counter" },
    { position: 189590, words: "You're a cool thing, count mountains" },
+   { spacer: true },
    { position: 192290, words: "One, two, three, four" },
    { position: 195690, words: "I count mountains" },
    { position: 198320, words: "One, two, three, counter" },
    { position: 201730, words: "You're a cool thing, count mountains" },
-   { position: 204220, words: "" }
 ]
 ---
 
 I started a new job at [Splice](https://splice.com) at the beginning of this year, after being laid off from [Bandcamp](https://bandcamp.com/) when [Epic Games sold the company to Songtradr](https://www.404media.co/bandcamps-entire-union-bargaining-team-was-laid-off/) amid contract negotations with our newly unionzed company. I had joined Bandcamp after spending about 8 years at [Braintree](<https://en.wikipedia.org/wiki/Braintree_(company)>), so happy to move into a new role where I could actively work on a product that functioned to support musicians - only to be dropped from that job within a year.
 
 Thankfully, through the generous help from a coworker I met at Bandcamp, I was able to interview for a job at Splice, where I worked under [Brian](https://bsky.app/profile/brianloveswords.com), my new grandboss - who posted this song.
-
-> One, two, three, four
-> I count mountains
-> One, two, three, counter
-> You're a cool thing, count mountains
 
 The first few seconds of the song played, and I knew it would land on my 2024 playlist. I love songs that can't exist within an acoustic space, where if you were to take out the electronic aspects of them, something essential to the song would be lost.

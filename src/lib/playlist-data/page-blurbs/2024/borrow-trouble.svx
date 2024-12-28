@@ -15,6 +15,7 @@ lines: [
    { position: 41770, words: "And put dissent into your ear" },
    { position: 46490, words: "Even before your eyes are open" },
    { position: 51000, words: "The plot has thickened 'round your fears" },
+   { spacer: true },
    { position: 56410, words: "We borrow trouble" },
    { position: 60620, words: "Seems we all know how" },
    { position: 65320, words: "It's an expression from the old days" },
@@ -23,6 +24,7 @@ lines: [
    { position: 79560, words: "We even borrow timе" },
    { position: 84160, words: "Like you don't have enough of your own" },
    { position: 89040, words: "Now you want somе of my trouble" },
+   { spacer: true },
    { position: 95310, words: "I'll take all of it that you've got to give" },
    { position: 97270, words: "I'll take all of it that you've got to give" },
    { position: 99510, words: "I'll take all of it that you've got to give" },
@@ -31,6 +33,7 @@ lines: [
    { position: 106740, words: "I'll take all of it that you've got to give" },
    { position: 109110, words: "I'll take all of it that you've got to give" },
    { position: 111250, words: "I'll take all of it that you've got to give" },
+   { spacer: true },
    { position: 113480, words: "I dropped like a stone" },
    { position: 118430, words: "Like a bag of dead weight" },
    { position: 122660, words: "So good at picturing the life that I was gonna be left out of" },
@@ -39,7 +42,7 @@ lines: [
    { position: 137020, words: "They gather heavy on my mind" },
    { position: 141960, words: "Knitting thoughts like they're my destiny" },
    { position: 146370, words: "Like they're the measurement of time" },
-   { position: 151430, words: "♪" },
+   { spacer: true },
    { position: 169950, words: "I borrow trouble" },
    { position: 174860, words: "I live on borrowed time" },
    { position: 179400, words: "It's a poor skill to get so good at" },
@@ -48,6 +51,7 @@ lines: [
    { position: 193500, words: "Seems we all know how" },
    { position: 198370, words: "It's an expression from the old days" },
    { position: 202950, words: "But even more true now" },
+   { spacer: true },
    { position: 208420, words: "(Trouble) I'll take all of it that you've got to give" },
    { position: 211100, words: "I'll take all of it that you've got to give" },
    { position: 213350, words: "(Trouble) I'll take all of it that you've got to give" },
@@ -56,16 +60,10 @@ lines: [
    { position: 220310, words: "I'll take all of it that you've got to give" },
    { position: 223060, words: "(Trouble) I'll take all of it that you've got to give" },
    { position: 224180, words: "I'll take all of it that you've got to give" },
-   { position: 227510, words: "" }
 ]
 ---
 
 I had lost track of [Feist](https://listentofeist.com/) for many years, but this song made it's way into Splice's [Music League](https://musicleague.com/) for a round for folk's favorite song of 2023 and it was instantly my favorite.
-
-> I dropped like a stone
-> Like a bag of dead weight
-> So good at picturing the life that I was gonna be left out of
-> Rather than the one I'd made
 
 At this stage in my life, the thing I need most is time. Between work and taking care of my family, I don't have a lot of time for any creative pursuits. Just a handful of doodles (mostly collaborating with my daughter). It was a big lift to put this site together!
 

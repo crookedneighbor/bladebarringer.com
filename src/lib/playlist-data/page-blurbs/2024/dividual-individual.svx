@@ -7,9 +7,8 @@ artist: Yama Warashi
 img: https://i.scdn.co/image/ab67616d0000b273f2725fce8be5f4c8122b0d18
 duration: 300866
 bandcampPath: https://yamawarashi.bandcamp.com/track/dividual-individual
-lines: [
-   { words: "TODO", position: 0 }
-]
+lines: []
+
 ---
 
 The bass line on this song is just immaculate.
