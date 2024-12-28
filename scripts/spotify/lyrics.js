@@ -21,6 +21,12 @@ export async function getLyrics(songID) {
 			method: 'GET'
 		}
 	).then((res) => {
+		if (res.status === 401) {
+			console.error(
+				`Could not get lyrics for song ID "${songID}". Update SPOTIFY_LYRICS_ACCESS_TOKEN and SPOTIFY_LYRICS_CLIENT_TOKEN`
+			);
+			return;
+		}
 		if (res.status === 404) {
 			return;
 		}
