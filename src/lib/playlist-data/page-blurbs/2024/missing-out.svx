@@ -1,11 +1,14 @@
 ---
 id: missing-out
 spotifyID: 2kAYu8GaEILjHWtqYg83TD
+permalink: /playlists/2024/missing-out
 number: 4
 name: Missing Out
 artist: Maya Hawke
 img: https://i.scdn.co/image/ab67616d0000b273e6135c84528c44371e6e0047
 duration: 217320
+previousLink: /playlists/2024/bath-county
+nextLink: /playlists/2024/suck-the-blood-from-my-wound
 bandcampPath: https://mayahawke.bandcamp.com/track/missing-out
 lines: [
    { position: 11290, words: "Lucy wants to write the next great, American novel" },

@@ -1,11 +1,14 @@
 ---
 id: feline-wave-race
 spotifyID: 62D9JFjTnGgF7REU7oI2AB
+permalink: /playlists/2024/feline-wave-race
 number: 19
 name: Feline Wave Race
 artist: Nap Eyes
 img: https://i.scdn.co/image/ab67616d0000b273e291392b8935a7406d7530e3
 duration: 370879
+previousLink: /playlists/2024/light-on
+nextLink: /playlists/2024/i-missed-the-bus-man
 bandcampPath: https://napeyes.bandcamp.com/track/feline-wave-race
 lines: [
    { words: "TODO", position: 0 }

@@ -1,11 +1,14 @@
 ---
 id: light-on
 spotifyID: 7FcX8pHxQrbYHixaaiCLN3
+permalink: /playlists/2024/light-on
 number: 18
 name: Light On
 artist: Dehd
 img: https://i.scdn.co/image/ab67616d0000b273b76d0be829a3eff9e6ac9475
 duration: 233463
+previousLink: /playlists/2024/fire-excape
+nextLink: /playlists/2024/feline-wave-race
 bandcampPath: https://dehdforever.bandcamp.com/track/light-on
 lines: [
    { position: 32540, words: "No lie, I couldn't stand the look on your face" },

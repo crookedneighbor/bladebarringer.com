@@ -1,11 +1,14 @@
 ---
 id: bath-county
 spotifyID: 0j9R67oZzJVlDQWo2nsRJb
+permalink: /playlists/2024/bath-county
 number: 3
 name: Bath County
 artist: Wednesday
 img: https://i.scdn.co/image/ab67616d0000b2731f60aa4b591ebe1863cf5681
 duration: 190105
+previousLink: /playlists/2024/borrow-trouble
+nextLink: /playlists/2024/missing-out
 bandcampPath: https://wednesdayband.bandcamp.com/track/bath-county
 lines: [
    { position: 1280, words: "I can walk on water" },
@@ -31,7 +34,7 @@ lines: [
    { position: 138930, words: "Drunken laughter" },
    { position: 143580, words: "Violence after" },
    { position: 147630, words: "Killing the heat" },
-   { position: 152000, words: "Salt strips the paint" },
+   { position: 152000, words: "Salt strips the paint" }
 ]
 ---
 

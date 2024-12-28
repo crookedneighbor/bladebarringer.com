@@ -1,11 +1,14 @@
 ---
 id: barley
 spotifyID: 1kccKNibPNlyCVqhdg8NYE
+permalink: /playlists/2024/barley
 number: 1
 name: Barley
 artist: Water From Your Eyes
 img: https://i.scdn.co/image/ab67616d0000b2733456a000dc303a94002cae6b
 duration: 209021
+previousLink: 
+nextLink: /playlists/2024/borrow-trouble
 bandcampPath: https://waterfromyoureyes.bandcamp.com/track/barley-1
 lines: [
    { position: 2460, words: "One, two, three, four" },
@@ -60,7 +63,7 @@ lines: [
    { position: 192290, words: "One, two, three, four" },
    { position: 195690, words: "I count mountains" },
    { position: 198320, words: "One, two, three, counter" },
-   { position: 201730, words: "You're a cool thing, count mountains" },
+   { position: 201730, words: "You're a cool thing, count mountains" }
 ]
 ---
 

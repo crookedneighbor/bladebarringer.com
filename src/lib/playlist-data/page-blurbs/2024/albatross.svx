@@ -1,29 +1,32 @@
 ---
 id: albatross
 spotifyID: 60sDbx6WosEmzOy2EwdzkI
+permalink: /playlists/2024/albatross
 number: 7
 name: Albatross
 artist: English Teacher
 img: https://i.scdn.co/image/ab67616d0000b2736cc7c430c1c388fccab8c9ea
 duration: 194456
+previousLink: /playlists/2024/pretty-damn-lucky--kitchen-demo
+nextLink: /playlists/2024/talk-is-cheap
 bandcampPath: https://englishteacher.bandcamp.com/track/albatross
 lines: [
-  { position: 19916, words: "My cross flew out the window with me" },
-  { position: 24698, words: "When I decided to be" },
-  { position: 28948, words: "One of those shouty things up in the sky" },
-  { spacer: true },
-  { position: 37977, words: "I gave my mum a heart attack" },
-  { position: 42230, words: "Left the windowsill for the cul-de-sac" },
-  { position: 46214, words: "I stared at the sun and she stared right back" },
-  { spacer: true },
-  { position: 73718, words: "Found 'em heading south" },
-  { position: 76875, words: "I said, \"Have you heard about the sun?" },
-  { position: 82454, words: "Oh, she's the thing that made us, she made everyone.\"" },
-  { spacer: true },
-  { position: 91752, words: "They said, \"Don't think you're special" },
-  { position: 96267, words: "She's not the only one" },
-  { position: 100780, words: "Haven't you seen the sky at night?" },
-  { position: 103967, words: "There's millions of them.\"" },
+   { position: 19916, words: "My cross flew out the window with me" },
+   { position: 24698, words: "When I decided to be" },
+   { position: 28948, words: "One of those shouty things up in the sky" },
+   { spacer: true },
+   { position: 37977, words: "I gave my mum a heart attack" },
+   { position: 42230, words: "Left the windowsill for the cul-de-sac" },
+   { position: 46214, words: "I stared at the sun and she stared right back" },
+   { spacer: true },
+   { position: 73718, words: "Found 'em heading south" },
+   { position: 76875, words: "I said, \"Have you heard about the sun?" },
+   { position: 82454, words: "Oh, she's the thing that made us, she made everyone.\"" },
+   { spacer: true },
+   { position: 91752, words: "They said, \"Don't think you're special" },
+   { position: 96267, words: "She's not the only one" },
+   { position: 100780, words: "Haven't you seen the sky at night?" },
+   { position: 103967, words: "There's millions of them.\"" }
 ]
 ---
 

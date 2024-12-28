@@ -1,11 +1,14 @@
 ---
 id: air-drumming-fix-you
 spotifyID: 4pO4S5dLphqavzoByuZikz
+permalink: /playlists/2024/air-drumming-fix-you
 number: 22
 name: Air Drumming Fix You
 artist: Wild Pink
 img: https://i.scdn.co/image/ab67616d0000b273624b067399560ce7980cbf36
 duration: 329122
+previousLink: /playlists/2024/pressed--death
+nextLink: /playlists/2024/patterns
 bandcampPath: https://wildpink.bandcamp.com/track/air-drumming-fix-you
 lines: [
    { position: 20879, words: "Is it real right here" },

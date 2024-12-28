@@ -1,11 +1,14 @@
 ---
 id: outside-all-the-time
 spotifyID: 0c84AMPnviUzGHWuCJUNuI
+permalink: /playlists/2024/outside-all-the-time
 number: 9
 name: Outside All the Time
 artist: Steve Slagg
 img: https://i.scdn.co/image/ab67616d0000b2739c98e0751b676018f2fa9c90
 duration: 228506
+previousLink: /playlists/2024/talk-is-cheap
+nextLink: /playlists/2024/dividual-individual
 bandcampPath: https://steveslagg.bandcamp.com/track/outside-all-the-time-2
 lines: [
    { position: 3640, words: "Doors don't open anymore" },

@@ -78,8 +78,15 @@ TODO`;
 
 	writeSVX(indexPath, indexPage, indexPageData);
 
+	const tracks = Object.values(playlist.tracks);
 	await Promise.all(
-		Object.values(playlist.tracks).map(async (track) => {
+		tracks.map(async (track) => {
+			const previousTrack = tracks.find((t) => t.number === track.number - 1);
+			const nextTrack = tracks.find((t) => t.number === track.number + 1);
+
+			track.previousLink = previousTrack?.permalink ?? '';
+			track.nextLink = nextTrack?.permalink ?? '';
+
 			const pathToFile = resolvePath(path, `${track.id}.svx`);
 			let pageData = `
 TODO`;

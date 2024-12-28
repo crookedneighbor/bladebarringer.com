@@ -1,11 +1,14 @@
 ---
 id: pressed--death
 spotifyID: 1C6z6o5AqGi2JSUqYL9NUj
+permalink: /playlists/2024/pressed--death
 number: 21
 name: Pressed 2 Death
 artist: illuminati hotties
 img: https://i.scdn.co/image/ab67616d0000b27306c54b44a25d2252bdf6a1f8
 duration: 135026
+previousLink: /playlists/2024/i-missed-the-bus-man
+nextLink: /playlists/2024/air-drumming-fix-you
 bandcampPath: https://illuminatihotties.bandcamp.com/track/pressed-2-death
 lines: [
    { position: 4480, words: "One, two" },

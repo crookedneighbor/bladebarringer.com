@@ -1,11 +1,14 @@
 ---
 id: talk-is-cheap
 spotifyID: 2dmsUyyoTUpAzTb0tsbAIZ
+permalink: /playlists/2024/talk-is-cheap
 number: 8
 name: Talk is Cheap
 artist: Dr. Dog
 img: https://i.scdn.co/image/ab67616d0000b273a78d270cd44975ba7eb9cb71
 duration: 270937
+previousLink: /playlists/2024/albatross
+nextLink: /playlists/2024/outside-all-the-time
 lines: [
    { position: 15080, words: "To the end of a lane and then back again" },
    { position: 20530, words: "Feelin old and dumb and in the way" },

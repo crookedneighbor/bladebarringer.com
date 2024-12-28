@@ -1,11 +1,14 @@
 ---
 id: suck-the-blood-from-my-wound
 spotifyID: 08udle8t4dGZzQ67AEs8X4
+permalink: /playlists/2024/suck-the-blood-from-my-wound
 number: 5
 name: Suck the Blood from My Wound
 artist: Ezra Furman
 img: https://i.scdn.co/image/ab67616d0000b273b5a72c295b43659b6668d236
 duration: 289000
+previousLink: /playlists/2024/missing-out
+nextLink: /playlists/2024/pretty-damn-lucky--kitchen-demo
 bandcampPath: https://ezrafurman.bandcamp.com/track/suck-the-blood-from-my-wound
 lines: [
    { position: 26530, words: "I woke up bleeding in the crock of a tree" },
