@@ -71,7 +71,7 @@ lines: [
    { position: 232480, words: "Suck the blood from my wound" },
    { position: 235780, words: "Suck the blood from my wound" },
    { position: 273760, words: "A plague on both your houses" },
-   { position: 280740, words: "A plague on both your houses" },
+   { position: 280740, words: "A plague on both your houses" }
 ]
 artistWebsite: https://ezrafurman.com/
 ---

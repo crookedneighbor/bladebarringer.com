@@ -32,6 +32,7 @@ export async function getPlaylist(id, slug) {
 		id,
 		slug,
 		name: data.name,
+		description: data.description,
 		image: data.images[0].url,
 		tracks: formattedTracks
 	};
