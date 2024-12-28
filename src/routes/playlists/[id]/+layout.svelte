@@ -31,22 +31,19 @@
 </script>
 
 <div class="container">
-	<div class="left">
-		<h1>2024 Playlist</h1>
-		<p>Premable</p>
-
+	<div class="left prose">
 		<SpotifyPlayer id={spotifyPlayerID} kind="playlist" {onPlayevent} />
-		<ul class="py-4">
+		<ol class="marker:text-black">
 			{#each tracks as card}
 				<li>
 					<a
 						{...createHoverProps(card.id)}
 						class:hovered={hovered.name === card.id}
-						href={`/playlists/2024/${card.id}`}>{card.number}. {card.name}</a
+						href={`/playlists/2024/${card.id}`}>{card.name}</a
 					>
 				</li>
 			{/each}
-		</ul>
+		</ol>
 	</div>
 
 	<div bind:this={slotContainer} class="right">
@@ -79,9 +76,6 @@
 		@apply w-1/2 lg:w-1/5 p-2;
 	}
 
-	h1 {
-		@apply scroll-m-20 text-4xl font-extrabold tracking-tight lg:text-5xl;
-	}
 	a.hovered,
 	a:focus,
 	a:hover {
