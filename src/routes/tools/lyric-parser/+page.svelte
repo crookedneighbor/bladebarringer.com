@@ -8,6 +8,9 @@
 	let lyricAnnotations: { words?: string; position?: number; spacer?: boolean }[] = $state([]);
 
 	function onkeydown(e: KeyboardEvent) {
+		if (document.activeElement !== document.body) {
+			return;
+		}
 		if (
 			!id ||
 			!rawLyrics ||
