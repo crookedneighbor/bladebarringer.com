@@ -11,7 +11,6 @@ previousLink: /playlists/2024/feline-wave-race
 nextLink: /playlists/2024/pressed-2-death
 bandcampPath: https://jonnysdayout.bandcamp.com/track/i-missed-the-bus-man
 lines: [
-   { words: "TODO", position: 0 }
 ]
 ---
 

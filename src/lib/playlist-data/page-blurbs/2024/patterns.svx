@@ -18,6 +18,7 @@ lines: [
    { position: 59620, words: "But as the years go by and points comply" },
    { position: 66240, words: "With ever more relief" },
    { position: 73300, words: "Then patterns in repeat can begin" },
+   { spacer: true },
    { position: 83180, words: "To have your children, your flock of birds" },
    { position: 92970, words: "Your branch among the wood" },
    { position: 102820, words: "You'll try to tell them, but you're lost for words" },
@@ -25,17 +26,15 @@ lines: [
    { position: 123520, words: "And as those years go by, they'll look upon you kindly like a friend" },
    { position: 136820, words: "A pattern in repeat" },
    { position: 141690, words: "And never ends" },
+   { spacer: true },
    { position: 154110, words: "Pulled for meaning, I arched my back" },
    { position: 163430, words: "And then from the black, you were born" },
    { position: 173770, words: "Forward leaning at first, abstract" },
    { position: 183050, words: "You soon contract into form" },
+   { spacer: true },
    { position: 193020, words: "And now, the time leaps by and starts to fly" },
    { position: 199820, words: "And only then can I see" },
    { position: 206980, words: "That we're patterns in repeat, and we'll always be" },
-   { position: 224490, words: "Hm" },
-   { position: 234100, words: "Hm" },
-   { position: 243830, words: "Hm" },
-   { position: 252960, words: "" }
 ]
 ---
 

@@ -11,7 +11,36 @@ previousLink: /playlists/2024/patterns
 nextLink: /playlists/2024/all-the-weworks-are-dead
 bandcampPath: https://officeculture.bandcamp.com/track/hat-guy
 lines: [
-   { words: "TODO", position: 0 }
+  { position: 28958, words: "Do I talk like you?" },
+  { position: 32145, words: "It seems like I talk like you" },
+  { position: 38786, words: "It seems like I think like you" },
+  { position: 43569, words: "Extend my arms like you" },
+  { position: 46756, words: "And we both smile behind the eyes" },
+  { position: 53130, words: "But is that a disguise under a disguise?" },
+  { position: 60038, words: "Are these gestures we’ll wish we could revise?" },
+  { position: 66679, words: "But let’s submit to them, like acts of God or the march of time" },
+  { position: 73318, words: "Stale love, stale love, stale love" },
+  { position: 79960, words: "We were angry and calm and refined at the same time" },
+  { spacer: true },
+  { position: 114011, words: "Ah I killed hours with you" },
+  { position: 119060, words: "Talked about how strange that was with you" },
+  { position: 125967, words: "Flipped through everything you drew" },
+  { position: 130482, words: "Passed through your mind into those clustered lines" },
+  { position: 140307, words: "Fresh phantoms I identified" },
+  { position: 145623, words: "In the boldness of the shapes" },
+  { position: 148811, words: "The warped visions in our eyes" },
+  { position: 153060, words: "Stale love, stale love" },
+  { position: 157043, words: "We were angry and calm and refined at the same time" },
+  { spacer: true },
+  { position: 189451, words: "I brought a hat to the party" },
+  { position: 193168, words: "I wore a suit and a tie, ahh" },
+  { position: 201933, words: "But make no mistake, before you let me in" },
+  { position: 208574, words: "I don’t want to be the hat guy" },
+  { spacer: true },
+  { position: 216010, words: "I brought a hat to the party" },
+  { position: 219731, words: "The brim was soft and wide, ahh" },
+  { position: 228764, words: "You greet me at the door, scan me up and down" },
+  { position: 235670, words: "And tell me I’m a hat guy" },
 ]
 ---
 

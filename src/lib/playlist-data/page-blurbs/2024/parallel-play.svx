@@ -11,8 +11,43 @@ previousLink: /playlists/2024/nothing-changes
 nextLink: /playlists/2024/fire-excape
 bandcampPath: https://sill-yuh-sweets.bandcamp.com/track/parallel-play
 lines: [
-   { words: "TODO", position: 0 }
+  { position: 3566, words: "Simple gestures of affection" },
+  { position: 5463, words: "Carefully are picked" },
+  { position: 10509, words: "Based on subtle observations" },
+  { position: 15291, words: "Of what makes you tick" },
+  { spacer: true },
+  { position: 20336, words: "Present and participating" },
+  { position: 25120, words: "My world next to you" },
+  { position: 30168, words: "I'll milk clouds into a wine" },
+  { position: 34152, words: "And you'll paint shadows blue" },
+  { spacer: true },
+  { position: 39995, words: "Give me all your pain and I'll create" },
+  { position: 49558, words: "Capture how we synergize this space" },
+  { spacer: true },
+  { position: 59652, words: "Knock the music from my ears" },
+  { position: 63369, words: "Kiss red taste from my lips" },
+  { position: 69479, words: "Beat the rhythm from my heart" },
+  { position: 73730, words: "Trip swing from these footsteps" },
+  { spacer: true },
+  { position: 79042, words: "Sometimes love's a terrifying" },
+  { position: 83824, words: "Chasmic, cliffside hang" },
+  { position: 88870, words: "Sometimes love's a lone existence" },
+  { position: 93652, words: "Sometimes parallel play" },
+  { spacer: true },
+  { position: 99760, words: "Give me all your pain and I'll create" },
+  { position: 108526, words: "Capture how we pain and how we play" },
+  { spacer: true },
+  { position: 152767, words: "Echinacea, sweet fantasia" },
+  { position: 157545, words: "Wild how we grow" },
+  { position: 162595, words: "Want your wonder, bear you witness" },
+  { position: 167111, words: "Playful, drunk and slow?" },
+  { spacer: true },
+  { position: 171889, words: "No more language, loss, or lonely" },
+  { position: 176673, words: "More no less no more" },
+  { position: 181720, words: "History fell back behind us" },
+  { position: 186501, words: "Could we play some more?" },
 ]
+
 ---
 
 - Chicago
