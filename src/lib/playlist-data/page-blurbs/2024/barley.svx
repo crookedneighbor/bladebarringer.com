@@ -64,7 +64,11 @@ lines: [
 ]
 ---
 
-I started a new job at [Splice](https://splice.com) at the beginning of this year, after being laid off from [Bandcamp](https://bandcamp.com/) when [Epic Games sold the company to Songtradr](https://www.404media.co/bandcamps-entire-union-bargaining-team-was-laid-off/) amid contract negotations with our newly unionzed company. I had joined Bandcamp after spending about 8 years at [Braintree](<https://en.wikipedia.org/wiki/Braintree_(company)>), so happy to move into a new role where I could actively work on a product that functioned to support musicians - only to be dropped from that job within a year.
+At the end of 2023, I was laid off from [Bandcamp](https://bandcamp.com/) when [Epic Games sold the company to Songtradr](https://www.404media.co/bandcamps-entire-union-bargaining-team-was-laid-off/). We were mid-contract negotations for our newly unionzed company when they gutted us. 
+
+I had joined Bandcamp after spending about 8 years at [Braintree](<https://en.wikipedia.org/wiki/Braintree_(company)>), so happy to move into a new role where I could actively work on a product that functioned to support musicians - only to be dropped from that job within a year.
+
+I started a new job at [Splice](https://splice.com) at the beginning of this year, after being laid off . 
 
 Thankfully, through the generous help from a coworker I met at Bandcamp, I was able to interview for a job at Splice, where I worked under [Brian](https://bsky.app/profile/brianloveswords.com), my new grandboss - who posted this song.
 
