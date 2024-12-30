@@ -17,7 +17,7 @@
 </script>
 
 <div class="song-container" style={'view-transition-name: ' + id}>
-	<div class="cover" style={`background-image: url(${img}); view-transition-name: ${id}-img`}></div>
+	<img class="w-full" src={img} style:view-transition-name={`${id}-img`} alt="" />
 	<div
 		class="info prose prose-quoteless prose-blockquote:not-italic prose-blockquote:whitespace-pre-wrap prose-blockquote:text-xl"
 	>
@@ -107,10 +107,7 @@
 
 <style lang="postcss">
 	.song-container {
-		@apply m-0 w-full p-0;
-	}
-	.cover {
-		@apply w-full h-96 lg:h-96 bg-cover bg-center;
+		@apply m-0 w-full max-w-4xl p-0 m-auto;
 	}
 
 	.info {
