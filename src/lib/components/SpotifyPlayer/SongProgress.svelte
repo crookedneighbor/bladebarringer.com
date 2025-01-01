@@ -22,7 +22,6 @@
 	onclick={(e) => {
 		const width = Number(getComputedStyle(progressElement).width.split('px')[0]);
 		const percent = e.offsetX / width;
-		console.log(e.x);
 		const position = player.duration * percent;
 
 		player.seek(position / 1000);
