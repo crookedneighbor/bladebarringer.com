@@ -1,5 +1,5 @@
 <script lang="ts">
-	import SpotifyPlayer, { currentPlayer } from '$lib/components/SpotifyPlayer/SpotifyPlayer.svelte';
+	import { player } from '$lib/components/HeadlessSpotifyController/HeadlessSpotifyController.svelte';
 
 	let id = $state('');
 	let rawLyrics = $state('');
@@ -19,7 +19,7 @@
 			return;
 		}
 
-		if (!currentPlayer.playing) {
+		if (!player.playing) {
 			alert('Spotify Player not playing!');
 			return;
 		}
@@ -37,7 +37,7 @@
 		} else {
 			lyricAnnotations.push({
 				words: lyrics[focusedLyricIndex],
-				position: currentPlayer.position
+				position: player.position
 			});
 
 			focusedLyricIndex++;
@@ -51,6 +51,10 @@
 
 		document.querySelector(`[data-index="${focusedLyricIndex}"`)?.scrollIntoView();
 	}
+
+	$effect(() => {
+		player.load(id);
+	});
 </script>
 
 <svelte:window {onkeydown} />
@@ -61,7 +65,8 @@
 	<h2>Spotify Player</h2>
 
 	{#if id}
-		<SpotifyPlayer kind="track" {id} />
+		<button class="rounded bg-green-300 p-2 w-48 text-xl" onclick={() => player.play()}>Play</button
+		>
 	{:else}
 		<div
 			class="animate-pulse w-full bg-gray-800 flex justify-center items-center"
@@ -82,8 +87,8 @@
 	<h2>Spotify Player Stats</h2>
 	<div class="bg-white p-4 my-4 rounded">
 		<ul>
-			<li>Is Playing: {currentPlayer.playing}</li>
-			<li>Position: {currentPlayer.position}</li>
+			<li>Is Playing: {player.playing}</li>
+			<li>Position: {player.position}</li>
 		</ul>
 	</div>
 
