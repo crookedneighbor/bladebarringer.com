@@ -17,7 +17,10 @@ export async function load({ params }) {
 		});
 
 		return {
-			spotifyPlayerID: metadata.id,
+			spotifyPlaylistLink: `https://open.spotify.com/playlist/${metadata.id}`,
+			playlistSlug: id,
+			name: metadata.name,
+			description: metadata.description,
 			tracks
 		};
 	} catch (e) {

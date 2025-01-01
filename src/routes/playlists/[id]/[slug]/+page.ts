@@ -11,6 +11,8 @@ export async function load({ parent, params }) {
 
 	return {
 		track,
+		spotifyPlayerID: track.spotifyID,
+		hideTrackList: true,
 		pageBlurb: pageBlurb.default
 	};
 }
