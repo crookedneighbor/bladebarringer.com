@@ -28,7 +28,6 @@
 			player._readyResolve = resolve;
 		});
 		player.ready = false;
-		player.ready = false;
 		player.playing = false;
 		player.buffering = false;
 		player.position = 0;
