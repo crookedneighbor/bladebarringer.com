@@ -11,6 +11,15 @@
 	import { player } from '$lib/components/HeadlessSpotifyController/HeadlessSpotifyController.svelte';
 
 	let { previousTrackID, nextTrackID, prevDisabled, onTrackChange }: Props = $props();
+	let playButtonText = $derived(player.playing ? 'Pause' : 'Play');
+	function loadTrack(trackID: string) {
+		player.load(trackID);
+		onTrackChange(trackID);
+
+		if (player.autoplay) {
+			player.play();
+		}
+	}
 </script>
 
 <button
@@ -23,12 +32,7 @@
 			return;
 		}
 
-		player.load(previousTrackID);
-		onTrackChange(previousTrackID);
-
-		if (player.autoplay) {
-			player.play();
-		}
+		loadTrack(previousTrackID);
 	}}
 >
 	<span class="sr-only">Previous track</span>
@@ -48,15 +52,15 @@
 	</svg>
 </button>
 
-{#if player.playing}
-	<button
-		class="-mb-6 bg-white rounded-full z-10"
-		onclick={() => {
-			player.autoplay = false;
-			player.toggle();
-		}}
-	>
-		<span class="sr-only">Pause</span>
+<button
+	class="-mb-6 bg-white rounded-full z-10"
+	onclick={() => {
+		player.autoplay = !player.playing;
+		player.toggle();
+	}}
+>
+	<span class="sr-only">{playButtonText}</span>
+	{#if player.playing}
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			fill="none"
@@ -71,16 +75,7 @@
 				d="M14.25 9v6m-4.5 0V9M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
 			/>
 		</svg>
-	</button>
-{:else}
-	<button
-		class="-mb-6 bg-white rounded-full z-10"
-		onclick={() => {
-			player.autoplay = true;
-			player.toggle();
-		}}
-	>
-		<span class="sr-only">Play</span>
+	{:else}
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			fill="none"
@@ -100,18 +95,13 @@
 				d="M15.91 11.672a.375.375 0 0 1 0 .656l-5.603 3.113a.375.375 0 0 1-.557-.328V8.887c0-.286.307-.466.557-.327l5.603 3.112Z"
 			/>
 		</svg>
-	</button>
-{/if}
+	{/if}
+</button>
 
 <button
 	class="-mb-4"
 	onclick={() => {
-		player.load(nextTrackID);
-		onTrackChange(nextTrackID);
-
-		if (player.autoplay) {
-			player.play();
-		}
+		loadTrack(nextTrackID);
 	}}
 >
 	<span class="sr-only">Next track</span>
