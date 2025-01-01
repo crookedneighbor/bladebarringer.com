@@ -17,7 +17,7 @@ lines: [
    { position: 60195, words: "Give me a skin I can shed in an open field" },
    { spacer: true },
    { position: 78525, words: "And Lord, just one more thing" },
-   { position: 83837, words: "Make those lonesome bells of mine ring" },
+   { position: 83837, words: "Let those lonesome bells of mine ring" },
    { position: 89416, words: "For her no more" },
    { spacer: true },
    { position: 103494, words: "Lord, make me a juniper" },
