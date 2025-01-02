@@ -3,16 +3,14 @@
 	import { page } from '$app/state';
 	import HeadlessSpotifyController from '$lib/components/HeadlessSpotifyController/HeadlessSpotifyController.svelte';
 	import SpotifyPlayer from '$lib/components/SpotifyPlayer/SpotifyPlayer.svelte';
-	// TODO add highlight props
-	// import { createHoverProps, hovered } from './hovered-state.svelte.js';
 
 	let { data, children } = $props();
 	let { tracks, name, description, spotifyPlaylistLink } = $derived(data);
-	let slotContainer: HTMLDivElement;
 
 	let playerTracks = $derived(
 		tracks.map((t) => ({
 			id: t.spotifyID,
+			slug: t.id,
 			name: t.name,
 			number: t.number,
 			artist: t.artist,
@@ -50,24 +48,11 @@
 			<p class="text-xl">{description}</p>
 		</div>
 
-		<!-- TODO add highlight props -->
 		<!-- TODO add blurb about logging into Spotify -->
 		<SpotifyPlayer {onTrackChange} {spotifyPlaylistLink} tracks={playerTracks} {currentTrack} />
-		<!-- <ol class="marker:text-black" start="0">
-			<li><a href="/playlists/2024">Intro</a></li>
-			{#each tracks as card}
-				<li>
-					<a
-						{...createHoverProps(card.id)}
-						class:hovered={hovered.name === card.id}
-						href={`/playlists/2024/${card.id}`}>{card.name}</a
-					>
-				</li>
-			{/each}
-		</ol> -->
 	</div>
 
-	<div bind:this={slotContainer} class="right">
+	<div class="right">
 		{@render children()}
 	</div>
 </div>

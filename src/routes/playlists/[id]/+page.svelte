@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { createHoverProps, hovered } from './hovered-state.svelte.js';
+	import { createHoverProps, hovered } from '$lib/hovered-state.svelte.js';
 
 	let { data } = $props();
 	let { tracks } = $derived(data);

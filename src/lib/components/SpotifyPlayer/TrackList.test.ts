@@ -11,6 +11,7 @@ describe('TrackList', () => {
 		tracks = [
 			{
 				id: 'abc-1',
+				slug: 'abc-1',
 				number: 1,
 				permalink: '/song/link-1',
 				name: 'Song One',
@@ -19,6 +20,7 @@ describe('TrackList', () => {
 			},
 			{
 				id: 'abc-2',
+				slug: 'abc-2',
 				number: 2,
 				permalink: '/song/link-2',
 				name: 'Song Two',

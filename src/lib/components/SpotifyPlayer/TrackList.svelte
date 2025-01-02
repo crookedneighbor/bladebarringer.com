@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { slide } from 'svelte/transition';
 	import type { Track } from './types';
+	import { createHoverProps, hovered } from '$lib/hovered-state.svelte.js';
 
 	interface Props {
 		tracks: Track[];
@@ -14,7 +15,9 @@
 		<li transition:slide class="border-b px-2">
 			<a
 				href={track.permalink}
+				{...createHoverProps(track.id)}
 				class="text-left w-full flex flex-col py-1"
+				class:hovered={hovered.name === track.slug}
 				onclick={(e) => {
 					e.preventDefault();
 
@@ -27,3 +30,12 @@
 		</li>
 	{/each}
 </ol>
+
+<style lang="postcss">
+	a.hovered,
+	a:focus,
+	a:hover {
+		/* TODO is this the right way to highlight it? */
+		@apply text-amber-700;
+	}
+</style>

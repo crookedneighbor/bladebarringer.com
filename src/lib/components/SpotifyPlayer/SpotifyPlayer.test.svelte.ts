@@ -12,6 +12,7 @@ import { tick } from 'svelte';
 function createTrack(props: Partial<Track> = {}) {
 	return {
 		id: 'foo',
+		slug: 'foo',
 		name: 'Foo',
 		number: 1,
 		permalink: 'https://spotify.com/foo',
