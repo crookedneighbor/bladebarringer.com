@@ -1,54 +1,107 @@
-<script lang="ts" module>
-	export let currentPlayer = $state({
-		songId: '', // setable outside the module
-		playing: false,
-		position: 0
-	});
-</script>
-
 <script lang="ts">
+	import { slide } from 'svelte/transition';
+	import { page } from '$app/state';
+	import { player } from '$lib/components/HeadlessSpotifyController/HeadlessSpotifyController.svelte';
+	import SpotifyLink from './SpotifyLink.svelte';
+	import type { Track } from './types';
+	import TrackList from './TrackList.svelte';
+	import TrackListToggleButton from './TrackListToggleButton.svelte';
+	import SpotifyControls from './SpotifyControls.svelte';
+	import SongProgress from './SongProgress.svelte';
+	import CurrentTrack from './CurrentTrack.svelte';
+
 	interface Props {
-		id: string;
-		kind: 'playlist' | 'track';
-		onPlayevent?: (dir: number) => void;
+		tracks: Track[];
+		currentTrack?: Track;
+		spotifyPlaylistLink: string;
+		onTrackChange: (newTrackID: string) => void;
 	}
-	let { id, kind, onPlayevent }: Props = $props();
+	let { tracks, spotifyPlaylistLink, currentTrack, onTrackChange }: Props = $props();
 
-	let currentDuration = $state(0);
+	let trackListOpen = $state(true);
+	let DEBUG = $state(true);
 
-	function onmessage(e: MessageEvent) {
-		const payload = e.data?.payload;
-		if (!payload || e.data?.type !== 'playback_update') {
-			return;
+	let tracksBeforeCurrentTrack = $derived.by(() => {
+		let include = true;
+
+		return tracks.filter((t) => {
+			if (t.id === currentTrack?.id) {
+				include = false;
+			}
+			return include;
+		});
+	});
+
+	let tracksAfterCurrentTrack = $derived.by(() => {
+		let include = false;
+
+		return tracks.filter((t) => {
+			if (t.id === currentTrack?.id) {
+				include = true;
+				return false;
+			}
+			return include;
+		});
+	});
+
+	if (currentTrack) {
+		player.load(currentTrack.id);
+	}
+
+	player.onSongCompleted(() => {
+		if (player.autoplay) {
+			loadSong(nextTrackID);
 		}
+	});
 
-		const { duration, isPaused, position } = e.data.payload;
-		currentPlayer.playing = !isPaused;
-		currentPlayer.position = position;
+	function loadSong(id: string) {
+		player.load(id);
+		onTrackChange(id);
 
-		// got to do it this way, because the player
-		// changes the duration after the initial load
-		// so the current duration is not accurate
-		// for the song being played after the initial
-		// event
-		if (currentDuration !== duration) {
-			currentDuration = duration;
-			onPlayevent?.(duration);
+		if (player.autoplay) {
+			player.play();
 		}
 	}
+
+	let previousTrackID = $derived(tracksBeforeCurrentTrack.at(-1)?.id ?? tracks[0].id);
+	let nextTrackID = $derived(tracksAfterCurrentTrack.at(0)?.id ?? tracks[0].id);
 </script>
 
-<svelte:window {onmessage} />
+<!-- TODO handle mobile track listing -->
+<!-- TODO Handle case where no tracks are selected yet -->
+{#if trackListOpen && tracksBeforeCurrentTrack.length}
+	<div transition:slide data-testid="before-tracks">
+		<TrackList tracks={tracksBeforeCurrentTrack} onTrackChoice={loadSong} />
+	</div>
+{/if}
 
-<div class="player">
-	<iframe
-		style="border-radius:12px"
-		src={`https://open.spotify.com/embed/${kind}/${id}?utm_source=generator&theme=0`}
-		width="100%"
-		height="352"
-		frameBorder="0"
-		allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
-		loading="lazy"
-		title="Embeded Playlist"
-	></iframe>
+<div class="bg-white rounded border" style:view-transition-name="spotify-controls">
+	<SongProgress />
+
+	<CurrentTrack {currentTrack} />
+
+	<div class="flex items-center justify-center pb-8">
+		<SpotifyLink {spotifyPlaylistLink} />
+
+		<SpotifyControls
+			{previousTrackID}
+			{nextTrackID}
+			prevDisabled={!page.data.track}
+			{onTrackChange}
+		/>
+
+		<TrackListToggleButton
+			{trackListOpen}
+			onclick={() => {
+				DEBUG = false;
+				trackListOpen = !trackListOpen;
+			}}
+		/>
+	</div>
 </div>
+
+{#if trackListOpen && tracksAfterCurrentTrack.length}
+	<div transition:slide data-testid="after-tracks">
+		<TrackList tracks={tracksAfterCurrentTrack} onTrackChoice={loadSong} />
+	</div>
+{/if}
