@@ -1,20 +1,34 @@
 <script lang="ts">
 	import { goto, onNavigate } from '$app/navigation';
-	import SpotifyPlayer, { currentPlayer } from '$lib/components/SpotifyPlayer/SpotifyPlayer.svelte';
-	import { createHoverProps, hovered } from './hovered-state.svelte.js';
+	import { page } from '$app/state';
+	import HeadlessSpotifyController from '$lib/components/HeadlessSpotifyController/HeadlessSpotifyController.svelte';
+	import SpotifyPlayer from '$lib/components/SpotifyPlayer/SpotifyPlayer.svelte';
+	// TODO add highlight props
+	// import { createHoverProps, hovered } from './hovered-state.svelte.js';
 
 	let { data, children } = $props();
-	let { spotifyPlayerID, tracks } = $derived(data);
+	let { tracks, name, description, spotifyPlaylistLink } = $derived(data);
 	let slotContainer: HTMLDivElement;
 
-	function onPlayevent(duration: number) {
-		const foundTrack = tracks.find((t) => t.duration === duration);
-		if (foundTrack) {
-			currentPlayer.songId = foundTrack.id;
+	let playerTracks = $derived(
+		tracks.map((t) => ({
+			id: t.spotifyID,
+			name: t.name,
+			number: t.number,
+			artist: t.artist,
+			art: t.img,
+			permalink: t.permalink
+		}))
+	);
 
-			// TODO have option to opt out of this behavior
-			goto(`/playlists/2024/${foundTrack.id}`);
-		}
+	let currentTrack = $derived(playerTracks.find((t) => t.id === page.data.spotifyPlayerID));
+
+	function onTrackChange(newTrackID: string) {
+		const track = tracks.find((t) => t.spotifyID === newTrackID);
+		const path = track?.permalink || `/playlists/${page.data.playlistSlug}`;
+		goto(path, {
+			keepFocus: true
+		});
 	}
 
 	onNavigate((navigation) => {
@@ -24,16 +38,22 @@
 			document.startViewTransition(async () => {
 				resolve();
 				await navigation.complete;
-				slotContainer.scrollIntoView();
 			});
 		});
 	});
 </script>
 
 <div class="container">
-	<div class="left prose">
-		<SpotifyPlayer id={spotifyPlayerID} kind="playlist" {onPlayevent} />
-		<ol class="marker:text-black">
+	<div class="left">
+		<div class="mb-4">
+			<p class="text-3xl">{name}</p>
+			<p class="text-xl">{description}</p>
+		</div>
+
+		<!-- TODO add highlight props -->
+		<SpotifyPlayer {onTrackChange} {spotifyPlaylistLink} tracks={playerTracks} {currentTrack} />
+		<!-- <ol class="marker:text-black" start="0">
+			<li><a href="/playlists/2024">Intro</a></li>
 			{#each tracks as card}
 				<li>
 					<a
@@ -43,7 +63,7 @@
 					>
 				</li>
 			{/each}
-		</ol>
+		</ol> -->
 	</div>
 
 	<div bind:this={slotContainer} class="right">
@@ -74,15 +94,17 @@
 		}
 		-ms-overflow-style: none; /* IE and Edge */
 		scrollbar-width: none; /* Firefox */
-		@apply lg:h-screen lg:w-2/3 lg:overflow-scroll;
+		@apply lg:h-full lg:w-2/3 lg:overflow-scroll;
 	}
 	.card {
 		@apply w-1/2 lg:w-1/5 p-2;
 	}
 
+	/* 
+	TODO add hovered props
 	a.hovered,
 	a:focus,
 	a:hover {
 		@apply text-amber-700;
-	}
+	} */
 </style>

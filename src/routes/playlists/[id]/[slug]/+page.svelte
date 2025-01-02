@@ -17,7 +17,10 @@
 </script>
 
 <div class="song-container" style={'view-transition-name: ' + id}>
-	<img class="w-full" src={img} style:view-transition-name={`${id}-img`} alt="" />
+	<div class="relative">
+		<img class="w-full" src={img} style:view-transition-name={`${id}-img`} alt="" />
+		<Lyrics {lines} />
+	</div>
 	<div
 		class="info prose prose-quoteless prose-blockquote:not-italic prose-blockquote:whitespace-pre-wrap prose-blockquote:text-xl"
 	>
@@ -96,12 +99,6 @@
 			</div>
 		</div>
 		{@render data.pageBlurb()}
-
-		{#if lines.length > 0}
-			<Lyrics {lines} {id} />
-		{:else}
-			<blockquote>(No lyrics available for this song)</blockquote>
-		{/if}
 	</div>
 </div>
 
