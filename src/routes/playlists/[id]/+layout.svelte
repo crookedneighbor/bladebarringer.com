@@ -51,6 +51,10 @@
 	</div>
 </div>
 
+<div class="absolute -left-96 -bottom-96">
+	<HeadlessSpotifyController />
+</div>
+
 <style lang="postcss">
 	.container {
 		@apply lg:flex m-auto;
