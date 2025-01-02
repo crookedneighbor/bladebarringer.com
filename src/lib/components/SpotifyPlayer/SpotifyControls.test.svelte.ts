@@ -17,10 +17,10 @@ describe('SpotifyControls', () => {
 			onTrackChange: vi.fn()
 		};
 
-		vi.spyOn(player, 'restart');
-		vi.spyOn(player, 'load');
-		vi.spyOn(player, 'play');
-		vi.spyOn(player, 'toggle');
+		vi.spyOn(player, 'restart').mockResolvedValue();
+		vi.spyOn(player, 'load').mockResolvedValue();
+		vi.spyOn(player, 'play').mockResolvedValue();
+		vi.spyOn(player, 'toggle').mockResolvedValue();
 	});
 
 	afterEach(() => {
