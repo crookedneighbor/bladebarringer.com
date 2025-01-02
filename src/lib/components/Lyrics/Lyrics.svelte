@@ -16,6 +16,8 @@
 	let { lines }: Props = $props();
 	// TODO handle preview mode
 	// just show lyrics all the time????
+	// TODO fix bug where lyrics sometimes show before they are supposed to
+	// and flash back and forth
 	let showLyrics = $derived.by(() => {
 		const pos = player.position;
 		const firstLinePos = lines.at(0)?.position ?? 0;

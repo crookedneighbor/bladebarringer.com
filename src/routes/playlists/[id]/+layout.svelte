@@ -51,6 +51,7 @@
 		</div>
 
 		<!-- TODO add highlight props -->
+		<!-- TODO add blurb about logging into Spotify -->
 		<SpotifyPlayer {onTrackChange} {spotifyPlaylistLink} tracks={playerTracks} {currentTrack} />
 		<!-- <ol class="marker:text-black" start="0">
 			<li><a href="/playlists/2024">Intro</a></li>
@@ -95,9 +96,6 @@
 		-ms-overflow-style: none; /* IE and Edge */
 		scrollbar-width: none; /* Firefox */
 		@apply lg:h-full lg:w-2/3 lg:overflow-scroll;
-	}
-	.card {
-		@apply w-1/2 lg:w-1/5 p-2;
 	}
 
 	/* 
