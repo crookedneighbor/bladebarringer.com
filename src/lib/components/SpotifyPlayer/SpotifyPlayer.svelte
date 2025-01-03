@@ -76,6 +76,7 @@
 		<SpotifyLink {spotifyPlaylistLink} />
 
 		<SpotifyControls
+			currentTrackID={currentTrack?.id}
 			{previousTrackID}
 			{nextTrackID}
 			prevDisabled={!page.data.track}

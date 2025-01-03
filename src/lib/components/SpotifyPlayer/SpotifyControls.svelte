@@ -1,5 +1,6 @@
 <script lang="ts" module>
 	export interface Props {
+		currentTrackID?: string;
 		previousTrackID: string;
 		nextTrackID: string;
 		prevDisabled: boolean;
@@ -10,7 +11,8 @@
 <script lang="ts">
 	import { player } from '$lib/components/HeadlessSpotifyController/HeadlessSpotifyController.svelte';
 
-	let { previousTrackID, nextTrackID, prevDisabled, onTrackChange }: Props = $props();
+	let { currentTrackID, previousTrackID, nextTrackID, prevDisabled, onTrackChange }: Props =
+		$props();
 	let playButtonText = $derived(player.playing ? 'Pause' : 'Play');
 	function loadTrack(trackID: string) {
 		player.load(trackID);
@@ -56,6 +58,10 @@
 <button
 	class="-mb-6 bg-white rounded-full z-10"
 	onclick={() => {
+		if (!currentTrackID) {
+			player.load(nextTrackID);
+			onTrackChange(nextTrackID);
+		}
 		player.autoplay = !player.playing;
 		player.toggle();
 	}}

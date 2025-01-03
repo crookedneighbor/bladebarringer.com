@@ -11,6 +11,7 @@ describe('SpotifyControls', () => {
 
 	beforeEach(() => {
 		props = {
+			currentTrackID: 'current',
 			previousTrackID: 'prev',
 			nextTrackID: 'next',
 			prevDisabled: false,
@@ -157,6 +158,19 @@ describe('SpotifyControls', () => {
 			await user.click(screen.getByText('Pause'));
 
 			expect(player.autoplay).toEqual(false);
+		});
+
+		it('loads and plays first track if no current track is present', async () => {
+			const user = userEvent.setup();
+			render(SpotifyControls, {
+				...props,
+				currentTrackID: ''
+			});
+
+			await user.click(screen.getByText('Play'));
+
+			expect(player.load).toBeCalledWith('next');
+			expect(props.onTrackChange).toBeCalledWith('next');
 		});
 	});
 });
