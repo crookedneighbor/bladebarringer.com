@@ -43,18 +43,16 @@
 
 <div class="container">
 	<div class="left">
-		<div class="mb-4">
-			<p class="text-3xl">{name}</p>
-			<p class="text-xl">{description}</p>
-		</div>
-
 		<!-- TODO add blurb about logging into Spotify -->
 		<SpotifyPlayer
 			{onTrackChange}
-			{spotifyPlaylistLink}
+			playlist={{
+				name,
+				permalink: spotifyPlaylistLink,
+				art: playlistArt
+			}}
 			tracks={playerTracks}
 			{currentTrack}
-			{playlistArt}
 		/>
 	</div>
 

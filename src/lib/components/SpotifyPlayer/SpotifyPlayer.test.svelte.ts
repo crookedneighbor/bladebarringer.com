@@ -43,8 +43,11 @@ describe('SpotifyPlayer', () => {
 		render(SpotifyPlayer, {
 			tracks: [track],
 			currentTrack: track,
-			spotifyPlaylistLink: 'https://open.spotify.com/playlist/yay',
-			playlistArt: 'https://example.com/art.png',
+			playlist: {
+				name: 'Name',
+				permalink: 'https://open.spotify.com/playlist/yay',
+				art: 'https://example.com/art.png'
+			},
 			onTrackChange: vi.fn()
 		});
 
@@ -57,8 +60,11 @@ describe('SpotifyPlayer', () => {
 			render(SpotifyPlayer, {
 				tracks: tracks,
 				currentTrack: tracks[2],
-				spotifyPlaylistLink: 'https://open.spotify.com/playlist/yay',
-				playlistArt: 'https://example.com/art.png',
+				playlist: {
+					name: 'Name',
+					permalink: 'https://open.spotify.com/playlist/yay',
+					art: 'https://example.com/art.png'
+				},
 				onTrackChange: vi.fn()
 			});
 
@@ -74,8 +80,11 @@ describe('SpotifyPlayer', () => {
 			render(SpotifyPlayer, {
 				tracks: tracks,
 				currentTrack: tracks[2],
-				spotifyPlaylistLink: 'https://open.spotify.com/playlist/yay',
-				playlistArt: 'https://example.com/art.png',
+				playlist: {
+					name: 'Name',
+					permalink: 'https://open.spotify.com/playlist/yay',
+					art: 'https://example.com/art.png'
+				},
 				onTrackChange: vi.fn()
 			});
 			expect(screen.getAllByRole('listitem')).toHaveLength(5);
@@ -90,8 +99,11 @@ describe('SpotifyPlayer', () => {
 			render(SpotifyPlayer, {
 				tracks: tracks,
 				currentTrack: tracks[2],
-				spotifyPlaylistLink: 'https://open.spotify.com/playlist/yay',
-				playlistArt: 'https://example.com/art.png',
+				playlist: {
+					name: 'Name',
+					permalink: 'https://open.spotify.com/playlist/yay',
+					art: 'https://example.com/art.png'
+				},
 				onTrackChange: spy
 			});
 
@@ -107,8 +119,11 @@ describe('SpotifyPlayer', () => {
 			render(SpotifyPlayer, {
 				tracks: tracks,
 				currentTrack: tracks[2],
-				spotifyPlaylistLink: 'https://open.spotify.com/playlist/yay',
-				playlistArt: 'https://example.com/art.png',
+				playlist: {
+					name: 'Name',
+					permalink: 'https://open.spotify.com/playlist/yay',
+					art: 'https://example.com/art.png'
+				},
 				onTrackChange: vi.fn()
 			});
 
@@ -128,8 +143,11 @@ describe('SpotifyPlayer', () => {
 			render(SpotifyPlayer, {
 				tracks: tracks,
 				currentTrack: tracks[2],
-				spotifyPlaylistLink: 'https://open.spotify.com/playlist/yay',
-				playlistArt: 'https://example.com/art.png',
+				playlist: {
+					name: 'Name',
+					permalink: 'https://open.spotify.com/playlist/yay',
+					art: 'https://example.com/art.png'
+				},
 				onTrackChange: spy
 			});
 			vi.mocked(player.load).mockReset();
@@ -154,8 +172,11 @@ describe('SpotifyPlayer', () => {
 			render(SpotifyPlayer, {
 				tracks: tracks,
 				currentTrack: tracks[4],
-				spotifyPlaylistLink: 'https://open.spotify.com/playlist/yay',
-				playlistArt: 'https://example.com/art.png',
+				playlist: {
+					name: 'Name',
+					permalink: 'https://open.spotify.com/playlist/yay',
+					art: 'https://example.com/art.png'
+				},
 				onTrackChange: spy
 			});
 			vi.mocked(player.load).mockReset();

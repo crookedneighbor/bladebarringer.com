@@ -12,11 +12,14 @@
 	interface Props {
 		tracks: Track[];
 		currentTrack?: Track;
-		spotifyPlaylistLink: string;
-		playlistArt: string;
+		playlist: {
+			name: string;
+			permalink: string;
+			art: string;
+		};
 		onTrackChange: (newTrackID: string) => void;
 	}
-	let { tracks, spotifyPlaylistLink, playlistArt, currentTrack, onTrackChange }: Props = $props();
+	let { tracks, playlist, currentTrack, onTrackChange }: Props = $props();
 
 	let trackListOpen = $state(true);
 
@@ -67,12 +70,12 @@
 </script>
 
 <div class="bg-white rounded border overflow-hidden" style:view-transition-name="spotify-controls">
-	<SongProgress art={playlistArt} />
+	<SongProgress art={playlist.art} />
 
 	<CurrentTrack {currentTrack} />
 
 	<div class="flex items-center justify-center pb-8">
-		<SpotifyLink link={spotifyPlaylistLink} />
+		<SpotifyLink link={playlist.permalink} />
 
 		<SpotifyControls
 			currentTrackID={currentTrack?.id}
