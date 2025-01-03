@@ -8,6 +8,7 @@
 	let { currentTrack }: Props = $props();
 </script>
 
+<!-- TODO show preview label if suspected preview -->
 {#if currentTrack}
 	{#key currentTrack.id}
 		<div transition:slide class="mx-2 text-xl">
