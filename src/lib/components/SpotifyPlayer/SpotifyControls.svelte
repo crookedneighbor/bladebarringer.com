@@ -1,9 +1,9 @@
 <script lang="ts" module>
 	export interface Props {
 		currentTrackID?: string;
+		firstTrackID: string;
 		previousTrackID: string;
 		nextTrackID: string;
-		prevDisabled: boolean;
 		onTrackChange: (newID: string) => void;
 	}
 </script>
@@ -11,7 +11,7 @@
 <script lang="ts">
 	import { player } from '$lib/components/HeadlessSpotifyController/HeadlessSpotifyController.svelte';
 
-	let { currentTrackID, previousTrackID, nextTrackID, prevDisabled, onTrackChange }: Props =
+	let { currentTrackID, firstTrackID, previousTrackID, nextTrackID, onTrackChange }: Props =
 		$props();
 	let playButtonText = $derived(player.playing ? 'Pause' : 'Play');
 	function loadTrack(trackID: string) {
@@ -26,9 +26,9 @@
 
 <!-- TODO handle going back to playlist page when going back on first track -->
 <button
-	disabled={prevDisabled}
+	disabled={!currentTrackID}
 	class="-mb-4"
-	class:text-gray-400={prevDisabled}
+	class:text-gray-400={!currentTrackID}
 	onclick={() => {
 		if (player.position > 3000) {
 			player.restart();
@@ -59,8 +59,8 @@
 	class="-mb-6 bg-white rounded-full z-10"
 	onclick={() => {
 		if (!currentTrackID) {
-			player.load(nextTrackID);
-			onTrackChange(nextTrackID);
+			player.load(firstTrackID);
+			onTrackChange(firstTrackID);
 		}
 		player.autoplay = !player.playing;
 		player.toggle();
@@ -106,7 +106,9 @@
 </button>
 
 <button
+	disabled={!currentTrackID}
 	class="-mb-4"
+	class:text-gray-400={!currentTrackID}
 	onclick={() => {
 		loadTrack(nextTrackID);
 	}}

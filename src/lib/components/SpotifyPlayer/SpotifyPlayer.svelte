@@ -63,8 +63,8 @@
 		}
 	}
 
-	let previousTrackID = $derived(tracksBeforeCurrentTrack.at(-1)?.id ?? tracks[0].id);
-	let nextTrackID = $derived(tracksAfterCurrentTrack.at(0)?.id ?? tracks[0].id);
+	let previousTrackID = $derived(tracksBeforeCurrentTrack.at(-1)?.id ?? '');
+	let nextTrackID = $derived(tracksAfterCurrentTrack.at(0)?.id ?? '');
 </script>
 
 <div class="bg-white rounded border overflow-hidden" style:view-transition-name="spotify-controls">
@@ -77,9 +77,9 @@
 
 		<SpotifyControls
 			currentTrackID={currentTrack?.id}
+			firstTrackID={tracks[0].id}
 			{previousTrackID}
 			{nextTrackID}
-			prevDisabled={!page.data.track}
 			{onTrackChange}
 		/>
 

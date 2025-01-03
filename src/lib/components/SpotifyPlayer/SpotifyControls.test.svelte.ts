@@ -11,10 +11,10 @@ describe('SpotifyControls', () => {
 
 	beforeEach(() => {
 		props = {
+			firstTrackID: 'first',
 			currentTrackID: 'current',
 			previousTrackID: 'prev',
 			nextTrackID: 'next',
-			prevDisabled: false,
 			onTrackChange: vi.fn()
 		};
 
@@ -169,8 +169,8 @@ describe('SpotifyControls', () => {
 
 			await user.click(screen.getByText('Play'));
 
-			expect(player.load).toBeCalledWith('next');
-			expect(props.onTrackChange).toBeCalledWith('next');
+			expect(player.load).toBeCalledWith('first');
+			expect(props.onTrackChange).toBeCalledWith('first');
 		});
 	});
 });

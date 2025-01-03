@@ -148,7 +148,7 @@ describe('SpotifyPlayer', () => {
 			expect(player.play).toBeCalledTimes(1);
 		});
 
-		it('goes to begining if no next song', () => {
+		it('loads empty string (signifying the playlist index should be shown) if no next track', () => {
 			const spy = vi.fn();
 			player.autoplay = false;
 			render(SpotifyPlayer, {
@@ -168,8 +168,8 @@ describe('SpotifyPlayer', () => {
 
 			player.autoplay = true;
 			cb();
-			expect(player.load).toBeCalledWith('A');
-			expect(spy).toBeCalledWith('A');
+			expect(player.load).toBeCalledWith('');
+			expect(spy).toBeCalledWith('');
 		});
 	});
 });
