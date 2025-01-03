@@ -2,7 +2,7 @@
 	import { slide } from 'svelte/transition';
 	import { player } from '$lib/components/HeadlessSpotifyController/HeadlessSpotifyController.svelte';
 	import SpotifyLink from './SpotifyLink.svelte';
-	import type { Track } from './types';
+	import type { Playlist, Track } from './types';
 	import TrackList from './TrackList.svelte';
 	import TrackListToggleButton from './TrackListToggleButton.svelte';
 	import SpotifyControls from './SpotifyControls.svelte';
@@ -12,11 +12,7 @@
 	interface Props {
 		tracks: Track[];
 		currentTrack?: Track;
-		playlist: {
-			name: string;
-			permalink: string;
-			art: string;
-		};
+		playlist: Playlist;
 		onTrackChange: (newTrackID: string) => void;
 	}
 	let { tracks, playlist, currentTrack, onTrackChange }: Props = $props();
