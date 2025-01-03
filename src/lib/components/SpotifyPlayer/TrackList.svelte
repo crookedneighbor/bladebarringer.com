@@ -5,18 +5,20 @@
 
 	interface Props {
 		tracks: Track[];
+		currentTrack?: Track;
 		onTrackChoice: (trackID: string) => void;
 	}
-	let { tracks, onTrackChoice }: Props = $props();
+	let { tracks, currentTrack, onTrackChoice }: Props = $props();
 </script>
 
-<ol class="border border-b-0 bg-white pt-2 w-11/12 m-auto z-0 rounded-t">
+<ol class="border border-b-0 bg-white pt-2 w-11/12 m-auto z-0 rounded-b">
 	{#each tracks as track (track.id)}
 		<li transition:slide class="border-b px-2">
 			<a
 				href={track.permalink}
 				{...createHoverProps(track.id)}
 				class="text-left w-full flex flex-col py-1"
+				class:current={track.id === currentTrack?.id}
 				class:hovered={hovered.name === track.slug}
 				onclick={(e) => {
 					e.preventDefault();
@@ -32,6 +34,7 @@
 </ol>
 
 <style lang="postcss">
+	a.current,
 	a.hovered,
 	a:focus,
 	a:hover {
