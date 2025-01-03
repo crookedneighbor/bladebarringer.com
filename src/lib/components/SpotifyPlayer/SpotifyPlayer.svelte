@@ -1,6 +1,5 @@
 <script lang="ts">
 	import { slide } from 'svelte/transition';
-	import { page } from '$app/state';
 	import { player } from '$lib/components/HeadlessSpotifyController/HeadlessSpotifyController.svelte';
 	import SpotifyLink from './SpotifyLink.svelte';
 	import type { Track } from './types';
