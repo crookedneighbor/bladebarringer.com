@@ -67,15 +67,7 @@
 	let nextTrackID = $derived(tracksAfterCurrentTrack.at(0)?.id ?? tracks[0].id);
 </script>
 
-<!-- TODO handle mobile track listing -->
-<!-- TODO Handle case where no tracks are selected yet -->
-{#if trackListOpen && tracksBeforeCurrentTrack.length}
-	<div transition:slide data-testid="before-tracks">
-		<TrackList tracks={tracksBeforeCurrentTrack} onTrackChoice={loadSong} />
-	</div>
-{/if}
-
-<div class="bg-white rounded border" style:view-transition-name="spotify-controls">
+<div class="bg-white rounded border overflow-hidden" style:view-transition-name="spotify-controls">
 	<SongProgress art={playlistArt} />
 
 	<CurrentTrack {currentTrack} />
@@ -99,8 +91,9 @@
 	</div>
 </div>
 
-{#if trackListOpen && tracksAfterCurrentTrack.length}
-	<div transition:slide data-testid="after-tracks">
-		<TrackList tracks={tracksAfterCurrentTrack} onTrackChoice={loadSong} />
+<!-- TODO handle mobile track listing -->
+{#if trackListOpen}
+	<div transition:slide data-testid="before-tracks">
+		<TrackList {tracks} {currentTrack} onTrackChoice={loadSong} />
 	</div>
 {/if}

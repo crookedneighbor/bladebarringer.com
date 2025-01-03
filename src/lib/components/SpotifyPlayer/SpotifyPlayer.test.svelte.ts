@@ -44,6 +44,7 @@ describe('SpotifyPlayer', () => {
 			tracks: [track],
 			currentTrack: track,
 			spotifyPlaylistLink: 'https://open.spotify.com/playlist/yay',
+			playlistArt: 'https://example.com/art.png',
 			onTrackChange: vi.fn()
 		});
 
@@ -52,23 +53,17 @@ describe('SpotifyPlayer', () => {
 	});
 
 	describe('track list', () => {
-		it('renders track lists before and after the current track', () => {
+		it('renders track list', () => {
 			render(SpotifyPlayer, {
 				tracks: tracks,
-
 				currentTrack: tracks[2],
 				spotifyPlaylistLink: 'https://open.spotify.com/playlist/yay',
+				playlistArt: 'https://example.com/art.png',
 				onTrackChange: vi.fn()
 			});
-			const before = screen.getByTestId('before-tracks').querySelectorAll('li');
-			const after = screen.getByTestId('after-tracks').querySelectorAll('li');
 
-			expect(before).toHaveLength(2);
-			expect(before[0]).toHaveTextContent('1. A Bar');
-			expect(before[1]).toHaveTextContent('2. B Bar');
-			expect(after).toHaveLength(2);
-			expect(after[0]).toHaveTextContent('4. D Bar');
-			expect(after[1]).toHaveTextContent('5. E Bar');
+			const trackList = screen.getAllByRole('listitem');
+			expect(trackList).toHaveLength(5);
 		});
 
 		// Something weird here in the testing library, won't actually
@@ -80,26 +75,13 @@ describe('SpotifyPlayer', () => {
 				tracks: tracks,
 				currentTrack: tracks[2],
 				spotifyPlaylistLink: 'https://open.spotify.com/playlist/yay',
+				playlistArt: 'https://example.com/art.png',
 				onTrackChange: vi.fn()
 			});
-			expect(screen.getByTestId('before-tracks')).toBeInTheDocument();
-			expect(screen.getByTestId('after-tracks')).toBeInTheDocument();
+			expect(screen.getAllByRole('listitem')).toHaveLength(5);
 
 			await user.click(screen.getByText('Close Track panel'));
-			await waitFor(() => expect(screen.queryByTestId('before-tracks')).not.toBeInTheDocument(), {
-				timeout: 250
-			});
-			await waitFor(() => expect(screen.queryByTestId('after-tracks')).not.toBeInTheDocument(), {
-				timeout: 250
-			});
-
-			await user.click(screen.getByText('Open Track panel'));
-			await waitFor(() => expect(screen.queryByTestId('before-tracks')).toBeInTheDocument(), {
-				timeout: 250
-			});
-			await waitFor(() => expect(screen.queryByTestId('after-tracks')).toBeInTheDocument(), {
-				timeout: 250
-			});
+			expect(screen.getAllByRole('listitem')).toHaveLength(0);
 		});
 
 		it('loads track when selected', async () => {
@@ -109,6 +91,7 @@ describe('SpotifyPlayer', () => {
 				tracks: tracks,
 				currentTrack: tracks[2],
 				spotifyPlaylistLink: 'https://open.spotify.com/playlist/yay',
+				playlistArt: 'https://example.com/art.png',
 				onTrackChange: spy
 			});
 
@@ -125,6 +108,7 @@ describe('SpotifyPlayer', () => {
 				tracks: tracks,
 				currentTrack: tracks[2],
 				spotifyPlaylistLink: 'https://open.spotify.com/playlist/yay',
+				playlistArt: 'https://example.com/art.png',
 				onTrackChange: vi.fn()
 			});
 
@@ -145,6 +129,7 @@ describe('SpotifyPlayer', () => {
 				tracks: tracks,
 				currentTrack: tracks[2],
 				spotifyPlaylistLink: 'https://open.spotify.com/playlist/yay',
+				playlistArt: 'https://example.com/art.png',
 				onTrackChange: spy
 			});
 			vi.mocked(player.load).mockReset();
@@ -170,6 +155,7 @@ describe('SpotifyPlayer', () => {
 				tracks: tracks,
 				currentTrack: tracks[4],
 				spotifyPlaylistLink: 'https://open.spotify.com/playlist/yay',
+				playlistArt: 'https://example.com/art.png',
 				onTrackChange: spy
 			});
 			vi.mocked(player.load).mockReset();
