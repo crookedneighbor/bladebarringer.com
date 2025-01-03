@@ -5,7 +5,7 @@
 	import SpotifyPlayer from '$lib/components/SpotifyPlayer/SpotifyPlayer.svelte';
 
 	let { data, children } = $props();
-	let { tracks, name, description, spotifyPlaylistLink } = $derived(data);
+	let { tracks, name, description, spotifyPlaylistLink, playlistArt } = $derived(data);
 
 	let playerTracks = $derived(
 		tracks.map((t) => ({
@@ -49,7 +49,13 @@
 		</div>
 
 		<!-- TODO add blurb about logging into Spotify -->
-		<SpotifyPlayer {onTrackChange} {spotifyPlaylistLink} tracks={playerTracks} {currentTrack} />
+		<SpotifyPlayer
+			{onTrackChange}
+			{spotifyPlaylistLink}
+			tracks={playerTracks}
+			{currentTrack}
+			{playlistArt}
+		/>
 	</div>
 
 	<div class="right">

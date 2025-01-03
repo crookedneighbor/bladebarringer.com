@@ -14,9 +14,10 @@
 		tracks: Track[];
 		currentTrack?: Track;
 		spotifyPlaylistLink: string;
+		playlistArt: string;
 		onTrackChange: (newTrackID: string) => void;
 	}
-	let { tracks, spotifyPlaylistLink, currentTrack, onTrackChange }: Props = $props();
+	let { tracks, spotifyPlaylistLink, playlistArt, currentTrack, onTrackChange }: Props = $props();
 
 	let trackListOpen = $state(true);
 
@@ -75,7 +76,7 @@
 {/if}
 
 <div class="bg-white rounded border" style:view-transition-name="spotify-controls">
-	<SongProgress />
+	<SongProgress art={playlistArt} />
 
 	<CurrentTrack {currentTrack} />
 
