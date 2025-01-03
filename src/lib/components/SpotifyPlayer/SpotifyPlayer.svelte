@@ -68,7 +68,7 @@
 <div class="bg-white rounded border overflow-hidden" style:view-transition-name="spotify-controls">
 	<SongProgress art={playlist.art} />
 
-	<CurrentTrack {currentTrack} />
+	<CurrentTrack {currentTrack} {playlist} />
 
 	<div class="flex items-center justify-center pb-8">
 		<SpotifyLink link={playlist.permalink} />

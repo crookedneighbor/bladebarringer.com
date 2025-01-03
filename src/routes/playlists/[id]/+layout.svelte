@@ -5,7 +5,7 @@
 	import SpotifyPlayer from '$lib/components/SpotifyPlayer/SpotifyPlayer.svelte';
 
 	let { data, children } = $props();
-	let { tracks, name, description, spotifyPlaylistLink, playlistArt } = $derived(data);
+	let { tracks, name, spotifyPlaylistLink, playlistArt } = $derived(data);
 
 	let playerTracks = $derived(
 		tracks.map((t) => ({
