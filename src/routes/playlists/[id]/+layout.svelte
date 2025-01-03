@@ -76,7 +76,7 @@
 		-ms-overflow-style: none; /* IE and Edge */
 		scrollbar-width: none; /* Firefox */
 
-		@apply lg:h-screen lg:w-1/3 lg:overflow-scroll p-8;
+		@apply lg:min-h-screen lg:w-1/3 lg:overflow-scroll p-8;
 	}
 	.right {
 		&::-webkit-scrollbar {
@@ -84,7 +84,7 @@
 		}
 		-ms-overflow-style: none; /* IE and Edge */
 		scrollbar-width: none; /* Firefox */
-		@apply lg:h-full lg:w-2/3 lg:overflow-scroll;
+		@apply lg:min-h-screen lg:w-2/3 lg:overflow-scroll;
 	}
 
 	/* 
