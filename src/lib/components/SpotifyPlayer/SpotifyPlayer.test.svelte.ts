@@ -1,13 +1,11 @@
-import { act, render, screen } from '@testing-library/svelte';
+import { render, screen } from '@testing-library/svelte';
 import SpotifyPlayer from '$lib/components/SpotifyPlayer/SpotifyPlayer.svelte';
-import { fireEvent, waitFor } from '@testing-library/dom';
 import {
 	player,
 	resetForTest
 } from '$lib/components/HeadlessSpotifyController/HeadlessSpotifyController.svelte';
 import type { Track } from './types';
 import userEvent from '@testing-library/user-event';
-import { tick } from 'svelte';
 
 function createTrack(props: Partial<Track> = {}) {
 	return {
