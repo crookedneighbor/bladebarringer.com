@@ -1,11 +1,11 @@
 <script lang="ts">
 	interface Props {
-		spotifyPlaylistLink: string;
+		link: string;
 	}
-	let { spotifyPlaylistLink }: Props = $props();
+	let { link }: Props = $props();
 </script>
 
-<a class="mr-auto -mb-6 ml-2 p-1" href={spotifyPlaylistLink} target="_blank">
+<a class="mr-auto -mb-6 ml-2 p-1" href={link} target="_blank">
 	<span class="sr-only">Open playlist in spotify</span>
 	<svg
 		class="size-6"
