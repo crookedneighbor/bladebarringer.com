@@ -16,7 +16,7 @@
 		<li transition:slide class="border-b px-2">
 			<a
 				href={track.permalink}
-				{...createHoverProps(track.id)}
+				{...createHoverProps(track.slug)}
 				class="text-left w-full flex flex-col py-1"
 				class:current={track.id === currentTrack?.id}
 				class:hovered={hovered.name === track.slug}
