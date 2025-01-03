@@ -24,7 +24,6 @@
 	}
 </script>
 
-<!-- TODO handle going back to playlist page when going back on first track -->
 <button
 	disabled={!currentTrackID}
 	class="-mb-4"
@@ -35,6 +34,9 @@
 			return;
 		}
 
+		if (!previousTrackID) {
+			player.pause();
+		}
 		loadTrack(previousTrackID);
 	}}
 >
@@ -110,6 +112,9 @@
 	class="-mb-4"
 	class:text-gray-400={!currentTrackID}
 	onclick={() => {
+		if (!nextTrackID) {
+			player.pause();
+		}
 		loadTrack(nextTrackID);
 	}}
 >

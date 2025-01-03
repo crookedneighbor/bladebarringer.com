@@ -21,6 +21,7 @@ describe('SpotifyControls', () => {
 		vi.spyOn(player, 'restart').mockResolvedValue();
 		vi.spyOn(player, 'load').mockResolvedValue();
 		vi.spyOn(player, 'play').mockResolvedValue();
+		vi.spyOn(player, 'pause').mockResolvedValue();
 		vi.spyOn(player, 'toggle').mockResolvedValue();
 	});
 
@@ -73,6 +74,17 @@ describe('SpotifyControls', () => {
 			await user.click(screen.getByText('Previous track'));
 			expect(player.play).toBeCalledTimes(1);
 		});
+
+		it('auto-pauses if there is no previous track', async () => {
+			const user = userEvent.setup();
+			render(SpotifyControls, {
+				...props,
+				previousTrackID: ''
+			});
+
+			await user.click(screen.getByText('Previous track'));
+			expect(player.pause).toBeCalledTimes(1);
+		});
 	});
 
 	describe('next button', () => {
@@ -99,6 +111,17 @@ describe('SpotifyControls', () => {
 			player.autoplay = true;
 			await user.click(screen.getByText('Next track'));
 			expect(player.play).toBeCalledTimes(1);
+		});
+
+		it('auto-pauses if there is no next track', async () => {
+			const user = userEvent.setup();
+			render(SpotifyControls, {
+				...props,
+				nextTrackID: ''
+			});
+
+			await user.click(screen.getByText('Next track'));
+			expect(player.pause).toBeCalledTimes(1);
 		});
 	});
 
