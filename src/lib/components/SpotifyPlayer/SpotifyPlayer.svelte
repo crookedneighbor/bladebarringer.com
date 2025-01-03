@@ -19,7 +19,6 @@
 	let { tracks, spotifyPlaylistLink, currentTrack, onTrackChange }: Props = $props();
 
 	let trackListOpen = $state(true);
-	let DEBUG = $state(true);
 
 	let tracksBeforeCurrentTrack = $derived.by(() => {
 		let include = true;
@@ -93,7 +92,6 @@
 		<TrackListToggleButton
 			{trackListOpen}
 			onclick={() => {
-				DEBUG = false;
 				trackListOpen = !trackListOpen;
 			}}
 		/>
