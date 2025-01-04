@@ -14,11 +14,12 @@
 	import { player } from '$lib/components/HeadlessSpotifyController/HeadlessSpotifyController.svelte';
 
 	let { lines }: Props = $props();
-	// TODO handle preview mode
-	// just show lyrics all the time????
 	// TODO fix bug where lyrics sometimes show before they are supposed to
 	// and flash back and forth
 	let showLyrics = $derived.by(() => {
+		if (player.preview && player.playing) {
+			return true;
+		}
 		const pos = player.position;
 		const firstLinePos = lines.at(0)?.position ?? 0;
 		const lastLinePos = lines.at(-1)?.position ?? 0;
@@ -43,6 +44,9 @@
 	});
 
 	$effect(() => {
+		if (player.preview) {
+			return;
+		}
 		const node = document.querySelector(`[data-line-index="${currentLineIndex}"]`);
 		// TODO handle stopping scroll if user scrolled or tabbed within lyrics window
 		node?.scrollIntoView({
@@ -65,7 +69,7 @@
 							player.seek((line.position ?? 0) / 1000);
 						}}
 						class:highlighted={passed}
-						class:current={currentLineIndex === index}
+						class:current={player.preview || currentLineIndex === index}
 						data-line-index={index}
 					>
 						{line.words}
@@ -87,7 +91,7 @@
 		}
 		-ms-overflow-style: none; /* IE and Edge */
 		scrollbar-width: none; /* Firefox */
-		@apply h-full overflow-y-scroll py-96 px-8;
+		@apply h-full overflow-y-scroll p-8;
 	}
 
 	button {
