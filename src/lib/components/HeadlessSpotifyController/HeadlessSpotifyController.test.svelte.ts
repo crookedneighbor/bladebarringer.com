@@ -143,6 +143,7 @@ describe('HeadlessSpotifyController', () => {
 
 		callback(instance);
 		const updateInfoCB = instance.addListener.mock.calls[1][1];
+		player.ready = true;
 
 		await updateInfoCB({
 			data: {
@@ -159,6 +160,33 @@ describe('HeadlessSpotifyController', () => {
 		expect(player.buffering).toEqual(true);
 	});
 
+	it('does not update data if player is not ready', async () => {
+		render(HeadlessSpotifyController);
+
+		// @ts-expect-error not a default window function, obvs
+		window.onSpotifyIframeApiReady(IFrameAPI);
+		const callback = IFrameAPI.createController.mock.calls[0][2];
+		const instance = new SpotifyController();
+
+		callback(instance);
+		const updateInfoCB = instance.addListener.mock.calls[1][1];
+		player.ready = false;
+
+		await updateInfoCB({
+			data: {
+				position: 123,
+				isPaused: false,
+				isBuffering: true,
+				duration: 321
+			}
+		});
+
+		expect(player.position).toEqual(0);
+		expect(player.duration).toEqual(0);
+		expect(player.playing).toEqual(false);
+		expect(player.buffering).toEqual(false);
+	});
+
 	it('updates preview when preview duration is detected', async () => {
 		render(HeadlessSpotifyController);
 
@@ -169,6 +197,7 @@ describe('HeadlessSpotifyController', () => {
 
 		callback(instance);
 		const updateInfoCB = instance.addListener.mock.calls[1][1];
+		player.ready = true;
 
 		await updateInfoCB({
 			data: {
@@ -192,6 +221,7 @@ describe('HeadlessSpotifyController', () => {
 
 		callback(instance);
 		const updateInfoCB = instance.addListener.mock.calls[1][1];
+		player.ready = true;
 
 		const spy = vi.fn();
 		player.onSongCompleted(spy);

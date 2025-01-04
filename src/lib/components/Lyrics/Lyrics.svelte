@@ -17,9 +17,13 @@
 	// TODO fix bug where lyrics sometimes show before they are supposed to
 	// and flash back and forth
 	let showLyrics = $derived.by(() => {
+		if (!player.ready || lines.length === 0) {
+			return false;
+		}
 		if (player.preview && player.playing) {
 			return true;
 		}
+
 		const pos = player.position;
 		const firstLinePos = lines.at(0)?.position ?? 0;
 		const lastLinePos = lines.at(-1)?.position ?? 0;

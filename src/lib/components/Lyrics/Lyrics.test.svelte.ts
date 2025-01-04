@@ -18,6 +18,7 @@ describe('Lyrics', () => {
 				{ position: 1055, words: 'third line' }
 			]
 		};
+		player.ready = true;
 		player.position = 2000;
 		vi.spyOn(player, 'seek').mockResolvedValue();
 	});
@@ -56,6 +57,16 @@ describe('Lyrics', () => {
 		expect(screen.queryByText('first line')).toBeInTheDocument();
 		expect(screen.queryByText('second line')).toBeInTheDocument();
 		expect(screen.queryByText('third line')).toBeInTheDocument();
+	});
+
+	it('does not render if player is not ready', async () => {
+		player.ready = false;
+		player.position = 1025;
+		render(Lyrics, props);
+
+		expect(screen.queryByRole('first line')).not.toBeInTheDocument();
+		expect(screen.queryByText('second line')).not.toBeInTheDocument();
+		expect(screen.queryByText('third line')).not.toBeInTheDocument();
 	});
 
 	it('highlights lyrics when song has passed their starting point', async () => {

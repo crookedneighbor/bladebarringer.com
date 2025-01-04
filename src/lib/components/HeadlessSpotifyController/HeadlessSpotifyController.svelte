@@ -66,14 +66,14 @@
 
 		async load(id: string, kind: 'track' | 'playlist' = 'track') {
 			this.ready = false;
+			this.position = 0;
+			this.duration = 0;
+			this.playing = false;
 			this.readyPromise = new Promise((resolve) => {
 				this._readyResolve = resolve;
 			});
-			this.playing = false;
-			this.position = 0;
-			this.duration = 0;
 			await this.readyToLoadPromise;
-			return this._controller?.loadUri(`spotify:${kind}:${id}`);
+			this._controller?.loadUri(`spotify:${kind}:${id}`);
 		}
 
 		async play() {
@@ -128,6 +128,10 @@
 			player.ready = true;
 		});
 		embedController.addListener('playback_update', ({ data }) => {
+			if (!player.ready) {
+				// stop updating if currently loading
+				return;
+			}
 			// if duration is exactly length, then
 			// mostly likely
 			player.preview = data.duration === LENGTH_OF_PREVIEW_TRACK;
