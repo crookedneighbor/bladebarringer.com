@@ -204,11 +204,30 @@ describe('HeadlessSpotifyController', () => {
 				position: 123,
 				isPaused: false,
 				isBuffering: true,
-				duration: 29754
+				duration: 30000
 			}
 		});
-
 		expect(player.preview).toEqual(true);
+
+		await updateInfoCB({
+			data: {
+				position: 123,
+				isPaused: false,
+				isBuffering: true,
+				duration: 20000
+			}
+		});
+		expect(player.preview).toEqual(true);
+
+		await updateInfoCB({
+			data: {
+				position: 123,
+				isPaused: false,
+				isBuffering: true,
+				duration: 30001
+			}
+		});
+		expect(player.preview).toEqual(false);
 	});
 
 	it('calls registered song complete functions when a song completes', async () => {

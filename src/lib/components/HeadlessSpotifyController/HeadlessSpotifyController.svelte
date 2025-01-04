@@ -1,5 +1,5 @@
 <script lang="ts" module>
-	const LENGTH_OF_PREVIEW_TRACK = 29754;
+	const LENGTH_OF_PREVIEW_TRACK = 30000;
 
 	interface UpdateEvent {
 		isPaused: boolean;
@@ -132,9 +132,10 @@
 				// stop updating if currently loading
 				return;
 			}
+
 			// if duration is exactly length, then
 			// mostly likely
-			player.preview = data.duration === LENGTH_OF_PREVIEW_TRACK;
+			player.preview = data.duration <= LENGTH_OF_PREVIEW_TRACK;
 			player.position = data.position;
 			player.playing = !data.isPaused;
 			player.buffering = data.isBuffering;
