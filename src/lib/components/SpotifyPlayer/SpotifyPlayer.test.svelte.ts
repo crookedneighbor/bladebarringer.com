@@ -28,7 +28,7 @@ describe('SpotifyPlayer', () => {
 		vi.spyOn(player, 'play').mockResolvedValue();
 		vi.spyOn(player, 'onSongCompleted').mockReturnValue();
 		tracks = ['A', 'B', 'C', 'D', 'E'].map((name, index) => {
-			return createTrack({ id: name, name, number: index + 1 });
+			return createTrack({ id: name, name: `Song ${name}`, number: index + 1 });
 		});
 	});
 
@@ -105,7 +105,7 @@ describe('SpotifyPlayer', () => {
 				onTrackChange: spy
 			});
 
-			await user.click(screen.getByText('1. A'));
+			await user.click(screen.getByText('Song A'));
 
 			expect(player.load).toBeCalledWith('A');
 			expect(spy).toBeCalledWith('A');
@@ -125,11 +125,11 @@ describe('SpotifyPlayer', () => {
 				onTrackChange: vi.fn()
 			});
 
-			await user.click(screen.getByText('1. A'));
+			await user.click(screen.getByText('Song A'));
 			expect(player.play).not.toBeCalled();
 
 			player.autoplay = true;
-			await user.click(screen.getByText('1. A'));
+			await user.click(screen.getByText('Song A'));
 			expect(player.play).toBeCalledTimes(1);
 		});
 	});

@@ -37,9 +37,9 @@ describe('TrackList', () => {
 			onTrackChoice: vi.fn()
 		});
 
-		expect(screen.getByText('1. Song One')).toBeInTheDocument();
+		expect(screen.getByText('Song One')).toBeInTheDocument();
 		expect(screen.getByText('Artist One')).toBeInTheDocument();
-		expect(screen.getByText('2. Song Two')).toBeInTheDocument();
+		expect(screen.getByText('Song Two')).toBeInTheDocument();
 		expect(screen.getByText('Artist Two')).toBeInTheDocument();
 	});
 
@@ -51,8 +51,8 @@ describe('TrackList', () => {
 			onTrackChoice: spy
 		});
 
-		await user.click(screen.getByText('1. Song One'));
-		await user.click(screen.getByText('2. Song Two'));
+		await user.click(screen.getByText('Song One'));
+		await user.click(screen.getByText('Song Two'));
 
 		expect(spy).toBeCalledTimes(2);
 		expect(spy).toHaveBeenNthCalledWith(1, 'abc-1');
@@ -66,9 +66,9 @@ describe('TrackList', () => {
 			onTrackChoice: vi.fn()
 		});
 
-		const links = screen.getAllByRole('link');
-		expect(links[0]).not.toHaveClass('current');
-		expect(links[1]).toHaveClass('current');
+		const items = screen.getAllByRole('listitem');
+		expect(items[0]).not.toHaveClass('current');
+		expect(items[1]).toHaveClass('current');
 	});
 
 	it('provides hovered class to hovered track', async () => {
@@ -78,8 +78,8 @@ describe('TrackList', () => {
 			onTrackChoice: vi.fn()
 		});
 
-		const links = screen.getAllByRole('link');
-		expect(links[0]).not.toHaveClass('hovered');
-		expect(links[1]).toHaveClass('hovered');
+		const items = screen.getAllByRole('listitem');
+		expect(items[0]).not.toHaveClass('hovered');
+		expect(items[1]).toHaveClass('hovered');
 	});
 });

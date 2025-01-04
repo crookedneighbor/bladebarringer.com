@@ -11,34 +11,57 @@
 	let { tracks, currentTrack, onTrackChoice }: Props = $props();
 </script>
 
-<ol class="border border-b-0 bg-white pt-2 w-11/12 m-auto z-0 rounded-b">
+<ol class="border border-t-0 bg-white w-11/12 m-auto z-0 rounded-b">
 	{#each tracks as track (track.id)}
-		<li transition:slide class="border-b px-2">
+		<li
+			transition:slide
+			{...createHoverProps(track.slug)}
+			class:current={track.id === currentTrack?.id}
+			class:hovered={hovered.name === track.slug}
+		>
+			<span class="mr-4 text-xl">{track.number}</span>
+			<!-- class="text-left flex flex-col px-2 py-1" -->
 			<a
 				href={track.permalink}
-				{...createHoverProps(track.slug)}
-				class="text-left w-full flex flex-col py-1"
-				class:current={track.id === currentTrack?.id}
-				class:hovered={hovered.name === track.slug}
 				onclick={(e) => {
 					e.preventDefault();
 
 					onTrackChoice(track.id);
 				}}
 			>
-				<span class="text-sm">{track.number}. {track.name}</span>
-				<span class="text-xs text-gray-500 pl-2">{track.artist}</span>
+				<span>{track.name}</span>
+				<span class="artist">{track.artist}</span>
 			</a>
 		</li>
 	{/each}
 </ol>
 
 <style lang="postcss">
-	a.current,
-	a.hovered,
+	ol {
+		@apply list-outside list-none;
+	}
+	li {
+		@apply flex text-sm transition-all p-2 border-b pl-4 items-center;
+		a {
+			@apply flex-grow;
+		}
+	}
+	.artist {
+		@apply block text-xs text-gray-500;
+	}
+	li:nth-child(n + 10) {
+		@apply pl-2;
+	}
+	li.current,
+	li.hovered,
+	li:hover {
+		@apply bg-gray-200 py-2;
+	}
+	li.current a,
+	li.hovered a,
 	a:focus,
 	a:hover {
 		/* TODO is this the right way to highlight it? */
-		@apply text-amber-700;
+		/* @apply text-amber-700; */
 	}
 </style>
