@@ -14,7 +14,7 @@
 {#key currentTrack?.id ?? ''}
 	<div transition:slide class="mx-2 m-h-12">
 		{#if currentTrack}
-			<h1 class="flex items-center">
+			<div class="title flex items-center">
 				{currentTrack.number}. {currentTrack.name}
 
 				{#if player.preview}
@@ -37,10 +37,10 @@
 						Preview</span
 					>
 				{/if}
-			</h1>
+			</div>
 			<div class="subtitle">{currentTrack.artist}</div>
 		{:else}
-			<h1>{playlist.name}</h1>
+			<h1 class="title">{playlist.name}</h1>
 			<div class="subtitle">
 				For best experience, <a href="https://accounts.spotify.com/login">login to Spotify</a> and then
 				press play
@@ -50,7 +50,7 @@
 {/key}
 
 <style lang="postcss">
-	h1 {
+	.title {
 		@apply text-xl;
 	}
 	.subtitle {
