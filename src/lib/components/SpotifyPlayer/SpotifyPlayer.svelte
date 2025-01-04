@@ -8,8 +8,8 @@
 	import SpotifyControls from './SpotifyControls.svelte';
 	import SongProgress from './SongProgress.svelte';
 	import CurrentTrack from './CurrentTrack.svelte';
-	import { page } from '$app/state';
 	import Art from './Art.svelte';
+	import { MediaQuery } from 'svelte/reactivity';
 
 	interface Props {
 		tracks: Track[];
@@ -18,8 +18,9 @@
 		onTrackChange: (newTrackID: string) => void;
 	}
 	let { tracks, playlist, currentTrack, onTrackChange }: Props = $props();
+	const isDesktop = new MediaQuery('min-width: 1024px');
 
-	let trackListOpen = $state(true);
+	let trackListOpen = $state(isDesktop.current);
 
 	if (currentTrack) {
 		player.load(currentTrack.id);

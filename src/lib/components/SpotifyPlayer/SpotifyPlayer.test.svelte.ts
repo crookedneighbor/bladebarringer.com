@@ -24,6 +24,10 @@ describe('SpotifyPlayer', () => {
 	let tracks: Track[];
 
 	beforeEach(() => {
+		Object.defineProperty(window, 'matchMedia', {
+			writable: true,
+			value: vi.fn().mockReturnValue({ matches: vi.fn().mockReturnValue(true) })
+		});
 		vi.spyOn(player, 'load').mockResolvedValue();
 		vi.spyOn(player, 'play').mockResolvedValue();
 		vi.spyOn(player, 'onSongCompleted').mockReturnValue();
@@ -68,6 +72,26 @@ describe('SpotifyPlayer', () => {
 
 			const trackList = screen.getAllByRole('listitem');
 			expect(trackList).toHaveLength(5);
+		});
+
+		// not sure how to mock the match media stuff here :/
+		it.skip('hides tracklist initially on small screens', () => {
+			window.matchMedia = vi.fn().mockReturnValue({
+				matches: vi.fn().mockReturnValue(false)
+			});
+			render(SpotifyPlayer, {
+				tracks: tracks,
+				currentTrack: tracks[2],
+				playlist: {
+					name: 'Name',
+					permalink: 'https://open.spotify.com/playlist/yay',
+					art: 'https://example.com/art.png'
+				},
+				onTrackChange: vi.fn()
+			});
+
+			const trackList = screen.getAllByRole('listitem');
+			expect(trackList).toHaveLength(0);
 		});
 
 		// Something weird here in the testing library, won't actually
