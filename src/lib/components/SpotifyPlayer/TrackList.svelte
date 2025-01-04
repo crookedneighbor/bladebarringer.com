@@ -57,11 +57,4 @@
 	li:hover {
 		@apply bg-gray-200 py-2;
 	}
-	li.current a,
-	li.hovered a,
-	a:focus,
-	a:hover {
-		/* TODO is this the right way to highlight it? */
-		/* @apply text-amber-700; */
-	}
 </style>

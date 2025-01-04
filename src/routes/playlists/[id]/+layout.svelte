@@ -85,12 +85,4 @@
 		scrollbar-width: none; /* Firefox */
 		@apply lg:min-h-screen lg:w-2/3 lg:overflow-scroll max-w-3xl mx-auto;
 	}
-
-	/* 
-	TODO add hovered props
-	a.hovered,
-	a:focus,
-	a:hover {
-		@apply text-amber-700;
-	} */
 </style>
