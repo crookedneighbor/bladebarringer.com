@@ -43,7 +43,6 @@
 
 <div class="container">
 	<div class="left">
-		<!-- TODO add blurb about logging into Spotify -->
 		<SpotifyPlayer
 			{onTrackChange}
 			playlist={{

@@ -41,6 +41,7 @@
 			<div class="subtitle">{currentTrack.artist}</div>
 		{:else}
 			<h1 class="title">{playlist.name}</h1>
+			<!-- TODO make conditional once we can determine that user is logged in -->
 			<div class="subtitle">
 				For best experience, <a href="https://accounts.spotify.com/login">login to Spotify</a> and then
 				press play
