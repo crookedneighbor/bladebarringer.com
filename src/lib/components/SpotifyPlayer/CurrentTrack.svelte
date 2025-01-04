@@ -1,7 +1,6 @@
 <script lang="ts">
 	import { slide } from 'svelte/transition';
 	import type { Playlist, Track } from './types';
-	import { player } from '../HeadlessSpotifyController/HeadlessSpotifyController.svelte';
 
 	interface Props {
 		playlist: Playlist;
@@ -16,33 +15,14 @@
 		{#if currentTrack}
 			<div class="title flex items-center">
 				{currentTrack.number}. {currentTrack.name}
-
-				{#if player.preview}
-					<span class="flex bg-blue-400 text-white rounded p-1 ml-2 mt-1 text-xs">
-						<svg
-							xmlns="http://www.w3.org/2000/svg"
-							fill="none"
-							viewBox="0 0 24 24"
-							stroke-width="1.5"
-							stroke="currentColor"
-							class="size-4 mr-1"
-						>
-							<path
-								stroke-linecap="round"
-								stroke-linejoin="round"
-								d="m11.25 11.25.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z"
-							/>
-						</svg>
-
-						Preview</span
-					>
-				{/if}
 			</div>
-			<div class="subtitle">{currentTrack.artist}</div>
+			<div class="subtitle">
+				<span class="flex-grow">{currentTrack.artist}</span>
+			</div>
 		{:else}
 			<h1 class="title">{playlist.name}</h1>
-			<!-- TODO make conditional once we can determine that user is logged in -->
 			<div class="subtitle">
+				<!-- TODO make conditional once we can determine that user is logged in -->
 				For best experience, <a href="https://accounts.spotify.com/login">login to Spotify</a> and then
 				press play
 			</div>
