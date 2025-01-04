@@ -9,7 +9,6 @@
 	let { currentTrack, playlist }: Props = $props();
 </script>
 
-<!-- TODO show preview label if suspected preview -->
 {#key currentTrack?.id ?? ''}
 	<div transition:slide class="mx-2 m-h-12">
 		{#if currentTrack}

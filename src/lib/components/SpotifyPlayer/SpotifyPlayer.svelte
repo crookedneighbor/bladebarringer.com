@@ -90,7 +90,6 @@
 	<SpotifySettings />
 </div>
 
-<!-- TODO handle mobile track listing -->
 {#if trackListOpen}
 	<div transition:slide data-testid="before-tracks">
 		<TrackList {tracks} {currentTrack} onTrackChoice={loadSong} />
