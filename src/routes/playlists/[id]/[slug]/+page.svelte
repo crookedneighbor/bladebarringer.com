@@ -2,18 +2,7 @@
 	import Lyrics from '$lib/components/Lyrics/Lyrics.svelte';
 
 	let { data } = $props();
-	let {
-		id,
-		lines,
-		img,
-		artist,
-		artistWebsite,
-		number,
-		name,
-		bandcampPath,
-		previousLink,
-		nextLink
-	} = $derived(data.track);
+	let { id, lines, img, artist, artistWebsite, number, name, bandcampPath } = $derived(data.track);
 </script>
 
 <div class="song-container" style={'view-transition-name: ' + id}>
@@ -33,8 +22,8 @@
 				{artist}
 			{/if}
 		</div>
-		<div class="navigation">
-			{#if bandcampPath}
+		{#if bandcampPath}
+			<div class="navigation">
 				<div class="buy-on-bandcamp">
 					<a href={bandcampPath} target="_blank" class="flex justify-center items-center">
 						<svg
@@ -55,49 +44,10 @@
 						Buy this song</a
 					>
 				</div>
-			{/if}
-			<div class="flex-grow"></div>
-			<!-- TODO add links to next/previous -->
-			<div class="navigation-icon">
-				<a href={previousLink || './'}>
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke-width="1.5"
-						stroke="currentColor"
-						class="size-10"
-					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							d="m11.25 9-3 3m0 0 3 3m-3-3h7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
-						/>
-					</svg>
-
-					<span class="sr-only">Previous Track</span>
-				</a>
+				<div class="flex-grow"></div>
+				<!-- Any buttons that go to the right go here -->
 			</div>
-			<div class="navigation-icon">
-				<a href={nextLink || './'}>
-					<svg
-						xmlns="http://www.w3.org/2000/svg"
-						fill="none"
-						viewBox="0 0 24 24"
-						stroke-width="1.5"
-						stroke="currentColor"
-						class="size-10"
-					>
-						<path
-							stroke-linecap="round"
-							stroke-linejoin="round"
-							d="m12.75 15 3-3m0 0-3-3m3 3h-7.5M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
-						/>
-					</svg>
-					<span class="sr-only">Next Track</span>
-				</a>
-			</div>
-		</div>
+		{/if}
 		{@render data.pageBlurb()}
 	</div>
 </div>
@@ -117,9 +67,5 @@
 
 	.navigation {
 		@apply py-2 flex border-b items-center justify-center;
-	}
-
-	.navigation-icon {
-		@apply items-center justify-center flex;
 	}
 </style>
