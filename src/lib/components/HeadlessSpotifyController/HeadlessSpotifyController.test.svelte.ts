@@ -35,6 +35,7 @@ describe('HeadlessSpotifyController', () => {
 
 	it('provides a controller state with default values', () => {
 		expect(player.ready).toEqual(false);
+		expect(player.autoscroll).toEqual(false);
 		expect(player.preview).toEqual(false);
 		expect(player.playing).toEqual(false);
 		expect(player.buffering).toEqual(false);

@@ -35,6 +35,7 @@
 		player.position = 0;
 		player.duration = 0;
 		player.autoplay = false;
+		player.autoscroll = false;
 	}
 
 	type EventCallback = () => void;
@@ -49,6 +50,7 @@
 
 		preview = $state(false);
 		ready = $state(false);
+		autoscroll = $state(false);
 		playing = $state(false);
 		buffering = $state(false);
 		position = $state(0);
