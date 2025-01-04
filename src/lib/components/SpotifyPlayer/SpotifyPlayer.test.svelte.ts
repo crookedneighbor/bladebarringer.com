@@ -40,23 +40,6 @@ describe('SpotifyPlayer', () => {
 		resetForTest();
 	});
 
-	it('autoloads the current track', () => {
-		const track = createTrack({ id: 'current-track' });
-		render(SpotifyPlayer, {
-			tracks: [track],
-			currentTrack: track,
-			playlist: {
-				name: 'Name',
-				permalink: 'https://open.spotify.com/playlist/yay',
-				art: 'https://example.com/art.png'
-			},
-			onTrackChange: vi.fn()
-		});
-
-		expect(player.load).toBeCalledTimes(1);
-		expect(player.load).toBeCalledWith('current-track');
-	});
-
 	describe('track list', () => {
 		it('renders track list', () => {
 			render(SpotifyPlayer, {

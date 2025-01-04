@@ -23,10 +23,6 @@
 
 	let trackListOpen = $state(isDesktop.current);
 
-	if (currentTrack) {
-		player.load(currentTrack.id);
-	}
-
 	player.onSongCompleted(() => {
 		if (player.autoplay) {
 			loadSong(nextTrackID);
