@@ -84,7 +84,7 @@
 		}
 		-ms-overflow-style: none; /* IE and Edge */
 		scrollbar-width: none; /* Firefox */
-		@apply lg:min-h-screen lg:w-2/3 lg:overflow-scroll;
+		@apply lg:min-h-screen lg:w-2/3 lg:overflow-scroll max-w-3xl mx-auto;
 	}
 
 	/* 
