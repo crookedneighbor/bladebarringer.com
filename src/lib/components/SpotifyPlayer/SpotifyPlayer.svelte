@@ -8,6 +8,7 @@
 	import SpotifyControls from './SpotifyControls.svelte';
 	import SongProgress from './SongProgress.svelte';
 	import CurrentTrack from './CurrentTrack.svelte';
+	import { page } from '$app/state';
 
 	interface Props {
 		tracks: Track[];
@@ -66,7 +67,11 @@
 </script>
 
 <div class="bg-white rounded border overflow-hidden" style:view-transition-name="spotify-controls">
-	<SongProgress art={playlist.art} />
+	<a href={page.data.track ? './' : null}>
+		<span class="sr-only">Go back to home</span>
+		<img src={playlist.art} class="w-full" alt="{playlist.name} artwork" />
+	</a>
+	<SongProgress />
 
 	<CurrentTrack {currentTrack} {playlist} />
 
