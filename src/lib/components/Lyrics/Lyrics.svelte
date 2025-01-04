@@ -48,11 +48,10 @@
 	});
 
 	$effect(() => {
-		if (player.preview) {
+		if (player.preview || !player.autoscroll) {
 			return;
 		}
 		const node = document.querySelector(`[data-line-index="${currentLineIndex}"]`);
-		// TODO handle stopping scroll if user scrolled or tabbed within lyrics window
 		node?.scrollIntoView({
 			behavior: 'smooth',
 			block: 'center'

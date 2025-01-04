@@ -10,6 +10,7 @@
 	import CurrentTrack from './CurrentTrack.svelte';
 	import Art from './Art.svelte';
 	import { MediaQuery } from 'svelte/reactivity';
+	import SpotifySettings from './SpotifySettings.svelte';
 
 	interface Props {
 		tracks: Track[];
@@ -85,6 +86,8 @@
 			}}
 		/>
 	</div>
+
+	<SpotifySettings />
 </div>
 
 <!-- TODO handle mobile track listing -->

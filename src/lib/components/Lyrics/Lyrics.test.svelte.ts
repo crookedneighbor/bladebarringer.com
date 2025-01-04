@@ -19,6 +19,7 @@ describe('Lyrics', () => {
 			]
 		};
 		player.ready = true;
+		player.autoscroll = true;
 		player.position = 2000;
 		vi.spyOn(player, 'seek').mockResolvedValue();
 	});
@@ -121,6 +122,34 @@ describe('Lyrics', () => {
 		});
 
 		expect(screen.getByText('first line').scrollIntoView).toBeCalledTimes(1);
+	});
+
+	it('does not scroll when in preview mode', async () => {
+		player.preview = true;
+		player.position = 1024;
+		render(Lyrics, props);
+
+		expect(screen.getByText('first line').scrollIntoView).not.toBeCalled();
+
+		await act(() => {
+			player.position = 1025;
+		});
+
+		expect(screen.getByText('first line').scrollIntoView).not.toBeCalled();
+	});
+
+	it('does not scroll when autoscroll is turned off', async () => {
+		player.autoscroll = false;
+		player.position = 1024;
+		render(Lyrics, props);
+
+		expect(screen.getByText('first line').scrollIntoView).not.toBeCalled();
+
+		await act(() => {
+			player.position = 1025;
+		});
+
+		expect(screen.getByText('first line').scrollIntoView).not.toBeCalled();
 	});
 
 	it('seeks to position when clicked', async () => {
