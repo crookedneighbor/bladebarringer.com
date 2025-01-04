@@ -7,6 +7,10 @@ import Art from './Art.svelte';
 import { page } from '$app/state';
 
 describe('Art', () => {
+	beforeEach(() => {
+		page.data.playlistSlug = '1234';
+	});
+
 	afterEach(() => {
 		resetForTest();
 	});

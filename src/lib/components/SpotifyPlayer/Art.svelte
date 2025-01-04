@@ -7,9 +7,10 @@
 		playlist: Playlist;
 	}
 	let { playlist }: Props = $props();
+	let link = $derived(page.data.track ? `/playlists/${page.data.playlistSlug}` : null);
 </script>
 
-<a href={page.data.track ? playlist.permalink : null} class="relative block">
+<a href={link} class="relative block">
 	<span class="sr-only">Go back to playlist overview</span>
 	<img src={playlist.art} class="w-full" alt="" />
 
