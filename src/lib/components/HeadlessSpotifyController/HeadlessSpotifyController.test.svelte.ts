@@ -35,6 +35,7 @@ describe('HeadlessSpotifyController', () => {
 
 	it('provides a controller state with default values', () => {
 		expect(player.ready).toEqual(false);
+		expect(player.preview).toEqual(false);
 		expect(player.playing).toEqual(false);
 		expect(player.buffering).toEqual(false);
 		expect(player.autoplay).toEqual(false);
@@ -156,6 +157,29 @@ describe('HeadlessSpotifyController', () => {
 		expect(player.duration).toEqual(321);
 		expect(player.playing).toEqual(true);
 		expect(player.buffering).toEqual(true);
+	});
+
+	it('updates preview when preview duration is detected', async () => {
+		render(HeadlessSpotifyController);
+
+		// @ts-expect-error not a default window function, obvs
+		window.onSpotifyIframeApiReady(IFrameAPI);
+		const callback = IFrameAPI.createController.mock.calls[0][2];
+		const instance = new SpotifyController();
+
+		callback(instance);
+		const updateInfoCB = instance.addListener.mock.calls[1][1];
+
+		await updateInfoCB({
+			data: {
+				position: 123,
+				isPaused: false,
+				isBuffering: true,
+				duration: 29754
+			}
+		});
+
+		expect(player.preview).toEqual(true);
 	});
 
 	it('calls registered song complete functions when a song completes', async () => {

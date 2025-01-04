@@ -1,4 +1,6 @@
 <script lang="ts" module>
+	const LENGTH_OF_PREVIEW_TRACK = 29754;
+
 	interface UpdateEvent {
 		isPaused: boolean;
 		isBuffering: boolean;
@@ -45,6 +47,7 @@
 		_controller: null | SpotifyController = $state(null);
 		_songCompletedFns: EventCallback[] = $state([]);
 
+		preview = $state(false);
 		ready = $state(false);
 		playing = $state(false);
 		buffering = $state(false);
@@ -125,6 +128,9 @@
 			player.ready = true;
 		});
 		embedController.addListener('playback_update', ({ data }) => {
+			// if duration is exactly length, then
+			// mostly likely
+			player.preview = data.duration === LENGTH_OF_PREVIEW_TRACK;
 			player.position = data.position;
 			player.playing = !data.isPaused;
 			player.buffering = data.isBuffering;
