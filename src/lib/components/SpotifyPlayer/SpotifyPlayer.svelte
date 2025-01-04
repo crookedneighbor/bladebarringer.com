@@ -21,29 +21,6 @@
 
 	let trackListOpen = $state(true);
 
-	let tracksBeforeCurrentTrack = $derived.by(() => {
-		let include = true;
-
-		return tracks.filter((t) => {
-			if (t.id === currentTrack?.id) {
-				include = false;
-			}
-			return include;
-		});
-	});
-
-	let tracksAfterCurrentTrack = $derived.by(() => {
-		let include = false;
-
-		return tracks.filter((t) => {
-			if (t.id === currentTrack?.id) {
-				include = true;
-				return false;
-			}
-			return include;
-		});
-	});
-
 	if (currentTrack) {
 		player.load(currentTrack.id);
 	}
@@ -63,8 +40,25 @@
 		}
 	}
 
-	let previousTrackID = $derived(tracksBeforeCurrentTrack.at(-1)?.id ?? '');
-	let nextTrackID = $derived(tracksAfterCurrentTrack.at(0)?.id ?? '');
+	let previousTrackID = $derived.by(() => {
+		if (!currentTrack) {
+			return '';
+		}
+		// -1 to get the correct index in array for current track
+		// and another -1 to get the previous track
+		const prevTrack = tracks[currentTrack.number - 2];
+		return prevTrack?.id ?? '';
+	});
+	let nextTrackID = $derived.by(() => {
+		if (!currentTrack) {
+			return '';
+		}
+		// -1 to get the correct index in array for current track
+		// and then +1 to get the next track, resulting in using
+		// the number to get the index
+		const nextTrack = tracks[currentTrack.number];
+		return nextTrack?.id ?? '';
+	});
 </script>
 
 <div class="bg-white rounded border overflow-hidden" style:view-transition-name="spotify-controls">
