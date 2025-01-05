@@ -114,7 +114,6 @@ describe('SpotifyPlayer', () => {
 
 			await user.click(screen.getByText('Song A'));
 
-			expect(player.load).toBeCalledWith('A');
 			expect(spy).toBeCalledWith('A');
 		});
 
@@ -155,18 +154,15 @@ describe('SpotifyPlayer', () => {
 				},
 				onTrackChange: spy
 			});
-			vi.mocked(player.load).mockReset();
 
 			const cb = vi.mocked(player.onSongCompleted).mock.calls[0][0];
 
 			cb();
-			expect(player.load).not.toBeCalled();
 			expect(player.play).not.toBeCalled();
 			expect(spy).not.toBeCalled();
 
 			player.autoplay = true;
 			cb();
-			expect(player.load).toBeCalledWith('D');
 			expect(spy).toBeCalledWith('D');
 			expect(player.play).toBeCalledTimes(1);
 		});
@@ -184,17 +180,14 @@ describe('SpotifyPlayer', () => {
 				},
 				onTrackChange: spy
 			});
-			vi.mocked(player.load).mockReset();
 
 			const cb = vi.mocked(player.onSongCompleted).mock.calls[0][0];
 
 			cb();
-			expect(player.load).not.toBeCalled();
 			expect(spy).not.toBeCalled();
 
 			player.autoplay = true;
 			cb();
-			expect(player.load).toBeCalledWith('');
 			expect(spy).toBeCalledWith('');
 		});
 	});

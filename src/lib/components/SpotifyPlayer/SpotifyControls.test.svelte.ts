@@ -19,7 +19,6 @@ describe('SpotifyControls', () => {
 		};
 
 		vi.spyOn(player, 'restart').mockResolvedValue();
-		vi.spyOn(player, 'load').mockResolvedValue();
 		vi.spyOn(player, 'play').mockResolvedValue();
 		vi.spyOn(player, 'pause').mockResolvedValue();
 		vi.spyOn(player, 'toggle').mockResolvedValue();
@@ -37,8 +36,6 @@ describe('SpotifyControls', () => {
 
 			await user.click(screen.getByText('Previous track'));
 
-			expect(player.load).toBeCalledTimes(1);
-			expect(player.load).toBeCalledWith('prev');
 			expect(props.onTrackChange).toBeCalledTimes(1);
 			expect(props.onTrackChange).toBeCalledWith('prev');
 		});
@@ -50,7 +47,6 @@ describe('SpotifyControls', () => {
 			player.position = 3001;
 			await user.click(screen.getByText('Previous track'));
 
-			expect(player.load).not.toBeCalled();
 			expect(player.restart).toBeCalledTimes(1);
 			expect(props.onTrackChange).not.toBeCalled();
 
@@ -58,7 +54,6 @@ describe('SpotifyControls', () => {
 			player.position = 3000;
 			await user.click(screen.getByText('Previous track'));
 
-			expect(player.load).toBeCalledTimes(1);
 			expect(props.onTrackChange).toBeCalledTimes(1);
 			expect(player.restart).not.toBeCalled();
 		});
@@ -104,8 +99,6 @@ describe('SpotifyControls', () => {
 
 			await user.click(screen.getByText('Next track'));
 
-			expect(player.load).toBeCalledTimes(1);
-			expect(player.load).toBeCalledWith('next');
 			expect(props.onTrackChange).toBeCalledTimes(1);
 			expect(props.onTrackChange).toBeCalledWith('next');
 		});

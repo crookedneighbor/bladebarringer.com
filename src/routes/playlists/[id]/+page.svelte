@@ -1,8 +1,14 @@
 <script lang="ts">
+	import { player } from '$lib/components/HeadlessSpotifyController/HeadlessSpotifyController.svelte';
 	import { createHoverProps, hovered } from '$lib/hovered-state.svelte.js';
+	import { onMount } from 'svelte';
 
 	let { data } = $props();
 	let { tracks } = $derived(data);
+
+	onMount(() => {
+		player.load(tracks[0].spotifyID);
+	});
 </script>
 
 <div class="album-arts">

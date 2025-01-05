@@ -1,8 +1,16 @@
 <script lang="ts">
+	import { player } from '$lib/components/HeadlessSpotifyController/HeadlessSpotifyController.svelte';
 	import Lyrics from '$lib/components/Lyrics/Lyrics.svelte';
+	import { onMount } from 'svelte';
 
 	let { data } = $props();
-	let { id, lines, img, artist, artistWebsite, number, name, bandcampPath } = $derived(data.track);
+	let { id, spotifyID, lines, img, artist, artistWebsite, number, name, bandcampPath } = $derived(
+		data.track
+	);
+
+	onMount(() => {
+		player.load(spotifyID);
+	});
 </script>
 
 <div class="song-container" style={'view-transition-name: ' + id}>

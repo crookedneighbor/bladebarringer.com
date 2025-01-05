@@ -1,7 +1,9 @@
 <script lang="ts">
 	import { goto, onNavigate } from '$app/navigation';
 	import { page } from '$app/state';
-	import HeadlessSpotifyController from '$lib/components/HeadlessSpotifyController/HeadlessSpotifyController.svelte';
+	import HeadlessSpotifyController, {
+		player
+	} from '$lib/components/HeadlessSpotifyController/HeadlessSpotifyController.svelte';
 	import SpotifyPlayer from '$lib/components/SpotifyPlayer/SpotifyPlayer.svelte';
 
 	let { data, children } = $props();
@@ -24,6 +26,8 @@
 	function onTrackChange(newTrackID: string) {
 		const track = tracks.find((t) => t.spotifyID === newTrackID);
 		const path = track?.permalink || `/playlists/${page.data.playlistSlug}`;
+		player.load(track?.spotifyID ?? tracks[0].spotifyID);
+
 		goto(path, {
 			keepFocus: true
 		});

@@ -15,7 +15,6 @@
 		$props();
 	let playButtonText = $derived(player.playing ? 'Pause' : 'Play');
 	function loadTrack(trackID: string) {
-		player.load(trackID);
 		onTrackChange(trackID);
 
 		if (player.autoplay) {
@@ -66,7 +65,6 @@
 	class:text-gray-400={!player.initialLoadComplete}
 	onclick={() => {
 		if (!currentTrackID) {
-			player.load(firstTrackID);
 			onTrackChange(firstTrackID);
 		}
 		player.autoplay = !player.playing;

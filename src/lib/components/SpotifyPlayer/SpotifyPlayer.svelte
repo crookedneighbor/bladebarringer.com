@@ -30,7 +30,6 @@
 	});
 
 	function loadSong(id: string) {
-		player.load(id);
 		onTrackChange(id);
 
 		if (player.autoplay) {
