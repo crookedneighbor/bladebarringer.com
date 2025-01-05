@@ -1,6 +1,7 @@
 <script lang="ts">
 	import { slide } from 'svelte/transition';
 	import type { Playlist, Track } from './types';
+	import { player } from '../HeadlessSpotifyController/HeadlessSpotifyController.svelte';
 
 	interface Props {
 		playlist: Playlist;
@@ -21,9 +22,10 @@
 		{:else}
 			<h1 class="title">{playlist.name}</h1>
 			<div class="subtitle">
-				<!-- TODO make conditional once we can determine that user is logged in -->
-				For best experience, <a href="https://accounts.spotify.com/login">login to Spotify</a> and then
-				press play
+				{#if player.preview}
+					For best experience, <a href="https://accounts.spotify.com/login">login to Spotify</a> and
+					then press play. Without logging in, you will only get a 30 second preview of each track.
+				{/if}
 			</div>
 		{/if}
 	</div>
