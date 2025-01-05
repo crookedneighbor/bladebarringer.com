@@ -22,12 +22,14 @@
 			player.play();
 		}
 	}
+
+	let navButtonsDisabled = $derived(!currentTrackID || !player.initialLoadComplete);
 </script>
 
 <button
-	disabled={!currentTrackID}
+	disabled={navButtonsDisabled}
 	class="-mb-4"
-	class:text-gray-400={!currentTrackID}
+	class:text-gray-400={navButtonsDisabled}
 	onclick={() => {
 		if (player.position > 3000) {
 			player.restart();
@@ -48,6 +50,7 @@
 		stroke-width="1.5"
 		stroke="currentColor"
 		class="size-8"
+		class:animate-pulse={!player.initialLoadComplete}
 	>
 		<path
 			stroke-linecap="round"
@@ -59,6 +62,8 @@
 
 <button
 	class="-mb-6 bg-white rounded-full z-10"
+	disabled={!player.initialLoadComplete}
+	class:text-gray-400={!player.initialLoadComplete}
 	onclick={() => {
 		if (!currentTrackID) {
 			player.load(firstTrackID);
@@ -69,7 +74,22 @@
 	}}
 >
 	<span class="sr-only">{playButtonText}</span>
-	{#if player.playing}
+	{#if !player.initialLoadComplete}
+		<svg
+			xmlns="http://www.w3.org/2000/svg"
+			fill="none"
+			viewBox="0 0 24 24"
+			stroke-width="1.5"
+			stroke="currentColor"
+			class="size-16 animate-pulse"
+		>
+			<path
+				stroke-linecap="round"
+				stroke-linejoin="round"
+				d="M8.625 12a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H8.25m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0H12m4.125 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm0 0h-.375M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z"
+			/>
+		</svg>
+	{:else if player.playing}
 		<svg
 			xmlns="http://www.w3.org/2000/svg"
 			fill="none"
@@ -108,9 +128,9 @@
 </button>
 
 <button
-	disabled={!currentTrackID}
+	disabled={navButtonsDisabled}
 	class="-mb-4"
-	class:text-gray-400={!currentTrackID}
+	class:text-gray-400={navButtonsDisabled}
 	onclick={() => {
 		if (!nextTrackID) {
 			player.pause();
@@ -126,6 +146,7 @@
 		stroke-width="1.5"
 		stroke="currentColor"
 		class="size-8"
+		class:animate-pulse={!player.initialLoadComplete}
 	>
 		<path
 			stroke-linecap="round"

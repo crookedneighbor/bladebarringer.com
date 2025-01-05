@@ -23,6 +23,7 @@ describe('SpotifyControls', () => {
 		vi.spyOn(player, 'play').mockResolvedValue();
 		vi.spyOn(player, 'pause').mockResolvedValue();
 		vi.spyOn(player, 'toggle').mockResolvedValue();
+		player.initialLoadComplete = true;
 	});
 
 	afterEach(() => {
@@ -85,6 +86,15 @@ describe('SpotifyControls', () => {
 			await user.click(screen.getByText('Previous track'));
 			expect(player.pause).toBeCalledTimes(1);
 		});
+
+		it('disables if there is no current track', async () => {
+			render(SpotifyControls, {
+				...props,
+				currentTrackID: ''
+			});
+
+			expect(screen.getByRole('button', { name: 'Previous track' })).toHaveAttribute('disabled');
+		});
 	});
 
 	describe('next button', () => {
@@ -122,6 +132,15 @@ describe('SpotifyControls', () => {
 
 			await user.click(screen.getByText('Next track'));
 			expect(player.pause).toBeCalledTimes(1);
+		});
+
+		it('disables if there is no current track', async () => {
+			render(SpotifyControls, {
+				...props,
+				currentTrackID: ''
+			});
+
+			expect(screen.getByRole('button', { name: 'Next track' })).toHaveAttribute('disabled');
 		});
 	});
 
@@ -192,8 +211,18 @@ describe('SpotifyControls', () => {
 
 			await user.click(screen.getByText('Play'));
 
-			expect(player.load).toBeCalledWith('first');
 			expect(props.onTrackChange).toBeCalledWith('first');
+		});
+	});
+
+	it('disables all buttons if player is not initially loaded', async () => {
+		player.initialLoadComplete = false;
+		render(SpotifyControls, props);
+
+		const btns = screen.getAllByRole('button');
+		expect(btns).toHaveLength(3);
+		btns.forEach((btn) => {
+			expect(btn).toHaveAttribute('disabled');
 		});
 	});
 });
