@@ -11,7 +11,7 @@ previousLink:
 nextLink: /playlists/2024/borrow-trouble
 bandcampPath: https://waterfromyoureyes.bandcamp.com/track/barley-1
 lines: [
-   { position: 2460, words: "One, two, three, four" },
+   { position: 1060, words: "One, two, three, four" },
    { position: 4380, words: "I count mountains" },
    { position: 7090, words: "One, two, three, counter" },
    { position: 10570, words: "You're a cool thing, count mountains" },
