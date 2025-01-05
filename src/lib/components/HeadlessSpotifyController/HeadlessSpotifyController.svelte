@@ -1,5 +1,6 @@
 <script lang="ts" module>
 	const LENGTH_OF_PREVIEW_TRACK = 30000;
+	const URI_FOR_JOHN_CAGES_4_33 = 'spotify:track:2bNCdW4rLnCTzgqUXTTDO1';
 
 	interface UpdateEvent {
 		isPaused: boolean;
@@ -30,6 +31,7 @@
 			player._readyResolve = resolve;
 		});
 		player.ready = false;
+		player.initialLoadComplete = false;
 		player.playing = false;
 		player.buffering = false;
 		player.position = 0;
@@ -43,11 +45,13 @@
 	class Player {
 		private readyPromise: Promise<void>;
 		private readyToLoadPromise: Promise<void>;
+
 		_readyResolve = () => {};
 		_readyToLoadResolve = () => {};
 		_controller: null | SpotifyController = $state(null);
 		_songCompletedFns: EventCallback[] = $state([]);
 
+		initialLoadComplete = $state(false);
 		preview = $state(false);
 		ready = $state(false);
 		autoscroll = $state(false);
@@ -123,21 +127,31 @@
 
 	const callback = (embedController: SpotifyController) => {
 		player._controller = embedController;
-		player._readyToLoadResolve();
 
 		embedController.addListener('ready', () => {
 			player._readyResolve();
 			player.ready = true;
 		});
 		embedController.addListener('playback_update', ({ data }) => {
+			if (!player.initialLoadComplete) {
+				if (data.isPaused) {
+					player.initialLoadComplete = true;
+					player._readyToLoadResolve();
+					return;
+				}
+				player.pause();
+
+				// if duration is less than or equal to the length
+				// of a preview track, it's mostly likely a preview track
+				// will give a false positive about this if the track is
+				// just really short
+				player.preview = data.duration <= LENGTH_OF_PREVIEW_TRACK;
+				return;
+			}
 			if (!player.ready) {
 				// stop updating if currently loading
 				return;
 			}
-
-			// if duration is exactly length, then
-			// mostly likely
-			player.preview = data.duration <= LENGTH_OF_PREVIEW_TRACK;
 			player.position = data.position;
 			player.playing = !data.isPaused;
 			player.buffering = data.isBuffering;
@@ -147,13 +161,22 @@
 				player._songCompletedFns.forEach((cb) => cb());
 			}
 		});
+
+		// got to start the john cage piece to kick off the playback
+		// update event so we can derive info about the user, namely
+		// whether or not they are logged in
+		player.play();
 	};
 
 	onMount(() => {
 		// @ts-expect-error I know, I know, but this is how Spotify wants us to do it
 		window.onSpotifyIframeApiReady = (IFrameAPI) => {
 			const options = {
-				height: 1
+				// use john cage's 4'33" (silence) to gather some info about whether or not the
+				// user is logged in based on the duration of the song
+				uri: URI_FOR_JOHN_CAGES_4_33,
+				height: 1,
+				width: 1
 			};
 			IFrameAPI.createController(el, options, callback);
 		};

@@ -54,7 +54,9 @@ describe('HeadlessSpotifyController', () => {
 		expect(IFrameAPI.createController).toBeCalledWith(
 			screen.getByTestId('spotify-iframe-container'),
 			{
-				height: 1
+				uri: 'spotify:track:2bNCdW4rLnCTzgqUXTTDO1',
+				height: 1,
+				width: 1
 			},
 			expect.any(Function)
 		);
@@ -95,6 +97,7 @@ describe('HeadlessSpotifyController', () => {
 		const callback = IFrameAPI.createController.mock.calls[0][2];
 		const instance = new SpotifyController();
 		await act(() => callback(instance));
+		player.initialLoadComplete = true;
 
 		// callback passed instance, but ready not fired
 		expect(player.ready).toEqual(false);
@@ -109,29 +112,12 @@ describe('HeadlessSpotifyController', () => {
 		await act(() => readyCB());
 
 		expect(player.ready).toEqual(true);
-		expect(instance.play).toBeCalledTimes(1);
+		expect(instance.play).toBeCalledTimes(2); // once for initial load, second for explicit call
 		expect(instance.pause).toBeCalledTimes(1);
 		expect(instance.resume).toBeCalledTimes(1);
 		expect(instance.togglePlay).toBeCalledTimes(1);
 		expect(instance.restart).toBeCalledTimes(1);
 		expect(instance.seek).toBeCalledTimes(1);
-	});
-
-	it('waits to load until controller is available (does not need ready callback)', async () => {
-		render(HeadlessSpotifyController);
-
-		await act(() => {
-			player.load('id');
-		});
-		// @ts-expect-error not a default window function, obvs
-		window.onSpotifyIframeApiReady(IFrameAPI);
-		const callback = IFrameAPI.createController.mock.calls[0][2];
-		const instance = new SpotifyController();
-
-		expect(instance.loadUri).not.toBeCalled();
-
-		await act(() => callback(instance));
-		expect(instance.loadUri).toBeCalledTimes(1);
 	});
 
 	it('updates controller data automatically as playback_update events fire', async () => {
@@ -145,6 +131,7 @@ describe('HeadlessSpotifyController', () => {
 		callback(instance);
 		const updateInfoCB = instance.addListener.mock.calls[1][1];
 		player.ready = true;
+		player.initialLoadComplete = true;
 
 		await updateInfoCB({
 			data: {
@@ -172,6 +159,7 @@ describe('HeadlessSpotifyController', () => {
 		callback(instance);
 		const updateInfoCB = instance.addListener.mock.calls[1][1];
 		player.ready = false;
+		player.initialLoadComplete = true;
 
 		await updateInfoCB({
 			data: {
@@ -188,7 +176,7 @@ describe('HeadlessSpotifyController', () => {
 		expect(player.buffering).toEqual(false);
 	});
 
-	it('updates preview when preview duration is detected', async () => {
+	it('updates preview when preview duration is detected before initial load completes', async () => {
 		render(HeadlessSpotifyController);
 
 		// @ts-expect-error not a default window function, obvs
@@ -231,6 +219,43 @@ describe('HeadlessSpotifyController', () => {
 		expect(player.preview).toEqual(false);
 	});
 
+	it('finishes loading after pause succesfully stops playback updates', async () => {
+		render(HeadlessSpotifyController);
+
+		// @ts-expect-error not a default window function, obvs
+		window.onSpotifyIframeApiReady(IFrameAPI);
+		const callback = IFrameAPI.createController.mock.calls[0][2];
+		const instance = new SpotifyController();
+
+		callback(instance);
+		const readyCB = instance.addListener.mock.calls[0][1];
+		await act(() => readyCB());
+		player.ready = true;
+
+		const updateInfoCB = instance.addListener.mock.calls[1][1];
+
+		await updateInfoCB({
+			data: {
+				position: 123,
+				isPaused: false,
+				isBuffering: true,
+				duration: 30000
+			}
+		});
+		expect(player.initialLoadComplete).toEqual(false);
+		expect(instance.pause).toBeCalledTimes(1);
+
+		await updateInfoCB({
+			data: {
+				position: 123,
+				isPaused: true,
+				isBuffering: true,
+				duration: 20000
+			}
+		});
+		expect(player.initialLoadComplete).toEqual(true);
+	});
+
 	it('calls registered song complete functions when a song completes', async () => {
 		render(HeadlessSpotifyController);
 
@@ -242,6 +267,7 @@ describe('HeadlessSpotifyController', () => {
 		callback(instance);
 		const updateInfoCB = instance.addListener.mock.calls[1][1];
 		player.ready = true;
+		player.initialLoadComplete = true;
 
 		const spy = vi.fn();
 		player.onSongCompleted(spy);
@@ -288,6 +314,17 @@ describe('HeadlessSpotifyController', () => {
 			const callback = IFrameAPI.createController.mock.calls[0][2];
 			instance = new SpotifyController();
 			callback(instance);
+
+			// got to do this silly thing to put it in a state where load can run at all
+			const updateInfoCB = instance.addListener.mock.calls[1][1];
+			await updateInfoCB({
+				data: {
+					position: 123,
+					isPaused: true,
+					isBuffering: false,
+					duration: 9999999
+				}
+			});
 		});
 
 		it('loads spotify uri', async () => {
@@ -307,6 +344,8 @@ describe('HeadlessSpotifyController', () => {
 			// show ready event has already happened
 			const readyCB = instance.addListener.mock.calls[0][1];
 			await act(() => readyCB());
+			// clear out records of call in initialization
+			instance.play.mockReset();
 
 			player.playing = true;
 			player.position = 100;
@@ -345,6 +384,9 @@ describe('HeadlessSpotifyController', () => {
 		});
 
 		it('play', async () => {
+			// got to clear out the first call that
+			// happens as part of initialization
+			instance.play.mockReset();
 			await player.play();
 
 			expect(instance.play).toBeCalledTimes(1);
