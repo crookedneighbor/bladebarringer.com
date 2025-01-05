@@ -140,19 +140,29 @@
 			player.ready = true;
 		});
 		embedController.addListener('playback_update', ({ data }) => {
+			// set this first so it's up to date
+			// even if the rest of the data is not
+			// ready to process
+			player.buffering = data.isBuffering;
+
 			if (!player.initialLoadComplete) {
+				if (data.isBuffering) {
+					// got to wait until it's
+					// done buffering so we can determine the logged in state
+					return;
+				}
 				if (data.isPaused) {
+					// if duration is less than or equal to the length
+					// of a preview track, it's mostly likely a preview track
+					// will give a false positive about this if the track is
+					// just really short
+					player.preview = data.duration <= LENGTH_OF_PREVIEW_TRACK;
 					player.initialLoadComplete = true;
 					player._readyToLoadResolve();
 					return;
 				}
 				player.pause();
 
-				// if duration is less than or equal to the length
-				// of a preview track, it's mostly likely a preview track
-				// will give a false positive about this if the track is
-				// just really short
-				player.preview = data.duration <= LENGTH_OF_PREVIEW_TRACK;
 				return;
 			}
 			if (!player.ready) {
@@ -161,7 +171,6 @@
 			}
 			player.position = data.position;
 			player.playing = !data.isPaused;
-			player.buffering = data.isBuffering;
 			player.duration = data.duration;
 
 			if (data.position >= data.duration && data.duration > 0) {

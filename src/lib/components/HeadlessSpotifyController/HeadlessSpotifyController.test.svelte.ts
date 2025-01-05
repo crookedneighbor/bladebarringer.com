@@ -148,7 +148,7 @@ describe('HeadlessSpotifyController', () => {
 		expect(player.buffering).toEqual(true);
 	});
 
-	it('does not update data if player is not ready', async () => {
+	it('does not update non-buffering data if player is not ready', async () => {
 		render(HeadlessSpotifyController);
 
 		// @ts-expect-error not a default window function, obvs
@@ -173,10 +173,10 @@ describe('HeadlessSpotifyController', () => {
 		expect(player.position).toEqual(0);
 		expect(player.duration).toEqual(0);
 		expect(player.playing).toEqual(false);
-		expect(player.buffering).toEqual(false);
+		expect(player.buffering).toEqual(true);
 	});
 
-	it('updates preview when preview duration is detected before initial load completes', async () => {
+	it('updates preview when preview duration is detected', async () => {
 		render(HeadlessSpotifyController);
 
 		// @ts-expect-error not a default window function, obvs
@@ -191,32 +191,12 @@ describe('HeadlessSpotifyController', () => {
 		await updateInfoCB({
 			data: {
 				position: 123,
-				isPaused: false,
-				isBuffering: true,
+				isPaused: true,
+				isBuffering: false,
 				duration: 30000
 			}
 		});
 		expect(player.preview).toEqual(true);
-
-		await updateInfoCB({
-			data: {
-				position: 123,
-				isPaused: false,
-				isBuffering: true,
-				duration: 20000
-			}
-		});
-		expect(player.preview).toEqual(true);
-
-		await updateInfoCB({
-			data: {
-				position: 123,
-				isPaused: false,
-				isBuffering: true,
-				duration: 30001
-			}
-		});
-		expect(player.preview).toEqual(false);
 	});
 
 	it('finishes loading after pause succesfully stops playback updates', async () => {
@@ -242,6 +222,19 @@ describe('HeadlessSpotifyController', () => {
 				duration: 30000
 			}
 		});
+		// when buffering skip both
+		expect(player.initialLoadComplete).toEqual(false);
+		expect(instance.pause).not.toBeCalled();
+
+		await updateInfoCB({
+			data: {
+				position: 123,
+				isPaused: false,
+				isBuffering: false,
+				duration: 30000
+			}
+		});
+		// now pause has happend, but initial load isn't complete
 		expect(player.initialLoadComplete).toEqual(false);
 		expect(instance.pause).toBeCalledTimes(1);
 
@@ -249,7 +242,7 @@ describe('HeadlessSpotifyController', () => {
 			data: {
 				position: 123,
 				isPaused: true,
-				isBuffering: true,
+				isBuffering: false,
 				duration: 20000
 			}
 		});
