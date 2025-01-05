@@ -12,6 +12,14 @@
 		/> Autoscroll lyrics
 	</div>
 	{#if player.preview}
-		<div class="text-xs">(Must log into Spotify for this feature)</div>
+		<div class="text-xs">
+			(Must <a href="https://accounts.spotify.com/login">log into Spotify</a> for this feature)
+		</div>
 	{/if}
 </div>
+
+<style lang="postcss">
+	a {
+		@apply font-bold underline;
+	}
+</style>
