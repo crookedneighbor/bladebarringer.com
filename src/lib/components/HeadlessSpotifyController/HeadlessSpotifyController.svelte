@@ -32,6 +32,7 @@
 		});
 		player.ready = false;
 		player.initialLoadComplete = false;
+		player.loadedURI = '';
 		player.playing = false;
 		player.buffering = false;
 		player.position = 0;
@@ -54,6 +55,7 @@
 		initialLoadComplete = $state(false);
 		preview = $state(false);
 		ready = $state(false);
+		loadedURI = $state('');
 		autoscroll = $state(false);
 		playing = $state(false);
 		buffering = $state(false);
@@ -71,6 +73,11 @@
 		}
 
 		async load(id: string, kind: 'track' | 'playlist' = 'track') {
+			const uri = `spotify:${kind}:${id}`;
+			if (this.loadedURI === uri) {
+				return;
+			}
+			this.loadedURI = uri;
 			this.ready = false;
 			this.position = 0;
 			this.duration = 0;
@@ -79,7 +86,7 @@
 				this._readyResolve = resolve;
 			});
 			await this.readyToLoadPromise;
-			this._controller?.loadUri(`spotify:${kind}:${id}`);
+			this._controller?.loadUri(uri);
 		}
 
 		async play() {

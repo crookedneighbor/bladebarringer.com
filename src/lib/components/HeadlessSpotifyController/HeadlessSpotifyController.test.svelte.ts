@@ -333,6 +333,20 @@ describe('HeadlessSpotifyController', () => {
 			expect(instance.loadUri).toBeCalledWith('spotify:playlist:spotify-id');
 		});
 
+		it('skips loading if the previous uri was already loaded', async () => {
+			await player.load('spotify-id', 'playlist');
+
+			expect(instance.loadUri).toBeCalledWith('spotify:playlist:spotify-id');
+
+			// show it wasn't called again
+			await player.load('spotify-id', 'playlist');
+			expect(instance.loadUri).toBeCalledTimes(1);
+
+			// show the uniquness is on id + kind
+			await player.load('spotify-id', 'track');
+			expect(instance.loadUri).toBeCalledTimes(2);
+		});
+
 		it('defaults load kind to track', async () => {
 			await player.load('spotify-id');
 
