@@ -35,6 +35,10 @@
 		if (player.autoplay) {
 			player.play();
 		}
+
+		if (!isDesktop.current) {
+			trackListOpen = false;
+		}
 	}
 
 	let previousTrackID = $derived.by(() => {

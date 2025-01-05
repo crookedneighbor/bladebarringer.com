@@ -29,7 +29,8 @@
 		player.load(track?.spotifyID ?? tracks[0].spotifyID);
 
 		goto(path, {
-			keepFocus: true
+			keepFocus: true,
+			noScroll: true
 		});
 	}
 
