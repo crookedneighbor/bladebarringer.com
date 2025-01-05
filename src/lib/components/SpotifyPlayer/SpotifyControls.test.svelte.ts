@@ -71,15 +71,17 @@ describe('SpotifyControls', () => {
 			expect(player.play).toBeCalledTimes(1);
 		});
 
-		it('auto-pauses if there is no previous track', async () => {
+		it('auto-pauses and turns off autoplay if there is no previous track', async () => {
 			const user = userEvent.setup();
 			render(SpotifyControls, {
 				...props,
 				previousTrackID: ''
 			});
+			player.autoplay = true;
 
 			await user.click(screen.getByText('Previous track'));
 			expect(player.pause).toBeCalledTimes(1);
+			expect(player.autoplay).toEqual(false);
 		});
 
 		it('disables if there is no current track', async () => {
@@ -116,15 +118,18 @@ describe('SpotifyControls', () => {
 			expect(player.play).toBeCalledTimes(1);
 		});
 
-		it('auto-pauses if there is no next track', async () => {
+		it('auto-pauses and stops autoplay if there is no next track', async () => {
 			const user = userEvent.setup();
 			render(SpotifyControls, {
 				...props,
 				nextTrackID: ''
 			});
 
+			player.autoplay = true;
+
 			await user.click(screen.getByText('Next track'));
 			expect(player.pause).toBeCalledTimes(1);
+			expect(player.autoplay).toEqual(false);
 		});
 
 		it('disables if there is no current track', async () => {

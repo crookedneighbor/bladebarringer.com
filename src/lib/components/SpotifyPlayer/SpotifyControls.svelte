@@ -37,6 +37,7 @@
 
 		if (!previousTrackID) {
 			player.pause();
+			player.autoplay = false;
 		}
 		loadTrack(previousTrackID);
 	}}
@@ -132,6 +133,7 @@
 	onclick={() => {
 		if (!nextTrackID) {
 			player.pause();
+			player.autoplay = false;
 		}
 		loadTrack(nextTrackID);
 	}}
