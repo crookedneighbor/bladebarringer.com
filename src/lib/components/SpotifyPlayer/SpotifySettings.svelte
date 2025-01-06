@@ -2,7 +2,7 @@
 	import { player } from '$lib/components/HeadlessSpotifyController/HeadlessSpotifyController.svelte';
 </script>
 
-<div class="p-2 text-sm text-gray-500 border-t">
+<div class="spotify-settings">
 	<div class="flex items-center" class:line-through={player.preview}>
 		<input
 			class="mr-2"
@@ -19,7 +19,16 @@
 </div>
 
 <style lang="postcss">
+	.spotify-settings {
+		@apply p-2 text-sm text-gray-500 border-t;
+	}
 	a {
 		@apply font-bold underline;
+	}
+
+	@supports (-webkit-touch-callout: none) {
+		.spotify-settings {
+			@apply hidden;
+		}
 	}
 </style>

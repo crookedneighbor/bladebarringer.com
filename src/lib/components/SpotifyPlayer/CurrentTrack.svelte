@@ -21,11 +21,15 @@
 			</div>
 		{:else}
 			<h1 class="title">{playlist.name}</h1>
-			<div class="subtitle">
+			<div class="subtitle preview-text">
 				{#if player.preview}
 					For best experience, <a href="https://accounts.spotify.com/login">login to Spotify</a> and
 					then press play. Without logging in, you will only get a 30 second preview of each track.
 				{/if}
+			</div>
+			<div class="subtitle ios-helper">
+				iOS devices can only stream 30 second previews of Spotify tracks in the browser. Tap the
+				spotify icon to open the playlist in the Spotify app.
 			</div>
 		{/if}
 	</div>
@@ -40,5 +44,16 @@
 	}
 	a {
 		@apply font-bold underline;
+	}
+
+	@supports (-webkit-touch-callout: none) {
+		.preview-text {
+			@apply hidden;
+		}
+	}
+	@supports not (-webkit-touch-callout: none) {
+		.ios-helper {
+			@apply hidden;
+		}
 	}
 </style>
