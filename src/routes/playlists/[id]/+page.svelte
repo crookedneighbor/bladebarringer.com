@@ -11,18 +11,20 @@
 	});
 </script>
 
-<div class="album-arts">
-	{#each tracks as track}
-		<div class="track" style={'view-transition-name: ' + track.id}>
-			<a
-				href={`/playlists/2024/${track.id}`}
-				{...createHoverProps(track.id)}
-				class:hovered={hovered.name === track.id}
-			>
-				<img src={track.img} alt="" style={'view-transition-name: ' + track.id + '-img'} />
-			</a>
-		</div>
-	{/each}
+<div class="lg:min-h-screen lg:flex justify-center items-center">
+	<div class="album-arts">
+		{#each tracks as track}
+			<div class="track" style={'view-transition-name: ' + track.id}>
+				<a
+					href={`/playlists/2024/${track.id}`}
+					{...createHoverProps(track.id)}
+					class:hovered={hovered.name === track.id}
+				>
+					<img src={track.img} alt="" style={'view-transition-name: ' + track.id + '-img'} />
+				</a>
+			</div>
+		{/each}
+	</div>
 </div>
 
 <style lang="postcss">

@@ -79,7 +79,7 @@
 		-ms-overflow-style: none; /* IE and Edge */
 		scrollbar-width: none; /* Firefox */
 
-		@apply lg:min-h-screen lg:w-1/3 lg:overflow-scroll p-8;
+		@apply lg:min-h-screen lg:w-1/3 lg:overflow-scroll py-2 lg:py-8 px-8;
 	}
 	.right {
 		&::-webkit-scrollbar {
