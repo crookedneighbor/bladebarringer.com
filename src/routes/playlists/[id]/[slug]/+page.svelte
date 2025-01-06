@@ -56,7 +56,7 @@
 				<!-- Any buttons that go to the right go here -->
 			</div>
 		{/if}
-		{@render data.pageBlurb()}
+		<!-- {@render data.pageBlurb()} -->
 	</div>
 </div>
 
