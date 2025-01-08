@@ -62,7 +62,10 @@
 	});
 </script>
 
-<div class="bg-white rounded border overflow-hidden" style:view-transition-name="spotify-controls">
+<div
+	class="bg-white rounded border border-gray-600 overflow-hidden"
+	style:view-transition-name="spotify-controls"
+>
 	<Art {playlist} />
 	<SongProgress />
 	<CurrentTrack {currentTrack} {playlist} />

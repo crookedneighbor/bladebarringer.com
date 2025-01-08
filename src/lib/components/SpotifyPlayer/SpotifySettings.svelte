@@ -20,7 +20,7 @@
 
 <style lang="postcss">
 	.spotify-settings {
-		@apply p-2 text-sm text-gray-500 border-t;
+		@apply p-2 text-sm text-gray-500 border-t border-gray-600;
 	}
 	a {
 		@apply font-bold underline;

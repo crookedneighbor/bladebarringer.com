@@ -11,7 +11,7 @@
 	let { tracks, currentTrack, onTrackChoice }: Props = $props();
 </script>
 
-<ol class="border border-t-0 bg-white w-11/12 m-auto z-0 rounded-b">
+<ol class="border border-gray-600 border-t-0 bg-white w-11/12 m-auto z-0 rounded-b">
 	{#each tracks as track (track.id)}
 		<li
 			transition:slide
@@ -41,7 +41,7 @@
 		@apply list-outside list-none;
 	}
 	li {
-		@apply flex text-sm transition-all p-2 border-b pl-4 items-center;
+		@apply flex text-sm transition-all p-2 border-b border-gray-600 pl-4 items-center;
 		a {
 			@apply flex-grow;
 		}

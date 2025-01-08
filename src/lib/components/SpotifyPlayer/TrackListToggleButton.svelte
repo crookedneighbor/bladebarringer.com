@@ -7,7 +7,7 @@
 	let { trackListOpen, ...rest }: Props = $props();
 </script>
 
-<button class="ml-auto -mb-6 mr-2 border border-2 p-1 rounded" {...rest}>
+<button class="ml-auto -mb-6 mr-2 border border-2 border-gray-600 p-1 rounded" {...rest}>
 	{#if trackListOpen}
 		<span class="sr-only">Close Track panel</span>
 		<svg

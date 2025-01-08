@@ -17,7 +17,7 @@
 
 <button
 	bind:this={progressElement}
-	class="w-full h-12 lg:h-4 bg-gray-200 block mb-1 relative"
+	class="border-b border-gray-600 w-full h-12 lg:h-4 bg-gray-200 block mb-1 relative"
 	onclick={(e) => {
 		const width = Number(getComputedStyle(progressElement).width.split('px')[0]);
 		const percent = e.offsetX / width;
