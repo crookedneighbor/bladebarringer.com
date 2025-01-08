@@ -75,6 +75,7 @@ TODO`;
 		// overrides
 		indexPageData.name = metadata.name;
 		indexPageData.description = metadata.description;
+		indexPageData.image = metadata.image;
 	}
 
 	writeSVX(indexPath, indexPage, indexPageData);
