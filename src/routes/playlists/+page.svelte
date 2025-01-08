@@ -13,7 +13,12 @@
 		{#each playlists as playlist}
 			<li class="w-1/3 p-4">
 				<a href={`/playlists/${playlist.slug}`}
-					><img class="w-full" src={playlist.image} alt={playlist.name} /></a
+					><img
+						class="w-full"
+						src={playlist.image}
+						alt={playlist.name}
+						style:view-transition-name="Art"
+					/></a
 				>
 			</li>
 		{/each}

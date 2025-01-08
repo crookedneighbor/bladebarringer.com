@@ -12,7 +12,7 @@
 
 <a href={link} class="relative block">
 	<span class="sr-only">Go back to playlist overview</span>
-	<img src={playlist.art} class="w-full" alt="" />
+	<img src={playlist.art} class="w-full" alt="" style:view-transition-name="Art" />
 
 	{#if player.preview}
 		<span class="preview">

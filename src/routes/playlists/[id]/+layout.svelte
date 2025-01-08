@@ -1,5 +1,5 @@
 <script lang="ts">
-	import { goto, onNavigate } from '$app/navigation';
+	import { goto } from '$app/navigation';
 	import { page } from '$app/state';
 	import HeadlessSpotifyController, {
 		player
@@ -32,17 +32,6 @@
 			keepFocus: true
 		});
 	}
-
-	onNavigate((navigation) => {
-		if (!document.startViewTransition) return;
-
-		return new Promise((resolve) => {
-			document.startViewTransition(async () => {
-				resolve();
-				await navigation.complete;
-			});
-		});
-	});
 </script>
 
 <div class="container">
