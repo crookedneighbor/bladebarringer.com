@@ -7,7 +7,7 @@
 		playlist: Playlist;
 	}
 	let { playlist }: Props = $props();
-	let link = $derived(page.data.track ? `/playlists/${page.data.playlistSlug}` : null);
+	let link = $derived(page.data.track ? playlist.permalink : null);
 </script>
 
 <a href={link} class="relative block">

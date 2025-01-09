@@ -71,7 +71,7 @@
 	<CurrentTrack {currentTrack} {playlist} />
 
 	<div class="flex items-center justify-center pb-8">
-		<SpotifyLink link={playlist.permalink} />
+		<SpotifyLink link={playlist.spotifyLink} />
 
 		<SpotifyControls
 			currentTrackID={currentTrack?.id}

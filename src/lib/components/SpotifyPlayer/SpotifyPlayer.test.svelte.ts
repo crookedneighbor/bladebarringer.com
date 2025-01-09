@@ -13,7 +13,7 @@ function createTrack(props: Partial<Track> = {}) {
 		slug: 'foo',
 		name: 'Foo',
 		number: 1,
-		permalink: 'https://spotify.com/foo',
+		permalink: 'playlists/1234/foo',
 		artist: 'Bar',
 		art: 'https://example.com/foo.png',
 		...props
@@ -48,6 +48,7 @@ describe('SpotifyPlayer', () => {
 				playlist: {
 					name: 'Name',
 					permalink: 'https://open.spotify.com/playlist/yay',
+					spotifyLink: 'https://example.com/spotify',
 					slug: '1234',
 					description: 'text',
 					art: 'https://example.com/art.png'
@@ -70,6 +71,7 @@ describe('SpotifyPlayer', () => {
 				playlist: {
 					name: 'Name',
 					permalink: 'https://open.spotify.com/playlist/yay',
+					spotifyLink: 'https://example.com/spotify',
 					slug: '1234',
 					description: 'text',
 					art: 'https://example.com/art.png'
@@ -92,6 +94,7 @@ describe('SpotifyPlayer', () => {
 				playlist: {
 					name: 'Name',
 					permalink: 'https://open.spotify.com/playlist/yay',
+					spotifyLink: 'https://example.com/spotify',
 					slug: '1234',
 					description: 'text',
 					art: 'https://example.com/art.png'
@@ -113,6 +116,7 @@ describe('SpotifyPlayer', () => {
 				playlist: {
 					name: 'Name',
 					permalink: 'https://open.spotify.com/playlist/yay',
+					spotifyLink: 'https://example.com/spotify',
 					slug: '1234',
 					description: 'text',
 					art: 'https://example.com/art.png'
@@ -134,6 +138,7 @@ describe('SpotifyPlayer', () => {
 				playlist: {
 					name: 'Name',
 					permalink: 'https://open.spotify.com/playlist/yay',
+					spotifyLink: 'https://example.com/spotify',
 					slug: '1234',
 					description: 'text',
 					art: 'https://example.com/art.png'
@@ -160,6 +165,7 @@ describe('SpotifyPlayer', () => {
 				playlist: {
 					name: 'Name',
 					permalink: 'https://open.spotify.com/playlist/yay',
+					spotifyLink: 'https://example.com/spotify',
 					slug: '1234',
 					description: 'text',
 					art: 'https://example.com/art.png'
@@ -188,6 +194,7 @@ describe('SpotifyPlayer', () => {
 				playlist: {
 					name: 'Name',
 					permalink: 'https://open.spotify.com/playlist/yay',
+					spotifyLink: 'https://example.com/spotify',
 					slug: '1234',
 					description: 'text',
 					art: 'https://example.com/art.png'

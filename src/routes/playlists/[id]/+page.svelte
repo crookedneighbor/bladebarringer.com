@@ -16,7 +16,7 @@
 		{#each tracks as track}
 			<div class="track" style={'view-transition-name: ' + track.id}>
 				<a
-					href={`/playlists/2024/${track.id}`}
+					href={track.permalink}
 					{...createHoverProps(track.id)}
 					class:hovered={hovered.name === track.id}
 				>

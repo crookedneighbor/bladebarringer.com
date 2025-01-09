@@ -22,7 +22,8 @@ export async function load({ params }) {
 				name: metadata.name,
 				description: metadata.description,
 				art: metadata.image,
-				permalink: `https://open.spotify.com/playlist/${metadata.id}`
+				permalink: `/playlists/${id}`,
+				spotifyLink: `https://open.spotify.com/playlist/${metadata.id}`
 			},
 			tracks
 		};

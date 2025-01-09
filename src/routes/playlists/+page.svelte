@@ -12,7 +12,7 @@
 	<ul class="flex w-full">
 		{#each playlists as playlist}
 			<li class="w-1/3 p-4">
-				<a href={`/playlists/${playlist.slug}`}
+				<a href={playlist.permalink}
 					><img
 						class="w-full"
 						src={playlist.image}

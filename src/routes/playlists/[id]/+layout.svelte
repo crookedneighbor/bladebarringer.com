@@ -25,7 +25,7 @@
 
 	function onTrackChange(newTrackID: string) {
 		const track = tracks.find((t) => t.spotifyID === newTrackID);
-		const path = track?.permalink || `/playlists/${page.data.playlistSlug}`;
+		const path = track?.permalink || playlist.permalink;
 		player.load(track?.spotifyID ?? tracks[0].spotifyID);
 
 		goto(path, {
@@ -33,6 +33,12 @@
 		});
 	}
 </script>
+
+<svelte:head>
+	<meta property="og:title" content={playlist.name} />
+	<meta property="og:type" content="website" />
+	<meta property="og:URL" content="/playlist-covers/{playlist.slug}-share.jpg" />
+</svelte:head>
 
 <div class="container">
 	<div class="left">

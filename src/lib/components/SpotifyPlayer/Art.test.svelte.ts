@@ -22,6 +22,7 @@ describe('Art', () => {
 				name: 'Name',
 				art: 'https://example.com/art.png',
 				permalink: '/playlists/1234',
+				spotifyLink: 'https://example.com/spotify',
 				slug: '1234',
 				description: 'text'
 			}
@@ -37,6 +38,7 @@ describe('Art', () => {
 				name: 'Name',
 				art: 'https://example.com/art.png',
 				permalink: '/playlists/1234',
+				spotifyLink: 'https://example.com/spotify',
 				slug: '1234',
 				description: 'text'
 			}
@@ -51,6 +53,7 @@ describe('Art', () => {
 				name: 'Name',
 				art: 'https://example.com/art.png',
 				permalink: '/playlists/1234',
+				spotifyLink: 'https://example.com/spotify',
 				slug: '1234',
 				description: 'text'
 			}
