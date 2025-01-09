@@ -17,11 +17,13 @@ export async function load({ params }) {
 		});
 
 		return {
-			spotifyPlaylistLink: `https://open.spotify.com/playlist/${metadata.id}`,
-			playlistSlug: id,
-			playlistArt: metadata.image,
-			name: metadata.name,
-			description: metadata.description,
+			playlist: {
+				slug: id,
+				name: metadata.name,
+				description: metadata.description,
+				art: metadata.image,
+				permalink: `https://open.spotify.com/playlist/${metadata.id}`
+			},
 			tracks
 		};
 	} catch (e) {

@@ -48,6 +48,8 @@ describe('SpotifyPlayer', () => {
 				playlist: {
 					name: 'Name',
 					permalink: 'https://open.spotify.com/playlist/yay',
+					slug: '1234',
+					description: 'text',
 					art: 'https://example.com/art.png'
 				},
 				onTrackChange: vi.fn()
@@ -68,6 +70,8 @@ describe('SpotifyPlayer', () => {
 				playlist: {
 					name: 'Name',
 					permalink: 'https://open.spotify.com/playlist/yay',
+					slug: '1234',
+					description: 'text',
 					art: 'https://example.com/art.png'
 				},
 				onTrackChange: vi.fn()
@@ -88,6 +92,8 @@ describe('SpotifyPlayer', () => {
 				playlist: {
 					name: 'Name',
 					permalink: 'https://open.spotify.com/playlist/yay',
+					slug: '1234',
+					description: 'text',
 					art: 'https://example.com/art.png'
 				},
 				onTrackChange: vi.fn()
@@ -107,6 +113,8 @@ describe('SpotifyPlayer', () => {
 				playlist: {
 					name: 'Name',
 					permalink: 'https://open.spotify.com/playlist/yay',
+					slug: '1234',
+					description: 'text',
 					art: 'https://example.com/art.png'
 				},
 				onTrackChange: spy
@@ -126,6 +134,8 @@ describe('SpotifyPlayer', () => {
 				playlist: {
 					name: 'Name',
 					permalink: 'https://open.spotify.com/playlist/yay',
+					slug: '1234',
+					description: 'text',
 					art: 'https://example.com/art.png'
 				},
 				onTrackChange: vi.fn()
@@ -150,6 +160,8 @@ describe('SpotifyPlayer', () => {
 				playlist: {
 					name: 'Name',
 					permalink: 'https://open.spotify.com/playlist/yay',
+					slug: '1234',
+					description: 'text',
 					art: 'https://example.com/art.png'
 				},
 				onTrackChange: spy
@@ -176,6 +188,8 @@ describe('SpotifyPlayer', () => {
 				playlist: {
 					name: 'Name',
 					permalink: 'https://open.spotify.com/playlist/yay',
+					slug: '1234',
+					description: 'text',
 					art: 'https://example.com/art.png'
 				},
 				onTrackChange: spy

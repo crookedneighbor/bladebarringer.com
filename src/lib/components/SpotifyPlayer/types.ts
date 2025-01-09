@@ -1,15 +1,4 @@
-export interface Playlist {
-	name: string;
-	permalink: string;
-	art: string;
-}
+import type { PageData } from '../../../routes/playlists/[id]/[slug]/$types';
 
-export interface Track {
-	id: string;
-	slug: string;
-	name: string;
-	number: number;
-	permalink: string;
-	artist: string;
-	art: string;
-}
+export type Playlist = PageData['playlist'];
+export type Track = PageData['track'];

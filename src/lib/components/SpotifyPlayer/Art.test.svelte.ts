@@ -21,7 +21,9 @@ describe('Art', () => {
 			playlist: {
 				name: 'Name',
 				art: 'https://example.com/art.png',
-				permalink: '/playlists/1234'
+				permalink: '/playlists/1234',
+				slug: '1234',
+				description: 'text'
 			}
 		});
 
@@ -34,7 +36,9 @@ describe('Art', () => {
 			playlist: {
 				name: 'Name',
 				art: 'https://example.com/art.png',
-				permalink: '/playlists/1234'
+				permalink: '/playlists/1234',
+				slug: '1234',
+				description: 'text'
 			}
 		});
 
@@ -46,7 +50,9 @@ describe('Art', () => {
 			playlist: {
 				name: 'Name',
 				art: 'https://example.com/art.png',
-				permalink: '/playlists/1234'
+				permalink: '/playlists/1234',
+				slug: '1234',
+				description: 'text'
 			}
 		});
 
