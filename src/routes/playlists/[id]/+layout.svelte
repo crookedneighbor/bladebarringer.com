@@ -37,7 +37,10 @@
 <svelte:head>
 	<meta property="og:title" content={playlist.name} />
 	<meta property="og:type" content="website" />
-	<meta property="og:URL" content="/playlist-covers/{playlist.slug}-share.jpg" />
+	<meta
+		property="og:url"
+		content="https://bladebarringer.com/playlist-covers/{playlist.slug}-share.jpg"
+	/>
 </svelte:head>
 
 <div class="container">
