@@ -5,7 +5,7 @@ permalink: /playlists/2024/all-the-weworks-are-dead
 number: 25
 name: All the WeWorks Are Dead!
 artist: Sun Kin
-img: https://i.scdn.co/image/ab67616d0000b273c2d1a41ac6b1d3d803edbd05
+img: /playlist-art/2024/all-the-weworks-are-dead.jpg
 duration: 192654
 previousLink: /playlists/2024/hat-guy
 nextLink: 

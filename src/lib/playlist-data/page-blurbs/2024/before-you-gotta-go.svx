@@ -5,7 +5,7 @@ permalink: /playlists/2024/before-you-gotta-go
 number: 11
 name: Before You Gotta Go
 artist: Courtney Barnett
-img: https://i.scdn.co/image/ab67616d0000b27305f1904e84048385bd801ac7
+img: /playlist-art/2024/before-you-gotta-go.jpg
 duration: 225632
 previousLink: /playlists/2024/dividual-individual
 nextLink: /playlists/2024/connect

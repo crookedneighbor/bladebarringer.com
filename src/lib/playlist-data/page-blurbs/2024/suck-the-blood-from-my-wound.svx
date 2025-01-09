@@ -5,7 +5,7 @@ permalink: /playlists/2024/suck-the-blood-from-my-wound
 number: 5
 name: Suck the Blood from My Wound
 artist: Ezra Furman
-img: https://i.scdn.co/image/ab67616d0000b273b5a72c295b43659b6668d236
+img: /playlist-art/2024/suck-the-blood-from-my-wound.jpg
 duration: 289000
 previousLink: /playlists/2024/missing-out
 nextLink: /playlists/2024/pretty-damn-lucky-kitchen-demo

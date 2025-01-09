@@ -5,7 +5,7 @@ permalink: /playlists/2024/fire-excape
 number: 17
 name: Fire Excape
 artist: Zsela
-img: https://i.scdn.co/image/ab67616d0000b273159ede86b6de7edf50f76264
+img: /playlist-art/2024/fire-excape.jpg
 duration: 198184
 previousLink: /playlists/2024/parallel-play
 nextLink: /playlists/2024/light-on

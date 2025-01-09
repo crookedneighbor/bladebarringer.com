@@ -5,7 +5,7 @@ permalink: /playlists/2024/lord-make-me-a-scorpion
 number: 14
 name: Lord, Make Me A Scorpion
 artist: Creekbed Carter Hogan
-img: https://i.scdn.co/image/ab67616d0000b2732bd240be2c1401f3e451ef3e
+img: /playlist-art/2024/lord-make-me-a-scorpion.jpg
 duration: 322164
 previousLink: /playlists/2024/the-insulation
 nextLink: /playlists/2024/nothing-changes

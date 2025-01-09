@@ -5,7 +5,7 @@ permalink: /playlists/2024/nothing-changes
 number: 15
 name: Nothing Changes
 artist: MGMT
-img: https://i.scdn.co/image/ab67616d0000b2731fd336bd388a632180e721d8
+img: /playlist-art/2024/nothing-changes.jpg
 duration: 395093
 previousLink: /playlists/2024/lord-make-me-a-scorpion
 nextLink: /playlists/2024/parallel-play

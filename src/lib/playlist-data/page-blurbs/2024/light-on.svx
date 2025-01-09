@@ -5,7 +5,7 @@ permalink: /playlists/2024/light-on
 number: 18
 name: Light On
 artist: Dehd
-img: https://i.scdn.co/image/ab67616d0000b273b76d0be829a3eff9e6ac9475
+img: /playlist-art/2024/light-on.jpg
 duration: 233463
 previousLink: /playlists/2024/fire-excape
 nextLink: /playlists/2024/feline-wave-race

@@ -1,10 +1,12 @@
 import 'dotenv/config';
 import { getPlaylist } from './spotify/playlist.js';
 import { lookupArtist } from './bandcamp/lookup-artist.js';
-import { writeFileSync, readFileSync, existsSync } from 'node:fs';
+import { writeFileSync, readFileSync, existsSync, createWriteStream } from 'node:fs';
 import { resolve as resolvePath } from 'node:path';
 import { compile } from 'mdsvex';
 import { getLyrics } from './spotify/lyrics.js';
+import { Readable } from 'node:stream';
+import { finished } from 'node:stream/promises';
 
 const PLAYLIST_ID = process.env.PLAYLIST_ID;
 
@@ -66,6 +68,7 @@ TODO`;
 
 	const indexPageData = {
 		...playlist,
+		permalink: `/playlists/${playlist.slug}`,
 		tracks: Object.keys(playlist.tracks).join('|')
 	};
 
@@ -105,6 +108,9 @@ TODO`;
 				if (metadata.artistWebsite) {
 					track.artistWebsite = metadata.artistWebsite;
 				}
+				if (metadata.img) {
+					track.img = metadata.img;
+				}
 			} else {
 				let { name, artist } = track;
 				name = name.toLowerCase();
@@ -117,6 +123,12 @@ TODO`;
 
 				const lyrics = await getLyrics(track.spotifyID);
 				track.lines = lyrics ?? [];
+				const trackArtPath = resolvePath('static', 'playlist-art', '2024', `${track.id}.jpg`);
+				await fetch(track.img).then((res) => {
+					const fileStream = createWriteStream(trackArtPath, { flags: 'wx' });
+					return finished(Readable.fromWeb(res.body).pipe(fileStream));
+				});
+				track.img = `/playlist-art/2024/${track.id}.jpg`;
 			}
 			writeSVX(pathToFile, pageData, track);
 		})

@@ -5,7 +5,7 @@ permalink: /playlists/2024/i-missed-the-bus-man
 number: 20
 name: I Missed the Bus Man
 artist: Jonny's Day Out
-img: https://i.scdn.co/image/ab67616d0000b273af6a08de41c6c21b5e0a0a13
+img: /playlist-art/2024/i-missed-the-bus-man.jpg
 duration: 218491
 previousLink: /playlists/2024/feline-wave-race
 nextLink: /playlists/2024/pressed-2-death

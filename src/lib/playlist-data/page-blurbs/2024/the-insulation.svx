@@ -5,7 +5,7 @@ permalink: /playlists/2024/the-insulation
 number: 13
 name: The Insulation
 artist: Menomena
-img: https://i.scdn.co/image/ab67616d0000b273ef0d7f6d88b5b0d5d88c38c8
+img: /playlist-art/2024/the-insulation.jpg
 duration: 256834
 previousLink: /playlists/2024/connect
 nextLink: /playlists/2024/lord-make-me-a-scorpion
