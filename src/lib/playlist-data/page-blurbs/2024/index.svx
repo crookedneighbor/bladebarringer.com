@@ -2,7 +2,7 @@
 id: 0zRFBHvgpkp0OpCS22UwvS
 slug: 2024
 name: 2024 - Patterns in Repeat
-description: TBD
+description: My favorite new (to me) songs from 2024.
 image: /playlist-covers/2024.jpg
 tracks: barley|borrow-trouble|bath-county|missing-out|suck-the-blood-from-my-wound|pretty-damn-lucky-kitchen-demo|albatross|talk-is-cheap|outside-all-the-time|dividual-individual|before-you-gotta-go|connect|the-insulation|lord-make-me-a-scorpion|nothing-changes|parallel-play|fire-excape|light-on|feline-wave-race|i-missed-the-bus-man|pressed-2-death|air-drumming-fix-you|patterns|hat-guy|all-the-weworks-are-dead
 permalink: /playlists/2024
