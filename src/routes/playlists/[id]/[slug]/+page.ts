@@ -12,8 +12,8 @@ export async function load({ parent, params }) {
 	return {
 		og: {
 			...og,
-			title: track.name,
-			description: `${track.name} by ${track.artist}, track number ${track.number} from my playlist "${playlist.name}"`
+			title: `${track.number}. ${track.name} by ${track.artist}`,
+			description: `Track number ${track.number} from my playlist "${playlist.name}"`
 		},
 		track,
 		spotifyPlayerID: track.spotifyID,
