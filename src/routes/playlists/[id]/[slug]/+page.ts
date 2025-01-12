@@ -1,7 +1,7 @@
 import { error } from '@sveltejs/kit';
 
 export async function load({ parent, params }) {
-	const { tracks } = await parent();
+	const { tracks, playlist, og } = await parent();
 	const track = tracks.find((track) => track.id === params.slug);
 	if (!track) {
 		return error(404, 'Not Found');
@@ -10,6 +10,11 @@ export async function load({ parent, params }) {
 	const pageBlurb = await import(`$lib/playlist-data/page-blurbs/${params.id}/${params.slug}.svx`);
 
 	return {
+		og: {
+			...og,
+			title: track.name,
+			description: `${track.name} by ${track.artist}, track number ${track.number} from my playlist "${playlist.name}"`
+		},
 		track,
 		spotifyPlayerID: track.spotifyID,
 		hideTrackList: true,

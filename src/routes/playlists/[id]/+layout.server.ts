@@ -16,15 +16,22 @@ export async function load({ params }) {
 			return a.number > b.number ? 1 : -1;
 		});
 
+		const playlist = {
+			slug: id,
+			name: metadata.name,
+			description: metadata.description,
+			art: metadata.image,
+			permalink: `/playlists/${id}`,
+			spotifyLink: `https://open.spotify.com/playlist/${metadata.id}`
+		};
+
 		return {
-			playlist: {
-				slug: id,
-				name: metadata.name,
-				description: metadata.description,
-				art: metadata.image,
-				permalink: `/playlists/${id}`,
-				spotifyLink: `https://open.spotify.com/playlist/${metadata.id}`
+			og: {
+				title: playlist.name,
+				image: `/og-shares/playlists/${playlist.slug}.jpg`,
+				description: playlist.description
 			},
+			playlist,
 			tracks
 		};
 	} catch (e) {
