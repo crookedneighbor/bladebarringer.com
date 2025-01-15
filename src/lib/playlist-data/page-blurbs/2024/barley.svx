@@ -68,8 +68,4 @@ lines: [
 artistWebsite: https://www.waterfromyoureyes.com/
 ---
 
-At the end of 2023, I was laid off from [Bandcamp](https://bandcamp.com/) when [Epic Games sold the company to Songtradr](https://www.404media.co/bandcamps-entire-union-bargaining-team-was-laid-off/). We were mid-contract negotations for our newly unionzed company when they gutted us. 
-
-I had joined Bandcamp after spending about 8 years at [Braintree](<https://en.wikipedia.org/wiki/Braintree_(company)>), so happy to move into a new role where I could actively work on a product that functioned to support musicians - only to be dropped from that job within a year. Thankfully, through a friend I met at Bandcamp, I started a new job at [Splice](https://splice.com), a different music technology company.
-
-Over this year, I've loved working with so many funny, passionate, clever people. Early on in the year, my grand-boss [Brian](https://bsky.app/profile/brianloveswords.com) posted a link to this song. The first few seconds of the song played, and I knew it would land on my 2024 playlist. I love songs that can't exist within an acoustic space, where if you were to take out the electronic aspects of them, something essential to the song would be lost.
+Early on in the year, [Brian](https://bsky.app/profile/brianloveswords.com) posted a link the [music video](https://www.youtube.com/watch?v=8tdPKlYTWn4) for this song, and I was immediately hooked. The first few seconds of the song played, and I knew it would land on my 2024 playlist.

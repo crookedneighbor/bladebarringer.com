@@ -55,8 +55,8 @@ lines: [
 artistWebsite: https://www.tiktok.com/@father_yaga
 ---
 
-[Sue](https://bsky.app/profile/deathbear.bsky.social) (who shared this song with me) referred me to Splice. And I totally bombed my initial interview with the recruiter. 
+[Sue](https://bsky.app/profile/deathbear.bsky.social) (who shared this song with me) helped me get my new job this year. She got me an interview, which I promptly and completely bombed.
 
-I know because Sue texted me right after to ask me if I even really wanted the job, because the recruiter was not impressed and was recommending Splice not go forward with my interview process. I was so depressed in the aftermath of being laid off from Bandcamp, shook in my confidence as a competent software engineer, and it really tanked me during that initial interview.
+I know because Sue texted me right after to ask me if I even really wanted the job, because the recruiter was not impressed and was recommending that they not go forward with my interview process. I was so depressed in the aftermath of being laid off from Bandcamp, shook in my confidence as a competent software engineer, and it really tanked me during that initial interview.
 
-Sue gave me a (metaphorical) kick in the pants and encouraged the hiring manager to give me a chance. It was what I needed to get out of my funk and get through the rest of the interview process. And (spoiler), I got the job and had a great year as a frontend engineer working at Splice. So yeah, I feel **pretty damn lucky**.
+Sue gave me a (metaphorical) kick in the pants and encouraged the hiring manager to give me a chance. It was what I needed to get out of my funk and get through the rest of the interview process. And (spoiler), I got the job and had a great year working there. So yeah, I feel **pretty damn lucky**.

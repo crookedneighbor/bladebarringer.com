@@ -50,4 +50,4 @@ lines: [
 artistWebsite: https://siljesweets.com/
 ---
 
-This song was recomended to me by [Steve Slagg](https://bsky.app/profile/steveslagg.bsky.social), another songwriter in his Chicago scene, and it's just immaculate.
+This song was recomended to me by [Steve Slagg](https://bsky.app/profile/steveslagg.bsky.social), another songwriter in the Chicago scene, and it's just immaculate.
