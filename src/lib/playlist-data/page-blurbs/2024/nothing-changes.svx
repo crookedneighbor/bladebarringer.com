@@ -11,15 +11,15 @@ previousLink: /playlists/2024/lord-make-me-a-scorpion
 nextLink: /playlists/2024/parallel-play
 bandcampPath: https://mgmt.bandcamp.com/track/nothing-changes
 lines: [
-   { position: 78610, words: "This is what the gods must have been talking about" },
-   { position: 86740, words: "When they told me, \"Nothing changes\"" },
-   { position: 94600, words: "Falling through the Pleiades straight into a cloud" },
-   { position: 102340, words: "Wishing all the stars could save me" },
+   { position: 78610, words: "This is what the gods must have been talking about", share: true },
+   { position: 86740, words: "When they told me, \"Nothing changes\"", share: true },
+   { position: 94600, words: "Falling through the Pleiades straight into a cloud", share: true },
+   { position: 102340, words: "Wishing all the stars could save me", share: true },
    { spacer: true },
-   { position: 108720, words: "And I feel strange like I shouldn't be here" },
-   { position: 118170, words: "Let me know if you receive me" },
-   { position: 124410, words: "If I could change, then I wouldn't be here" },
-   { position: 133130, words: "Oh, nothing's gonna change, believe me" },
+   { position: 108720, words: "And I feel strange like I shouldn't be here", share: true },
+   { position: 118170, words: "Let me know if you receive me", share: true },
+   { position: 124410, words: "If I could change, then I wouldn't be here", share: true },
+   { position: 133130, words: "Oh, nothing's gonna change, believe me", share: true },
    { position: 139020, words: "So don't lead me on" },
    { spacer: true },
    { position: 157330, words: "This is what the birds must have been squawking about" },

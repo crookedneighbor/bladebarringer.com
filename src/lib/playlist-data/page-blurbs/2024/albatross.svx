@@ -11,13 +11,13 @@ previousLink: /playlists/2024/pretty-damn-lucky-kitchen-demo
 nextLink: /playlists/2024/talk-is-cheap
 bandcampPath: https://englishteacher.bandcamp.com/track/albatross
 lines: [
-   { position: 19916, words: "My cross flew out the window with me" },
-   { position: 24698, words: "When I decided to be" },
-   { position: 28948, words: "One of those shouty things up in the sky" },
+   { position: 19916, words: "My cross flew out the window with me", share: true },
+   { position: 24698, words: "When I decided to be", share: true },
+   { position: 28948, words: "One of those shouty things up in the sky", share: true },
    { spacer: true },
-   { position: 37977, words: "I gave my mum a heart attack" },
-   { position: 42230, words: "Left the windowsill for the cul-de-sac" },
-   { position: 46214, words: "I stared at the sun and she stared right back" },
+   { position: 37977, words: "I gave my mum a heart attack", share: true },
+   { position: 42230, words: "Left the windowsill for the cul-de-sac", share: true },
+   { position: 46214, words: "I stared at the sun and she stared right back", share: true },
    { spacer: true },
    { position: 73718, words: "Found 'em heading south" },
    { position: 76875, words: "I said, \"Have you heard about the sun?" },

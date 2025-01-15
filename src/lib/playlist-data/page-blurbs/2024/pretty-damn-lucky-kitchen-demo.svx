@@ -10,15 +10,15 @@ duration: 209998
 previousLink: /playlists/2024/suck-the-blood-from-my-wound
 nextLink: /playlists/2024/albatross
 lines: [
-   { position: 31738, words: "skin my knuckles every day, every day" },
-   { position: 37050, words: "stings as it tells me" },
-   { position: 38911, words: "\"i've got blood and i've got veins\"" },
+   { position: 31738, words: "skin my knuckles every day, every day", share: true },
+   { position: 37050, words: "stings as it tells me", share: true },
+   { position: 38911, words: "\"i've got blood and i've got veins\"", share: true },
    { spacer: true },
-   { position: 41566, words: "i am small but i am strong" },
-   { position: 44223, words: "i've got feet to walk upon" },
-   { position: 46877, words: "i've got early morning sun" },
-   { position: 49536, words: "i've got darkness when the day runs out on me" },
-   { position: 58035, words: "pretty damn lucky" },
+   { position: 41566, words: "i am small but i am strong", share: true },
+   { position: 44223, words: "i've got feet to walk upon", share: true },
+   { position: 46877, words: "i've got early morning sun", share: true },
+   { position: 49536, words: "i've got darkness when the day runs out on me", share: true },
+   { position: 58035, words: "pretty damn lucky", share: true },
    { spacer: true },
    { position: 75299, words: "i've got friends around me, around me" },
    { position: 80614, words: "mostly far and wide so i wait ever eagerly" },

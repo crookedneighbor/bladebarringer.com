@@ -32,15 +32,15 @@ lines: [
    { position: 153060, words: "Stale love, stale love" },
    { position: 157043, words: "We were angry and calm and refined at the same time" },
    { spacer: true },
-   { position: 189451, words: "I brought a hat to the party" },
-   { position: 193168, words: "I wore a suit and a tie, ahh" },
-   { position: 201933, words: "But make no mistake, before you let me in" },
-   { position: 208574, words: "I don’t want to be the hat guy" },
-   { spacer: true },
-   { position: 216010, words: "I brought a hat to the party" },
-   { position: 219731, words: "The brim was soft and wide, ahh" },
-   { position: 228764, words: "You greet me at the door, scan me up and down" },
-   { position: 235670, words: "And tell me I’m a hat guy" }
+   { position: 189451, words: "I brought a hat to the party", share: true },
+   { position: 193168, words: "I wore a suit and a tie, ahh", share: true },
+   { position: 201933, words: "But make no mistake, before you let me in", share: true },
+   { position: 208574, words: "I don’t want to be the hat guy", share: true },
+   { spacer: true, share: true},
+   { position: 216010, words: "I brought a hat to the party", share: true },
+   { position: 219731, words: "The brim was soft and wide, ahh", share: true },
+   { position: 228764, words: "You greet me at the door, scan me up and down", share: true },
+   { position: 235670, words: "And tell me I’m a hat guy", share: true }
 ]
 artistWebsite: https://officeculture.bandcamp.com/
 ---

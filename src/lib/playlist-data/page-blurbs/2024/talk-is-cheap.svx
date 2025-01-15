@@ -10,10 +10,10 @@ duration: 270937
 previousLink: /playlists/2024/albatross
 nextLink: /playlists/2024/outside-all-the-time
 lines: [
-   { position: 15080, words: "To the end of a lane and then back again" },
-   { position: 20530, words: "Feelin old and dumb and in the way" },
-   { position: 25980, words: "But I can change before the moon explodes and the sun stops shining" },
-   { position: 31850, words: "Talk is cheap" },
+   { position: 15080, words: "To the end of a lane and then back again", share: true },
+   { position: 20530, words: "Feelin old and dumb and in the way", share: true },
+   { position: 25980, words: "But I can change before the moon explodes and the sun stops shining", share: true },
+   { position: 31850, words: "Talk is cheap", share: true },
    { spacer: true },
    { position: 33230, words: "It might be dark, a little hazy in here" },
    { position: 36070, words: "I might be crazy, it's a little unclear" },

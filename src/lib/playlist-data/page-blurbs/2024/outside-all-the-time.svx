@@ -11,10 +11,10 @@ previousLink: /playlists/2024/talk-is-cheap
 nextLink: /playlists/2024/dividual-individual
 bandcampPath: https://steveslagg.bandcamp.com/track/outside-all-the-time-2
 lines: [
-   { position: 3640, words: "Doors don't open anymore" },
-   { position: 6570, words: "Not like they ever did before" },
-   { position: 10200, words: "Now we're outside all the time" },
-   { position: 12670, words: "Now we're outside all the time" },
+   { position: 3640, words: "Doors don't open anymore", share: true },
+   { position: 6570, words: "Not like they ever did before", share: true },
+   { position: 10200, words: "Now we're outside all the time", share: true },
+   { position: 12670, words: "Now we're outside all the time", share: true },
    { spacer: true },
    { position: 15780, words: "Cash ain't flowing anymore" },
    { position: 18820, words: "We're running all around the town to score" },

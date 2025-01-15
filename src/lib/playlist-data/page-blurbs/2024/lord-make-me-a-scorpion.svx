@@ -11,14 +11,14 @@ previousLink: /playlists/2024/the-insulation
 nextLink: /playlists/2024/nothing-changes
 bandcampPath: https://creekbedcarter.bandcamp.com/track/lord-make-me-a-scorpion
 lines: [
-   { position: 29915, words: "Lord, make me a scorpion" },
-   { position: 36023, words: "Give me a poisonous tale that I can wield" },
-   { position: 54353, words: "Lord, make me a rattlesnake" },
-   { position: 60195, words: "Give me a skin I can shed in an open field" },
-   { spacer: true },
-   { position: 78525, words: "And Lord, just one more thing" },
-   { position: 83837, words: "Let those lonesome bells of mine ring" },
-   { position: 89416, words: "For her no more" },
+   { position: 29915, words: "Lord, make me a scorpion", share: true },
+   { position: 36023, words: "Give me a poisonous tale that I can wield", share: true },
+   { position: 54353, words: "Lord, make me a rattlesnake", share: true },
+   { position: 60195, words: "Give me a skin I can shed in an open field", share: true },
+   { spacer: true, share: true },
+   { position: 78525, words: "And Lord, just one more thing", share: true },
+   { position: 83837, words: "Let those lonesome bells of mine ring", share: true },
+   { position: 89416, words: "For her no more", share: true },
    { spacer: true },
    { position: 103494, words: "Lord, make me a juniper" },
    { position: 109337, words: "Send me to stand all alone on a mountainside" },

@@ -11,10 +11,10 @@ previousLink: /playlists/2024/hat-guy
 nextLink: 
 bandcampPath: https://sunraykin.bandcamp.com/track/all-the-weworks-are-dead
 lines: [
-   { position: 16986, words: "All the WeWorks are dead" },
-   { position: 21502, words: "We play now" },
-   { position: 25755, words: "Drinking lemonade" },
-   { position: 28143, words: "In the ruins of downtown" },
+   { position: 16986, words: "All the WeWorks are dead", share: true },
+   { position: 21502, words: "We play now", share: true },
+   { position: 25755, words: "Drinking lemonade", share: true },
+   { position: 28143, words: "In the ruins of downtown", share: true },
    { spacer: true },
    { position: 32659, words: "I'm not hip, but I have been retrofitted" },
    { position: 36909, words: "Word is out it's not a competition" },

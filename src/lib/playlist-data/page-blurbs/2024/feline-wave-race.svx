@@ -54,17 +54,17 @@ lines: [
    { position: 265953, words: "Thought maybe I’d catch a curling glance from" },
    { position: 275518, words: "Some wild cat that was" },
    { spacer: true },
-   { position: 282421, words: "Stepping out" },
-   { position: 287205, words: "Across a branch" },
-   { position: 291986, words: "Around a root" },
-   { position: 296765, words: "Into a cave" },
-   { position: 301282, words: "Then out from a tunnel" },
-   { position: 305002, words: "Into a tidal wave" },
-   { position: 310846, words: "It’s playing sea race" },
-   { position: 315626, words: "It’s playing the N64 game wave race" },
-   { position: 320408, words: "It’s playing at racing now" },
-   { position: 325987, words: "That wildcat" },
-   { position: 326783, words: "That cat, that cat, that cat." }
+   { position: 282421, words: "Stepping out", share: true },
+   { position: 287205, words: "Across a branch", share: true },
+   { position: 291986, words: "Around a root", share: true },
+   { position: 296765, words: "Into a cave", share: true },
+   { position: 301282, words: "Then out from a tunnel", share: true },
+   { position: 305002, words: "Into a tidal wave", share: true },
+   { position: 310846, words: "It’s playing sea race", share: true },
+   { position: 315626, words: "It’s playing the N64 game wave race", share: true },
+   { position: 320408, words: "It’s playing at racing now", share: true },
+   { position: 325987, words: "That wildcat", share: true },
+   { position: 326783, words: "That cat, that cat, that cat.", share: true }
 ]
 artistWebsite: https://www.napeyes.com/
 ---
