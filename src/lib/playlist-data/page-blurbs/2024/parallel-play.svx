@@ -11,10 +11,10 @@ previousLink: /playlists/2024/nothing-changes
 nextLink: /playlists/2024/fire-excape
 bandcampPath: https://sill-yuh-sweets.bandcamp.com/track/parallel-play
 lines: [
-   { position: 3566, words: "Simple gestures of affection" },
-   { position: 5463, words: "Carefully are picked" },
-   { position: 10509, words: "Based on subtle observations" },
-   { position: 15291, words: "Of what makes you tick" },
+   { position: 790, words: "Simple gestures of affection" },
+   { position: 5306, words: "Carefully are picked" },
+   { position: 10354, words: "Based on subtle observations" },
+   { position: 15134, words: "Of what makes you tick" },
    { spacer: true },
    { position: 20336, words: "Present and participating" },
    { position: 25120, words: "My world next to you" },
