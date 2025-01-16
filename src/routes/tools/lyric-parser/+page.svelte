@@ -1,5 +1,8 @@
 <script lang="ts">
-	import { player } from '$lib/components/HeadlessSpotifyController/HeadlessSpotifyController.svelte';
+	import HeadlessSpotifyController, {
+		player
+	} from '$lib/components/HeadlessSpotifyController/HeadlessSpotifyController.svelte';
+	import SongProgress from '$lib/components/SpotifyPlayer/SongProgress.svelte';
 
 	let id = $state('');
 	let rawLyrics = $state('');
@@ -51,10 +54,6 @@
 
 		document.querySelector(`[data-index="${focusedLyricIndex}"`)?.scrollIntoView();
 	}
-
-	$effect(() => {
-		player.load(id);
-	});
 </script>
 
 <svelte:window {onkeydown} />
@@ -65,7 +64,8 @@
 	<h2>Spotify Player</h2>
 
 	{#if id}
-		<button class="rounded bg-green-300 p-2 w-48 text-xl" onclick={() => player.play()}>Play</button
+		<button class="rounded bg-green-300 p-2 w-48 text-xl" onclick={() => player.toggle()}
+			>{player.playing ? 'Pause' : 'Play'}</button
 		>
 	{:else}
 		<div
@@ -79,6 +79,9 @@
 				class="p-2 flex-grow mx-8 rounded"
 				placeholder="Paste in the Spotify Track ID here"
 				bind:value={id}
+				oninput={() => {
+					player.load(id);
+				}}
 				type="text"
 			/>
 		</div>
@@ -86,6 +89,7 @@
 
 	<h2>Spotify Player Stats</h2>
 	<div class="bg-white p-4 my-4 rounded">
+		<SongProgress />
 		<ul>
 			<li>Is Playing: {player.playing}</li>
 			<li>Position: {player.position}</li>
@@ -130,3 +134,5 @@
 		{/if}
 	</div>
 </div>
+
+<HeadlessSpotifyController />
