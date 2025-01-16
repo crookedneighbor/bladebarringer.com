@@ -13,7 +13,8 @@ export async function load({ parent, params }) {
 		og: {
 			...og,
 			title: `${track.number}. ${track.name} by ${track.artist}`,
-			description: `Track number ${track.number} from my playlist "${playlist.name}"`
+			description: `Track number ${track.number} from my playlist "${playlist.name}"`,
+			image: `/og-shares/playlists/${playlist.slug}/${track.id}.png`
 		},
 		track,
 		spotifyPlayerID: track.spotifyID,
