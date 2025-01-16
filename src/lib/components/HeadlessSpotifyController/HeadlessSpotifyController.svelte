@@ -78,6 +78,7 @@
 				return;
 			}
 			this.loadedURI = uri;
+			await this.readyToLoadPromise;
 			this.ready = false;
 			this.position = 0;
 			this.duration = 0;
@@ -85,7 +86,6 @@
 			this.readyPromise = new Promise((resolve) => {
 				this._readyResolve = resolve;
 			});
-			await this.readyToLoadPromise;
 			this._controller?.loadUri(uri);
 		}
 
