@@ -19,7 +19,7 @@
 		<Lyrics {lines} />
 	</div>
 	<div
-		class="info prose prose-quoteless prose-blockquote:not-italic prose-blockquote:whitespace-pre-wrap prose-blockquote:text-xl"
+		class="info prose prose-quoteless prose-blockquote:text-xl prose-blockquote:border-red-400 prose-blockquote:border-l-8 prose-blockquote:relative prose-blockquote:mx-4 prose-blockquote:px-8"
 	>
 		<h1>{number}. {name}</h1>
 		<div class="artist">
@@ -75,5 +75,17 @@
 
 	.navigation {
 		@apply py-2 flex border-b items-center justify-center;
+	}
+
+	.prose :global(blockquote:before) {
+		content: '“';
+		@apply absolute -left-7 -mt-8 top-1/2 text-red-400 text-7xl bg-white rounded-full font-serif h-10 w-10 text-center pt-1 my-auto;
+	}
+
+	.prose :global(blockquote p) {
+		@apply mb-4;
+	}
+	.prose :global(blockquote p:last-child) {
+		@apply text-right text-2xl mt-4 not-italic;
 	}
 </style>
