@@ -12,7 +12,7 @@ yearReleased: 2024
 popularity: 54
 previousLink: /playlists/2024/air-drumming-fix-you
 nextLink: /playlists/2024/hat-guy
-bandcampPath: https://lauramarling.bandcamp.com/track/patterns
+buyLink: https://lauramarling.bandcamp.com/track/patterns
 lines: [
    { position: 19650, words: "Zena, you've squared your toes" },
    { position: 28940, words: "But your family nose hangs around" },

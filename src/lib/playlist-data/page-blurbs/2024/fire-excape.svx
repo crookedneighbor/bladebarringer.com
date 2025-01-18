@@ -12,7 +12,7 @@ yearReleased: 2024
 popularity: 24
 previousLink: /playlists/2024/parallel-play
 nextLink: /playlists/2024/light-on
-bandcampPath: https://zselaofficial.bandcamp.com/track/fire-excape
+buyLink: https://zselaofficial.bandcamp.com/track/fire-excape
 lines: [
    { position: 2580, words: "It's a pretty old town" },
    { position: 4440, words: "Where the hearts do well" },

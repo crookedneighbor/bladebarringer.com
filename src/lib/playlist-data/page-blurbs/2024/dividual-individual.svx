@@ -12,7 +12,7 @@ yearReleased: 2022
 popularity: 15
 previousLink: /playlists/2024/outside-all-the-time
 nextLink: /playlists/2024/before-you-gotta-go
-bandcampPath: https://yamawarashi.bandcamp.com/track/dividual-individual
+buyLink: https://yamawarashi.bandcamp.com/track/dividual-individual
 lines: [
    { position: 31305, words: "What do you need to grow?", share: true },
    { position: 33959, words: "What you need to do?", share: true },

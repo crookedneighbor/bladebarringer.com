@@ -12,7 +12,7 @@ yearReleased: 2018
 popularity: 36
 previousLink: /playlists/2024/i-missed-the-bus-man
 nextLink: /playlists/2024/air-drumming-fix-you
-bandcampPath: https://illuminatihotties.bandcamp.com/track/pressed-2-death
+buyLink: https://illuminatihotties.bandcamp.com/track/pressed-2-death
 lines: [
    { position: 4480, words: "One, two" },
    { position: 5950, words: "Pbbbt" },

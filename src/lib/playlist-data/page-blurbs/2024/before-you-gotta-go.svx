@@ -12,7 +12,7 @@ yearReleased: 2021
 popularity: 38
 previousLink: /playlists/2024/dividual-individual
 nextLink: /playlists/2024/connect
-bandcampPath: https://courtneybarnett.bandcamp.com/track/before-you-gotta-go
+buyLink: https://courtneybarnett.bandcamp.com/track/before-you-gotta-go
 lines: [
    { position: 9140, words: "Before you gotta go, go, go, go" },
    { position: 12500, words: "I wanted you to know, know, know, know" },

@@ -12,7 +12,7 @@ yearReleased: 2024
 popularity: 41
 previousLink: /playlists/2024/lord-make-me-a-scorpion
 nextLink: /playlists/2024/parallel-play
-bandcampPath: https://mgmt.bandcamp.com/track/nothing-changes
+buyLink: https://mgmt.bandcamp.com/track/nothing-changes
 lines: [
    { position: 78610, words: "This is what the gods must have been talking about", share: true },
    { position: 86740, words: "When they told me, \"Nothing changes\"", share: true },

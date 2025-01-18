@@ -12,7 +12,7 @@ yearReleased: 2024
 popularity: 1
 previousLink: /playlists/2024/talk-is-cheap
 nextLink: /playlists/2024/dividual-individual
-bandcampPath: https://steveslagg.bandcamp.com/track/outside-all-the-time-2
+buyLink: https://steveslagg.bandcamp.com/track/outside-all-the-time-2
 lines: [
    { position: 3640, words: "Doors don't open anymore", share: true },
    { position: 6570, words: "Not like they ever did before", share: true },

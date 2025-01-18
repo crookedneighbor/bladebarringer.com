@@ -12,7 +12,7 @@ yearReleased: 2024
 popularity: 24
 previousLink: /playlists/2024/pressed-2-death
 nextLink: /playlists/2024/patterns
-bandcampPath: https://wildpink.bandcamp.com/track/air-drumming-fix-you
+buyLink: https://wildpink.bandcamp.com/track/air-drumming-fix-you
 lines: [
    { position: 20879, words: "Is it real right here" },
    { position: 29378, words: "Where the seat is curled?" },

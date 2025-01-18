@@ -12,7 +12,7 @@ yearReleased: 2023
 popularity: 4
 previousLink: /playlists/2024/feline-wave-race
 nextLink: /playlists/2024/pressed-2-death
-bandcampPath: https://jonnysdayout.bandcamp.com/track/i-missed-the-bus-man
+buyLink: https://jonnysdayout.bandcamp.com/track/i-missed-the-bus-man
 lines: [
    { position: 19656, words: "Tonight she chose to leave her wings" },
    { position: 23110, words: "At the appointment with her things" },

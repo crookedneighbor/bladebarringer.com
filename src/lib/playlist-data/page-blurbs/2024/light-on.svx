@@ -12,7 +12,7 @@ yearReleased: 2024
 popularity: 37
 previousLink: /playlists/2024/fire-excape
 nextLink: /playlists/2024/feline-wave-race
-bandcampPath: https://dehdforever.bandcamp.com/track/light-on
+buyLink: https://dehdforever.bandcamp.com/track/light-on
 lines: [
    { position: 32540, words: "No lie, I couldn't stand the look on your face" },
    { position: 36950, words: "Like it'll never be okay" },

@@ -103,12 +103,15 @@ TODO`;
 				// props after the initial sync
 				track = {
 					...track,
-					bandcampPath: metadata.bandcampPath,
 					lines: metadata.lines,
 					artistWebsite: metadata.artistWebsite,
 					img: metadata.img,
 					explicit: metadata.explicit
 				};
+				// this one can be undefined
+				if (metadata.buyLink) {
+					track.buyLink = metadata.buyLink;
+				}
 			} else {
 				let { name, artist } = track;
 				name = name.toLowerCase();
@@ -116,7 +119,7 @@ TODO`;
 
 				const bandcampLink = await lookupArtist(artist, name);
 				if (bandcampLink) {
-					track.bandcampPath = bandcampLink;
+					track.buyLink = bandcampLink;
 				}
 
 				const lyrics = await getLyrics(track.spotifyID);

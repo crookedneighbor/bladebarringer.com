@@ -12,7 +12,7 @@ yearReleased: 2023
 popularity: 34
 previousLink: /playlists/2024/borrow-trouble
 nextLink: /playlists/2024/missing-out
-bandcampPath: https://wednesdayband.bandcamp.com/track/bath-county
+buyLink: https://wednesdayband.bandcamp.com/track/bath-county
 lines: [
    { position: 1280, words: "I can walk on water", share: true },
    { position: 10190, words: "I can raise the dead", share: true },

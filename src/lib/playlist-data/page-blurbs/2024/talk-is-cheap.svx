@@ -12,6 +12,7 @@ yearReleased: 2024
 popularity: 29
 previousLink: /playlists/2024/albatross
 nextLink: /playlists/2024/outside-all-the-time
+buyLink: https://store.drdogmusic.com/products/dr-dog-lp
 lines: [
    { position: 15080, words: "To the end of a lane and then back again", share: true },
    { position: 20530, words: "Feelin old and dumb and in the way", share: true },

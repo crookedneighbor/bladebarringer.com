@@ -13,7 +13,7 @@
 		artistWebsite,
 		number,
 		name,
-		bandcampPath,
+		buyLink,
 		explicit,
 		yearReleased
 	} = $derived(data.track);
@@ -65,9 +65,9 @@
 
 				{yearReleased}
 			</li>
-			{#if bandcampPath}
-				<li class="buy-on-bandcamp">
-					<a href={bandcampPath} target="_blank" class="flex justify-center items-center">
+			{#if buyLink}
+				<li class="buy-link">
+					<a href={buyLink} target="_blank" class="flex justify-center items-center">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
 							fill="none"

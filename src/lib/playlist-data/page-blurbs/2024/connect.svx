@@ -12,6 +12,7 @@ yearReleased: 2024
 popularity: 50
 previousLink: /playlists/2024/before-you-gotta-go
 nextLink: /playlists/2024/the-insulation
+buyLink: https://vampireweekend.store/collections/frontpage/products/only-god-was-above-us-black-vinyl-lp
 lines: [
    { position: 18320, words: "The memories don't fade" },
    { position: 21480, words: "Surprising fate for days, you elegantly wasted" },

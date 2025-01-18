@@ -12,7 +12,7 @@ yearReleased: 2024
 popularity: 1
 previousLink: /playlists/2024/hat-guy
 nextLink: 
-bandcampPath: https://sunraykin.bandcamp.com/track/all-the-weworks-are-dead
+buyLink: https://sunraykin.bandcamp.com/track/all-the-weworks-are-dead
 lines: [
    { position: 16986, words: "All the WeWorks are dead", share: true },
    { position: 21502, words: "We play now", share: true },

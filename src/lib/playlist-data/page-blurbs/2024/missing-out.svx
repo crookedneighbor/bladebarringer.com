@@ -12,7 +12,7 @@ yearReleased: 2024
 popularity: 45
 previousLink: /playlists/2024/bath-county
 nextLink: /playlists/2024/suck-the-blood-from-my-wound
-bandcampPath: https://mayahawke.bandcamp.com/track/missing-out
+buyLink: https://mayahawke.bandcamp.com/track/missing-out
 lines: [
    { position: 11290, words: "Lucy wants to write the next great, American novel" },
    { position: 15680, words: "She can't even read the bottle" },

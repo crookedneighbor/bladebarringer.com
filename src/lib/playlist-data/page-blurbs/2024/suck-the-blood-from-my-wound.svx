@@ -12,7 +12,7 @@ yearReleased: 2018
 popularity: 29
 previousLink: /playlists/2024/missing-out
 nextLink: /playlists/2024/pretty-damn-lucky-kitchen-demo
-bandcampPath: https://ezrafurman.bandcamp.com/track/suck-the-blood-from-my-wound
+buyLink: https://ezrafurman.bandcamp.com/track/suck-the-blood-from-my-wound
 lines: [
    { position: 26530, words: "I woke up bleeding in the crock of a tree" },
    { position: 30080, words: "TV blaring on the wall above the coffee machine" },

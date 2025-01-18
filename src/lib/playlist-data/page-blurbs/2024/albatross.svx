@@ -12,7 +12,7 @@ yearReleased: 2024
 popularity: 44
 previousLink: /playlists/2024/pretty-damn-lucky-kitchen-demo
 nextLink: /playlists/2024/talk-is-cheap
-bandcampPath: https://englishteacher.bandcamp.com/track/albatross
+buyLink: https://englishteacher.bandcamp.com/track/albatross
 lines: [
    { position: 19916, words: "My cross flew out the window with me", share: true },
    { position: 24698, words: "When I decided to be", share: true },

@@ -12,6 +12,7 @@ yearReleased: 2023
 popularity: 31
 previousLink: /playlists/2024/barley
 nextLink: /playlists/2024/bath-county
+buyLink: https://interscope.com/products/multitudes-cd?srsltid=AfmBOoq32f6DC4KwK1QIQsqTfeh6PIxvRRAmIN2jPsA2jlGdMNy_I06k
 lines: [
    { position: 18380, words: "To sleeping innocent minds" },
    { position: 22820, words: "It happens at the break of day" },

@@ -12,7 +12,7 @@ yearReleased: 2024
 popularity: 0
 previousLink: /playlists/2024/nothing-changes
 nextLink: /playlists/2024/fire-excape
-bandcampPath: https://sill-yuh-sweets.bandcamp.com/track/parallel-play
+buyLink: https://sill-yuh-sweets.bandcamp.com/track/parallel-play
 lines: [
    { position: 790, words: "Simple gestures of affection" },
    { position: 5306, words: "Carefully are picked" },

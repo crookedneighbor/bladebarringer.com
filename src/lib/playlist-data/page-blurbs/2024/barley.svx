@@ -12,7 +12,7 @@ yearReleased: 2023
 popularity: 30
 previousLink: 
 nextLink: /playlists/2024/borrow-trouble
-bandcampPath: https://waterfromyoureyes.bandcamp.com/track/barley-1
+buyLink: https://waterfromyoureyes.bandcamp.com/track/barley-1
 lines: [
    { position: 1060, words: "One, two, three, four", share: true },
    { position: 4380, words: "I count mountains", share: true },

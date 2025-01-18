@@ -12,7 +12,7 @@ yearReleased: 2024
 popularity: 15
 previousLink: /playlists/2024/patterns
 nextLink: /playlists/2024/all-the-weworks-are-dead
-bandcampPath: https://officeculture.bandcamp.com/track/hat-guy
+buyLink: https://officeculture.bandcamp.com/track/hat-guy
 lines: [
    { position: 28958, words: "Do I talk like you?" },
    { position: 32145, words: "It seems like I talk like you" },

@@ -12,7 +12,7 @@ yearReleased: 2024
 popularity: 6
 previousLink: /playlists/2024/the-insulation
 nextLink: /playlists/2024/nothing-changes
-bandcampPath: https://creekbedcarter.bandcamp.com/track/lord-make-me-a-scorpion
+buyLink: https://creekbedcarter.bandcamp.com/track/lord-make-me-a-scorpion
 lines: [
    { position: 29915, words: "Lord, make me a scorpion", share: true },
    { position: 36023, words: "Give me a poisonous tale that I can wield", share: true },

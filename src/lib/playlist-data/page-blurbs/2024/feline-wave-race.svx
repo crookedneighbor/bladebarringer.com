@@ -12,7 +12,7 @@ yearReleased: 2024
 popularity: 8
 previousLink: /playlists/2024/light-on
 nextLink: /playlists/2024/i-missed-the-bus-man
-bandcampPath: https://napeyes.bandcamp.com/track/feline-wave-race
+buyLink: https://napeyes.bandcamp.com/track/feline-wave-race
 lines: [
    { position: 25866, words: "Beyond all doubt" },
    { position: 30382, words: "Beyond all trace" },
