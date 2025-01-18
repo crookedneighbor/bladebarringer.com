@@ -7,7 +7,7 @@ name: I Missed the Bus Man
 artist: Jonny's Day Out
 img: /playlist-art/2024/i-missed-the-bus-man.jpg
 duration: 218491
-explicit: false
+explicit: true
 yearReleased: 2023
 popularity: 4
 previousLink: /playlists/2024/feline-wave-race

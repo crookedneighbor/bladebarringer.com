@@ -111,6 +111,9 @@ TODO`;
 				if (metadata.img) {
 					track.img = metadata.img;
 				}
+				if (metadata.explicit) {
+					track.explicit = metadata.explicit;
+				}
 			} else {
 				let { name, artist } = track;
 				name = name.toLowerCase();
