@@ -98,22 +98,17 @@ TODO`;
 			if (existsSync(pathToFile)) {
 				const { page, metadata } = await parseSVX(pathToFile);
 				pageData = page;
-				// overwrite the fields if they already exist
-				if (metadata.bandcampPath) {
-					track.bandcampPath = metadata.bandcampPath;
-				}
-				if (metadata.lines) {
-					track.lines = metadata.lines;
-				}
-				if (metadata.artistWebsite) {
-					track.artistWebsite = metadata.artistWebsite;
-				}
-				if (metadata.img) {
-					track.img = metadata.img;
-				}
-				if (metadata.explicit) {
-					track.explicit = metadata.explicit;
-				}
+				// overwrite these fields
+				// becaue we may have made manual edits to these
+				// props after the initial sync
+				track = {
+					...track,
+					bandcampPath: metadata.bandcampPath,
+					lines: metadata.lines,
+					artistWebsite: metadata.artistWebsite,
+					img: metadata.img,
+					explicit: metadata.explicit
+				};
 			} else {
 				let { name, artist } = track;
 				name = name.toLowerCase();
