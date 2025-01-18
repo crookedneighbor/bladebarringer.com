@@ -4,12 +4,14 @@
 
 <div class="spotify-settings">
 	<div class="flex items-center" class:line-through={player.preview}>
-		<input
-			class="mr-2"
-			type="checkbox"
-			disabled={player.preview}
-			bind:checked={player.autoscroll}
-		/> Autoscroll lyrics
+		<label>
+			<input
+				class="mr-2"
+				type="checkbox"
+				disabled={player.preview}
+				bind:checked={player.autoscroll}
+			/> Autoscroll lyrics
+		</label>
 	</div>
 	{#if player.preview}
 		<div class="text-xs">
