@@ -14,7 +14,7 @@
 						class="w-full"
 						src={playlist.image}
 						alt={playlist.name}
-						style:view-transition-name="Art"
+						style:view-transition-name="Art-{playlist.slug}"
 					/></a
 				>
 			</li>
