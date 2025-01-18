@@ -4,9 +4,8 @@
 	import { onMount } from 'svelte';
 
 	let { data } = $props();
-	let { id, spotifyID, lines, img, artist, artistWebsite, number, name, bandcampPath } = $derived(
-		data.track
-	);
+	let { id, spotifyID, lines, img, artist, artistWebsite, number, name, bandcampPath, explicit } =
+		$derived(data.track);
 
 	onMount(() => {
 		player.load(spotifyID);
@@ -23,16 +22,22 @@
 	>
 		<h1>{number}. {name}</h1>
 		<div class="artist">
-			by
-			{#if artistWebsite}
-				<a href={artistWebsite}>{artist}</a>
-			{:else}
-				{artist}
+			<div class="flex-grow">
+				by
+				{#if artistWebsite}
+					<a href={artistWebsite}>{artist}</a>
+				{:else}
+					{artist}
+				{/if}
+			</div>
+
+			{#if explicit}
+				<div class="explicit">Explicit</div>
 			{/if}
 		</div>
 		{#if bandcampPath}
-			<div class="navigation">
-				<div class="buy-on-bandcamp">
+			<ul class="navigation">
+				<li class="buy-on-bandcamp">
 					<a href={bandcampPath} target="_blank" class="flex justify-center items-center">
 						<svg
 							xmlns="http://www.w3.org/2000/svg"
@@ -51,10 +56,10 @@
 
 						Buy this song</a
 					>
-				</div>
-				<div class="flex-grow"></div>
+				</li>
+				<li class="flex-grow"></li>
 				<!-- Any buttons that go to the right go here -->
-			</div>
+			</ul>
 		{/if}
 		{@render data.pageBlurb()}
 	</div>
@@ -70,11 +75,23 @@
 	}
 
 	.artist {
-		@apply border-b -mt-6 pb-2 text-2xl;
+		@apply border-b -mt-6 pb-2 text-2xl flex items-center justify-center;
 	}
 
 	.navigation {
-		@apply py-2 flex border-b items-center justify-center;
+		@apply py-2 flex border-b items-center justify-center list-none m-0 p-0;
+
+		li {
+			@apply mx-2;
+		}
+
+		li:first-child {
+			@apply ml-0;
+		}
+	}
+
+	.explicit {
+		@apply bg-gray-200 py-0.5 px-2 rounded text-sm h-6;
 	}
 
 	.prose :global(blockquote:before) {
