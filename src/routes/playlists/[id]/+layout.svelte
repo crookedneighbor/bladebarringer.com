@@ -35,13 +35,13 @@
 </script>
 
 <div class="container">
-	<div class="left">
+	<nav class="left">
 		<SpotifyPlayer {onTrackChange} {playlist} tracks={playerTracks} {currentTrack} />
-	</div>
+	</nav>
 
-	<div class="right">
+	<main class="right">
 		{@render children()}
-	</div>
+	</main>
 </div>
 
 <div class="absolute -left-96 -bottom-96">

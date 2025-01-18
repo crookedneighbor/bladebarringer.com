@@ -17,6 +17,7 @@
 </script>
 
 <svelte:head>
+	<title>{page.data.og.title}</title>
 	<meta property="og:title" content={page.data.og.title} />
 	<meta property="og:type" content={page.data.og.type || 'website'} />
 	<meta property="og:url" content={shareURL} />
