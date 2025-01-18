@@ -20,7 +20,11 @@
 					{...createHoverProps(track.id)}
 					class:hovered={hovered.name === track.id}
 				>
-					<img src={track.img} alt="" style={'view-transition-name: ' + track.id + '-img'} />
+					<img
+						src={track.img}
+						alt="{track.number}. {track.name} by {track.artist}"
+						style={'view-transition-name: ' + track.id + '-img'}
+					/>
 				</a>
 			</div>
 		{/each}
