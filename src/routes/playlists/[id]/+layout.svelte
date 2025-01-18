@@ -15,6 +15,7 @@
 			slug: t.id,
 			name: t.name,
 			number: t.number,
+			explicit: t.explicit,
 			artist: t.artist,
 			art: t.img,
 			permalink: t.permalink

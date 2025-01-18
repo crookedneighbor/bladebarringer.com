@@ -23,6 +23,7 @@ describe('TrackList', () => {
 				id: 'abc-2',
 				slug: 'abc-2',
 				number: 2,
+				explicit: true,
 				permalink: '/song/link-2',
 				name: 'Song Two',
 				artist: 'Artist Two',
@@ -81,5 +82,16 @@ describe('TrackList', () => {
 		const items = screen.getAllByRole('listitem');
 		expect(items[0]).not.toHaveClass('hovered');
 		expect(items[1]).toHaveClass('hovered');
+	});
+
+	it('includes Explicit marking for explicit track', async () => {
+		render(TrackList, {
+			tracks,
+			onTrackChoice: vi.fn()
+		});
+
+		const items = screen.getAllByRole('listitem');
+		expect(items[0].querySelector('.explicit')).not.toBeInTheDocument();
+		expect(items[1].querySelector('.explicit')).toBeInTheDocument();
 	});
 });

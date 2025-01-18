@@ -20,7 +20,6 @@
 			class:hovered={hovered.name === track.slug}
 		>
 			<span class="mr-4 text-xl">{track.number}</span>
-			<!-- class="text-left flex flex-col px-2 py-1" -->
 			<a
 				href={track.permalink}
 				onclick={(e) => {
@@ -29,8 +28,14 @@
 					onTrackChoice(track.id);
 				}}
 			>
-				<span>{track.name}</span>
-				<span class="artist">{track.artist}</span>
+				<span
+					>{track.name}
+
+					{#if track.explicit}
+						<span class="explicit">E</span>
+					{/if}
+				</span>
+				<span class="artist"> {track.artist}</span>
 			</a>
 		</li>
 	{/each}
@@ -60,5 +65,13 @@
 		.artist {
 			@apply text-gray-700;
 		}
+
+		.explicit {
+			@apply bg-gray-300;
+		}
+	}
+
+	.explicit {
+		@apply bg-gray-200 px-1 py-px ml-1 rounded text-xs;
 	}
 </style>
