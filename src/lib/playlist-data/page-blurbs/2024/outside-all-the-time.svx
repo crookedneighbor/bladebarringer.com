@@ -7,6 +7,9 @@ name: Outside All the Time
 artist: Steve Slagg
 img: /playlist-art/2024/outside-all-the-time.jpg
 duration: 228506
+explicit: false
+yearReleased: 2024
+popularity: 1
 previousLink: /playlists/2024/talk-is-cheap
 nextLink: /playlists/2024/dividual-individual
 bandcampPath: https://steveslagg.bandcamp.com/track/outside-all-the-time-2

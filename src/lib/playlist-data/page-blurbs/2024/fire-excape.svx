@@ -7,6 +7,9 @@ name: Fire Excape
 artist: Zsela
 img: /playlist-art/2024/fire-excape.jpg
 duration: 198184
+explicit: false
+yearReleased: 2024
+popularity: 24
 previousLink: /playlists/2024/parallel-play
 nextLink: /playlists/2024/light-on
 bandcampPath: https://zselaofficial.bandcamp.com/track/fire-excape

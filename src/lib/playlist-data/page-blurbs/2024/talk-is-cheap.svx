@@ -7,6 +7,9 @@ name: Talk is Cheap
 artist: Dr. Dog
 img: /playlist-art/2024/talk-is-cheap.jpg
 duration: 270937
+explicit: false
+yearReleased: 2024
+popularity: 29
 previousLink: /playlists/2024/albatross
 nextLink: /playlists/2024/outside-all-the-time
 lines: [

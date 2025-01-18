@@ -22,7 +22,10 @@ export async function getPlaylist(id, slug) {
 			name: track.name,
 			artist: track.artists.map((a) => a.name).join(' | '),
 			img: track.album.images[0].url,
-			duration: track.duration_ms
+			duration: track.duration_ms,
+			explicit: track.explicit,
+			yearReleased: Number(track.album.release_date.split('-')[0]),
+			popularity: track.popularity
 		};
 
 		return tracks;

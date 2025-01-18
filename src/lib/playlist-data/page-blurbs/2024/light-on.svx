@@ -7,6 +7,9 @@ name: Light On
 artist: Dehd
 img: /playlist-art/2024/light-on.jpg
 duration: 233463
+explicit: false
+yearReleased: 2024
+popularity: 37
 previousLink: /playlists/2024/fire-excape
 nextLink: /playlists/2024/feline-wave-race
 bandcampPath: https://dehdforever.bandcamp.com/track/light-on

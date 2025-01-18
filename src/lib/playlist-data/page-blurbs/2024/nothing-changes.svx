@@ -7,6 +7,9 @@ name: Nothing Changes
 artist: MGMT
 img: /playlist-art/2024/nothing-changes.jpg
 duration: 395093
+explicit: true
+yearReleased: 2024
+popularity: 41
 previousLink: /playlists/2024/lord-make-me-a-scorpion
 nextLink: /playlists/2024/parallel-play
 bandcampPath: https://mgmt.bandcamp.com/track/nothing-changes

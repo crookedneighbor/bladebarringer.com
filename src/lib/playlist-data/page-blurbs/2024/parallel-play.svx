@@ -7,6 +7,9 @@ name: Parallel Play
 artist: Silje Sweets
 img: /playlist-art/2024/parallel-play.jpg
 duration: 195200
+explicit: false
+yearReleased: 2024
+popularity: 0
 previousLink: /playlists/2024/nothing-changes
 nextLink: /playlists/2024/fire-excape
 bandcampPath: https://sill-yuh-sweets.bandcamp.com/track/parallel-play

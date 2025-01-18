@@ -7,6 +7,9 @@ name: Pressed 2 Death
 artist: illuminati hotties
 img: /playlist-art/2024/pressed-2-death.jpg
 duration: 135026
+explicit: false
+yearReleased: 2018
+popularity: 36
 previousLink: /playlists/2024/i-missed-the-bus-man
 nextLink: /playlists/2024/air-drumming-fix-you
 bandcampPath: https://illuminatihotties.bandcamp.com/track/pressed-2-death

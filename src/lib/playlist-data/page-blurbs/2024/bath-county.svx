@@ -7,6 +7,9 @@ name: Bath County
 artist: Wednesday
 img: /playlist-art/2024/bath-county.jpg
 duration: 190105
+explicit: false
+yearReleased: 2023
+popularity: 34
 previousLink: /playlists/2024/borrow-trouble
 nextLink: /playlists/2024/missing-out
 bandcampPath: https://wednesdayband.bandcamp.com/track/bath-county

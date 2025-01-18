@@ -7,6 +7,9 @@ name: All the WeWorks Are Dead!
 artist: Sun Kin
 img: /playlist-art/2024/all-the-weworks-are-dead.jpg
 duration: 192654
+explicit: false
+yearReleased: 2024
+popularity: 1
 previousLink: /playlists/2024/hat-guy
 nextLink: 
 bandcampPath: https://sunraykin.bandcamp.com/track/all-the-weworks-are-dead

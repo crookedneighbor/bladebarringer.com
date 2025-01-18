@@ -7,6 +7,9 @@ name: Before You Gotta Go
 artist: Courtney Barnett
 img: /playlist-art/2024/before-you-gotta-go.jpg
 duration: 225632
+explicit: false
+yearReleased: 2021
+popularity: 38
 previousLink: /playlists/2024/dividual-individual
 nextLink: /playlists/2024/connect
 bandcampPath: https://courtneybarnett.bandcamp.com/track/before-you-gotta-go

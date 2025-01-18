@@ -7,6 +7,9 @@ name: Lord, Make Me A Scorpion
 artist: Creekbed Carter Hogan
 img: /playlist-art/2024/lord-make-me-a-scorpion.jpg
 duration: 322164
+explicit: false
+yearReleased: 2024
+popularity: 6
 previousLink: /playlists/2024/the-insulation
 nextLink: /playlists/2024/nothing-changes
 bandcampPath: https://creekbedcarter.bandcamp.com/track/lord-make-me-a-scorpion

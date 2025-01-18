@@ -7,6 +7,9 @@ name: Missing Out
 artist: Maya Hawke
 img: /playlist-art/2024/missing-out.jpg
 duration: 217320
+explicit: false
+yearReleased: 2024
+popularity: 45
 previousLink: /playlists/2024/bath-county
 nextLink: /playlists/2024/suck-the-blood-from-my-wound
 bandcampPath: https://mayahawke.bandcamp.com/track/missing-out

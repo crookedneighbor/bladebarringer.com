@@ -7,6 +7,9 @@ name: Borrow Trouble
 artist: Feist
 img: /playlist-art/2024/borrow-trouble.jpg
 duration: 245281
+explicit: false
+yearReleased: 2023
+popularity: 31
 previousLink: /playlists/2024/barley
 nextLink: /playlists/2024/bath-county
 lines: [

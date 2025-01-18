@@ -7,6 +7,9 @@ name: Barley
 artist: Water From Your Eyes
 img: /playlist-art/2024/barley.jpg
 duration: 209021
+explicit: true
+yearReleased: 2023
+popularity: 30
 previousLink: 
 nextLink: /playlists/2024/borrow-trouble
 bandcampPath: https://waterfromyoureyes.bandcamp.com/track/barley-1

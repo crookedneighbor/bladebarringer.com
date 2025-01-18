@@ -7,6 +7,9 @@ name: pretty damn lucky - kitchen demo
 artist: Father Yaga
 img: /playlist-art/2024/pretty-damn-lucky-kitchen-demo.jpg
 duration: 209998
+explicit: false
+yearReleased: 2022
+popularity: 1
 previousLink: /playlists/2024/suck-the-blood-from-my-wound
 nextLink: /playlists/2024/albatross
 lines: [

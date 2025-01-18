@@ -7,6 +7,9 @@ name: Feline Wave Race
 artist: Nap Eyes
 img: /playlist-art/2024/feline-wave-race.jpg
 duration: 370879
+explicit: false
+yearReleased: 2024
+popularity: 8
 previousLink: /playlists/2024/light-on
 nextLink: /playlists/2024/i-missed-the-bus-man
 bandcampPath: https://napeyes.bandcamp.com/track/feline-wave-race

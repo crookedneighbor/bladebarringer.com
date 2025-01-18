@@ -7,6 +7,9 @@ name: Patterns
 artist: Laura Marling
 img: /playlist-art/2024/patterns.jpg
 duration: 260509
+explicit: false
+yearReleased: 2024
+popularity: 54
 previousLink: /playlists/2024/air-drumming-fix-you
 nextLink: /playlists/2024/hat-guy
 bandcampPath: https://lauramarling.bandcamp.com/track/patterns

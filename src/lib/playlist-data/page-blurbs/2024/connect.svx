@@ -7,6 +7,9 @@ name: Connect
 artist: Vampire Weekend
 img: /playlist-art/2024/connect.jpg
 duration: 310066
+explicit: false
+yearReleased: 2024
+popularity: 50
 previousLink: /playlists/2024/before-you-gotta-go
 nextLink: /playlists/2024/the-insulation
 lines: [

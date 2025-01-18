@@ -7,6 +7,9 @@ name: The Insulation
 artist: Menomena
 img: /playlist-art/2024/the-insulation.jpg
 duration: 256834
+explicit: false
+yearReleased: 2024
+popularity: 7
 previousLink: /playlists/2024/connect
 nextLink: /playlists/2024/lord-make-me-a-scorpion
 bandcampPath: https://menomena.bandcamp.com/track/the-insulation

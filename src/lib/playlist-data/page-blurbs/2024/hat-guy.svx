@@ -7,6 +7,9 @@ name: Hat Guy
 artist: Office Culture
 img: /playlist-art/2024/hat-guy.jpg
 duration: 271200
+explicit: false
+yearReleased: 2024
+popularity: 15
 previousLink: /playlists/2024/patterns
 nextLink: /playlists/2024/all-the-weworks-are-dead
 bandcampPath: https://officeculture.bandcamp.com/track/hat-guy
@@ -36,7 +39,7 @@ lines: [
    { position: 193168, words: "I wore a suit and a tie, ahh", share: true },
    { position: 201933, words: "But make no mistake, before you let me in", share: true },
    { position: 208574, words: "I don’t want to be the hat guy", share: true },
-   { spacer: true, share: true},
+   { spacer: true, share: true },
    { position: 216010, words: "I brought a hat to the party", share: true },
    { position: 219731, words: "The brim was soft and wide, ahh", share: true },
    { position: 228764, words: "You greet me at the door, scan me up and down", share: true },

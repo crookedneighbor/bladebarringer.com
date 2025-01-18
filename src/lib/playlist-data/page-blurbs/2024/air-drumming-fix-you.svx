@@ -7,6 +7,9 @@ name: Air Drumming Fix You
 artist: Wild Pink
 img: /playlist-art/2024/air-drumming-fix-you.jpg
 duration: 329122
+explicit: true
+yearReleased: 2024
+popularity: 24
 previousLink: /playlists/2024/pressed-2-death
 nextLink: /playlists/2024/patterns
 bandcampPath: https://wildpink.bandcamp.com/track/air-drumming-fix-you

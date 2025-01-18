@@ -7,6 +7,9 @@ name: Albatross
 artist: English Teacher
 img: /playlist-art/2024/albatross.jpg
 duration: 194456
+explicit: false
+yearReleased: 2024
+popularity: 44
 previousLink: /playlists/2024/pretty-damn-lucky-kitchen-demo
 nextLink: /playlists/2024/talk-is-cheap
 bandcampPath: https://englishteacher.bandcamp.com/track/albatross

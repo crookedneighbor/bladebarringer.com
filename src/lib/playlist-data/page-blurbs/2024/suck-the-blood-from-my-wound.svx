@@ -7,6 +7,9 @@ name: Suck the Blood from My Wound
 artist: Ezra Furman
 img: /playlist-art/2024/suck-the-blood-from-my-wound.jpg
 duration: 289000
+explicit: false
+yearReleased: 2018
+popularity: 29
 previousLink: /playlists/2024/missing-out
 nextLink: /playlists/2024/pretty-damn-lucky-kitchen-demo
 bandcampPath: https://ezrafurman.bandcamp.com/track/suck-the-blood-from-my-wound
