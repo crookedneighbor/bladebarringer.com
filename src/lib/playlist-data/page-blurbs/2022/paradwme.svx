@@ -1,0 +1,64 @@
+---
+id: paradwme
+spotifyID: 1edOSqQG1mP9hcrI0EDNhw
+permalink: /playlists/2022/paradwme
+number: 8
+name: PARAD(w/m)E
+artist: Sylvan Esso
+img: /playlist-art/2022/paradwme.jpg
+duration: 208668
+explicit: false
+yearReleased: 2018
+popularity: 38
+previousLink: /playlists/2022/handshakes
+nextLink: /playlists/2022/good-will-hunting
+buyLink: https://sylvanesso.bandcamp.com/track/parad-w-m-e
+lines: [
+   { position: 8110, words: "Speedy, speedy, slow down time" },
+   { position: 10330, words: "Gas station is running dry" },
+   { position: 12260, words: "Mhm, eh eh, mhm" },
+   { position: 16550, words: "Sweaty, sweaty, wonder why" },
+   { position: 18550, words: "Now it's always summer time" },
+   { position: 20500, words: "Mhm, eh eh, mhm" },
+   { position: 24960, words: "It's all gone but here we're gonna stay" },
+   { position: 32100, words: "Anyway the concrete's all empty" },
+   { position: 34590, words: "So we're making a parade" },
+   { position: 40660, words: "It goes left, nothing there" },
+   { position: 42780, words: "It goes right, watch your step" },
+   { position: 44870, words: "It goes left, don't look down" },
+   { position: 46920, words: "It goes right, look straight ahead" },
+   { position: 49320, words: "Go ahead, go ahead, go ahead, go ahead" },
+   { position: 51770, words: "Maybe there's some food up there" },
+   { position: 54160, words: "P-A-R-A-D with me" },
+   { position: 61640, words: "Yeah there's nothing left to ruin, yeah we finally got free" },
+   { position: 66460, words: "How's that for manifesting our destiny" },
+   { position: 70410, words: "P-A-R-A-D with me" },
+   { position: 90960, words: "Salty, salty, water dried" },
+   { position: 93180, words: "Oceans all gone with the tide" },
+   { position: 95060, words: "Mhm, eh eh, mhm" },
+   { position: 99250, words: "Steamy, steamy, bright sunshine" },
+   { position: 101330, words: "Flowers, grass and trees all died" },
+   { position: 103340, words: "Mhm, eh eh, mhm" },
+   { position: 107600, words: "It's all gone but here we're gonna stay" },
+   { position: 114980, words: "Anyway the concrete's all empty" },
+   { position: 117340, words: "So we're making a parade" },
+   { position: 123490, words: "It goes left, nothing there" },
+   { position: 125530, words: "It goes right, watch your step" },
+   { position: 127580, words: "It goes left, don't look down" },
+   { position: 129610, words: "It goes right, look straight ahead" },
+   { position: 132160, words: "Go ahead, go ahead, go ahead, go ahead" },
+   { position: 134550, words: "Maybe there's some food up there" },
+   { position: 138410, words: "" },
+   { position: 140760, words: "P-A-R-A-D with me" },
+   { position: 144330, words: "Yeah there's nothing left to ruin, we finally got free" },
+   { position: 149250, words: "How's that for manifesting our destiny" },
+   { position: 153130, words: "P-A-R-A-D with me" },
+   { position: 173820, words: "P-A-R-A-D with me" },
+   { position: 177440, words: "Yeah there's nothing left to ruin, we finally got free" },
+   { position: 182300, words: "How's that for manifesting our destiny" },
+   { position: 186200, words: "P-A-R-A-D with me" },
+   { position: 208610, words: "" }
+]
+---
+
+TODO

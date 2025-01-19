@@ -1,0 +1,60 @@
+---
+id: comes-in-waves
+spotifyID: 4tP7SjS89hevcazxmqshtm
+permalink: /playlists/2022/comes-in-waves
+number: 2
+name: Comes In Waves
+artist: Dawes
+img: /playlist-art/2022/comes-in-waves.jpg
+duration: 330653
+explicit: false
+yearReleased: 2022
+popularity: 24
+previousLink: /playlists/2022/song-in-seven
+nextLink: /playlists/2022/phonetics
+buyLink: https://dawes.bandcamp.com/track/comes-in-waves
+lines: [
+   { position: 19430, words: "The boy that grows up in a beach town" },
+   { position: 24090, words: "And never learns to surf" },
+   { position: 27630, words: "Sounds like the perfect distillation" },
+   { position: 31230, words: "Of my time spent here on Earth" },
+   { position: 36270, words: "But I have stared at the horizon" },
+   { position: 40890, words: "With both feet in the sand" },
+   { position: 44600, words: "The thing I love about the ocean" },
+   { position: 49810, words: "It comes in waves" },
+   { position: 60820, words: "Waves" },
+   { position: 69930, words: "I've been feeling like a lightbulb" },
+   { position: 74010, words: "When the filament won't glow" },
+   { position: 78390, words: "Surrounded by a darkness" },
+   { position: 81670, words: "'Cause the current's moving slow" },
+   { position: 86660, words: "Am I losing my intensity?" },
+   { position: 90640, words: "Is that feeling here to stay?" },
+   { position: 94510, words: "But that's the thing 'bout electricity" },
+   { position: 99770, words: "It comes in waves (it comes in waves)" },
+   { position: 110520, words: "Waves (it comes in waves)" },
+   { position: 119420, words: "I think I found something in common" },
+   { position: 124250, words: "With nothingness and God" },
+   { position: 127850, words: "You stare at either in the face too long" },
+   { position: 131510, words: "They'll do each others job" },
+   { position: 136050, words: "Sometimes those silences are holy" },
+   { position: 140180, words: "Sometimes I'm drifting into space" },
+   { position: 144330, words: "But if the spirit's moving through me" },
+   { position: 149170, words: "It comes in waves (it comes in waves, it comes in waves)" },
+   { position: 158850, words: "Comes in waves (it comes in waves, it comes in waves)" },
+   { position: 169670, words: "♪" },
+   { position: 196490, words: "I think the grip is getting looser" },
+   { position: 200820, words: "I think they're giving us a try" },
+   { position: 205160, words: "If you feel good about the future" },
+   { position: 208980, words: "Then baby, so do I" },
+   { position: 213750, words: "Let's keep an eye on all our enemies" },
+   { position: 218270, words: "While we're popping the champagne" },
+   { position: 221900, words: "'Cause that's the thing about a victory" },
+   { position: 227180, words: "It comes in waves (it comes in waves, it comes in waves)" },
+   { position: 236330, words: "Comes in waves (it comes in waves, it comes in waves)" },
+   { position: 244710, words: "Comes in waves (it comes in waves, it comes in waves)" },
+   { position: 252470, words: "Comes in waves (it comes in waves, it comes in waves)" },
+   { position: 263450, words: "" }
+]
+---
+
+TODO

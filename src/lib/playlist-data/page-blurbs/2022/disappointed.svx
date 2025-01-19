@@ -1,0 +1,60 @@
+---
+id: disappointed
+spotifyID: 3kjfRDgCAFMNlBCsk9KJua
+permalink: /playlists/2022/disappointed
+number: 22
+name: Disappointed
+artist: Field Music
+img: /playlist-art/2022/disappointed.jpg
+duration: 184880
+explicit: false
+yearReleased: 2016
+popularity: 0
+previousLink: /playlists/2022/find-a-new-way
+nextLink: /playlists/2022/the-hustle-unlimited
+buyLink: https://fieldmusic.bandcamp.com/track/disappointed
+lines: [
+   { position: 19630, words: "This has been going on" },
+   { position: 23970, words: "Too long I can't believe it" },
+   { position: 27460, words: "I made mistakes at the start" },
+   { position: 32340, words: "And it seems you can't forgive them" },
+   { position: 37060, words: "I see the two of us" },
+   { position: 41710, words: "And I see us getting nowhere" },
+   { position: 45060, words: "Am I just wasting my time" },
+   { position: 50380, words: "Waiting for a sign" },
+   { position: 54560, words: "Coz it seems to me" },
+   { position: 57050, words: "This is a close to perfect" },
+   { position: 60830, words: "As we were listen for" },
+   { position: 65040, words: "Something's gone wrong in your head or mine oh no" },
+   { position: 71700, words: "If you want this to be more" },
+   { position: 75680, words: "Then you've got to let me know" },
+   { position: 78740, words: "But if you want me to be right everytime you're gonna be disappointed." },
+   { position: 85390, words: "And if you need to be sure" },
+   { position: 89230, words: "Tell me what I have to do" },
+   { position: 91980, words: "But if you need me to be everything" },
+   { position: 96210, words: "You're gonna be disappointed" },
+   { position: 102360, words: "Should it be clear to me" },
+   { position: 109550, words: "Should I understand it" },
+   { position: 112960, words: "Have I been asking too much" },
+   { position: 118420, words: "Or not enough" },
+   { position: 121950, words: "Coz it seems to me" },
+   { position: 124530, words: "This is as close to worth it" },
+   { position: 128320, words: "As we've been hoping for" },
+   { position: 132640, words: "So do me a favour and leave it all behind, please" },
+   { position: 140810, words: "If you want this to be more," },
+   { position: 146600, words: "Then you've got to let me know" },
+   { position: 149720, words: "But if you want me to be right every time" },
+   { position: 153620, words: "You're gonna be disappointed" },
+   { position: 156430, words: "And if you need to be sure," },
+   { position: 160590, words: "Tell me what I have to do" },
+   { position: 162980, words: "But if you need me to be everything" },
+   { position: 167370, words: "You're gonna be disappointed" },
+   { position: 169750, words: "If you want this to be more," },
+   { position: 173700, words: "Then you've got to let me know" },
+   { position: 176330, words: "But if you need me to be right every time," },
+   { position: 180440, words: "Then you're gonna be disappointed." },
+   { position: 183160, words: "" }
+]
+---
+
+TODO

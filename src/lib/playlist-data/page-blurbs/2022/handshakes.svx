@@ -1,0 +1,60 @@
+---
+id: handshakes
+spotifyID: 25lJGQuHWeFhYt7ffpF2xz
+permalink: /playlists/2022/handshakes
+number: 7
+name: Handshakes
+artist: Do Nothing
+img: /playlist-art/2022/handshakes.jpg
+duration: 210250
+explicit: false
+yearReleased: 2018
+popularity: 41
+previousLink: /playlists/2022/tokyo
+nextLink: /playlists/2022/paradwme
+buyLink: https://thebanddonothing.bandcamp.com/track/handshakes
+lines: [
+   { position: 5230, words: "Laura hit the city with a lot of force tonight" },
+   { position: 10580, words: "Breaking all of their doors down and robbing them all blind" },
+   { position: 15260, words: "And I don't want it all to end on such a pretty day" },
+   { position: 20620, words: "Can't say all of those things and then just take them all away" },
+   { position: 27690, words: "♪" },
+   { position: 31870, words: "Everybody's laughing" },
+   { position: 35730, words: "Lying in the street" },
+   { position: 39830, words: "♪" },
+   { position: 42360, words: "Do you see me? I'm right here" },
+   { position: 47700, words: "It's all handshakes, we could seal the deal" },
+   { position: 57670, words: "Yeah" },
+   { position: 60450, words: "" },
+   { position: 62830, words: "I am curled up in a ball, in the back seat where I belong" },
+   { position: 69160, words: "I am the sun and everything else just revolves" },
+   { position: 73960, words: "All criminals come singing themselves in, 'n' eventually" },
+   { position: 79210, words: "I guess I had it coming, and I couldn't get out clean" },
+   { position: 84890, words: "Hannah's in the corner" },
+   { position: 88630, words: "Calling the police" },
+   { position: 92820, words: "♪" },
+   { position: 95320, words: "(And) do you see me? I'm right here" },
+   { position: 100770, words: "It's all handshakes, we could seal the deal" },
+   { position: 108830, words: "♪" },
+   { position: 131620, words: "It's all boring, boring, boring" },
+   { position: 134930, words: "If you take a look around, yeah" },
+   { position: 138610, words: "♪" },
+   { position: 142150, words: "It's all, you know that we can't feed you" },
+   { position: 145430, words: "Unless you open up your mouth" },
+   { position: 149530, words: "♪" },
+   { position: 152790, words: "You can't say those pretty things" },
+   { position: 155990, words: "And then take them all away" },
+   { position: 158490, words: "Yeah, I could be mad" },
+   { position: 161260, words: "But I get on with my day" },
+   { position: 164260, words: "And you won't see me shake" },
+   { position: 166630, words: "'Cause I never had a doubt" },
+   { position: 170940, words: "Yeah, I've made my millions" },
+   { position: 173140, words: "Giving you the run around" },
+   { position: 175920, words: "Yeah" },
+   { position: 181670, words: "Do you see me? I'm right here" },
+   { position: 186980, words: "It's all handshakes, we could seal the deal" },
+   { position: 192900, words: "" }
+]
+---
+
+TODO

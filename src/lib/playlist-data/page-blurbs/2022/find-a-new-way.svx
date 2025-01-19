@@ -1,0 +1,110 @@
+---
+id: find-a-new-way
+spotifyID: 4gm1DG0hoaOoAU6vrGuRGV
+permalink: /playlists/2022/find-a-new-way
+number: 21
+name: Find a New Way
+artist: Tune-Yards
+img: /playlist-art/2022/find-a-new-way.jpg
+duration: 207626
+explicit: false
+yearReleased: 2014
+popularity: 12
+previousLink: /playlists/2022/hand-in-my-pocket
+nextLink: /playlists/2022/disappointed
+buyLink: https://tune-yards.bandcamp.com/track/find-a-new-way-1
+lines: [
+   { position: 4260, words: "Find a new way" },
+   { position: 7010, words: "♪" },
+   { position: 16950, words: "My dreams aren't about the future" },
+   { position: 19440, words: "You tried to tell me that I had a right to sing" },
+   { position: 21300, words: "Just like a bird has to fly" },
+   { position: 25060, words: "And I wanted to believe him cause he seemed like" },
+   { position: 27210, words: "A really nice guy" },
+   { position: 29270, words: "Oh, but I trip on the truth when I walk that wire" },
+   { position: 32730, words: "When you wear a mask, always sound like a liar" },
+   { position: 35780, words: "I tried to tell him all the reasons that I had to never sing again" },
+   { position: 39820, words: "And he replied \"You better find a new way\"" },
+   { position: 43040, words: "Find a new way" },
+   { position: 44420, words: "Find a new way" },
+   { position: 45710, words: "Find it today" },
+   { position: 47160, words: "Find a new way" },
+   { position: 48460, words: "Don't need to look too hard, yeah" },
+   { position: 50450, words: "Somehow we find a new fine way" },
+   { position: 53910, words: "And now they say" },
+   { position: 56070, words: "\"He come, he come, he come\"" },
+   { position: 58220, words: "And your sleep is a frame of" },
+   { position: 60190, words: "He comes, shake 'em, tell'em" },
+   { position: 62130, words: "\"Be unafraid\"" },
+   { position: 63220, words: "And now they say" },
+   { position: 65570, words: "\"Here come, here come, here come\"" },
+   { position: 69390, words: "You and me, never free" },
+   { position: 71500, words: "Attached by bands" },
+   { position: 72920, words: "Are cutting off the blood to our hands" },
+   { position: 74720, words: "You and me are never free" },
+   { position: 77020, words: "You pull and I bend and I am ready for the end" },
+   { position: 79600, words: "Cause I've tried, I've tried, I've tried, I've tried" },
+   { position: 83990, words: "It's a dangerous ride" },
+   { position: 86360, words: "I'm never free" },
+   { position: 87760, words: "I bend 'til I break" },
+   { position: 88940, words: "And every bone is in stake" },
+   { position: 90910, words: "She tried to tell me that I had a right to scream" },
+   { position: 93070, words: "Just like a bird had to sing" },
+   { position: 96410, words: "And I believed her, but in truth" },
+   { position: 97820, words: "If you're convincing, I'll believe anything" },
+   { position: 101940, words: "I only speak when I'm feeling sad and lonely" },
+   { position: 104540, words: "But what I speak doesn't have to do with being sad and lonely" },
+   { position: 108010, words: "Little white lies" },
+   { position: 109050, words: "You rode my sight" },
+   { position: 110280, words: "When I look into his eyes so" },
+   { position: 112630, words: "Find a new way" },
+   { position: 114660, words: "Find a new way" },
+   { position: 115950, words: "Find a new way" },
+   { position: 117390, words: "Find it today" },
+   { position: 118720, words: "Find a new way" },
+   { position: 120160, words: "Don't need to look too hard, yeah" },
+   { position: 122070, words: "Somehow we find a new fine way" },
+   { position: 125750, words: "A sippy cup to keep a cap on all the screaming of songs" },
+   { position: 128460, words: "What happens when the drink is gone?" },
+   { position: 129900, words: "Nothing, stuffing down a stifled little yell" },
+   { position: 131970, words: "Desperation now, numb me at night" },
+   { position: 133940, words: "I pray to learn to pretend so I can sleep tight" },
+   { position: 136600, words: "But something doesn't feel right" },
+   { position: 140340, words: "♪" },
+   { position: 149680, words: "When I see you changing" },
+   { position: 151650, words: "It makes me think that I could change too" },
+   { position: 155220, words: "Oh, change-o strange-o" },
+   { position: 156200, words: "'Nother rearrange-o" },
+   { position: 157450, words: "Oh, change-o strange-o" },
+   { position: 159420, words: "'Nother rearrange-o" },
+   { position: 160870, words: "When I see you changing" },
+   { position: 162510, words: "I believe that I could change too" },
+   { position: 165160, words: "Oh, change-o strange-o" },
+   { position: 170280, words: "'Nother rearrange-o" },
+   { position: 171690, words: "Oh, change-o strange-o" },
+   { position: 172570, words: "'Nother rearrange-o" },
+   { position: 173200, words: "Oh, change-o strange-o" },
+   { position: 175330, words: "'Nother rearrange-o" },
+   { position: 175910, words: "Oh, change-o (change-o change-o change-o...)" },
+   { position: 176710, words: "And now they say" },
+   { position: 178780, words: "\"He come, he come, he come\"" },
+   { position: 180900, words: "And your sleep is afraid" },
+   { position: 182650, words: "But we comes, shake come, tell' em" },
+   { position: 184850, words: "\"Be unafraid\" (Ha!)" },
+   { position: 186250, words: "And now they say" },
+   { position: 188350, words: "\"He come, he come\"" },
+   { position: 189780, words: "(Find a new way)" },
+   { position: 190220, words: "And now they say" },
+   { position: 191320, words: "(Find a new way)" },
+   { position: 191530, words: "\"He come, he come, he come\"" },
+   { position: 194180, words: "(Find a new way, find a new way)" },
+   { position: 195630, words: "But we come she come, tell' em" },
+   { position: 197800, words: "\"Be unafraid\"" },
+   { position: 198520, words: "(Find a new way)" },
+   { position: 198630, words: "And now they say" },
+   { position: 199580, words: "\"He come, he come\"" },
+   { position: 201370, words: "" }
+]
+---
+
+TODO

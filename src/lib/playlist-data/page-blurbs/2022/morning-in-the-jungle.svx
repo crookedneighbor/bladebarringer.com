@@ -1,0 +1,21 @@
+---
+id: morning-in-the-jungle
+spotifyID: 2DQcG9K1DLEPwYKdqkRbO4
+permalink: /playlists/2022/morning-in-the-jungle
+number: 16
+name: Morning In The Jungle
+artist: Black Flower | Meskerem Mees
+img: /playlist-art/2022/morning-in-the-jungle.jpg
+duration: 311337
+explicit: false
+yearReleased: 2022
+popularity: 31
+previousLink: /playlists/2022/changes
+nextLink: /playlists/2022/the-wrote-the-writ
+buyLink: https://blackflower1.bandcamp.com/album/morning-in-the-jungle-feat-meskerem-mees
+lines: [
+  
+]
+---
+
+TODO

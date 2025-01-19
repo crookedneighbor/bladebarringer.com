@@ -1,0 +1,48 @@
+---
+id: mark-on-you
+spotifyID: 1YcrBoUZyf41SF1e4mYyPR
+permalink: /playlists/2022/mark-on-you
+number: 11
+name: Mark on You
+artist: The Mountain Goats
+img: /playlist-art/2022/mark-on-you.jpg
+duration: 141400
+explicit: false
+yearReleased: 2022
+popularity: 31
+previousLink: /playlists/2022/robert-frost
+nextLink: /playlists/2022/avant-gardener
+buyLink: https://themountaingoats.bandcamp.com/track/mark-on-you
+lines: [
+   { position: 13750, words: "When this is over" },
+   { position: 15260, words: "When we leave this all behind us" },
+   { position: 19010, words: "Deep in the moonless night" },
+   { position: 21380, words: "When the rescue team finds us" },
+   { position: 24570, words: "It's gonna get so dark for you" },
+   { position: 27090, words: "I'm gonna leave a mark on you" },
+   { position: 30510, words: "I'm gonna leave a mark on you" },
+   { position: 32930, words: "♪" },
+   { position: 43400, words: "Can't trust anybody" },
+   { position: 46420, words: "Even the tough ones crack" },
+   { position: 50390, words: "Train up a swordsman" },
+   { position: 52560, words: "To stab you in the back" },
+   { position: 54520, words: "I na-na-na-na know this much is true" },
+   { position: 62130, words: "I'm gonna leave a mark on you" },
+   { position: 68750, words: "No man knows the hour or the day" },
+   { position: 73600, words: "But the mark is gonna be visible" },
+   { position: 76710, words: "From several blocks away" },
+   { position: 80940, words: "Maybe you'll make it" },
+   { position: 82800, words: "To the far side of the hill" },
+   { position: 85740, words: "Maybe you will see me coming" },
+   { position: 88920, words: "But I don't think you will" },
+   { position: 94470, words: "Make peace with your family" },
+   { position: 99610, words: "You walk softly on this earth" },
+   { position: 103530, words: "I'm gonna leave a mark on you" },
+   { position: 109620, words: "I'm gonna leave a mark on you" },
+   { position: 115830, words: "I'm gonna leave a mark on you" },
+   { position: 122010, words: "I'm gonna leave a mark on you" },
+   { position: 125140, words: "" }
+]
+---
+
+TODO

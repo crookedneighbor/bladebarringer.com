@@ -1,0 +1,63 @@
+---
+id: hate-dancin
+spotifyID: 7L92yGqlDk9fnTX46sFjb1
+permalink: /playlists/2022/hate-dancin
+number: 5
+name: Hate Dancin'
+artist: King Gizzard & The Lizard Wizard
+img: /playlist-art/2022/hate-dancin.jpg
+duration: 196348
+explicit: false
+yearReleased: 2022
+popularity: 0
+previousLink: /playlists/2022/into-the-unknown-feat-jack-jones
+nextLink: /playlists/2022/tokyo
+buyLink: https://bootleggizzard.bandcamp.com/track/hate-dancin-live-in-chicago-23
+lines: [
+   { position: 14180, words: "I still hate dancin'" },
+   { position: 16750, words: "Oh, I still hate dancin'" },
+   { position: 21190, words: "I still hate dancin'" },
+   { position: 23540, words: "Oh, I still hate dancin' (yeah)" },
+   { position: 28090, words: "Whatever you say" },
+   { position: 31470, words: "Whatever you don't say" },
+   { position: 34980, words: "Whatever you say to me won't sway me" },
+   { position: 41680, words: "She's coming straight for me" },
+   { position: 48300, words: "The world's frozen" },
+   { position: 51730, words: "I'm sweating" },
+   { position: 54970, words: "I still hate dancin'" },
+   { position: 57460, words: "Oh, I still hate dancin'" },
+   { position: 61460, words: "I still hate dancin'" },
+   { position: 64110, words: "Oh, I still hate dancin' (yeah)" },
+   { position: 68050, words: "♪" },
+   { position: 81850, words: "Slow-mo at the disco" },
+   { position: 84420, words: "And she's putting out her hand to tango, oh no!" },
+   { position: 88770, words: "Her hips are too close for comfort" },
+   { position: 91610, words: "Now I'm losing control of myself" },
+   { position: 96450, words: "What the hell is coming over me right now?" },
+   { position: 98880, words: "I feel like I'm about to freak out from the waist down" },
+   { position: 102630, words: "No more caring about what other people think" },
+   { position: 104890, words: "Let 'em kick up a stink" },
+   { position: 109350, words: "I might like dancin'" },
+   { position: 112060, words: "Oh, I might like dancin' (yeah)" },
+   { position: 116310, words: "I might like dancin'" },
+   { position: 118980, words: "Oh, I might like dancin'" },
+   { position: 123270, words: "Whatever you say" },
+   { position: 126790, words: "Whatever you don't say" },
+   { position: 129410, words: "Whatever you say to me is gonna swing me" },
+   { position: 134100, words: "I was just joking" },
+   { position: 139520, words: "I love it" },
+   { position: 141590, words: "I was just kidding" },
+   { position: 146470, words: "I love it" },
+   { position: 149420, words: "I feel like dancin'" },
+   { position: 151830, words: "Oh, I feel like dancin' (yeah)" },
+   { position: 156350, words: "I feel like dancin'" },
+   { position: 158710, words: "Oh, I feel like dancin'" },
+   { position: 162510, words: "I feel like dancin'" },
+   { position: 165240, words: "Oh, I feel like dancin' (yeah)" },
+   { position: 169200, words: "I feel like dancin'" },
+   { position: 171640, words: "Oh, I feel like dancin'" },
+   { position: 175520, words: "" }
+]
+---
+
+TODO

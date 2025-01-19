@@ -1,0 +1,73 @@
+---
+id: the-hustle-unlimited
+spotifyID: 5UPb8mDD8lTmZu4GSVwOKk
+permalink: /playlists/2022/the-hustle-unlimited
+number: 23
+name: The Hustle Unlimited
+artist: Lambchop
+img: /playlist-art/2022/the-hustle-unlimited.jpg
+duration: 328782
+explicit: false
+yearReleased: 2017
+popularity: 15
+previousLink: /playlists/2022/disappointed
+nextLink: /playlists/2022/good-day
+buyLink: https://lambchop.bandcamp.com/album/the-hustle-unlimited
+lines: [
+   { position: 23860, words: "I don't want to leave you ever" },
+   { position: 28410, words: "Mm, that's a long, long term" },
+   { position: 32590, words: "But if by chance that I do" },
+   { position: 37130, words: "Would you be gone?" },
+   { position: 41120, words: "You could speak to me in Latin" },
+   { position: 45770, words: "As a cloud that appears in spring" },
+   { position: 50020, words: "Undulatus asperatus" },
+   { position: 54630, words: "Has such a charming ring" },
+   { position: 58140, words: "To make was raining like a movie" },
+   { position: 62730, words: "Was hard to look away" },
+   { position: 67290, words: "And we spoke to one another" },
+   { position: 71690, words: "And we held our gaze" },
+   { position: 75870, words: "♪" },
+   { position: 93090, words: "So much more calm of nostalgia" },
+   { position: 97660, words: "But it's just not up to me" },
+   { position: 101960, words: "At a strong feats of strength" },
+   { position: 106230, words: "Could be all there was to see" },
+   { position: 110040, words: "And should there ever be a question" },
+   { position: 114640, words: "If we will leave this place or when" },
+   { position: 119220, words: "It just goes without saying" },
+   { position: 123370, words: "We'll never work in this town again" },
+   { position: 127980, words: "And we'll have sunshine (sunshine, sunshine)" },
+   { position: 132600, words: "Filtered through the faces of the fog" },
+   { position: 136740, words: "Not fell so very hard through" },
+   { position: 145210, words: "And we'll have a sunshine (sunshine, sunshine)" },
+   { position: 149870, words: "Filtered through the faces of the fog" },
+   { position: 153860, words: "And I could not find that article on you" },
+   { position: 162170, words: "Ah, it was raining like a movie" },
+   { position: 166670, words: "And it was hard to look away" },
+   { position: 171030, words: "And we shrugged to one another" },
+   { position: 175400, words: "And we held our gaze" },
+   { position: 179910, words: "♪" },
+   { position: 198130, words: "There was talk of love in Tennessee" },
+   { position: 202700, words: "Of the beauty of the '70s" },
+   { position: 206920, words: "When they had some people on the graveled road" },
+   { position: 211230, words: "We were out there in the pawn place" },
+   { position: 215340, words: "And I turned my head out to the crowd" },
+   { position: 220040, words: "You could almost sense their glory" },
+   { position: 224310, words: "And if you took just a few more steps" },
+   { position: 228660, words: "You could join them in the hustle" },
+   { position: 232980, words: "Do the hustle" },
+   { position: 236960, words: "Do the hustle" },
+   { position: 241290, words: "Do the hustle" },
+   { position: 245670, words: "Do the hustle" },
+   { position: 250250, words: "I can see the future in the end" },
+   { position: 254480, words: "With you sleeping in the morning" },
+   { position: 258840, words: "And if all our efforts lead to this" },
+   { position: 262620, words: "And how it barely slipped away" },
+   { position: 267420, words: "Do the hustle" },
+   { position: 271590, words: "Do the hustle" },
+   { position: 275770, words: "Do the hustle" },
+   { position: 279840, words: "Do the hustle" },
+   { position: 283770, words: "" }
+]
+---
+
+TODO

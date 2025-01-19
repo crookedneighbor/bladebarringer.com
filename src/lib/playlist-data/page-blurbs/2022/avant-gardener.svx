@@ -1,0 +1,74 @@
+---
+id: avant-gardener
+spotifyID: 3LueS3mbuB1yaJNN0Ale6U
+permalink: /playlists/2022/avant-gardener
+number: 12
+name: Avant Gardener
+artist: Courtney Barnett
+img: /playlist-art/2022/avant-gardener.jpg
+duration: 312226
+explicit: false
+yearReleased: 2013
+popularity: 7
+previousLink: /playlists/2022/mark-on-you
+nextLink: /playlists/2022/whale
+buyLink: https://theroundedsquares.bandcamp.com/track/the-rounded-squares-courtney-barnett-avant-gardener
+lines: [
+   { position: 38760, words: "I sleep in late" },
+   { position: 40920, words: "Another day" },
+   { position: 43030, words: "Oh, what a wonder" },
+   { position: 45150, words: "Oh, what a waste" },
+   { position: 47600, words: "It's a Monday" },
+   { position: 49510, words: "It's so mundane" },
+   { position: 51640, words: "What exciting things will happen today?" },
+   { position: 55900, words: "The yard is full of hard rubbish, it's a mess and" },
+   { position: 60040, words: "I guess the neighbors must think we run a meth lab" },
+   { position: 64220, words: "We should amend that, I pull the sheets back" },
+   { position: 68070, words: "It's 40 degrees and I feel like I'm dying" },
+   { position: 72710, words: "Life's getting hard in here" },
+   { position: 74430, words: "So, I do some gardening" },
+   { position: 76620, words: "Anything to take my mind away from where it's supposed to be" },
+   { position: 81030, words: "The nice lady next door talks of green beds" },
+   { position: 84810, words: "And all the nice things that she wants to plant in them" },
+   { position: 89540, words: "I wanna grow tomatoes on the front steps" },
+   { position: 93380, words: "Sunflowers, bean sprouts, sweet corn and radishes" },
+   { position: 97800, words: "I feel proactive, I pull out weeds" },
+   { position: 102080, words: "All of a sudden" },
+   { position: 103680, words: "I'm having trouble breathing in" },
+   { position: 107750, words: "I'm having trouble breathing in" },
+   { position: 111940, words: "I'm having trouble breathing in" },
+   { position: 116090, words: "I'm having trouble breathing in" },
+   { position: 122300, words: "♪" },
+   { position: 156440, words: "My hands are shaky, my knees are weak" },
+   { position: 160710, words: "I can't seem to stand on my own two feet" },
+   { position: 164590, words: "I'm breathing but I'm wheezing" },
+   { position: 166450, words: "Feel like I'm emphysemin'" },
+   { position: 168420, words: "My throat feels like a funnel" },
+   { position: 170320, words: "Filled with weetbix and kerosene and" },
+   { position: 173240, words: "Oh, no, next thing I know" },
+   { position: 175380, words: "They call up triple A" },
+   { position: 177340, words: "I'd rather die than owe the hospital 'til I get old" },
+   { position: 181680, words: "I get adrenalin straight to the heart" },
+   { position: 185140, words: "I feel like Uma Thurman" },
+   { position: 187140, words: "Post-overdosing kick-start" },
+   { position: 189890, words: "Reminds me of the time" },
+   { position: 191490, words: "When I was really sick" },
+   { position: 193250, words: "And I had too much psuedoefedryn and I" },
+   { position: 196140, words: "Couldn't sleep at night" },
+   { position: 198010, words: "Halfway down high street, Andy looks ambivalent" },
+   { position: 201730, words: "He's probably wondering what I'm doing getting in an ambulance" },
+   { position: 206460, words: "The paramedic thinks I'm clever 'cause I play guitar" },
+   { position: 210450, words: "I think she's clever 'cause she stops people dying" },
+   { position: 214750, words: "Anaphylactic and super hypocondriactic" },
+   { position: 218300, words: "Should've stayed in bed today" },
+   { position: 220360, words: "I much prefer the mundane" },
+   { position: 222800, words: "I take a hit from an asthma puffer" },
+   { position: 226890, words: "I do it wrong, I was never good at smoking bongs" },
+   { position: 232760, words: "I'm not that good at breathing in" },
+   { position: 236980, words: "I'm not that good at breathing in" },
+   { position: 240970, words: "I'm not that good at breathing in" },
+   { position: 245520, words: "" }
+]
+---
+
+TODO

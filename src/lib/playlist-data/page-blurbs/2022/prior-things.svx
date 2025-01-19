@@ -1,0 +1,87 @@
+---
+id: prior-things
+spotifyID: 2lfxVSMld8MUKlW0QhRsf2
+permalink: /playlists/2022/prior-things
+number: 14
+name: Prior Things
+artist: Hop Along
+img: /playlist-art/2022/prior-things.jpg
+duration: 342720
+explicit: false
+yearReleased: 2018
+popularity: 29
+previousLink: /playlists/2022/whale
+nextLink: /playlists/2022/changes
+buyLink: https://hopalong.bandcamp.com/track/prior-things
+lines: [
+   { position: 0, words: "Just a few minutes after taking them I realized" },
+   { position: 0, words: "Hundreds of buzzing flies were all over me" },
+   { position: 0, words: "I looked up and there you were, reading" },
+   { position: 0, words: "You were on your own, you were on vacation" },
+   { position: 0, words: "You were on vacation" },
+   { position: 0, words: "Vacation means \"leave\"" },
+   { position: 0, words: "Means \"obliterate all prior things\"" },
+   { position: 0, words: "Here, why don't I try" },
+   { position: 0, words: "Why don't I try to make you mine?" },
+   { position: 0, words: "Why is a lack of imagination the crime?" },
+   { position: 0, words: "Why don't I try" },
+   { position: 0, words: "Why don't I try to make you mine?" },
+   { position: 0, words: "Why don't I back you up against this moment?" },
+   { position: 0, words: "So when you finally go" },
+   { position: 0, words: "And when you choose to go" },
+   { position: 0, words: "I resume my little road" },
+   { position: 0, words: "And nobody needs to know" },
+   { position: 0, words: "Will know that I ever meant to leave" },
+   { position: 0, words: "My little lower road" },
+   { position: 0, words: "Road" },
+   { position: 0, words: "Road" },
+   { position: 0, words: "Road" },
+   { position: 0, words: "I watch the bird feeder out back in my parents' yard" },
+   { position: 0, words: "The weight of that bluejay" },
+   { position: 0, words: "The bully steals it all" },
+   { position: 0, words: "And what must happen in your mind" },
+   { position: 0, words: "When you create those silences?" },
+   { position: 0, words: "Well never mind, I don't want to see" },
+   { position: 0, words: "I know it's got nothing to do with me" },
+   { position: 0, words: "Here, why don't I try" },
+   { position: 0, words: "Why don't I try to move aside?" },
+   { position: 0, words: "I'm still soft" },
+   { position: 0, words: "I'm still in my prime" },
+   { position: 0, words: "Why don't I try" },
+   { position: 0, words: "Why don't I try to move aside" },
+   { position: 0, words: "I'm still soft" },
+   { position: 0, words: "It's still my time" },
+   { position: 0, words: "And when you finally go" },
+   { position: 0, words: "You go, you go" },
+   { position: 0, words: "You go, you go" },
+   { position: 0, words: "You go" },
+   { position: 0, words: "When you choose to go" },
+   { position: 0, words: "I resume my little road" },
+   { position: 0, words: "And nobody needs to know" },
+   { position: 0, words: "Will know, will know" },
+   { position: 0, words: "Will know" },
+   { position: 0, words: "Will know that I was only holding your place on this" },
+   { position: 0, words: "Your little lower road" },
+   { position: 0, words: "And when you finally go" },
+   { position: 0, words: "You go, you go" },
+   { position: 0, words: "You go, you go" },
+   { position: 0, words: "You go" },
+   { position: 0, words: "When you choose to go" },
+   { position: 0, words: "I resume my little road" },
+   { position: 0, words: "And nobody needs to know" },
+   { position: 0, words: "Will know, will know" },
+   { position: 0, words: "Will know" },
+   { position: 0, words: "Will know that I was only holding your place on this" },
+   { position: 0, words: "Your little lower road" },
+   { position: 0, words: "Your little lower road" },
+   { position: 0, words: "Your little lower road" },
+   { position: 0, words: "Your little lower road" },
+   { position: 0, words: "Your little lower road" },
+   { position: 0, words: "Your little lower road" },
+   { position: 0, words: "Your little lower road" },
+   { position: 0, words: "Your little lower road" },
+   { position: 0, words: "Your little lower road" }
+]
+---
+
+TODO

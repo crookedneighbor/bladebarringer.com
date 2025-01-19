@@ -1,0 +1,63 @@
+---
+id: whale
+spotifyID: 1NQkPT6lGkCe5N3gVhRyZD
+permalink: /playlists/2022/whale
+number: 13
+name: WHALE
+artist: Yellow Ostrich
+img: /playlist-art/2022/whale.jpg
+duration: 224457
+explicit: false
+yearReleased: 2011
+popularity: 0
+previousLink: /playlists/2022/avant-gardener
+nextLink: /playlists/2022/prior-things
+buyLink: https://suckinglemons.bandcamp.com/track/yellow-ostrich-whale
+lines: [
+   { position: 0, words: "Whale, swim with me whale" },
+   { position: 0, words: "We will go far into the sea" },
+   { position: 0, words: "You will take me onto your back" },
+   { position: 0, words: "Never look back" },
+   { position: 0, words: "Never look back" },
+   { position: 0, words: "Whale, sing to me whale" },
+   { position: 0, words: "Sing me a song" },
+   { position: 0, words: "Tell me that things will never go wrong" },
+   { position: 0, words: "Hide me away" },
+   { position: 0, words: "Don't let them stay" },
+   { position: 0, words: "Don't let them stay" },
+   { position: 0, words: "Whale, come with me whale" },
+   { position: 0, words: "We will go far into the blue" },
+   { position: 0, words: "I will take you, listen to me" },
+   { position: 0, words: "Then you will see" },
+   { position: 0, words: "Then you will see" },
+   { position: 0, words: "Whale, don't worry whale" },
+   { position: 0, words: "Just do as you please" },
+   { position: 0, words: "I will accept if you'd rather leave" },
+   { position: 0, words: "Open my heart if you open your heart" },
+   { position: 0, words: "Open your heart" },
+   { position: 0, words: "Oh oh oh oh oh oh oh oh" },
+   { position: 0, words: "I've been swimming for a thousand years" },
+   { position: 0, words: "And i've seen more than you can realize" },
+   { position: 0, words: "I accept that you will never understand" },
+   { position: 0, words: "So I will gladly take your hand" },
+   { position: 0, words: "Whale, come with me whale" },
+   { position: 0, words: "We will go far into the sea" },
+   { position: 0, words: "You will take me onto your back" },
+   { position: 0, words: "Never look back" },
+   { position: 0, words: "Never look back" },
+   { position: 0, words: "Never look back" },
+   { position: 0, words: "Never look back" },
+   { position: 0, words: "Whale, come with me whale" },
+   { position: 0, words: "We will go far into the blue" },
+   { position: 0, words: "I will take you, listen to me" },
+   { position: 0, words: "Then you will see" },
+   { position: 0, words: "Then you will see" },
+   { position: 0, words: "Whale, don't worry whale" },
+   { position: 0, words: "Just do as you please" },
+   { position: 0, words: "I will accept if you'd rather leave" },
+   { position: 0, words: "Open my heart if you open your heart" },
+   { position: 0, words: "Open your heart" }
+]
+---
+
+TODO

@@ -1,0 +1,78 @@
+---
+id: song-in-seven
+spotifyID: 6I29vNkwzwIpZt1Pfe2A1p
+permalink: /playlists/2022/song-in-seven
+number: 1
+name: Song In Seven
+artist: Villagers
+img: /playlist-art/2022/song-in-seven.jpg
+duration: 244760
+explicit: false
+yearReleased: 2021
+popularity: 16
+previousLink: 
+nextLink: /playlists/2022/comes-in-waves
+buyLink: https://wearevillagers.bandcamp.com/track/song-in-seven
+lines: [
+   { position: 11910, words: "One, two, three, four, five, six, seven" },
+   { position: 15070, words: "It was a very good show" },
+   { position: 18230, words: "But there was so much more to know" },
+   { position: 21580, words: "So we all went to the beach" },
+   { position: 24410, words: "By the warm North Sea" },
+   { position: 27340, words: "And the night time air" },
+   { position: 29920, words: "Flew everywhere" },
+   { position: 32010, words: "It was a very good breeze" },
+   { position: 35670, words: "A professional tease" },
+   { position: 38660, words: "Took us to the brink" },
+   { position: 41450, words: "Of a warm North Sea" },
+   { position: 43910, words: "Then a voice above" },
+   { position: 46870, words: "It said, \"look up\"" },
+   { position: 48620, words: "There was a pattern in the sky" },
+   { position: 52490, words: "And it took me so high" },
+   { position: 55430, words: "And the waves at my feet" },
+   { position: 58020, words: "In the warm North Sea" },
+   { position: 61070, words: "And it cut me so deep" },
+   { position: 63690, words: "And it cut me so deep" },
+   { position: 66300, words: "And it cut me so deep" },
+   { position: 85410, words: "It was a very good sea" },
+   { position: 88620, words: "And it covered all of me" },
+   { position: 91820, words: "My head to my toe" },
+   { position: 94200, words: "My heart to my soul" },
+   { position: 97190, words: "I asked it to breathe" },
+   { position: 99860, words: "It answered me" },
+   { position: 101760, words: "It was a very clear night" },
+   { position: 105640, words: "So we looked up to the sky" },
+   { position: 107910, words: "Ursa Major from afar" },
+   { position: 110970, words: "With its seven little stars" },
+   { position: 113910, words: "As seven little eyes" },
+   { position: 116720, words: "As seven little eyes" },
+   { position: 119640, words: "As seven little eyes" },
+   { position: 138140, words: "It was a very good show" },
+   { position: 141910, words: "But there was so much more to know" },
+   { position: 144950, words: "So we all went to the beach" },
+   { position: 147680, words: "By the warm North Sea" },
+   { position: 150530, words: "And the night time air" },
+   { position: 153460, words: "Flew everywhere (oh, why?)" },
+   { position: 155050, words: "It was a very good breeze" },
+   { position: 158690, words: "A professional tease" },
+   { position: 161830, words: "Took us to the brink" },
+   { position: 164460, words: "Of a warm North Sea" },
+   { position: 167270, words: "Then a voice above" },
+   { position: 169850, words: "It said, \"look up\" (oh, why?)" },
+   { position: 171960, words: "There was a pattern in the sky" },
+   { position: 175500, words: "And it took me so high" },
+   { position: 178270, words: "And the waves at my feet" },
+   { position: 181430, words: "In the warm North Sea" },
+   { position: 184000, words: "And it cut me so deep" },
+   { position: 186670, words: "And it cut me so deep (oh, why?)" },
+   { position: 189350, words: "And it cut me so deep" },
+   { position: 192220, words: "And it cut me so deep" },
+   { position: 195300, words: "And it cut me so deep" },
+   { position: 198250, words: "And it cut me so deep" },
+   { position: 201010, words: "And it cut me so deep" },
+   { position: 203770, words: "And it cut me so (oh, why?)" },
+   { position: 243810, words: "" }
+]
+---
+
+TODO

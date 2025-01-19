@@ -1,0 +1,76 @@
+---
+id: robert-frost
+spotifyID: 01Irf3ZxQBcvD0PB4WcJoU
+permalink: /playlists/2022/robert-frost
+number: 10
+name: Robert Frost
+artist: Mal Blum
+img: /playlist-art/2022/robert-frost.jpg
+duration: 187720
+explicit: false
+yearReleased: 2015
+popularity: 0
+previousLink: /playlists/2022/good-will-hunting
+nextLink: /playlists/2022/mark-on-you
+buyLink: https://malblum.bandcamp.com/track/robert-frost-2
+lines: [
+   { position: 3820, words: "I'm not Robert Frost" },
+   { position: 5320, words: "If I wrote a poem about the weather, it would start in my car" },
+   { position: 10250, words: "Digging out for an hour" },
+   { position: 12720, words: "And this town is all just dirt and earth" },
+   { position: 15860, words: "And a little lie and a bigger hurt" },
+   { position: 18200, words: "No, I shouldn't have left my house in the first place, I guess" },
+   { position: 22190, words: "But I always go back to where I'm meant to be" },
+   { position: 28350, words: "I go back to where I'm meant to be" },
+   { position: 34980, words: "So on a polar high that I found one night, it was cold outside" },
+   { position: 38690, words: "Where your frozen hands are so much like mine" },
+   { position: 42450, words: "But they don't compromise" },
+   { position: 43840, words: "Now I'm looking at the ground because I don't want you to leave" },
+   { position: 46740, words: "I know it's co-dependent, but I think it's kind of sweet" },
+   { position: 49240, words: "Out of every person in this city I could ever meet" },
+   { position: 51940, words: "Leaving feels like losing but I'm learning what I need" },
+   { position: 54080, words: "I go back to where I'm meant to be" },
+   { position: 58840, words: "I go back to where I'm meant to be" },
+   { position: 63610, words: "In the morning" },
+   { position: 68470, words: "In the morning" },
+   { position: 74430, words: "I want to know when it stopped" },
+   { position: 78320, words: "The eye of the storm" },
+   { position: 79840, words: "Everything is not what it was" },
+   { position: 85660, words: "I wanna know when it stopped" },
+   { position: 88570, words: "The eye of the storm" },
+   { position: 89990, words: "Everything is not what it was" },
+   { position: 93680, words: "And I'm not Robert Frost" },
+   { position: 97020, words: "♪" },
+   { position: 105920, words: "I wish that I'd replied" },
+   { position: 107220, words: "I wish he hadn't died" },
+   { position: 108580, words: "I wish a lot of things" },
+   { position: 111080, words: "The day you lost your dog" },
+   { position: 112300, words: "And I lost my car" },
+   { position: 113400, words: "It was a Saturday" },
+   { position: 114760, words: "But the frozen air" },
+   { position: 116130, words: "And the frozen ice" },
+   { position: 117460, words: "And the biggest hurts" },
+   { position: 118620, words: "And the boldest lies are gonna disappear" },
+   { position: 121250, words: "Like the melting point" },
+   { position: 122450, words: "Like my melting rules" },
+   { position: 123780, words: "Like my melting life" },
+   { position: 125070, words: "I go back to where I'm meant to be" },
+   { position: 129760, words: "I go back to where I'm meant to be" },
+   { position: 134680, words: "In the morning" },
+   { position: 140260, words: "In the morning" },
+   { position: 142810, words: "" },
+   { position: 145130, words: "I want to know when it stopped" },
+   { position: 148110, words: "The eye of the storm" },
+   { position: 150750, words: "Everything is not what it was" },
+   { position: 156450, words: "I want to know when it stopped" },
+   { position: 159380, words: "The eye of the storm" },
+   { position: 160750, words: "Everything is not what it was" },
+   { position: 164390, words: "And I'm not Robert Frost" },
+   { position: 167880, words: "♪" },
+   { position: 176720, words: "I'm not Robert Frost" },
+   { position: 178180, words: "If I wrote a poem about decision, it would start and it would end in the same place" },
+   { position: 184030, words: "" }
+]
+---
+
+TODO

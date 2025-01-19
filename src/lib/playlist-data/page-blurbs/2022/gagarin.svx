@@ -1,0 +1,40 @@
+---
+id: gagarin
+spotifyID: 4IaRxPHdzLJ78tm7lxg9M8
+permalink: /playlists/2022/gagarin
+number: 19
+name: Gagarin
+artist: Public Service Broadcasting
+img: /playlist-art/2022/gagarin.jpg
+duration: 228623
+explicit: false
+yearReleased: 2014
+popularity: 0
+previousLink: /playlists/2022/habits
+nextLink: /playlists/2022/hand-in-my-pocket
+buyLink: https://publicservicebroadcasting.bandcamp.com/track/gagarin-2
+lines: [
+   { position: 5830, words: "This is Moscow" },
+   { position: 7640, words: "This is Moscow calling" },
+   { position: 9930, words: "On the 12th of April, the Soviet Union orbited a spaceship around the Earth with a man on board" },
+   { position: 15690, words: "The astronaut is a Soviet citizen: Major Gagarin, Yuri Alekseevich" },
+   { position: 35390, words: "(Gagarin, Yuri Alekseevich)" },
+   { position: 41890, words: "The World's first cosmonaut" },
+   { position: 45660, words: "The first to open the door into the unknown" },
+   { position: 49460, words: "The first to step over the threshold of our homeland" },
+   { position: 59430, words: "(Garagin, Yuri Alekseevich)" },
+   { position: 63940, words: "The whole planet knew him and loved him" },
+   { position: 69240, words: "Gagarin..." },
+   { position: 84120, words: "Was it hazardous? Yes, it was" },
+   { position: 89770, words: "The first strides into the unknown were about to be made" },
+   { position: 100380, words: "(Garagin, Yuri Alekseevich)" },
+   { position: 105100, words: "The hero who blazed the trail for the stars" },
+   { position: 119340, words: "Every one of us was with Yuri Gagarin as he orbited the Earth 190 miles above us" },
+   { position: 129400, words: "Astronaut to Earth: I can see forests, rivers, [?] all around" },
+   { position: 136870, words: "Everything's so beautiful, it's wonderful, it wonderful..." },
+   { position: 171860, words: "The whole planet knew him and loved him" },
+   { position: 224970, words: "" }
+]
+---
+
+TODO

@@ -1,0 +1,50 @@
+---
+id: habits
+spotifyID: 4UGvqm3e7UElrrriPtnhwz
+permalink: /playlists/2022/habits
+number: 18
+name: Habits
+artist: Genevieve Stokes
+img: /playlist-art/2022/habits.jpg
+duration: 136733
+explicit: false
+yearReleased: 2022
+popularity: 0
+previousLink: /playlists/2022/the-wrote-the-writ
+nextLink: /playlists/2022/gagarin
+lines: [
+   { position: 1980, words: "Habits I'm trying to kick, can't get over it" },
+   { position: 6370, words: "Lovers I hate to admit are the ghost of it" },
+   { position: 10660, words: "I don't know why I try anymore" },
+   { position: 16170, words: "Wasting the days to forget that I'm losing it" },
+   { position: 20370, words: "Stuck in my ways and I hate that I'm used to it" },
+   { position: 24920, words: "I don't know why I try anymore" },
+   { position: 33210, words: "You go and I stay" },
+   { position: 36450, words: "It's always right person and wrong way" },
+   { position: 40940, words: "I hate to be right, please, tell me I'm wrong" },
+   { position: 45080, words: "Please, tell me I'm wrong" },
+   { position: 50350, words: "'Cause it's on again, off again" },
+   { position: 53190, words: "Love you like oxygen" },
+   { position: 56120, words: "I don't know what to say or do" },
+   { position: 59780, words: "On again, off again" },
+   { position: 61730, words: "Love you like oxygen" },
+   { position: 64880, words: "You don't know what I'd do for you" },
+   { position: 70350, words: "I'm stubborn and brittle" },
+   { position: 73030, words: "Act like I know a lot, but know very little" },
+   { position: 77270, words: "I'm growing up, but I'm not growing old" },
+   { position: 81780, words: "And I hate to do anything that I've been told" },
+   { position: 89550, words: "And you go and I stay" },
+   { position: 93360, words: "It's always right person and wrong way" },
+   { position: 97760, words: "I hate to be right, please, tell mе I'm wrong" },
+   { position: 101850, words: "Please, tell mе I'm wrong" },
+   { position: 107060, words: "'Cause it's on again, off again" },
+   { position: 109920, words: "Love you like oxygen" },
+   { position: 113090, words: "I don't know what to say or do" },
+   { position: 116630, words: "On again, off again" },
+   { position: 118750, words: "Love you like oxygen" },
+   { position: 121740, words: "You don't know what I'd do for you" },
+   { position: 124740, words: "" }
+]
+---
+
+TODO

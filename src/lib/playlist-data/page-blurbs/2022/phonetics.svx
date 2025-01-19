@@ -1,0 +1,69 @@
+---
+id: phonetics
+spotifyID: 4kfJqKBDv8PtM8g3m8ozOx
+permalink: /playlists/2022/phonetics
+number: 3
+name: Phonetics
+artist: Reptar
+img: /playlist-art/2022/phonetics.jpg
+duration: 350453
+explicit: true
+yearReleased: 2011
+popularity: 0
+previousLink: /playlists/2022/comes-in-waves
+nextLink: /playlists/2022/into-the-unknown-feat-jack-jones
+lines: [
+   { position: 16910, words: "Good Morning, I can feel your feet and they are twitching" },
+   { position: 25070, words: "When my feet twitch, it means that I'm upset" },
+   { position: 32940, words: "Goodnight, I can feel your body, it is moving" },
+   { position: 41480, words: "When my body moves like that it means I'm depressed" },
+   { position: 47180, words: "" },
+   { position: 49510, words: "A movie? No, I don't think that I could handle a movie" },
+   { position: 57840, words: "If I did anything else I think my head would implode" },
+   { position: 66220, words: "Phonetics? Oh, well that sounds like an interesting major" },
+   { position: 73910, words: "You see I have a lisp so they've troubled me my whole life" },
+   { position: 78450, words: "♪" },
+   { position: 81860, words: "All the consequences sent to all the awkward places" },
+   { position: 90560, words: "Sent to all the awkward places I am too" },
+   { position: 94650, words: "And all of these emotions buried deep in emotional oceans" },
+   { position: 106510, words: "You spend the rest of your life finding out what they do" },
+   { position: 111270, words: "Collective? No, I've never heard of the collective" },
+   { position: 122820, words: "But if that's what you like I'm sure I'll like it too" },
+   { position: 126850, words: "♪" },
+   { position: 130900, words: "Institution? No, I've never fought the institution" },
+   { position: 139230, words: "I'm scared of all the bad things they might do" },
+   { position: 142980, words: "♪" },
+   { position: 146420, words: "And when I reach out my hand" },
+   { position: 149570, words: "You don't, you don't, you don't understand" },
+   { position: 154500, words: "They never understand just for one night understand" },
+   { position: 158130, words: "♪" },
+   { position: 161800, words: "Comfort, comfort I want to comfort you" },
+   { position: 166110, words: "And tell you all the good things that I can do" },
+   { position: 170120, words: "With my thighs, my hips, my mouth, my lips for you" },
+   { position: 174720, words: "All the consequences sent to all the awkward places" },
+   { position: 186000, words: "Sent to all the awkward places I am too" },
+   { position: 197690, words: "And all of these emotions buried deep in emotional oceans" },
+   { position: 202560, words: "You spend the rest of your life finding out what they do" },
+   { position: 208660, words: "Pent up, my self-expression is absolving me" },
+   { position: 218040, words: "Of all the bad things that I used to be, of all the bad things that I used to be" },
+   { position: 223440, words: "♪" },
+   { position: 226310, words: "Effeminate whine, I called across and wrote over the phone" },
+   { position: 233770, words: "And we are, we are, we are alone; we are, we are alone" },
+   { position: 237010, words: "An off-white smile, too much to swallow all alone" },
+   { position: 249520, words: "To much to swallow all alone" },
+   { position: 253240, words: "When I leave here tomorrow or today; please don't say that shit's okay" },
+   { position: 265850, words: "Even your mother knows it not okay" },
+   { position: 269510, words: "It's not okay" },
+   { position: 273150, words: "All the consequences sent to all the awkward places" },
+   { position: 281580, words: "Sent to all the awkward places I am too" },
+   { position: 290530, words: "And all of these emotions buried deep in emotional oceans" },
+   { position: 298770, words: "You spend the rest of your life finding out what they do" },
+   { position: 304950, words: "After your clothes have spoken, and your temperament is token" },
+   { position: 315490, words: "Then you truly are the fakest one I know" },
+   { position: 324420, words: "All the words I'm using I am very carefully choosing" },
+   { position: 332560, words: "So as not to take a poet's point of view" },
+   { position: 341570, words: "" }
+]
+---
+
+TODO

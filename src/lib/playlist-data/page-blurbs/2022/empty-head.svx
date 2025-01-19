@@ -1,0 +1,61 @@
+---
+id: empty-head
+spotifyID: 54DjNRB4TFeXOpRMBJyNv3
+permalink: /playlists/2022/empty-head
+number: 25
+name: Empty Head
+artist: Frankie Cosmos
+img: /playlist-art/2022/empty-head.jpg
+duration: 313375
+explicit: false
+yearReleased: 2022
+popularity: 22
+previousLink: /playlists/2022/good-day
+nextLink: 
+buyLink: https://ingridsuperstar.bandcamp.com/track/empty-head
+lines: [
+   { position: 45280, words: "Empty head" },
+   { position: 48980, words: "It's cool to have nothin' in it" },
+   { position: 54220, words: "It's okay not to sing a song" },
+   { position: 58220, words: "About everything" },
+   { position: 61370, words: "All the time" },
+   { position: 66160, words: "But if I did (if I did)" },
+   { position: 70140, words: "I'd fill up all the server farms (server farms)" },
+   { position: 75370, words: "I'd fill up all the iPhone clouds (iPhone clouds)" },
+   { position: 80510, words: "I'd fill up all the hard drives" },
+   { position: 85470, words: "So, I should keep an empty head (empty head)" },
+   { position: 90880, words: "Fill myself up with emptiness (emptiness)" },
+   { position: 96170, words: "And try to just take a breath (take a breath)" },
+   { position: 102060, words: "Sometimes" },
+   { position: 106030, words: "I'm always bursting at the seams" },
+   { position: 109850, words: "I'll tell you all about my dreams" },
+   { position: 113500, words: "I wish that I could quiet it" },
+   { position: 117290, words: "Accept a little silence" },
+   { position: 120940, words: "Maybe one day I'll find it" },
+   { position: 125100, words: "And I'll toe the line" },
+   { position: 128240, words: "I pick you like a coffee cup (coffee cup)" },
+   { position: 131980, words: "You thought that I could pick you up (pick you up)" },
+   { position: 135520, words: "But I don't even have a car (have a car)" },
+   { position: 139270, words: "I'm taking you right where we are" },
+   { position: 142950, words: "I'm at the bottom of the road (of the road)" },
+   { position: 146560, words: "You're looking like the line I toed (line I toed)" },
+   { position: 150230, words: "You're at me like an antelope (antelope)" },
+   { position: 153850, words: "I'm swaying like a grassy knoll" },
+   { position: 157540, words: "It's the first time I spoke today" },
+   { position: 161320, words: "And that's why when you heard me say" },
+   { position: 164840, words: "Hello I sounded like a frog" },
+   { position: 168510, words: "I thought that I could pet the dog" },
+   { position: 172110, words: "But it just wasn't up to me" },
+   { position: 175820, words: "I hid behind the neighbors tree" },
+   { position: 179520, words: "But he wouldn't come out to play" },
+   { position: 183230, words: "I guess I'll try another day" },
+   { position: 186990, words: "It's all to keep an empty head" },
+   { position: 190680, words: "It's cool to have nothin' in it" },
+   { position: 194470, words: "It's okay not to sing a song" },
+   { position: 197150, words: "About everything" },
+   { position: 199310, words: "All the time" },
+   { position: 202040, words: "" }
+]
+---
+
+TODO

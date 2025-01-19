@@ -1,0 +1,63 @@
+---
+id: the-wrote-the-writ
+spotifyID: 1vLH58T2L3uHryV2JAT8rk
+permalink: /playlists/2022/the-wrote-the-writ
+number: 17
+name: The Wrote & The Writ
+artist: Johnny Flynn
+img: /playlist-art/2022/the-wrote-the-writ.jpg
+duration: 247080
+explicit: false
+yearReleased: 2008
+popularity: 48
+previousLink: /playlists/2022/morning-in-the-jungle
+nextLink: /playlists/2022/habits
+buyLink: https://goodluckwitheverything.bandcamp.com/track/the-wrote-and-the-writ-johnny-flynn-cover-2
+lines: [
+   { position: 26810, words: "They're taking pictures of the man from God" },
+   { position: 30300, words: "I hope his cassock's clean" },
+   { position: 32910, words: "The burden of being a holy fella's" },
+   { position: 35820, words: "Your halo'd better gleam, better gleam" },
+   { position: 40640, words: "What of all those wayward priests?" },
+   { position: 43790, words: "The ones who like to drink" },
+   { position: 46380, words: "Do you suppose they'd swap their blood for wine" },
+   { position: 49370, words: "Like you swapped yours for ink, for ink" },
+   { position: 53950, words: "You wrote me oh-so-many letters" },
+   { position: 56900, words: "And all of them seemed true" },
+   { position: 59740, words: "Promises look good on paper" },
+   { position: 62840, words: "Especially from you, from you" },
+   { position: 67360, words: "The weight of all those willing words" },
+   { position: 70490, words: "I carried all alone" },
+   { position: 73090, words: "You wouldn't put your pen to bed" },
+   { position: 76000, words: "When we hadn't found our own, our own" },
+   { position: 79990, words: "♪" },
+   { position: 91400, words: "Your sentences rose high at night" },
+   { position: 94460, words: "And circled round my head" },
+   { position: 97150, words: "The circle's since been broken" },
+   { position: 100190, words: "Like the priest before me is breaking bread" },
+   { position: 104690, words: "I'm being asked to drink the blood of Christ" },
+   { position: 108140, words: "And soon I'll eat his flesh" },
+   { position: 110600, words: "I'm alone again before the altar" },
+   { position: 114170, words: "Shedding all my old regrets" },
+   { position: 118590, words: "The last of which I'll tell you now" },
+   { position: 121670, words: "As it flies down the sink" },
+   { position: 124290, words: "I never knew a part of you" },
+   { position: 127450, words: "You didn't set in ink, in ink" },
+   { position: 131810, words: "The letters that you left behind" },
+   { position: 134810, words: "No longer shall I read" },
+   { position: 137690, words: "Your blood's between the pages" },
+   { position: 140810, words: "And I can't stand to see you bleed" },
+   { position: 144580, words: "♪" },
+   { position: 186820, words: "And I'll soon forget what was never there" },
+   { position: 190000, words: "Your words are ash and dust" },
+   { position: 192830, words: "All that's left is the song I've sung" },
+   { position: 195850, words: "The breath I've taken and the one I must" },
+   { position: 200110, words: "If you're born with a love for the wrote and the writ" },
+   { position: 203720, words: "People of letters, your warning stands clear:" },
+   { position: 205930, words: "Pay heed to your heart and not to your wit" },
+   { position: 209050, words: "Don't say in a letter what you can't in my ear" },
+   { position: 212130, words: "" }
+]
+---
+
+TODO

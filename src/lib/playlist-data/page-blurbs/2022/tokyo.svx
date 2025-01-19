@@ -1,0 +1,26 @@
+---
+id: tokyo
+spotifyID: 3MXBrZkK51A3Z4izKFnMkn
+permalink: /playlists/2022/tokyo
+number: 6
+name: Tokyo
+artist: The Books
+img: /playlist-art/2022/tokyo.jpg
+duration: 223013
+explicit: false
+yearReleased: 2011
+popularity: 30
+previousLink: /playlists/2022/hate-dancin
+nextLink: /playlists/2022/handshakes
+buyLink: https://books.bandcamp.com/track/tokyo
+lines: [
+   { position: 0, words: "Hey!" },
+   { position: 0, words: "It has been a great pleasure to have you aboard Japan Airlines" },
+   { position: 0, words: "We hope you have enjoy the flight" },
+   { position: 0, words: "And that we may have another opportunity to serve you in the very near future" },
+   { position: 0, words: "Please make sure that you leave nothing behind when you leave plane" },
+   { position: 0, words: "Thank you very much, and for now, sayonara" }
+]
+---
+
+TODO

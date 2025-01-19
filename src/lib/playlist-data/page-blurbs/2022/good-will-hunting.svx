@@ -1,0 +1,83 @@
+---
+id: good-will-hunting
+spotifyID: 0Ppd0oDauQpaQgNvpHzq24
+permalink: /playlists/2022/good-will-hunting
+number: 9
+name: Good Will Hunting
+artist: Black Country, New Road
+img: /playlist-art/2022/good-will-hunting.jpg
+duration: 297906
+explicit: false
+yearReleased: 2022
+popularity: 51
+previousLink: /playlists/2022/paradwme
+nextLink: /playlists/2022/robert-frost
+buyLink: https://blackcountrynewroad.bandcamp.com/track/good-will-hunting
+lines: [
+   { position: 8060, words: "You walk up on the raised edge" },
+   { position: 11160, words: "Hands are out for balance" },
+   { position: 12810, words: "Slip and you almost grab mine, but you find your feet" },
+   { position: 19090, words: "And I never wanted so much someone to fall" },
+   { position: 23630, words: "It's just been a weekend" },
+   { position: 26520, words: "But in my mind we summer in France" },
+   { position: 29870, words: "With our genius daughters now" },
+   { position: 34320, words: "And you teach me to play the piano" },
+   { position: 38940, words: "You call, I'll be there" },
+   { position: 43840, words: "What's more?" },
+   { position: 46730, words: "I'm scared of the phone" },
+   { position: 51390, words: "Don't ring it" },
+   { position: 53990, words: "Please know" },
+   { position: 56790, words: "That I'm just trying to find" },
+   { position: 62460, words: "Some way to keep me in your mind" },
+   { position: 67760, words: "And later on" },
+   { position: 69840, words: "Everyone will say, \"It was cool\"" },
+   { position: 74840, words: "\"She had Billie Eilish style\"" },
+   { position: 79940, words: "\"Moving to Berlin for a little while\"" },
+   { position: 84820, words: "\"Tryna find something to hold on to\"" },
+   { position: 89770, words: "\"Never texts me nothing" },
+   { position: 91780, words: "But she wants to tell me" },
+   { position: 95600, words: "She's not that hard to find\"" },
+   { position: 99340, words: "And, \"Message me if you change your mind\"" },
+   { position: 104000, words: "Darling, I'll keep fine" },
+   { position: 109740, words: "♪" },
+   { position: 146670, words: "And if we're on a burning starship" },
+   { position: 150560, words: "The escape pods filled with your friends" },
+   { position: 153470, words: "Your childhood film photos" },
+   { position: 157980, words: "There's no room for me to go" },
+   { position: 161430, words: "Oh, I'd wait there" },
+   { position: 163100, words: "Float with the wreckage" },
+   { position: 164730, words: "Fashion a long sword" },
+   { position: 166700, words: "Traverse the Milky Way" },
+   { position: 168520, words: "Tryna get home to you" },
+   { position: 172630, words: "And you'd bring some piece of the stars" },
+   { position: 177040, words: "You call, I'll be there" },
+   { position: 182240, words: "What's more?" },
+   { position: 184710, words: "I'm scared of the phone" },
+   { position: 189360, words: "Don't ring it" },
+   { position: 191980, words: "Please know" },
+   { position: 194560, words: "That I'm just trying to find" },
+   { position: 200490, words: "Some way to keep me in your mind" },
+   { position: 205470, words: "And later on" },
+   { position: 207750, words: "Everyone will say, \"It was cool\"" },
+   { position: 212880, words: "\"She had Billie Eilish style\"" },
+   { position: 217640, words: "\"Moving to Berlin for a little while\"" },
+   { position: 222520, words: "\"Tryna find something to hold on to\"" },
+   { position: 227920, words: "\"Never texts me nothing" },
+   { position: 229780, words: "But she wants to tell me" },
+   { position: 233670, words: "She's not that hard to find\"" },
+   { position: 237440, words: "And, \"Message me if you change your mind\"" },
+   { position: 241960, words: "Darling, I'll keep fine" },
+   { position: 247650, words: "Everyone will say, \"It was cool\"" },
+   { position: 252240, words: "Aw, \"She had Billie Eilish style\"" },
+   { position: 257500, words: "\"Moving to Berlin for a little while\"" },
+   { position: 262460, words: "\"Tryna find something to hold on to\"" },
+   { position: 267320, words: "\"Never texts me nothing" },
+   { position: 269370, words: "But she wants to tell me" },
+   { position: 273130, words: "She's not that hard to find\"" },
+   { position: 276880, words: "And, \"Message me if you change your mind\"" },
+   { position: 280910, words: "Darling, I'll keep fine" },
+   { position: 284690, words: "" }
+]
+---
+
+TODO

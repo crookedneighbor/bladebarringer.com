@@ -1,0 +1,56 @@
+---
+id: good-day
+spotifyID: 2dHTK5Bc61ddJ07vhpNnfn
+permalink: /playlists/2022/good-day
+number: 24
+name: Good Day
+artist: Bombay Bicycle Club
+img: /playlist-art/2022/good-day.jpg
+duration: 232080
+explicit: false
+yearReleased: 2020
+popularity: 35
+previousLink: /playlists/2022/the-hustle-unlimited
+nextLink: /playlists/2022/empty-head
+lines: [
+   { position: 20, words: "I sit back and watch TV" },
+   { position: 4520, words: "Of all the faces on the screen" },
+   { position: 8880, words: "I have seen none of me, staggeringly" },
+   { position: 15970, words: "The melting ice caps in my dreams" },
+   { position: 20440, words: "Made me stop and think about, think about" },
+   { position: 25860, words: "Time running out" },
+   { position: 29150, words: "I would quit my job" },
+   { position: 32640, words: "If I had a job" },
+   { position: 36600, words: "If I had a job" },
+   { position: 39060, words: "Then I would have everything I want" },
+   { position: 44610, words: "I would quit my job" },
+   { position: 48570, words: "If I had a job" },
+   { position: 52230, words: "If I had a job" },
+   { position: 54680, words: "Then I would have everything I want" },
+   { position: 62910, words: "I just wanna have a good day" },
+   { position: 67040, words: "I just wanna have a good day" },
+   { position: 70720, words: "And it's only me that's standing in my way" },
+   { position: 78610, words: "I just wanna have a good day" },
+   { position: 82960, words: "I just wanna have a good day" },
+   { position: 86860, words: "And it's only me that's standing in my way" },
+   { position: 96850, words: "First my looks and now my friends" },
+   { position: 101310, words: "Day my day I'm losing them, losing them" },
+   { position: 106770, words: "Losing collagen, losing elastin" },
+   { position: 112320, words: "The melting ice caps in my dreams" },
+   { position: 117190, words: "Made me stop and think about, think about" },
+   { position: 122330, words: "Time running out" },
+   { position: 125320, words: "I would quit my job" },
+   { position: 128870, words: "If I had a job" },
+   { position: 132800, words: "If I had a job" },
+   { position: 135300, words: "Then I would have everything I want" },
+   { position: 142810, words: "I just wanna have a good day" },
+   { position: 146520, words: "I just wanna have a good day" },
+   { position: 150620, words: "And it's only me that's standing in my way" },
+   { position: 158200, words: "I just wanna have a good day" },
+   { position: 162500, words: "I just wanna have a good day" },
+   { position: 166360, words: "And it's only me that's standing in my way" },
+   { position: 206360, words: "" }
+]
+---
+
+TODO

@@ -1,0 +1,47 @@
+---
+id: changes
+spotifyID: 0gKiONJeEtwb3hps4sUgyn
+permalink: /playlists/2022/changes
+number: 15
+name: Changes
+artist: Langhorne Slim | The Law
+img: /playlist-art/2022/changes.jpg
+duration: 161906
+explicit: false
+yearReleased: 2015
+popularity: 20
+previousLink: /playlists/2022/prior-things
+nextLink: /playlists/2022/morning-in-the-jungle
+buyLink: https://langhorne-slim.bandcamp.com/track/changes
+lines: [
+   { position: 8990, words: "Things could be stranger, but I don't know how" },
+   { position: 14550, words: "I'm going through changes now" },
+   { position: 18990, words: "I've spent a lifetime trying to figure it out" },
+   { position: 24420, words: "I'm going through changes now" },
+   { position: 28080, words: "That I've just begun" },
+   { position: 31430, words: "Under a purple sun" },
+   { position: 35480, words: "There's many reasons we are what we've become" },
+   { position: 40750, words: "I'm going through changes" },
+   { position: 42930, words: "Rippin' out pages" },
+   { position: 45070, words: "I'm going through changes now" },
+   { position: 47330, words: "♪" },
+   { position: 66970, words: "I knew it once, but I forgot" },
+   { position: 72250, words: "I'm going through changes now" },
+   { position: 76460, words: "We want everything but what we got" },
+   { position: 81960, words: "I'm going through changes now" },
+   { position: 85650, words: "Maybe it's too soon" },
+   { position: 88960, words: "Under a purple moon" },
+   { position: 92320, words: "But I'd ride off with you in a big balloon" },
+   { position: 98590, words: "I'm going through changes" },
+   { position: 100730, words: "Rattlin' cages" },
+   { position: 102750, words: "I'm going through changes now" },
+   { position: 105330, words: "♪" },
+   { position: 142040, words: "Things could be different, but I don't know how" },
+   { position: 147580, words: "I'm going through changes" },
+   { position: 149640, words: "Through all of this strangeness" },
+   { position: 151820, words: "I'm going through changes now" },
+   { position: 154440, words: "" }
+]
+---
+
+TODO

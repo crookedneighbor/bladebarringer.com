@@ -1,0 +1,35 @@
+---
+id: into-the-unknown-feat-jack-jones
+spotifyID: 2v8U44KvrynuXjgMiIzzMM
+permalink: /playlists/2022/into-the-unknown-feat-jack-jones
+number: 4
+name: Into the Unknown (feat. Jack Jones)
+artist: Over the Garden Wall | The Blasting Company | Jack Jones
+img: /playlist-art/2022/into-the-unknown-feat-jack-jones.jpg
+duration: 87920
+explicit: false
+yearReleased: 2016
+popularity: 49
+previousLink: /playlists/2022/phonetics
+nextLink: /playlists/2022/hate-dancin
+lines: [
+   { position: 9920, words: "Led through the mist" },
+   { position: 12770, words: "By the milk-light of moon" },
+   { position: 15910, words: "All that was lost is revealed" },
+   { position: 21850, words: "Our long bygone burdens" },
+   { position: 25380, words: "Mere echoes of the spring" },
+   { position: 28830, words: "But where have where we come?" },
+   { position: 32190, words: "And where shall we end?" },
+   { position: 35950, words: "If dreams can't come true" },
+   { position: 39560, words: "Then why not pretend?" },
+   { position: 45710, words: "How the gentle wind" },
+   { position: 49180, words: "Beckons through the leaves" },
+   { position: 52270, words: "As autumn colors fall" },
+   { position: 59790, words: "Dancing in a swirl" },
+   { position: 63810, words: "Of golden memories" },
+   { position: 68100, words: "The loveliest lies of all" },
+   { position: 73520, words: "" }
+]
+---
+
+TODO

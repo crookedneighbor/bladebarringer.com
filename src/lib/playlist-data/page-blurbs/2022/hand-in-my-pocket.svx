@@ -1,0 +1,20 @@
+---
+id: hand-in-my-pocket
+spotifyID: 5tqusrTDupbG624np32Sj4
+permalink: /playlists/2022/hand-in-my-pocket
+number: 20
+name: Hand In My Pocket
+artist: Deep Sea Diver | Damien Jurado
+img: /playlist-art/2022/hand-in-my-pocket.jpg
+duration: 252586
+explicit: false
+yearReleased: 2021
+popularity: 15
+previousLink: /playlists/2022/gagarin
+nextLink: /playlists/2022/find-a-new-way
+lines: [
+  
+]
+---
+
+TODO

@@ -1,4 +1,4 @@
-const publicPlaylists = ['2024'];
+const publicPlaylists = ['2022', '2024'];
 
 export async function load() {
 	const playlists = await Promise.all(
