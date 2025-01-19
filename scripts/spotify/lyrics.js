@@ -21,9 +21,9 @@ export async function getLyrics(songID) {
 			method: 'GET'
 		}
 	).then((res) => {
-		if (res.status === 403) {
+		if (res.status === 403 || res.status === 404) {
 			console.error(
-				`Could not get lyrics for song ID "${songID}". There is something wrong your your env variables SPOTIFY_LYRICS_ACCESS_TOKEN and SPOTIFY_LYRICS_CLIENT_TOKEN`
+				`Could not get lyrics for song ID "${songID}". The lyrics may not be available on Spotify`
 			);
 			return;
 		}
@@ -31,9 +31,6 @@ export async function getLyrics(songID) {
 			console.error(
 				`Could not get lyrics for song ID "${songID}". Update SPOTIFY_LYRICS_ACCESS_TOKEN and SPOTIFY_LYRICS_CLIENT_TOKEN`
 			);
-			return;
-		}
-		if (res.status === 404) {
 			return;
 		}
 		return res.json();
