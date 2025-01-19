@@ -8,7 +8,7 @@ import { getLyrics } from './spotify/lyrics.js';
 import { Readable } from 'node:stream';
 import { finished } from 'node:stream/promises';
 
-const PLAYLIST_ID = process.env.PLAYLIST_ID;
+const SPOTIFY_PLAYLIST_ID = process.env.SPOTIFY_PLAYLIST_ID;
 
 async function parseSVX(pathToFile) {
 	const existingFileData = readFileSync(pathToFile, 'utf-8');
@@ -143,4 +143,4 @@ async function populatePlaylistPage(id) {
 	await populatePageDescriptions(playlist);
 }
 
-populatePlaylistPage(PLAYLIST_ID);
+populatePlaylistPage(SPOTIFY_PLAYLIST_ID);

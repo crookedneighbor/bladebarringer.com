@@ -37,11 +37,11 @@ The script to setup a new playlist page do a bunch of things.
 
 For this to work, we need to set a few environmental variables. First thing, [login to Spotify in a browser](https://spotify.com/login).
 
-Once you're logged in, follow these steps to get the `CLIENT_ID` and `CLIENT_SECRET` enviromental variables. If you've already done this once, you shouldn't need to fetch them again.
+Once you're logged in, follow these steps to get the `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET` enviromental variables. If you've already done this once, you shouldn't need to fetch them again.
 
 * Navigate to the [Spotify Dashboard](https://developer.spotify.com/dashboard)
 * Go to the settings for your app (or create a new one)
-* Copy the client ID and client secrent and set them as the `CLIENT_ID` and `CLIENT_SECRET` env variables.
+* Copy the client ID and client secrent and set them as the `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET` env variables.
 
 If you are importing the playlist for the first time, it will also attempt to import the lyrics for the song, which need additional credentials. To find them, follow these steps:
 
@@ -53,7 +53,7 @@ If you are importing the playlist for the first time, it will also attempt to im
 
 These values expire, so you may need to repeat the process if too much time passes between fetching them and making the requests.
 
-Finally, set the `PLAYLIST_ID` and `PLAYLIST_SLUG` evironmental variables. To find the `PLAYLIST_ID`, simply copy the link to the playlist on Spotify, and copy the id portion from the link. For the `PLAYLIST_SLUG`, set it to whatever you want the slug of the url to be. For instance, for a 2024 playlist, the slug could be `2024`.
+Finally, set the `SPOTIFY_PLAYLIST_ID` and `PLAYLIST_SLUG` evironmental variables. To find the `SPOTIFY_PLAYLIST_ID`, simply copy the link to the playlist on Spotify, and copy the id portion from the link. For the `PLAYLIST_SLUG`, set it to whatever you want the slug of the url to be. For instance, for a 2024 playlist, the slug could be `2024`.
 
 Finally, from the root of the repo, run:
 

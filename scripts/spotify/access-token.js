@@ -1,7 +1,7 @@
 import 'dotenv/config';
 
-const CLIENT_ID = process.env.CLIENT_ID;
-const CLIENT_SECRET = process.env.CLIENT_SECRET;
+const SPOTIFY_CLIENT_ID = process.env.SPOTIFY_CLIENT_ID;
+const SPOTIFY_CLIENT_SECRET = process.env.SPOTIFY_CLIENT_SECRET;
 
 let accessTokenPromise;
 
@@ -10,7 +10,10 @@ export async function getAccessToken() {
 		accessTokenPromise = fetch('https://accounts.spotify.com/api/token', {
 			method: 'POST',
 			body:
-				'grant_type=client_credentials&client_id=' + CLIENT_ID + '&client_secret=' + CLIENT_SECRET,
+				'grant_type=client_credentials&client_id=' +
+				SPOTIFY_CLIENT_ID +
+				'&client_secret=' +
+				SPOTIFY_CLIENT_SECRET,
 			headers: {
 				'Content-Type': 'application/x-www-form-urlencoded'
 			}
