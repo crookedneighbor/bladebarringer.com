@@ -1,0 +1,57 @@
+---
+id: drop-stop-roll
+spotifyID: 1y3NV3N99VoSP4crdkbog7
+permalink: /playlists/2023/drop-stop-roll
+number: 13
+name: Drop Stop Roll
+artist: Rainbow Kitten Surprise
+img: /playlist-art/2023/drop-stop-roll.jpg
+duration: 170788
+explicit: false
+yearReleased: 2023
+popularity: 56
+previousLink: /playlists/2023/going-to-dallas
+nextLink: /playlists/2023/heavy-heart
+lines: [
+   { position: 9490, words: "Drop stop and rolling, baby" },
+   { position: 11720, words: "Knock knocking on your door" },
+   { position: 14750, words: "You're never home" },
+   { position: 18460, words: "Lock stock two loaded barrels" },
+   { position: 21010, words: "Said he heard ten to 12" },
+   { position: 23250, words: "Fired into the living room" },
+   { position: 29150, words: "Hot box, an old Mercedes" },
+   { position: 31230, words: "You always pass it to me, though you know I never smoke" },
+   { position: 37990, words: "Feeling like a lot, like it was lately" },
+   { position: 41840, words: "Lot of going on, not a lot coming in, that's how it goes" },
+   { position: 47090, words: "Berry taught you how to rock 'n' roll, uh-huh" },
+   { position: 51620, words: "Molly taught you how to hit the floor uh-huh" },
+   { position: 56040, words: "Muddy on the water on the Roxanne" },
+   { position: 60780, words: "Body hit the floor party's over uh-huh" },
+   { position: 66170, words: "♪" },
+   { position: 73150, words: "Drop stop and call your mama" },
+   { position: 77630, words: "You know she think about you when you're gone" },
+   { position: 84230, words: "Left your phone on the charger at home" },
+   { position: 88280, words: "Driving around to your song come on the radio" },
+   { position: 93050, words: "We walked in like we hit the lotto" },
+   { position: 97450, words: "Me from silicone, you a supermodel? Oh!" },
+   { position: 101870, words: "Wonder what it's like to be a rockstar? Well" },
+   { position: 106420, words: "Chainsaw to the wall, Mr. Walsh we need some room" },
+   { position: 111010, words: "Berry taught you how to rock 'n' roll uh-huh" },
+   { position: 115510, words: "Molly taught you how to hit the floor uh-huh" },
+   { position: 120140, words: "Muddy on the water on the Roxanne" },
+   { position: 124660, words: "Body hit the floor party's over uh-huh" },
+   { position: 129730, words: "We acting like we hit the lotto" },
+   { position: 136040, words: "♪" },
+   { position: 141520, words: "You're in for it" },
+   { position: 143940, words: "You're in forever" },
+   { position: 146010, words: "You're in for it" },
+   { position: 148370, words: "You're in for it" },
+   { position: 151920, words: "Berry taught you how to rock 'n' roll, uh-huh" },
+   { position: 156730, words: "Molly taught you how to hit the floor uh-huh" },
+   { position: 161130, words: "Muddy on the water on the Roxanne" },
+   { position: 165880, words: "Body hit the floor party's over uh-huh" },
+   { position: 168860, words: "" }
+]
+---
+
+TODO

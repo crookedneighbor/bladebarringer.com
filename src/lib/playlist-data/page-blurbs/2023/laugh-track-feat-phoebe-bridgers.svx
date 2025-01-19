@@ -1,0 +1,77 @@
+---
+id: laugh-track-feat-phoebe-bridgers
+spotifyID: 7aprF5ADDukD1JWHXG9h9z
+permalink: /playlists/2023/laugh-track-feat-phoebe-bridgers
+number: 7
+name: Laugh Track (feat. Phoebe Bridgers)
+artist: The National | Phoebe Bridgers
+img: /playlist-art/2023/laugh-track-feat-phoebe-bridgers.jpg
+duration: 264120
+explicit: false
+yearReleased: 2023
+popularity: 46
+previousLink: /playlists/2023/i-wish-it-was-me
+nextLink: /playlists/2023/everywhere-i-go-i-bring-the-rain
+buyLink: https://thenational.bandcamp.com/track/laugh-track-feat-phoebe-bridgers
+lines: [
+   { position: 20750, words: "Losing my momentum, losing my mind" },
+   { position: 27220, words: "Not enough to mention, not enough time" },
+   { position: 33820, words: "I can't even say what it's about" },
+   { position: 40340, words: "All I am is shreds of doubt" },
+   { position: 46780, words: "And you don't know how to deal with me" },
+   { position: 53540, words: "You don't know how that feels" },
+   { position: 59980, words: "It all comes apart so easily" },
+   { position: 66540, words: "And you're running out of ideas" },
+   { position: 71640, words: "Everything melted in less than a week" },
+   { position: 74990, words: "Watching you felt like forever" },
+   { position: 78090, words: "The lights started dimming and then they went out" },
+   { position: 81450, words: "Heaven came down like a blanket" },
+   { position: 84740, words: "I can't even say what it's about" },
+   { position: 91310, words: "All I am is shreds of doubt" },
+   { position: 97530, words: "So turn on the laugh track" },
+   { position: 101260, words: "Everyone knows you're a wreck" },
+   { position: 104350, words: "You're never this quiet, your smile is cracking" },
+   { position: 107650, words: "You just haven't found what you're looking for yet" },
+   { position: 111000, words: "Turn on the laugh track" },
+   { position: 114160, words: "We'll see if it changes the scene" },
+   { position: 117600, words: "Maybe this is just the funniest version of us" },
+   { position: 122190, words: "That we've ever been" },
+   { position: 124260, words: "I think our feet are gonna slip" },
+   { position: 127180, words: "I think our hands are gonna shake" },
+   { position: 130470, words: "I think our eyes are gonna cry" },
+   { position: 133720, words: "I think our hearts are gonna break" },
+   { position: 136930, words: "Maybe we'll never lighten up" },
+   { position: 140270, words: "Maybe this isn't gonna quit" },
+   { position: 143560, words: "I think it's never coming back" },
+   { position: 146840, words: "Maybe we've always been like this" },
+   { position: 150360, words: "So turn on the laugh track" },
+   { position: 153810, words: "Everyone knows you're a wreck" },
+   { position: 156960, words: "You're never this quiet, your smile is cracking" },
+   { position: 160190, words: "You just haven't found what you're looking for yet" },
+   { position: 163660, words: "Turn on the laugh track" },
+   { position: 166750, words: "We'll see if it changes the scene" },
+   { position: 170230, words: "Maybe this is just the funniest version of us" },
+   { position: 174740, words: "That we've ever been" },
+   { position: 176800, words: "I think our feet are gonna slip" },
+   { position: 179780, words: "I think our hands are gonna shake" },
+   { position: 183040, words: "I think our eyes are gonna cry" },
+   { position: 186390, words: "I think our hearts are gonna break" },
+   { position: 189530, words: "Maybe we'll never lighten up" },
+   { position: 192780, words: "Maybe this isn't gonna quit" },
+   { position: 196110, words: "I think it's never coming back" },
+   { position: 199460, words: "Maybe we've always been like this" },
+   { position: 203150, words: "I think our feet are gonna slip" },
+   { position: 206060, words: "I think our hands are gonna shake" },
+   { position: 209320, words: "I think our eyes are gonna cry" },
+   { position: 212650, words: "I think our hearts are gonna break" },
+   { position: 216030, words: "So turn on the laugh track" },
+   { position: 219520, words: "Everyone knows you're a wreck" },
+   { position: 222640, words: "You're never this quiet, your smile is cracking" },
+   { position: 226000, words: "You just haven't found what you're looking for yet" },
+   { position: 229400, words: "Turn on the laugh track" },
+   { position: 232510, words: "We'll see if it changes the scene" },
+   { position: 234770, words: "" }
+]
+---
+
+TODO

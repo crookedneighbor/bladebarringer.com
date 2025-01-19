@@ -1,0 +1,20 @@
+---
+id: big-lizard-energy
+spotifyID: 6VluWX7HW7IswLgiHrVvn7
+permalink: /playlists/2023/big-lizard-energy
+number: 5
+name: Big Lizard Energy
+artist: Ellie Dixon
+img: /playlist-art/2023/big-lizard-energy.jpg
+duration: 157105
+explicit: false
+yearReleased: 2023
+popularity: 32
+previousLink: /playlists/2023/home
+nextLink: /playlists/2023/i-wish-it-was-me
+lines: [
+  
+]
+---
+
+TODO

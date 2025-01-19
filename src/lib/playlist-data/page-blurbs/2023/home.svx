@@ -1,0 +1,53 @@
+---
+id: home
+spotifyID: 6oEFRBgGkATGn8ZpQ0TTdl
+permalink: /playlists/2023/home
+number: 4
+name: Home
+artist: Caribou
+img: /playlist-art/2023/home.jpg
+duration: 156293
+explicit: false
+yearReleased: 2020
+popularity: 44
+previousLink: /playlists/2023/familiar-face
+nextLink: /playlists/2023/big-lizard-energy
+buyLink: https://caribouband.bandcamp.com/album/home
+lines: [
+   { position: 2530, words: "Home, home" },
+   { position: 7520, words: "Home, home" },
+   { position: 12480, words: "She's just what she pleases" },
+   { position: 17280, words: "'Cause she's happy on her own" },
+   { position: 22200, words: "And she picks up all the pieces" },
+   { position: 25100, words: "She's going home" },
+   { position: 27560, words: "(Baby, I'm home, I'm home, I'm home)" },
+   { position: 29830, words: "Yeah, she's going home" },
+   { position: 32560, words: "(Baby, I'm home, I'm home, I'm home)" },
+   { position: 37120, words: "Home, home" },
+   { position: 42250, words: "Home, home" },
+   { position: 46950, words: "Home, home" },
+   { position: 51980, words: "Baby, I'm home, I'm home, I'm home" },
+   { position: 56870, words: "Baby, I'm home, I'm home" },
+   { position: 59460, words: "She does sleep so easy (Home)" },
+   { position: 64270, words: "'Cause she hit it on her own (Home, ow, ow)" },
+   { position: 69160, words: "There's so much she can teach me (Home)" },
+   { position: 72120, words: "She's going home" },
+   { position: 74510, words: "(Baby, I'm home, I'm home, I'm home)" },
+   { position: 76850, words: "Yeah, she's going home" },
+   { position: 79540, words: "(Baby, I'm home, I'm home, I'm home)" },
+   { position: 82350, words: "♪" },
+   { position: 104780, words: "Yeah, she's better off than she has ever been" },
+   { position: 110350, words: "Now, she's made her peace with everything" },
+   { position: 116490, words: "Yeah, she's going home" },
+   { position: 118320, words: "(Baby, I'm home, I'm home, I'm home)" },
+   { position: 121380, words: "Yeah, she's going home" },
+   { position: 124030, words: "(Baby, I'm home, I'm home, I'm home)" },
+   { position: 126380, words: "Yeah, she's going home" },
+   { position: 129050, words: "(Baby, I'm home, I'm home, I'm home)" },
+   { position: 131630, words: "She's coming home" },
+   { position: 133070, words: "(Baby, I'm home, I'm home, I'm home)" },
+   { position: 156270, words: "" }
+]
+---
+
+TODO

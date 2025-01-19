@@ -1,0 +1,54 @@
+---
+id: eye-on-the-bat
+spotifyID: 7HRBGUCJQSjsPoYeB96OlM
+permalink: /playlists/2023/eye-on-the-bat
+number: 16
+name: Eye On The Bat
+artist: Palehound
+img: /playlist-art/2023/eye-on-the-bat.jpg
+duration: 176869
+explicit: false
+yearReleased: 2023
+popularity: 44
+previousLink: /playlists/2023/nothing-to-lose
+nextLink: /playlists/2023/expert-in-a-dying-field
+buyLink: https://polyvinylrecords.bandcamp.com/track/palehound-eye-on-the-bat
+lines: [
+   { position: 24530, words: "What causes you to tremble?" },
+   { position: 30200, words: "No chill could shake your will of bone" },
+   { position: 35680, words: "Broken wing ails a standing bird" },
+   { position: 38170, words: "She sings a gravelly call, but" },
+   { position: 41150, words: "Flightlessness is nothing new for an ostrich after all" },
+   { position: 46340, words: "♪" },
+   { position: 48990, words: "♪" },
+   { position: 57810, words: "Wind turbines and overpasses 13 hours on our asses" },
+   { position: 63130, words: "Now the tank is good on gas, so we pull off a random exit" },
+   { position: 68640, words: "And make sandwiches out of the trunk" },
+   { position: 71170, words: "They're cold and dry, but so's our luck" },
+   { position: 73990, words: "We piss behind the van, compare the puddles in the dust" },
+   { position: 79280, words: "'Cause suckers will all tell you to keep watching for the ball" },
+   { position: 85310, words: "But we know better than that" },
+   { position: 88590, words: "Keep your eye on the bat" },
+   { position: 91360, words: "Keep your eye on the bat" },
+   { position: 95430, words: "♪" },
+   { position: 104550, words: "What brought you to that shaking fist?" },
+   { position: 110390, words: "No chill could rock my will of bliss" },
+   { position: 115690, words: "Black Sabbath as the sun goes down" },
+   { position: 117940, words: "'Cause I like heavy metal now" },
+   { position: 121010, words: "We're the only people for miles around" },
+   { position: 123560, words: "And we're head-banging to Paranoid" },
+   { position: 126190, words: "'Cause suckers will all tell you to keep watching for the ball" },
+   { position: 131480, words: "But we know better than that" },
+   { position: 135400, words: "Keep your eye on the bat" },
+   { position: 138240, words: "Keep your eye on the bat" },
+   { position: 142300, words: "Keep your eye on the bat" },
+   { position: 145110, words: "Keep your eye on the bat" },
+   { position: 146390, words: "Ooh, ooh, ooh, ooh, ooh, ooh" },
+   { position: 152210, words: "Ooh, ooh, ooh, ooh, ooh, ooh" },
+   { position: 157430, words: "Ooh, ooh, ooh, ooh, ooh, ooh" },
+   { position: 163000, words: "Ooh, ooh, ooh, ooh, ooh, ooh" },
+   { position: 164520, words: "" }
+]
+---
+
+TODO

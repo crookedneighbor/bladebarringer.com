@@ -1,0 +1,74 @@
+---
+id: like-sugar
+spotifyID: 0lWEatZXBBYUzEQX5aMeSj
+permalink: /playlists/2023/like-sugar
+number: 19
+name: Like Sugar
+artist: Chaka Khan
+img: /playlist-art/2023/like-sugar.jpg
+duration: 239621
+explicit: false
+yearReleased: 2019
+popularity: 53
+previousLink: /playlists/2023/velodrome
+nextLink: /playlists/2023/this-is-my-fault
+buyLink: https://kataa.bandcamp.com/track/chaka-khan-like-sugar-kataa-edit
+lines: [
+   { position: 13830, words: "Funky" },
+   { position: 18180, words: "It's like su-" },
+   { position: 22350, words: "It's like su-" },
+   { position: 26330, words: "It's like sugar, so sweet" },
+   { position: 31270, words: "Good enough to eat" },
+   { position: 35870, words: "When I feel the funk, I give in" },
+   { position: 40150, words: "Get upon a-yo' feet" },
+   { position: 44560, words: "(Yeah)" },
+   { position: 48860, words: "(Ah)" },
+   { position: 54250, words: "Why with the state that I'm in" },
+   { position: 56360, words: "Everybody here is dancing" },
+   { position: 58620, words: "All I wanna do is get ya" },
+   { position: 60190, words: "Body next to mine, yeah" },
+   { position: 63330, words: "Baby won't you stand up to me" },
+   { position: 65250, words: "Come around and make a move" },
+   { position: 67640, words: "Maybe teach ya something like this" },
+   { position: 69290, words: "Funky, funky groove" },
+   { position: 71230, words: "It's like sugar, so sweet" },
+   { position: 75820, words: "Good enough to eat" },
+   { position: 80140, words: "When I feel the funk, I give in" },
+   { position: 84800, words: "Get upon a-yo' feet" },
+   { position: 89180, words: "It's like su- (yeah)" },
+   { position: 93470, words: "It's like su- (yeah) (I like it)" },
+   { position: 97920, words: "Like sugar (like sugar), it's like sugar (like sugar)" },
+   { position: 100030, words: "It's like sugar (like sugar), it's like sugar (like sugar)" },
+   { position: 102420, words: "It's like sugar (like sugar), it's like sugar (like sugar)" },
+   { position: 104710, words: "It's like sugar (like sugar), it's like sugar (like sugar)" },
+   { position: 106990, words: "It's like sugar (yeah), it's like sugar (like sugar)" },
+   { position: 109810, words: "It's like sugar (like sugar), it's like sugar (like sugar)" },
+   { position: 111530, words: "It's like sugar (like sugar), it's like sugar" },
+   { position: 113570, words: "It's like sugar (like sugar), it's like (ooh)" },
+   { position: 117050, words: "It's like su-" },
+   { position: 119320, words: "(Yeah)" },
+   { position: 122620, words: "(Yeah)" },
+   { position: 124880, words: "It's like sugar, so sweet" },
+   { position: 129790, words: "Good enough to eat" },
+   { position: 133800, words: "When I feel the funk, I give in" },
+   { position: 138630, words: "Get upon a-yo' feet" },
+   { position: 143650, words: "♪" },
+   { position: 178960, words: "It's like sugar, so sweet" },
+   { position: 183260, words: "Good enough to eat" },
+   { position: 187590, words: "When I feel the funk, I give in" },
+   { position: 192220, words: "Get upon a-yo' feet" },
+   { position: 197120, words: "" },
+   { position: 199380, words: "Why with the state that I'm in" },
+   { position: 202380, words: "Everybody here is dancing" },
+   { position: 204060, words: "All I wanna do is get ya" },
+   { position: 205730, words: "Body next to mine" },
+   { position: 208730, words: "Baby won't you stand up to me" },
+   { position: 210640, words: "Come around and make a move" },
+   { position: 213070, words: "Maybe teach ya something like this" },
+   { position: 214650, words: "Funky, funky groove" },
+   { position: 217590, words: "(Yeah)" },
+   { position: 220600, words: "" }
+]
+---
+
+TODO

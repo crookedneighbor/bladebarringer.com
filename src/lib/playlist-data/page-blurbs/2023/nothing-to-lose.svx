@@ -1,0 +1,21 @@
+---
+id: nothing-to-lose
+spotifyID: 7rKGJDHLRVko2ElROrf8FJ
+permalink: /playlists/2023/nothing-to-lose
+number: 15
+name: Nothing to Lose
+artist: The Floozies | Gibbz | Eric Benny Bloom
+img: /playlist-art/2023/nothing-to-lose.jpg
+duration: 240000
+explicit: false
+yearReleased: 2017
+popularity: 40
+previousLink: /playlists/2023/heavy-heart
+nextLink: /playlists/2023/eye-on-the-bat
+buyLink: https://flooziesduo.bandcamp.com/track/nothing-to-lose-feat-gibbz-eric-benny-bloom
+lines: [
+  
+]
+---
+
+TODO

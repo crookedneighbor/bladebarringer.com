@@ -1,0 +1,20 @@
+---
+id: one-in-a-million-feat-jordan-klassen
+spotifyID: 4NAXqrpVWZsB8e47JcsPQV
+permalink: /playlists/2023/one-in-a-million-feat-jordan-klassen
+number: 22
+name: One In A Million (feat. Jordan Klassen)
+artist: David Vertesi | Jordan Klassen
+img: /playlist-art/2023/one-in-a-million-feat-jordan-klassen.jpg
+duration: 270667
+explicit: false
+yearReleased: 2023
+popularity: 6
+previousLink: /playlists/2023/bbq-artist
+nextLink: /playlists/2023/sweet-tooth
+lines: [
+  
+]
+---
+
+TODO

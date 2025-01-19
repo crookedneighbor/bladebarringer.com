@@ -1,0 +1,37 @@
+---
+id: beech
+spotifyID: 3e1HJAcItjMmcDCy2ZSmwL
+permalink: /playlists/2023/beech
+number: 9
+name: Beech
+artist: Cosmo Sheldrake | Robert Macfarlane
+img: /playlist-art/2023/beech.jpg
+duration: 104000
+explicit: false
+yearReleased: 2020
+popularity: 30
+previousLink: /playlists/2023/everywhere-i-go-i-bring-the-rain
+nextLink: /playlists/2023/none-of-my-friends
+lines: [
+   { position: 2880, words: "Beech gives wind speech (beech gives)" },
+   { position: 6530, words: "Beech gives wind speech (wind speech)" },
+   { position: 10260, words: "Beech gives wind speech (beech gives)" },
+   { position: 13700, words: "Beech gives wind speech (wind speech)" },
+   { position: 17570, words: "Beech gives wind speech (beech gives)" },
+   { position: 21280, words: "Beech gives wind speech (wind speech, gives wind speech)" },
+   { position: 24910, words: "Beech gives wind speech (beech gives, wind speech)" },
+   { position: 28870, words: "Beech gives wind speech (wind speech)" },
+   { position: 31810, words: "Each branch reaches to other branches" },
+   { position: 40060, words: "As the gale rises" },
+   { position: 46850, words: "Each leaf dances with other leaves" },
+   { position: 54860, words: "As the storm crashes" },
+   { position: 62070, words: "Can you hear that inland sea, its slow explosion?" },
+   { position: 73970, words: "Its slow explosion" },
+   { position: 79040, words: "Its slow explosion" },
+   { position: 85670, words: "High in the hill-woods" },
+   { position: 88680, words: "Huge surf breaks far from any ocean" },
+   { position: 92300, words: "" }
+]
+---
+
+TODO

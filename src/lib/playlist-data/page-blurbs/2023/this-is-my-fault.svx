@@ -1,0 +1,52 @@
+---
+id: this-is-my-fault
+spotifyID: 2WeZ9LufhpX4c7MTB6fQeZ
+permalink: /playlists/2023/this-is-my-fault
+number: 20
+name: This Is My Fault
+artist: Green Gardens
+img: /playlist-art/2023/this-is-my-fault.jpg
+duration: 230826
+explicit: false
+yearReleased: 2023
+popularity: 5
+previousLink: /playlists/2023/like-sugar
+nextLink: /playlists/2023/bbq-artist
+buyLink: https://greengardensmusic.bandcamp.com/track/this-is-my-fault
+lines: [
+   { position: 840, words: "This is my fault" },
+   { position: 6380, words: "A rancid wind by your sweet lips" },
+   { position: 14160, words: "Is shaking" },
+   { position: 18860, words: "My family tree and ridding me" },
+   { position: 24840, words: "Of these rotten fruit" },
+   { position: 27760, words: "That I love so completely" },
+   { position: 49140, words: "Their evil is not their own" },
+   { position: 58800, words: "It is a ripe mould I have tenderly grown" },
+   { position: 64060, words: "And placed gently in their sweet and pliable teeth" },
+   { position: 75580, words: "I am just a coward in your long embrace" },
+   { position: 81810, words: "I will filter every inch of soil through my face" },
+   { position: 87780, words: "Kissing every rock and every worm to see" },
+   { position: 93050, words: "You lay my children's ugliness at my feet" },
+   { position: 114910, words: "For they are pure!" },
+   { position: 119540, words: "And I am wretched" },
+   { position: 122410, words: "And all my gardens" },
+   { position: 132370, words: "I am death" },
+   { position: 137400, words: "I am infected" },
+   { position: 145890, words: "Oh Death, Death, Death" },
+   { position: 160990, words: "I am just a coward in your long embrace" },
+   { position: 166920, words: "I will filter every inch of soil through my face" },
+   { position: 172740, words: "Kissing every rock and every worm to see" },
+   { position: 178280, words: "You lay my children's ugliness at my feet" },
+   { position: 184760, words: "I am just a coward in your long embrace" },
+   { position: 190250, words: "I will filter every inch of soil through my face" },
+   { position: 196000, words: "Kissing every rock and every worm to see" },
+   { position: 202290, words: "You lay my children's ugliness at my feet" },
+   { position: 216920, words: "Oh Death, Death, Death" },
+   { position: 219580, words: "Oh Death, Death, Death" },
+   { position: 222150, words: "Oh Death, Death, Death" },
+   { position: 225330, words: "Oh Death, Death, Death" },
+   { position: 228420, words: "" }
+]
+---
+
+TODO

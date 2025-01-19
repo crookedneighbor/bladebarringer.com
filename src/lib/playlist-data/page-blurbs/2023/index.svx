@@ -1,0 +1,11 @@
+---
+id: 4lORJnfv5XwcOlVSnWj8N4
+slug: 2023
+name: 2023 - Don’t Mind Me
+description: 
+image: https://mosaic.scdn.co/640/ab67616d00001e0227e49a37460c4445053eeb4fab67616d00001e026750cd6f82b980a630d3c58aab67616d00001e02ae2503181c57c964f4f03e6aab67616d00001e02ec25f9f91c263839abfb1435
+tracks: summer-of-luv-feat-unknown-mortal-orchestra|hatchet|familiar-face|home|big-lizard-energy|i-wish-it-was-me|laugh-track-feat-phoebe-bridgers|everywhere-i-go-i-bring-the-rain|beech|none-of-my-friends|zoo-home-recording|going-to-dallas|drop-stop-roll|heavy-heart|nothing-to-lose|eye-on-the-bat|expert-in-a-dying-field|velodrome|like-sugar|this-is-my-fault|bbq-artist|one-in-a-million-feat-jordan-klassen|sweet-tooth|selfhelp|run-the-credits
+permalink: /playlists/2023
+---
+
+TODO

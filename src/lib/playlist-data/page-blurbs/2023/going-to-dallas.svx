@@ -1,0 +1,54 @@
+---
+id: going-to-dallas
+spotifyID: 534anNfkvGBDUPhc6goVxY
+permalink: /playlists/2023/going-to-dallas
+number: 12
+name: Going to Dallas
+artist: The Mountain Goats
+img: /playlist-art/2023/going-to-dallas.jpg
+duration: 122080
+explicit: false
+yearReleased: 2023
+popularity: 25
+previousLink: /playlists/2023/zoo-home-recording
+nextLink: /playlists/2023/drop-stop-roll
+buyLink: https://themountaingoats.bandcamp.com/track/going-to-dallas
+lines: [
+   { position: 210, words: "Nobody's ever gonna pour plaster in my tracks" },
+   { position: 6470, words: "My exit will be clean when I vanish from the scene" },
+   { position: 11820, words: "You won't find any thumbprints to dust your powder into" },
+   { position: 17290, words: "Just mute donkeys, still as statues" },
+   { position: 20730, words: "In each saloon I've been through" },
+   { position: 22820, words: "Going to Dallas (ah-ah)" },
+   { position: 25470, words: "As far as anybody knows" },
+   { position: 28190, words: "Maybe Montana (ah-ah)" },
+   { position: 31500, words: "Depending on the way the wind blows" },
+   { position: 37510, words: "No blinking red light on the line tonight" },
+   { position: 41420, words: "Or any night out in the future" },
+   { position: 43820, words: "Kiss the people you hold dear" },
+   { position: 46900, words: "Forget that I was ever here" },
+   { position: 48690, words: "If word should reach you from the field (ah-ah)" },
+   { position: 50860, words: "Be cool, try not to talk out of school (ooh-ooh)" },
+   { position: 55060, words: "Make them beat it out of you if they want it" },
+   { position: 58740, words: "Live like a pack mule" },
+   { position: 60310, words: "Going to Dallas (ah-ah)" },
+   { position: 62870, words: "As far as anyone's concerned" },
+   { position: 65720, words: "Maybe Montana (ah-ah)" },
+   { position: 69020, words: "Depending on the way the roads turn" },
+   { position: 72240, words: "And if they steer me wrong" },
+   { position: 74940, words: "I'm just gonna play along" },
+   { position: 77710, words: "Remember this when the time comes" },
+   { position: 80450, words: "Try to let it soften the blow" },
+   { position: 82380, words: "Let me go to no" },
+   { position: 85930, words: "Haven anyone would yearn for" },
+   { position: 88760, words: "Burn a hole in something for me" },
+   { position: 91450, words: "Turn around and let me go free" },
+   { position: 93490, words: "Going to Dallas (ah-ah)" },
+   { position: 96820, words: "In the morning when the wind is fair" },
+   { position: 98960, words: "Maybe Montana (ah-ah)" },
+   { position: 102170, words: "If I've got enough gas to get there" },
+   { position: 105250, words: "" }
+]
+---
+
+TODO

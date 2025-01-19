@@ -1,0 +1,64 @@
+---
+id: familiar-face
+spotifyID: 1tgv5EAivEwdfJiHvC6ZhZ
+permalink: /playlists/2023/familiar-face
+number: 3
+name: Familiar Face
+artist: Lutalo
+img: /playlist-art/2023/familiar-face.jpg
+duration: 150531
+explicit: false
+yearReleased: 2023
+popularity: 12
+previousLink: /playlists/2023/hatchet
+nextLink: /playlists/2023/home
+buyLink: https://lutalo.bandcamp.com/track/familiar-face
+lines: [
+   { position: 10380, words: "Walked into a portal made of sound" },
+   { position: 15380, words: "Felt the shifting of the broken ground" },
+   { position: 20670, words: "Let the ringing build and then surround" },
+   { position: 24670, words: "And spit me out" },
+   { position: 31460, words: "I slipped" },
+   { position: 33020, words: "And washed away" },
+   { position: 35120, words: "Into darkness" },
+   { position: 36750, words: "A white light" },
+   { position: 38340, words: "Familiar face" },
+   { position: 40190, words: "Stumbles down" },
+   { position: 42050, words: "An ally way" },
+   { position: 43590, words: "I called out" },
+   { position: 44830, words: "Guess their wrong name" },
+   { position: 47090, words: "They didn't recognize my face" },
+   { position: 50130, words: "Check my wrist" },
+   { position: 52080, words: "Wrong date" },
+   { position: 53850, words: "The moon says" },
+   { position: 55730, words: "You're not from here" },
+   { position: 57270, words: "This a different phase" },
+   { position: 58870, words: "This a different place" },
+   { position: 60660, words: "In a different place now" },
+   { position: 72270, words: "The path to home is crooked and too far left" },
+   { position: 77460, words: "Its shape remains the same as all the rest" },
+   { position: 82450, words: "Though crows now hover laughing at their will" },
+   { position: 87770, words: "Gently pulls me through a gate a pair of gills" },
+   { position: 93520, words: "I slipped" },
+   { position: 95190, words: "And washed away" },
+   { position: 96940, words: "Into darkness" },
+   { position: 98560, words: "A white light" },
+   { position: 100140, words: "Familiar face" },
+   { position: 102280, words: "Rushes down" },
+   { position: 103540, words: "An open bay" },
+   { position: 105330, words: "I called out" },
+   { position: 106950, words: "Guess their wrong name" },
+   { position: 109000, words: "They didn't recognize" },
+   { position: 110990, words: "My face" },
+   { position: 112270, words: "Check my wrist" },
+   { position: 114320, words: "Wrong date" },
+   { position: 116130, words: "The moon says" },
+   { position: 117220, words: "You're not from here" },
+   { position: 119010, words: "This a different phase" },
+   { position: 120690, words: "This a different place" },
+   { position: 122720, words: "In a different place now" },
+   { position: 127230, words: "" }
+]
+---
+
+TODO

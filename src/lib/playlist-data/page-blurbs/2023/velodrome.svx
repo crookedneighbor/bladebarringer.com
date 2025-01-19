@@ -1,0 +1,87 @@
+---
+id: velodrome
+spotifyID: 2uS4Q7JljZQsCCCT2vgaqL
+permalink: /playlists/2023/velodrome
+number: 18
+name: Velodrome
+artist: Dessa
+img: /playlist-art/2023/velodrome.jpg
+duration: 188266
+explicit: false
+yearReleased: 2018
+popularity: 21
+previousLink: /playlists/2023/expert-in-a-dying-field
+nextLink: /playlists/2023/like-sugar
+buyLink: https://dessa.bandcamp.com/track/velodrome
+lines: [
+   { position: 38800, words: "I don't believe" },
+   { position: 39550, words: "My will's quite free" },
+   { position: 40240, words: "I'm half machine" },
+   { position: 41950, words: "At least half steam" },
+   { position: 43270, words: "Aquinas, call on me" },
+   { position: 44870, words: "How many angels on the" },
+   { position: 46340, words: "Head of your pin?" },
+   { position: 47470, words: "Anybody in stilettos can" },
+   { position: 48570, words: "Answer that old thing" },
+   { position: 49680, words: "It's one for the right foot, one for the left" },
+   { position: 52030, words: "Half an angel per pin at best" },
+   { position: 54630, words: "Add wings, add heart" },
+   { position: 55680, words: "Add harp, all set" },
+   { position: 57260, words: "We lean to turn in the velodrome" },
+   { position: 59620, words: "All lines are curved in the velodrome" },
+   { position: 61870, words: "We pitch and roll, wheels" },
+   { position: 63320, words: "Flesh and bone" },
+   { position: 64360, words: "Total control and it's" },
+   { position: 64900, words: "It's ours alone" },
+   { position: 66580, words: "We lean to turn in the velodrome" },
+   { position: 68630, words: "All lines are curved in the velodrome" },
+   { position: 71260, words: "We pitch and roll, wheels" },
+   { position: 72960, words: "Flesh and bone" },
+   { position: 73510, words: "Total control and it's" },
+   { position: 74690, words: "It's ours alone" },
+   { position: 77430, words: "♪" },
+   { position: 94030, words: "It goes gospel, gossip, slander" },
+   { position: 96920, words: "Harvest, hunger, rain dance" },
+   { position: 99070, words: "Hand-to-god, I didn't think" },
+   { position: 100520, words: "It was contagious" },
+   { position: 101630, words: "Eve leaving Eden in a makeshift dress" },
+   { position: 103740, words: "With a bell to tell us when we're hungry" },
+   { position: 105530, words: "There's a bell to tell us when we're tired" },
+   { position: 108490, words: "A bell that tells us to rise and fight" },
+   { position: 110790, words: "A bell to rise and die" },
+   { position: 112790, words: "It's just all bells" },
+   { position: 114060, words: "Sometimes I ring myself" },
+   { position: 116260, words: "To see if I might chime" },
+   { position: 120440, words: "♪" },
+   { position: 123430, words: "We lean to turn in the velodrome" },
+   { position: 125340, words: "All lines are curved in the velodrome" },
+   { position: 127740, words: "We pitch and roll, wheels" },
+   { position: 129120, words: "Flesh and bone" },
+   { position: 129970, words: "Total control and it's" },
+   { position: 130990, words: "It's ours alone" },
+   { position: 132700, words: "We lean to turn in the velodrome" },
+   { position: 134640, words: "All lines are curved in the velodrome" },
+   { position: 137000, words: "We pitch and roll, wheels" },
+   { position: 138370, words: "Flesh and bone" },
+   { position: 139360, words: "Total control and it's" },
+   { position: 140680, words: "It's ours alone" },
+   { position: 142170, words: "We lean to turn in the velodrome" },
+   { position: 144240, words: "All lines are curved in the velodrome" },
+   { position: 146700, words: "We lean to turn in the velodrome" },
+   { position: 148940, words: "In the velodrome, velodrome, velodrome" },
+   { position: 151500, words: "We lean to turn in the velodrome" },
+   { position: 153320, words: "All lines are curved in the velodrome" },
+   { position: 156030, words: "We lean to turn in the velodrome" },
+   { position: 158040, words: "In the velodrome, velodrome, velodrome" },
+   { position: 160440, words: "We spend our days and nights deciding" },
+   { position: 163410, words: "Where to go and how to ride there" },
+   { position: 166560, words: "And in the end again" },
+   { position: 167980, words: "We all vote yes" },
+   { position: 168760, words: "We all turn left" },
+   { position: 172190, words: "We lean to turn in the velodrome" },
+   { position: 177170, words: "We lean to turn in the velodrome" },
+   { position: 179500, words: "" }
+]
+---
+
+TODO

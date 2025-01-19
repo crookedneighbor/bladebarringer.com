@@ -1,0 +1,64 @@
+---
+id: selfhelp
+spotifyID: 4wcqn8fKE86URI2zFLEbj1
+permalink: /playlists/2023/selfhelp
+number: 24
+name: Self-Help
+artist: Wasuremono
+img: /playlist-art/2023/selfhelp.jpg
+duration: 190210
+explicit: false
+yearReleased: 2019
+popularity: 16
+previousLink: /playlists/2023/sweet-tooth
+nextLink: /playlists/2023/run-the-credits
+buyLink: https://wasuremono.bandcamp.com/track/self-help-3
+lines: [
+   { position: 0, words: "No matter what you say" },
+   { position: 0, words: "Your mind gets mixed up" },
+   { position: 0, words: "No matter what you do" },
+   { position: 0, words: "We'll try to fix ya" },
+   { position: 0, words: "Well yeah are you ok?" },
+   { position: 0, words: "What's in the picture?" },
+   { position: 0, words: "Tell me, are you ok?" },
+   { position: 0, words: "I'm gonna miss ya" },
+   { position: 0, words: "We will find you" },
+   { position: 0, words: "We will, we will work it out" },
+   { position: 0, words: "Yeah we will find you" },
+   { position: 0, words: "We will, we will work it out" },
+   { position: 0, words: "Come on, come on, let's play" },
+   { position: 0, words: "I wanna teach ya" },
+   { position: 0, words: "A million miles away" },
+   { position: 0, words: "I'll come to meet ya" },
+   { position: 0, words: "Tell me are you ok?" },
+   { position: 0, words: "I wanna reach out" },
+   { position: 0, words: "(Yeah!)" },
+   { position: 0, words: "But what I really wanna say is" },
+   { position: 0, words: "I wanna help ya" },
+   { position: 0, words: "We will find you" },
+   { position: 0, words: "We will, we will work it out" },
+   { position: 0, words: "Yeah we will find you" },
+   { position: 0, words: "We will, we will work it out" },
+   { position: 0, words: "Calling you from the other side" },
+   { position: 0, words: "Don't feel sad 'cos you're on your own" },
+   { position: 0, words: "All I really wanna say is" },
+   { position: 0, words: "I wanna help ya" },
+   { position: 0, words: "Calling you from the other side" },
+   { position: 0, words: "Don't feel down 'cos you're not alone" },
+   { position: 0, words: "All I really wanna say is" },
+   { position: 0, words: "I wanna help ya" },
+   { position: 0, words: "What I really wanna say is" },
+   { position: 0, words: "What I really wanna say is" },
+   { position: 0, words: "I wanna help ya" },
+   { position: 0, words: "We will find you" },
+   { position: 0, words: "We will, we will work it out" },
+   { position: 0, words: "Yeah, we will find you" },
+   { position: 0, words: "We will, we will work it out" },
+   { position: 0, words: "Yeah we will find you" },
+   { position: 0, words: "We will, we will work it out" },
+   { position: 0, words: "Yeah we will find you" },
+   { position: 0, words: "We will, we will work it out" }
+]
+---
+
+TODO

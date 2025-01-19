@@ -1,0 +1,21 @@
+---
+id: bbq-artist
+spotifyID: 1KwNQzk4aolWwsY7EY6fnt
+permalink: /playlists/2023/bbq-artist
+number: 21
+name: BBQ Artist
+artist: Fishboy
+img: /playlist-art/2023/bbq-artist.jpg
+duration: 217226
+explicit: false
+yearReleased: 2021
+popularity: 5
+previousLink: /playlists/2023/this-is-my-fault
+nextLink: /playlists/2023/one-in-a-million-feat-jordan-klassen
+buyLink: https://yofishboy.bandcamp.com/track/bbq-artist
+lines: [
+  
+]
+---
+
+TODO

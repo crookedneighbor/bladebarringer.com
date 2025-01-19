@@ -1,0 +1,46 @@
+---
+id: none-of-my-friends
+spotifyID: 264ZgOWCpMK0wUg5QmoysG
+permalink: /playlists/2023/none-of-my-friends
+number: 10
+name: None Of My Friends
+artist: Liz Lawrence
+img: /playlist-art/2023/none-of-my-friends.jpg
+duration: 166050
+explicit: false
+yearReleased: 2019
+popularity: 31
+previousLink: /playlists/2023/beech
+nextLink: /playlists/2023/zoo-home-recording
+buyLink: https://lizlawrence.bandcamp.com/track/none-of-my-friends
+lines: [
+   { position: 6820, words: "I talk to you twice a year" },
+   { position: 13810, words: "On your birthdays and Christmases" },
+   { position: 19350, words: "And we connect over late stage capitalist memes" },
+   { position: 29140, words: "None of my friends are okay" },
+   { position: 35380, words: "None of my friends are okay" },
+   { position: 41750, words: "I call you up just to cancel our plans" },
+   { position: 47990, words: "You're not put out you were hoping to cancel too" },
+   { position: 57220, words: "None of my friends are okay" },
+   { position: 63580, words: "None of my friends are okay" },
+   { position: 69530, words: "Now I'm watching you fade" },
+   { position: 73480, words: "You're watching me fade" },
+   { position: 76550, words: "I'm watching you fade" },
+   { position: 82730, words: "We've passed the point of no return" },
+   { position: 89070, words: "Too late to save the environment" },
+   { position: 95570, words: "Quit single use plastic" },
+   { position: 98050, words: "My low key cocaine habit" },
+   { position: 101560, words: "None of my friends are okay" },
+   { position: 107960, words: "None of my friends are okay" },
+   { position: 114050, words: "Now I'm watching you fade" },
+   { position: 117660, words: "You're watching me fade" },
+   { position: 120520, words: "I'm watching you fade" },
+   { position: 133090, words: "None of my friends are okay" },
+   { position: 139330, words: "None of my friends are okay" },
+   { position: 145160, words: "None of my friends are okay" },
+   { position: 152040, words: "None of my friends are okay" },
+   { position: 166780, words: "" }
+]
+---
+
+TODO

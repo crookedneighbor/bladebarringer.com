@@ -1,0 +1,59 @@
+---
+id: summer-of-luv-feat-unknown-mortal-orchestra
+spotifyID: 2PKbC4uFUY1tcBABpGZ8GQ
+permalink: /playlists/2023/summer-of-luv-feat-unknown-mortal-orchestra
+number: 1
+name: Summer of Luv (feat. Unknown Mortal Orchestra)
+artist: Portugal. The Man | Unknown Mortal Orchestra
+img: /playlist-art/2023/summer-of-luv-feat-unknown-mortal-orchestra.jpg
+duration: 159241
+explicit: false
+yearReleased: 2023
+popularity: 49
+previousLink: 
+nextLink: /playlists/2023/hatchet
+lines: [
+   { position: 7270, words: "Kids at the Mercado on the East end" },
+   { position: 13590, words: "Dusting off the subs to acid house" },
+   { position: 17870, words: "" },
+   { position: 19980, words: "Don't know why and I don't need a reason" },
+   { position: 25420, words: "If I had it all, I'd still be laughing when it falls" },
+   { position: 30620, words: "Yeah, you already know" },
+   { position: 31780, words: "So high, feeling fine" },
+   { position: 34990, words: "Baby, close your eyes, see the world's alright" },
+   { position: 37710, words: "All I want to find" },
+   { position: 41200, words: "Is a little place for my girls, it's the summer of love" },
+   { position: 46560, words: "You already know" },
+   { position: 49530, words: "It's the summer of love" },
+   { position: 52960, words: "You already know" },
+   { position: 56520, words: "No one ever said it would be easy" },
+   { position: 63450, words: "If I had it all, I'd still be laughing when it falls" },
+   { position: 68460, words: "Yeah, you already know" },
+   { position: 69990, words: "Turn on, tune in, drop out" },
+   { position: 72770, words: "Just another brick in the wall of doubt" },
+   { position: 76370, words: "Don't know why the caged bird sings" },
+   { position: 78980, words: "But, baby, we can find out how" },
+   { position: 82160, words: "So high, feeling fine" },
+   { position: 85520, words: "Baby, close your eyes, see the world's alright" },
+   { position: 88310, words: "All I want to find" },
+   { position: 91850, words: "Is a little place for my girls, it's the summer of love" },
+   { position: 97140, words: "You already know" },
+   { position: 100080, words: "It's the summer of love" },
+   { position: 103450, words: "You already know" },
+   { position: 108290, words: "No one ever said it would be easy" },
+   { position: 114620, words: "No one ever said I'd be all alone" },
+   { position: 121080, words: "I just wanna live my life breezy" },
+   { position: 125130, words: "I guess that's just how it goes" },
+   { position: 128580, words: "Yeah, you already know" },
+   { position: 132650, words: "So high, feeling fine" },
+   { position: 136030, words: "Baby, close your eyes, see the world's alright" },
+   { position: 139180, words: "All I want to find" },
+   { position: 142370, words: "Is a little place for my girls, it's the summer of love" },
+   { position: 147650, words: "You already know" },
+   { position: 150660, words: "It's the summer of love" },
+   { position: 153960, words: "You already know" },
+   { position: 154500, words: "" }
+]
+---
+
+TODO

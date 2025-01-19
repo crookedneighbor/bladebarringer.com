@@ -1,0 +1,70 @@
+---
+id: heavy-heart
+spotifyID: 5eWmggao2s6P1vVDeheUIg
+permalink: /playlists/2023/heavy-heart
+number: 14
+name: Heavy Heart
+artist: Bartees Strange
+img: /playlist-art/2023/heavy-heart.jpg
+duration: 263946
+explicit: true
+yearReleased: 2022
+popularity: 26
+previousLink: /playlists/2023/drop-stop-roll
+nextLink: /playlists/2023/nothing-to-lose
+buyLink: https://barteesstrange.bandcamp.com/album/heavy-heart
+lines: [
+   { position: 15840, words: "There's reasons for heavy hearts" },
+   { position: 20600, words: "" },
+   { position: 23090, words: "This past year, I thought I was broken" },
+   { position: 29090, words: "You look so nice in a cherry scarf" },
+   { position: 35110, words: "" },
+   { position: 37350, words: "We should go to Toronto more often" },
+   { position: 42240, words: "I never wanna miss you this bad" },
+   { position: 45810, words: "I never meant to run out like that" },
+   { position: 49330, words: "Sometimes I feel just like my dad" },
+   { position: 53260, words: "Rushing around" },
+   { position: 56650, words: "I never saw the God in that" },
+   { position: 60150, words: "Why work so hard if you can't fall back?" },
+   { position: 63900, words: "Then I remember, I rely too much upon" },
+   { position: 70860, words: "My heavy heart" },
+   { position: 72300, words: "And that's a shame, pulling up like it's Biscayne" },
+   { position: 75490, words: "Head to Nassau on the train, that's on DC, fuck you meant?" },
+   { position: 78970, words: "Put the red dot on your team, yeah, I don't need no one but me, yeah" },
+   { position: 82580, words: "She said, \"My turn,\" and I geeked, she said, \"My turn,\" and I geeked" },
+   { position: 86170, words: "She a whole lot of bad news" },
+   { position: 87920, words: "Put the law on it, yeah, fool" },
+   { position: 89720, words: "I'm a rich nigga, rad dude" },
+   { position: 91570, words: "I can buy that, damn fool" },
+   { position: 93360, words: "When I think about your last weeks, yeah" },
+   { position: 95140, words: "How you bled out in them sheets, yeah" },
+   { position: 96960, words: "How the doc said you was clean" },
+   { position: 98710, words: "All the weight y'all put on me" },
+   { position: 99660, words: "I never wanna miss you like that" },
+   { position: 103180, words: "I really had to run out my bag" },
+   { position: 106760, words: "My hand on the small of your back" },
+   { position: 110550, words: "Touching around" },
+   { position: 114030, words: "I really saw the God in that" },
+   { position: 117740, words: "Watching how you braced for impact" },
+   { position: 121300, words: "Then I remember, I rely too much upon" },
+   { position: 128280, words: "My heavy heart" },
+   { position: 131390, words: "♪" },
+   { position: 155540, words: "There's reasons for heavy hearts (ooh)" },
+   { position: 160060, words: "♪" },
+   { position: 162790, words: "This past year, I thought I was broken" },
+   { position: 168730, words: "You look so nice in a cherry scarf" },
+   { position: 174630, words: "" },
+   { position: 177080, words: "We should go to Toronto more often, yeah" },
+   { position: 181910, words: "I never wanna miss you this bad" },
+   { position: 185560, words: "I never meant to run out like that" },
+   { position: 189050, words: "Some nights, I feel just like my dad" },
+   { position: 192960, words: "Rushing around" },
+   { position: 196220, words: "I never saw the God in that" },
+   { position: 199850, words: "Why work so hard if you can't fall back?" },
+   { position: 203730, words: "Then I remember, I rely too much upon" },
+   { position: 210620, words: "My heavy heart" },
+   { position: 211640, words: "" }
+]
+---
+
+TODO

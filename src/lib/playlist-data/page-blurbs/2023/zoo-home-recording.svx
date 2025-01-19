@@ -1,0 +1,56 @@
+---
+id: zoo-home-recording
+spotifyID: 46QGACGIdJ9XWcxkEvgBmi
+permalink: /playlists/2023/zoo-home-recording
+number: 11
+name: Zoo (home recording)
+artist: Connie Shi
+img: /playlist-art/2023/zoo-home-recording.jpg
+duration: 114755
+explicit: false
+yearReleased: 2020
+popularity: 4
+previousLink: /playlists/2023/none-of-my-friends
+nextLink: /playlists/2023/going-to-dallas
+buyLink: https://connieshi.bandcamp.com/track/zoo-home-recording
+lines: [
+   { position: 6120, words: "Every passing day I feel a little" },
+   { position: 8550, words: "Worse about zoos" },
+   { position: 12780, words: "I was good for a while" },
+   { position: 14550, words: "Filled my schedule with classes" },
+   { position: 16330, words: "Got dressed did my makeup even curled my eyelashes" },
+   { position: 19730, words: "But a slump is so close it might be here already" },
+   { position: 23180, words: "I watched 10 episodes of Community last night" },
+   { position: 26750, words: "And my screenwriting class is a great group of people" },
+   { position: 30150, words: "But I don't think I'm a writer" },
+   { position: 32170, words: "I'm more of a sleeper" },
+   { position: 33620, words: "In my dreams I can float" },
+   { position: 35120, words: "I don't feel any pressure" },
+   { position: 37210, words: "I am light as the weather" },
+   { position: 40740, words: "Is it morning already?" },
+   { position: 42960, words: "Where is the sun?" },
+   { position: 44220, words: "I lost my marbles somewhere in the bathroom" },
+   { position: 47620, words: "I can feel all my atoms are shaking with what can't be done" },
+   { position: 55030, words: "It's hard to feel lucky without feeling guilty" },
+   { position: 58510, words: "A soundtrack of sirens haunts and connects me" },
+   { position: 61970, words: "The future feels heavy" },
+   { position: 64520, words: "And I miss my mom" },
+   { position: 68630, words: "I've got no room to pace" },
+   { position: 70440, words: "So my mind is what's running" },
+   { position: 72180, words: "But it's more of a stumble" },
+   { position: 73950, words: "With no distance I'm covering" },
+   { position: 75690, words: "I know Now Is The Time To Create" },
+   { position: 78250, words: "But I'm hungry again" },
+   { position: 82590, words: "Is it morning already?" },
+   { position: 84770, words: "Where is the sun?" },
+   { position: 85980, words: "I lost my marbles somewhere in the bathroom" },
+   { position: 89280, words: "I can feel all my atoms are shaking with what can't be done" },
+   { position: 96100, words: "I know that something has ended" },
+   { position: 98530, words: "And something's begun" },
+   { position: 99870, words: "I just wish someone could give me more answers" },
+   { position: 103160, words: "Or tell me \"just close your eyes and then open when I get to one\"" },
+   { position: 108460, words: "" }
+]
+---
+
+TODO

@@ -1,0 +1,69 @@
+---
+id: sweet-tooth
+spotifyID: 3GF4L5PFsYGn880yaS169z
+permalink: /playlists/2023/sweet-tooth
+number: 23
+name: Sweet Tooth
+artist: Maya Hawke
+img: /playlist-art/2023/sweet-tooth.jpg
+duration: 221082
+explicit: false
+yearReleased: 2022
+popularity: 36
+previousLink: /playlists/2023/one-in-a-million-feat-jordan-klassen
+nextLink: /playlists/2023/selfhelp
+buyLink: https://mayahawke.bandcamp.com/track/sweet-tooth
+lines: [
+   { position: 11820, words: "Told my mother that I love her" },
+   { position: 14390, words: "And that I'd lie to the accountant, if she wants" },
+   { position: 20670, words: "I'll do whatever to protect her" },
+   { position: 23050, words: "I'll say anything just to make her stop" },
+   { position: 29440, words: "I saw a movie everybody hated" },
+   { position: 31910, words: "In an empty theater in Duluth" },
+   { position: 35650, words: "Swear I really loved it" },
+   { position: 37500, words: "Love is such a better thing to do" },
+   { position: 42180, words: "I'm grateful for everything you put me through" },
+   { position: 44960, words: "It's the only reason I'm any good to talk to" },
+   { position: 48380, words: "When I'm sick or suffering" },
+   { position: 49640, words: "I'll still call you about my big, sore sweet tooth" },
+   { position: 55830, words: "♪" },
+   { position: 66180, words: "Search frantic for the moonlight" },
+   { position: 68220, words: "I bat I get cold beneath the stars" },
+   { position: 74850, words: "And instead I found a soundbite" },
+   { position: 77260, words: "Of someone I love saying something mean and hard" },
+   { position: 83710, words: "Forgot I have a piece of plastic" },
+   { position: 86150, words: "In the place where my molar used to be" },
+   { position: 89350, words: "Sucking on a summer cherry" },
+   { position: 91830, words: "When you called, I bit hard into the seed" },
+   { position: 96380, words: "I'm grateful for everything you put me through" },
+   { position: 99140, words: "It's the only reason I'm any good to talk to" },
+   { position: 102590, words: "When I'm sick or suffering, I'll still call you" },
+   { position: 104820, words: "About my big, sore sweet tooth" },
+   { position: 110360, words: "♪" },
+   { position: 131840, words: "So my molar collapsed on me" },
+   { position: 133990, words: "Like a glacier melting in the heat" },
+   { position: 137850, words: "My mouth full up with lightning" },
+   { position: 140030, words: "I'm an outlet shock, a hole, a need" },
+   { position: 143930, words: "So everybody loves you" },
+   { position: 145980, words: "And every little bit helps" },
+   { position: 149650, words: "I broke my bone" },
+   { position: 151150, words: "It was the worst she ever felt" },
+   { position: 157980, words: "I'm grateful for everything you put me through" },
+   { position: 160620, words: "It's the only reason I'm any good to talk to" },
+   { position: 163910, words: "When I'm sick or suffering, I'll still call you" },
+   { position: 166510, words: "About my big, sore sweet tooth" },
+   { position: 169840, words: "Big, sore sweet tooth" },
+   { position: 172970, words: "(Big, sore sweet tooth)" },
+   { position: 175620, words: "(Big, sore sweet tooth)" },
+   { position: 178630, words: "(Big, sore sweet tooth)" },
+   { position: 181630, words: "(Big, sore sweet tooth)" },
+   { position: 184620, words: "(Big, sore sweet tooth)" },
+   { position: 187480, words: "(Big, sore sweet tooth)" },
+   { position: 190530, words: "(Big, sore sweet tooth)" },
+   { position: 193240, words: "(Big, sore sweet tooth)" },
+   { position: 196240, words: "Da, da, da, da" },
+   { position: 199890, words: "" }
+]
+---
+
+TODO

@@ -1,0 +1,49 @@
+---
+id: hatchet
+spotifyID: 3bG0SIzod87WbMzrD4oCWq
+permalink: /playlists/2023/hatchet
+number: 2
+name: Hatchet
+artist: Langkamer
+img: /playlist-art/2023/hatchet.jpg
+duration: 127413
+explicit: false
+yearReleased: 2023
+popularity: 2
+previousLink: /playlists/2023/summer-of-luv-feat-unknown-mortal-orchestra
+nextLink: /playlists/2023/familiar-face
+buyLink: https://langkamer.bandcamp.com/track/hatchet
+lines: [
+   { position: 0, words: "Looking at your old man hands," },
+   { position: 0, words: "Helping Sam out the car in the car park." },
+   { position: 0, words: "Swear that you were brand new just the other day," },
+   { position: 0, words: "Now your skin's like parchment" },
+   { position: 0, words: "Draped all baggy over your bones." },
+   { position: 0, words: "Varicose veins like Roman roads." },
+   { position: 0, words: "How you're getting home from here, nobody knows." },
+   { position: 0, words: "Well \"Don't mind me.\"" },
+   { position: 0, words: "Says the hatchet to the tree." },
+   { position: 0, words: "We're all lucky just to be for a little bit." },
+   { position: 0, words: "Edge across the asphalt inch by inch." },
+   { position: 0, words: "How'd you used to run so so fast" },
+   { position: 0, words: "Through fields of green?" },
+   { position: 0, words: "Gold medal. First place" },
+   { position: 0, words: "In the school cross-country race." },
+   { position: 0, words: "Now you're moving at a snail's pace." },
+   { position: 0, words: "Well \"Don't mind me.\"" },
+   { position: 0, words: "Says the hatchet to the tree." },
+   { position: 0, words: "We're all lucky just to be for a little bit." },
+   { position: 0, words: "Phil next door had a heart attack." },
+   { position: 0, words: "Cardiac arrest." },
+   { position: 0, words: "He can cut down on red meat" },
+   { position: 0, words: "But he can't cut down on stress." },
+   { position: 0, words: "Standing next to you he's still" },
+   { position: 0, words: "A young man more or less." },
+   { position: 0, words: "I took a total tally of the books that I had read" },
+   { position: 0, words: "In a year and timesed it by the years I thought I might have left" },
+   { position: 0, words: "Based on the life expectancy of males in my family." },
+   { position: 0, words: "I did not like the answer that I got." }
+]
+---
+
+TODO

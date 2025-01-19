@@ -1,0 +1,51 @@
+---
+id: run-the-credits
+spotifyID: 6EUTtLcAwmiHt73el9kfKP
+permalink: /playlists/2023/run-the-credits
+number: 25
+name: Run The Credits
+artist: Oliver Sim
+img: /playlist-art/2023/run-the-credits.jpg
+duration: 261120
+explicit: false
+yearReleased: 2022
+popularity: 24
+previousLink: /playlists/2023/selfhelp
+nextLink: 
+buyLink: https://oliversim.bandcamp.com/track/run-the-credits
+lines: [
+   { position: 13020, words: "If every story is told in three parts" },
+   { position: 21690, words: "I know the middle, and I can remember the start" },
+   { position: 28630, words: "I'm not scared by the man holding the knife" },
+   { position: 37430, words: "But nothing's more terrifying than that look in your eyes" },
+   { position: 46470, words: "Psycho killer in a romantic comedy" },
+   { position: 54790, words: "Closing scenes of a decade long trilogy" },
+   { position: 63100, words: "Run the credits, let them rain on me" },
+   { position: 70420, words: "Even Romeo dies in the final scene" },
+   { position: 78920, words: "Romeo dies, dies, he dies in the final scene" },
+   { position: 87420, words: "Romeo dies, dies, he dies in the final scene" },
+   { position: 97200, words: "Staring up at the silver screen" },
+   { position: 105090, words: "Sold me the lie of the teenage dream" },
+   { position: 113660, words: "Disney princes, my God, I hate them" },
+   { position: 121460, words: "I'm Buffalo Bill, I'm Patrick Bateman" },
+   { position: 129180, words: "♪" },
+   { position: 138140, words: "What's a flower, if not a sinister motive?" },
+   { position: 145810, words: "If that's what you wanted" },
+   { position: 149470, words: "I've got dozens of roses (dozens of roses)" },
+   { position: 155620, words: "Psycho killer in a romantic comedy" },
+   { position: 163920, words: "Closing scenes of a decade long trilogy" },
+   { position: 172340, words: "Run the credits, let them rain on me" },
+   { position: 179840, words: "Even Romeo dies in the final scene" },
+   { position: 188310, words: "Romeo dies, dies, he dies in the final scene" },
+   { position: 196750, words: "Romeo dies, dies, he dies in the final scene" },
+   { position: 205080, words: "Romeo dies, dies, he dies in the final scene" },
+   { position: 213330, words: "Romeo dies, dies, he dies in the final scene" },
+   { position: 222860, words: "Run the credits, let them rain on me" },
+   { position: 230350, words: "Even Romeo dies in the final scene" },
+   { position: 239790, words: "Run the credits, let them rain on me" },
+   { position: 246520, words: "Even Romeo" },
+   { position: 249960, words: "" }
+]
+---
+
+TODO

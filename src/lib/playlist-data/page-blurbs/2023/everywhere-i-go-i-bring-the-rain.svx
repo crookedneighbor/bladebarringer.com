@@ -1,0 +1,73 @@
+---
+id: everywhere-i-go-i-bring-the-rain
+spotifyID: 6ji5AQtHWnxX20wGfDMLXm
+permalink: /playlists/2023/everywhere-i-go-i-bring-the-rain
+number: 8
+name: Everywhere I Go I Bring the Rain
+artist: Caroline Rose
+img: /playlist-art/2023/everywhere-i-go-i-bring-the-rain.jpg
+duration: 304960
+explicit: true
+yearReleased: 2023
+popularity: 0
+previousLink: /playlists/2023/laugh-track-feat-phoebe-bridgers
+nextLink: /playlists/2023/beech
+buyLink: https://carolinerosemusic.bandcamp.com/track/everywhere-i-go-i-bring-the-rain
+lines: [
+   { position: 24470, words: "I just wanna be there" },
+   { position: 27040, words: "For someone completely" },
+   { position: 32970, words: "A foundation, four walls, and a ceiling" },
+   { position: 40270, words: "But better run for cover 'cause here I come" },
+   { position: 44480, words: "Can you feel me?" },
+   { position: 48530, words: "The air's getting heavy" },
+   { position: 50230, words: "They're clutching their rosary beads" },
+   { position: 54180, words: "'Cause everywhere I go, I bring the rain" },
+   { position: 70070, words: "Everywhere I go, I bring the rain" },
+   { position: 80770, words: "♪" },
+   { position: 86920, words: "I just wanna lay here" },
+   { position: 89670, words: "In this bed forever" },
+   { position: 95320, words: "Just me and my dreams" },
+   { position: 97360, words: "Alone in my head together" },
+   { position: 101000, words: "Where everything is comfort" },
+   { position: 104970, words: "And everything is warm" },
+   { position: 110730, words: "While the flies gather round my" },
+   { position: 113460, words: "French bedroom doors" },
+   { position: 117560, words: "♪" },
+   { position: 120660, words: "'Cause everywhere I go, I bring the rain" },
+   { position: 126290, words: "♪" },
+   { position: 136510, words: "Everywhere I go, I bring the rain" },
+   { position: 148200, words: "Oh, everywhere I go I bring the rain" },
+   { position: 161330, words: "♪" },
+   { position: 167930, words: "Call it what I want, but I've got to face it" },
+   { position: 171820, words: "This is how it ends" },
+   { position: 175770, words: "Call it what I want, but I've got to face it" },
+   { position: 179420, words: "No more playing pretend" },
+   { position: 183430, words: "Call it what I want, but I've got to face it" },
+   { position: 187240, words: "I'm no shoulder to lean on" },
+   { position: 191330, words: "Everything I thought that I was is baseless" },
+   { position: 195090, words: "I'm the weight that you are free of" },
+   { position: 203030, words: "♪" },
+   { position: 206590, words: "'Cause everywhere I go, I bring the rain" },
+   { position: 215460, words: "♪" },
+   { position: 222590, words: "Everywhere I go, I bring the rain" },
+   { position: 237660, words: "The rain" },
+   { position: 248240, words: "♪" },
+   { position: 252660, words: "(Here we go)" },
+   { position: 253230, words: "You can try to block it out" },
+   { position: 256940, words: "You can kick and scream and shout" },
+   { position: 260840, words: "But you'll never run away" },
+   { position: 264330, words: "From your pain" },
+   { position: 268580, words: "You can fuck it all away" },
+   { position: 272590, words: "You can lay in bed all day" },
+   { position: 276210, words: "But you'll never run away" },
+   { position: 280040, words: "From your pain" },
+   { position: 284300, words: "You can drag it out a year" },
+   { position: 287980, words: "You can drown yourself in tears" },
+   { position: 291960, words: "But you'll never run away" },
+   { position: 295770, words: "From your pain" },
+   { position: 299780, words: "You can pull it all apart" },
+   { position: 303540, words: "" }
+]
+---
+
+TODO

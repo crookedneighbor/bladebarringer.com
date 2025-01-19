@@ -1,0 +1,55 @@
+---
+id: i-wish-it-was-me
+spotifyID: 3ghmdRTijueJLRzswc779P
+permalink: /playlists/2023/i-wish-it-was-me
+number: 6
+name: I Wish It Was Me
+artist: Obongjayar
+img: /playlist-art/2023/i-wish-it-was-me.jpg
+duration: 203800
+explicit: false
+yearReleased: 2022
+popularity: 47
+previousLink: /playlists/2023/big-lizard-energy
+nextLink: /playlists/2023/laugh-track-feat-phoebe-bridgers
+buyLink: https://obongjayar.bandcamp.com/track/wish-it-was-me
+lines: [
+   { position: 40, words: "This one is for you" },
+   { position: 940, words: "♪" },
+   { position: 14550, words: "You look so pretty on that stage" },
+   { position: 20470, words: "And you don't even have to think about it" },
+   { position: 27060, words: "And if you do, it doesn't show everywhere you go" },
+   { position: 32200, words: "You're at home, I'm in love and in envy of you" },
+   { position: 39880, words: "Ooh-ooh, how they adore you" },
+   { position: 46230, words: "Ooh-ooh, I adore you" },
+   { position: 52160, words: "And I pray, pray you never lose your star" },
+   { position: 58810, words: "I'm so proud, proud of all that you are" },
+   { position: 64680, words: "I wish it was me" },
+   { position: 71590, words: "I wish it was me" },
+   { position: 78920, words: "You're so much better at everything" },
+   { position: 85680, words: "I sink lower in my chest, no compares" },
+   { position: 91200, words: "I adore you" },
+   { position: 96650, words: "Ooh-ooh, I adore you" },
+   { position: 103640, words: "I came first but you're ahead" },
+   { position: 107060, words: "Ahead beyond your years" },
+   { position: 110580, words: "People try, try to learn this thing you've always been" },
+   { position: 116780, words: "I wish it was me" },
+   { position: 123140, words: "I wish it was me" },
+   { position: 125850, words: "♪" },
+   { position: 130880, words: "When you pray you're answered" },
+   { position: 133380, words: "You walk through life just like a dancer" },
+   { position: 136190, words: "If I had my way, every day would be your parade" },
+   { position: 143340, words: "When you pray you're answered" },
+   { position: 145930, words: "You walk through life just like a dancer" },
+   { position: 149080, words: "If I had my way, every day would be your parade" },
+   { position: 155160, words: "Ooh, I adore you" },
+   { position: 161530, words: "Ooh, I adore you" },
+   { position: 168570, words: "And I pray, pray you never lose your star" },
+   { position: 175420, words: "I'm so proud, proud of all that you are" },
+   { position: 181170, words: "Ooh, I wish it was me" },
+   { position: 188000, words: "I wish it was me" },
+   { position: 190670, words: "" }
+]
+---
+
+TODO

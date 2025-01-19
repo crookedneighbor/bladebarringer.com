@@ -1,0 +1,73 @@
+---
+id: expert-in-a-dying-field
+spotifyID: 1bPcxJHusTrlr2Kj4kjK7e
+permalink: /playlists/2023/expert-in-a-dying-field
+number: 17
+name: Expert In A Dying Field
+artist: The Beths
+img: /playlist-art/2023/expert-in-a-dying-field.jpg
+duration: 251213
+explicit: false
+yearReleased: 2022
+popularity: 45
+previousLink: /playlists/2023/eye-on-the-bat
+nextLink: /playlists/2023/velodrome
+buyLink: https://thebethsnz.bandcamp.com/album/expert-in-a-dying-field
+lines: [
+   { position: 14550, words: "Can we erase our history?" },
+   { position: 17650, words: "Is it as easy as this?" },
+   { position: 21480, words: "Plausible deniability" },
+   { position: 24170, words: "I swear I've never heard of it" },
+   { position: 27960, words: "And I can close the door on us" },
+   { position: 31070, words: "But the room still exists" },
+   { position: 34360, words: "And I know you're in it" },
+   { position: 38720, words: "Hours of phrases I've memorized" },
+   { position: 41910, words: "Thousands of lines on the page" },
+   { position: 45550, words: "All of my notes in a desolate pile" },
+   { position: 48940, words: "I haven't touched in an age" },
+   { position: 52380, words: "And I can burn the evidence" },
+   { position: 55650, words: "But I can't burn the pain" },
+   { position: 58590, words: "And I can't forget it" },
+   { position: 62920, words: "How does it feel (how does it feel)" },
+   { position: 65980, words: "To be an expert in a dying field?" },
+   { position: 69930, words: "And how do you know (how do you know)" },
+   { position: 73180, words: "It's over when you can't let go?" },
+   { position: 76250, words: "You can't let go, you can't stop, you can't rewind" },
+   { position: 80330, words: "Love is learned over time" },
+   { position: 83370, words: "'Til you're an expert in a dying field" },
+   { position: 91170, words: "(How does it, how does it feel?)" },
+   { position: 95120, words: "" },
+   { position: 97250, words: "♪" },
+   { position: 101350, words: "The city is painted with memory" },
+   { position: 104460, words: "The water will never run clear" },
+   { position: 108360, words: "The birds and the bees and the flowers and trees" },
+   { position: 111350, words: "They know that we've both been here" },
+   { position: 115260, words: "And I can flee the country" },
+   { position: 118430, words: "For the worst of the year" },
+   { position: 121290, words: "But I'll come back to it" },
+   { position: 125930, words: "How does it feel (how does it feel)" },
+   { position: 128950, words: "To be an expert in a dying field?" },
+   { position: 132640, words: "And how do you know (how do you know)" },
+   { position: 136080, words: "It's over when you can't let go?" },
+   { position: 138840, words: "You can't let go, you can't stop, you can't rewind" },
+   { position: 143130, words: "Love is learned over time" },
+   { position: 146150, words: "'Till you're an expert in a dying field" },
+   { position: 153170, words: "♪" },
+   { position: 164500, words: "Can we erase our history?" },
+   { position: 167780, words: "Is it as easy as this?" },
+   { position: 171670, words: "Maybe in other realities" },
+   { position: 174620, words: "The road never took this twist" },
+   { position: 178130, words: "And I can close the door on us" },
+   { position: 181520, words: "But the room still exists" },
+   { position: 186910, words: "♪" },
+   { position: 195110, words: "How does it feel (how does it feel)" },
+   { position: 201890, words: "How do you know (how do you know)" },
+   { position: 209610, words: "Can't stop, can't rewind" },
+   { position: 212530, words: "Love is learned over time" },
+   { position: 215770, words: "'Til you're an expert in a dying field" },
+   { position: 221750, words: "Oh, an expert in a dying field" },
+   { position: 227990, words: "" }
+]
+---
+
+TODO
