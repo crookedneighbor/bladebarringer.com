@@ -1,7 +1,7 @@
 import 'dotenv/config';
 import { getPlaylist } from './spotify/playlist.js';
 import { lookupArtist } from './bandcamp/lookup-artist.js';
-import { writeFileSync, readFileSync, existsSync, createWriteStream } from 'node:fs';
+import { writeFileSync, readFileSync, existsSync, createWriteStream, mkdirSync } from 'node:fs';
 import { resolve as resolvePath } from 'node:path';
 import { compile } from 'mdsvex';
 import { getLyrics } from './spotify/lyrics.js';
@@ -62,6 +62,7 @@ ${pageData}`,
 async function populatePageDescriptions(playlist) {
 	const { slug } = playlist;
 	const path = resolvePath('src', 'lib', 'playlist-data', 'page-blurbs', slug);
+	mkdirSync(path, { recursive: true });
 	const indexPath = resolvePath(path, 'index.svx');
 	let indexPage = `
 TODO`;
