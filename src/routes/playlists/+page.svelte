@@ -6,7 +6,7 @@
 <div class="container m-auto py-4">
 	<h1 class="text-8xl">Playlists</h1>
 	<h2>Year Playlists</h2>
-	<ul class="flex w-full">
+	<ul class="sm:flex w-full">
 		{#each playlists as playlist}
 			<li class="w-full sm:w-1/3 p-4">
 				<a href={playlist.permalink}
