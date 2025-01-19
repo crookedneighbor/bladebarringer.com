@@ -4,7 +4,6 @@ about: For creating a task list for importing a new playlist
 title: Create Playlist XXXX
 labels: playlist-import
 assignees: crookedneighbor
-
 ---
 
 - [ ] Initial playlist import
