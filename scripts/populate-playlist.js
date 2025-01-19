@@ -125,12 +125,17 @@ TODO`;
 
 				const lyrics = await getLyrics(track.spotifyID);
 				track.lines = lyrics ?? [];
-				const trackArtPath = resolvePath('static', 'playlist-art', '2024', `${track.id}.jpg`);
+				const trackArtPath = resolvePath(
+					'static',
+					'playlist-art',
+					playlist.slug,
+					`${track.id}.jpg`
+				);
 				await fetch(track.img).then((res) => {
 					const fileStream = createWriteStream(trackArtPath, { flags: 'wx' });
 					return finished(Readable.fromWeb(res.body).pipe(fileStream));
 				});
-				track.img = `/playlist-art/2024/${track.id}.jpg`;
+				track.img = `/playlist-art/${playlist.slug}/${track.id}.jpg`;
 			}
 			writeSVX(pathToFile, pageData, track);
 		})
