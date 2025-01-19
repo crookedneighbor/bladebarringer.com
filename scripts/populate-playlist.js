@@ -101,6 +101,10 @@ TODO`;
 				// overwrite these fields
 				// becaue we may have made manual edits to these
 				// props after the initial sync
+				if (metadata.buyLink) {
+					// this one can be undefined
+					track.buyLink = metadata.buyLink;
+				}
 				track = {
 					...track,
 					lines: metadata.lines,
@@ -108,10 +112,6 @@ TODO`;
 					img: metadata.img,
 					explicit: metadata.explicit
 				};
-				// this one can be undefined
-				if (metadata.buyLink) {
-					track.buyLink = metadata.buyLink;
-				}
 			} else {
 				let { name, artist } = track;
 				name = name.toLowerCase();
