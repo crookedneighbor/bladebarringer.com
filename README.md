@@ -29,7 +29,7 @@ You can preview the production build with `npm run preview`.
 
 ## Spotify Playlist Scripts
 
-The script to setup a new playlist page do a bunch of things. 
+The script to setup a new playlist page do a bunch of things.
 
 1. Creates a `.svx` file for the playlist and each of the tracks.
 1. Imports the lyrics
@@ -39,17 +39,17 @@ For this to work, we need to set a few environmental variables. First thing, [lo
 
 Once you're logged in, follow these steps to get the `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET` enviromental variables. If you've already done this once, you shouldn't need to fetch them again.
 
-* Navigate to the [Spotify Dashboard](https://developer.spotify.com/dashboard)
-* Go to the settings for your app (or create a new one)
-* Copy the client ID and client secrent and set them as the `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET` env variables.
+- Navigate to the [Spotify Dashboard](https://developer.spotify.com/dashboard)
+- Go to the settings for your app (or create a new one)
+- Copy the client ID and client secrent and set them as the `SPOTIFY_CLIENT_ID` and `SPOTIFY_CLIENT_SECRET` env variables.
 
 If you are importing the playlist for the first time, it will also attempt to import the lyrics for the song, which need additional credentials. To find them, follow these steps:
 
-* Go to [the Spotify lyrics page](https://open.spotify.com/lyrics)
-* Open the dev tools (may need to use the menu bar, Spotify has right clicking disabled)
-* Inspect the network request for [/color-lyrics](https://spclient.wg.spotify.com/color-lyrics) and grab the `Authorization` header and the `Client-Token` header
-* Save the `Authorization` header (without the Bearer prefix) in the `SPOTIFY_LYRICS_ACCESS_TOKEN` environmental variable
-* Save the `Client-Token` header in the `SPOTIFY_LYRICS_CLIENT_TOKEN` environmental variable
+- Go to [the Spotify lyrics page](https://open.spotify.com/lyrics)
+- Open the dev tools (may need to use the menu bar, Spotify has right clicking disabled)
+- Inspect the network request for [/color-lyrics](https://spclient.wg.spotify.com/color-lyrics) and grab the `Authorization` header and the `Client-Token` header
+- Save the `Authorization` header (without the Bearer prefix) in the `SPOTIFY_LYRICS_ACCESS_TOKEN` environmental variable
+- Save the `Client-Token` header in the `SPOTIFY_LYRICS_CLIENT_TOKEN` environmental variable
 
 These values expire, so you may need to repeat the process if too much time passes between fetching them and making the requests.
 
