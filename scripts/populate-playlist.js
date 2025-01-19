@@ -84,6 +84,9 @@ TODO`;
 
 	writeSVX(indexPath, indexPage, indexPageData);
 
+	const playlistArtPath = resolvePath('static', 'playlist-art', playlist.slug);
+	mkdirSync(playlistArtPath, { recursive: true });
+
 	const tracks = Object.values(playlist.tracks);
 	await Promise.all(
 		tracks.map(async (track) => {
@@ -125,12 +128,7 @@ TODO`;
 
 				const lyrics = await getLyrics(track.spotifyID);
 				track.lines = lyrics ?? [];
-				const trackArtPath = resolvePath(
-					'static',
-					'playlist-art',
-					playlist.slug,
-					`${track.id}.jpg`
-				);
+				const trackArtPath = resolvePath(playlistArtPath, `${track.id}.jpg`);
 				await fetch(track.img).then((res) => {
 					const fileStream = createWriteStream(trackArtPath, { flags: 'wx' });
 					return finished(Readable.fromWeb(res.body).pipe(fileStream));
